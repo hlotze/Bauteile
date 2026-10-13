@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg
+  PUBLIC '-//W3C//DTD SVG 1.0//EN'
+  'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'>
+<svg width="45mm" height="55mm" preserveAspectRatio="xMinYMin meet" viewBox="0 0 127 155" xmlns="http://www.w3.org/2000/svg" version="1.0" fill-rule="evenodd" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<title>...</title>
+	<desc>...</desc>
+	<clipPath id="clip">
+		<rect x="0" y="0" width="127.55905511811025" height="155.90551181102364"/>
+	</clipPath>
+	<g id="group" transform="scale(1,-1) translate(0,-155)" style="clip-path: url(#clip)">
+		<g transform="">
+			<rect x="0.7086614173228347" y="0.7086614173228347" width="126.14173228346458" height="154.48818897637796" style="stroke: rgb(72%,76%,80%); stroke-linecap: butt; stroke-width: 0.2834645669291339; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="38.76952755905513" y="146.2677165354331" style="font-family: Helvetica-Bold; font-size: 10px;fill: rgb(7%,12%,16%); stroke:none;" transform="translate(0,292) scale(1,-1)">LH6764-20</text>
+			<text x="48.273327559055126" y="3.1181102362204767" style="font-family: Helvetica-Bold; font-size: 6.2px;fill: rgb(7%,12%,16%); stroke:none;" transform="translate(0,6) scale(1,-1)">LH6764-20</text>
+			<rect x="8.503937007874017" y="39.68503937007874" width="110.55118110236222" height="87.87401574803151" style="stroke: rgb(68%,39%,7%); stroke-linecap: butt; stroke-width: 0.5669291338582678; fill: rgb(100%,94%,86%); fill-rule: evenodd;"/>
+			<text x="23.115527559055124" y="107.71653543307087" style="font-family: Helvetica-Bold; font-size: 8px;fill: rgb(68%,39%,7%); stroke:none;" transform="translate(0,215) scale(1,-1)">ZUORDNUNG OFFEN</text>
+			<text x="32.30202755905513" y="87.87401574803151" style="font-family: Helvetica; font-size: 7.5px;fill: rgb(7%,12%,16%); stroke:none;" transform="translate(0,175) scale(1,-1)">Keine Pinbelegung</text>
+			<text x="14.068877559055124" y="73.70078740157481" style="font-family: Helvetica; font-size: 6.7px;fill: rgb(7%,12%,16%); stroke:none;" transform="translate(0,147) scale(1,-1)">Nicht zum Verdrahten verwenden</text>
+			<text x="36.10152755905512" y="56.69291338582678" style="font-family: Helvetica; font-size: 6px;fill: rgb(39%,44%,47%); stroke:none;" transform="translate(0,113) scale(1,-1)">Herstellerdatenblatt /</text>
+			<text x="32.426527559055124" y="48.18897637795276" style="font-family: Helvetica; font-size: 6px;fill: rgb(39%,44%,47%); stroke:none;" transform="translate(0,96) scale(1,-1)">genaue Funktion fehlen</text>
+		</g>
+	</g>
+</svg>

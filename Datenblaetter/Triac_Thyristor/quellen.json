@@ -1,0 +1,68 @@
+[
+  {
+    "part": "BT134-600E",
+    "category": "Triac_Thyristor",
+    "function": "Triac",
+    "package": "SOT-82 / TO-126-ähnlich",
+    "pdf": "BT134_600E_NXP.pdf",
+    "manufacturer": "NXP",
+    "assignment": "Typreferenz; Hersteller am Bauteil noch zu prüfen",
+    "note": "Kitaufkleber nennt TO-126; die NXP-Referenz nennt SOT-82. Konkretes Gehäuse und Anschlussbelegung am Bauteil prüfen.",
+    "quantity": "offen",
+    "evidence": [
+      {
+        "pdf": "Transistoren_und_Aehnliche_2.pdf",
+        "page": 1
+      }
+    ],
+    "downloaded_on": "2026-10-13",
+    "url": "https://datasheet4u.com/pdf/121545/BT134-600E.pdf",
+    "final_url": "https://datasheet4u.com/pdf/121545/BT134-600E.pdf",
+    "sha256": "f5166355ede5ff4fa29f9e1073c43c45924cd7a6ecbd129bad750cf44447debd",
+    "pages": 13
+  },
+  {
+    "part": "BTA06",
+    "category": "Triac_Thyristor",
+    "function": "Triac",
+    "package": "TO-220",
+    "pdf": "BTA06_ST_Familie.pdf",
+    "manufacturer": "STMicroelectronics",
+    "assignment": "Typreferenz; Hersteller am Bauteil noch zu prüfen",
+    "note": "Aufkleber nennt nur BTA06. Spannungs- und Gate-Empfindlichkeitssuffix fehlen; Familienreferenz, keine genaue BTA06-600-Ausführung bestätigt.",
+    "quantity": "offen",
+    "evidence": [
+      {
+        "pdf": "Transistoren_und_Aehnliche_2.pdf",
+        "page": 1
+      }
+    ],
+    "downloaded_on": "2026-10-13",
+    "url": "https://datasheet4u.com/pdf/122146/BTA06D.pdf",
+    "final_url": "https://datasheet4u.com/pdf/122146/BTA06D.pdf",
+    "sha256": "6de1bad0c4fb73b3f813d6b04709dd2644792e9c17cfb91b1102d8cfddb87302",
+    "pages": 5
+  },
+  {
+    "part": "MAC97A6",
+    "category": "Triac_Thyristor",
+    "function": "Triac",
+    "package": "TO-92",
+    "pdf": "MAC97A6_NXP.pdf",
+    "manufacturer": "NXP",
+    "assignment": "Typreferenz; Hersteller am Bauteil noch zu prüfen",
+    "note": "Triac, kein einzelner Thyristor.",
+    "quantity": "offen",
+    "evidence": [
+      {
+        "pdf": "Transistoren_und_Aehnliche_2.pdf",
+        "page": 1
+      }
+    ],
+    "downloaded_on": "2026-10-13",
+    "url": "https://datasheet4u.com/pdf/1245934/MAC97A6.pdf",
+    "final_url": "https://datasheet4u.com/pdf/1245934/MAC97A6.pdf",
+    "sha256": "fa56a66c9df86ab00381cb071ce60c63c1d874a01ab7c1903a3d24bdb46844f1",
+    "pages": 12
+  }
+]

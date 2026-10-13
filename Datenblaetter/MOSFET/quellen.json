@@ -1,0 +1,90 @@
+[
+  {
+    "part": "IRF540",
+    "category": "MOSFET",
+    "function": "N-Kanal-Leistungs-MOSFET",
+    "package": "TO-220",
+    "pdf": "IRF540_ST.pdf",
+    "manufacturer": "STMicroelectronics",
+    "assignment": "Typreferenz; Hersteller am Bauteil noch zu prüfen",
+    "note": "Kein Logikpegel-MOSFET; RDS(on) bei der tatsächlichen Gatespannung prüfen.",
+    "quantity": "offen",
+    "evidence": [
+      {
+        "pdf": "Transistoren_und_Aehnliche_2.pdf",
+        "page": 1
+      }
+    ],
+    "downloaded_on": "2026-10-13",
+    "url": "https://datasheet4u.com/pdf/1595928/IRF540.pdf",
+    "final_url": "https://datasheet4u.com/pdf/1595928/IRF540.pdf",
+    "sha256": "be9e2811bd7d9e12635a6bd0b8822939cefece847de291b0ee65a3b75921db6a",
+    "pages": 6
+  },
+  {
+    "part": "IRF9530",
+    "category": "MOSFET",
+    "function": "P-Kanal-Leistungs-MOSFET",
+    "package": "TO-220",
+    "pdf": "IRF9530_Vishay.pdf",
+    "manufacturer": "Vishay Siliconix",
+    "assignment": "Typreferenz; Hersteller am Bauteil noch zu prüfen",
+    "note": "Verpackungsaufkleber nennt IRF9530PBF; bleifreie Ausführung des Grundtyps, keine N-Variante unterstellen.",
+    "quantity": "offen",
+    "evidence": [
+      {
+        "pdf": "Transistoren_und_Aehnliche_9.pdf",
+        "page": 1
+      }
+    ],
+    "downloaded_on": "2026-10-13",
+    "url": "https://datasheet4u.com/pdf/951206/IRF9530.pdf",
+    "final_url": "https://datasheet4u.com/pdf/951206/IRF9530.pdf",
+    "sha256": "b33ac36050793ed123a31b1352b3d546ab14235f96b7ebe2e83d57c19831d6f1",
+    "pages": 7
+  },
+  {
+    "part": "IRFZ44",
+    "category": "MOSFET",
+    "function": "N-Kanal-Leistungs-MOSFET",
+    "package": "TO-220",
+    "pdf": "IRFZ44_Thinki.pdf",
+    "manufacturer": "Thinki Semiconductor",
+    "assignment": "Typreferenz; Hersteller am Bauteil noch zu prüfen",
+    "note": "Sortiment nennt IRFZ44 ohne N; IRFZ44N wird nicht zusätzlich unterstellt.",
+    "quantity": "offen",
+    "evidence": [
+      {
+        "pdf": "Transistoren_und_Aehnliche_2.pdf",
+        "page": 1
+      }
+    ],
+    "downloaded_on": "2026-10-13",
+    "url": "https://datasheet4u.com/pdf/1134157/IRFZ44.pdf",
+    "final_url": "https://datasheet4u.com/pdf/1134157/IRFZ44.pdf",
+    "sha256": "23d3f8b54b0f819f159e6c7ea9ba088d6c72536b2db6039d579db21ca4ee4523",
+    "pages": 2
+  },
+  {
+    "part": "IRLZ44N",
+    "category": "MOSFET",
+    "function": "N-Kanal-Leistungs-MOSFET",
+    "package": "TO-220",
+    "pdf": "IRLZ44N_Infineon.pdf",
+    "manufacturer": "Infineon / International Rectifier",
+    "assignment": "Typreferenz; Hersteller am Bauteil noch zu prüfen",
+    "note": "Nur abgedrucktes Datenblatt erkennbar; vorhandenen Bauteilaufdruck prüfen. Referenz IRLZ44NPbF; Logikpegel-Gate, Kennwerte bei 4/5 V prüfen.",
+    "quantity": "offen",
+    "evidence": [
+      {
+        "pdf": "Transistoren_und_Aehnliche_8.pdf",
+        "page": 1
+      }
+    ],
+    "downloaded_on": "2026-10-13",
+    "url": "https://www.infineon.com/assets/row/public/documents/24/49/infineon-irlz44n-datasheet-en.pdf",
+    "final_url": "https://www.infineon.com/assets/row/public/documents/24/49/infineon-irlz44n-datasheet-en.pdf",
+    "sha256": "b4f1361a4486b8ec84206012a3e4a985111203d140fa6da8d4190b867c9ba077",
+    "pages": 10
+  }
+]

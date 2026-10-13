@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg
+  PUBLIC '-//W3C//DTD SVG 1.0//EN'
+  'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'>
+<svg width="45mm" height="55mm" preserveAspectRatio="xMinYMin meet" viewBox="0 0 127 155" xmlns="http://www.w3.org/2000/svg" version="1.0" fill-rule="evenodd" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<title>...</title>
+	<desc>...</desc>
+	<clipPath id="clip">
+		<rect x="0" y="0" width="127.55905511811025" height="155.90551181102364"/>
+	</clipPath>
+	<g id="group" transform="scale(1,-1) translate(0,-155)" style="clip-path: url(#clip)">
+		<g transform="">
+			<rect x="0.7086614173228347" y="0.7086614173228347" width="126.14173228346458" height="154.48818897637796" style="stroke: rgb(72%,76%,80%); stroke-linecap: butt; stroke-width: 0.2834645669291339; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="30.439527559055122" y="146.2677165354331" style="font-family: Helvetica-Bold; font-size: 10px;fill: rgb(7%,12%,16%); stroke:none;" transform="translate(0,292) scale(1,-1)">MAX7219CNG</text>
+			<text x="45.35433070866142" y="3.1181102362204767" style="font-family: Helvetica-Bold; font-size: 3.3482094948925503px;fill: rgb(7%,12%,16%); stroke:none;" transform="translate(0,6) scale(1,-1)">MAX7219CNG | 24 Pins</text>
+			<circle cx="6.236220472440946" cy="137.76377952755908" r="2.976377952755906" style="stroke: rgb(7%,12%,16%); stroke-linecap: butt; stroke-width: 0.7086614173228347; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="4.846220472440946" y="136.20472440944883" style="font-family: Helvetica-Bold; font-size: 5px;fill: rgb(7%,12%,16%); stroke:none;" transform="translate(0,272) scale(1,-1)">1</text>
+			<text x="12.188976377952757" y="135.77952755905514" style="font-family: Helvetica-Bold; font-size: 6.7px;fill: rgb(7%,12%,16%); stroke:none;" transform="translate(0,271) scale(1,-1)">DIN</text>
+			<path d="M 10.488189,137.76378 L 11.622047,137.76378 Z" style="stroke: rgb(7%,12%,16%); stroke-linecap: butt; stroke-width: 0.510236220472441;"/>
+			<circle cx="6.236220472440946" cy="130.56377952755906" r="2.976377952755906" style="stroke: rgb(7%,12%,16%); stroke-linecap: butt; stroke-width: 0.7086614173228347; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="4.846220472440946" y="129.00472440944884" style="font-family: Helvetica-Bold; font-size: 5px;fill: rgb(7%,12%,16%); stroke:none;" transform="translate(0,258) scale(1,-1)">2</text>
+			<text x="12.188976377952757" y="128.57952755905512" style="font-family: Helvetica-Bold; font-size: 6.7px;fill: rgb(7%,39%,60%); stroke:none;" transform="translate(0,257) scale(1,-1)">DIG_0</text>
+			<path d="M 10.488189,130.56378 L 11.622047,130.56378 Z" style="stroke: rgb(7%,12%,16%); stroke-linecap: butt; stroke-width: 0.510236220472441;"/>
+			<circle cx="6.236220472440946" cy="123.36377952755906" r="2.976377952755906" style="stroke: rgb(7%,12%,16%); stroke-linecap: butt; stroke-width: 0.7086614173228347; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="4.846220472440946" y="121.80472440944882" style="font-family: Helvetica-Bold; font-size: 5px;fill: rgb(7%,12%,16%); stroke:none;" transform="translate(0,243) scale(1,-1)">3</text>
+			<text x="12.188976377952757" y="121.37952755905513" style="font-family: Helvetica-Bold; font-size: 6.7px;fill: rgb(7%,39%,60%); stroke:none;" transform="translate(0,242) scale(1,-1)">DIG_4</text>
+			<path d="M 10.488189,123.36378 L 11.622047,123.36378 Z" style="stroke: rgb(7%,12%,16%); stroke-linecap: butt; stroke-width: 0.510236220472441;"/>
+			<rect x="1.4173228346456694" y="111.62834645669294" width="38.267716535433074" height="8.787401574803155" style="stroke: none; stroke-linecap: butt; stroke-width: 0.5669291338582678; fill: rgb(84%,92%,97%); fill-rule: evenodd;"/>
+			<circle cx="6.236220472440946" cy="116.16377952755907" r="2.976377952755906" style="stroke: rgb(7%,39%,60%); stroke-linecap: butt; stroke-width: 0.7086614173228347; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="4.846220472440946" y="114.60472440944883" style="font-family: Helvetica-Bold; font-size: 5px;fill: rgb(7%,39%,60%); stroke:none;" transform="translate(0,229) scale(1,-1)">4</text>
+			<text x="12.188976377952757" y="114.17952755905513" style="font-family: Helvetica-Bold; font-size: 6.7px;fill: rgb(7%,12%,16%); stroke:none;" transform="translate(0,228) scale(1,-1)">GND</text>
+			<path d="M 10.488189,116.16378 L 11.622047,116.16378 Z" style="stroke: rgb(7%,12%,16%); stroke-linecap: butt; stroke-width: 0.510236220472441;"/>
+			<circle cx="6.236220472440946" cy="108.96377952755905" r="2.976377952755906" style="stroke: rgb(7%,12%,16%); stroke-linecap: butt; stroke-width: 0.7086614173228347; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="4.846220472440946" y="107.40472440944883" style="font-family: Helvetica-Bold; font-size: 5px;fill: rgb(7%,12%,16%); stroke:none;" transform="translate(0,214) scale(1,-1)">5</text>
+			<text x="12.188976377952757" y="106.97952755905511" style="font-family: Helvetica-Bold; font-size: 6.7px;fill: rgb(7%,39%,60%); stroke:none;" transform="translate(0,213) scale(1,-1)">DIG_6</text>
+			<path d="M 10.488189,108.96378 L 11.622047,108.96378 Z" style="stroke: rgb(7%,12%,16%); stroke-linecap: butt; stroke-width: 0.510236220472441;"/>
+			<circle cx="6.236220472440946" cy="101.76377952755907" r="2.976377952755906" style="stroke: rgb(7%,12%,16%); stroke-linecap: butt; stroke-width: 0.7086614173228347; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="4.846220472440946" y="100.20472440944881" style="font-family: Helvetica-Bold; font-size: 5px;fill: rgb(7%,12%,16%); stroke:none;" transform="translate(0,200) scale(1,-1)">6</text>
+			<text x="12.188976377952757" y="99.77952755905514" style="font-family: Helvetica-Bold; font-size: 6.7px;fill: rgb(7%,39%,60%); stroke:none;" transform="translate(0,199) scale(1,-1)">DIG_2</text>
+			<path d="M 10.488189,101.76378 L 11.622047,101.76378 Z" style="stroke: rgb(7%,12%,16%); stroke-linecap: butt; stroke-width: 0.510236220472441;"/>
+			<circle cx="6.236220472440946" cy="94.56377952755906" r="2.976377952755906" style="stroke: rgb(7%,12%,16%); stroke-linecap: butt; stroke-width: 0.7086614173228347; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="4.846220472440946" y="93.00472440944884" style="font-family: Helvetica-Bold; font-size: 5px;fill: rgb(7%,12%,16%); stroke:none;" transform="translate(0,186) scale(1,-1)">7</text>
+			<text x="12.188976377952757" y="92.57952755905512" style="font-family: Helvetica-Bold; font-size: 6.7px;fill: rgb(7%,39%,60%); stroke:none;" transform="translate(0,185) scale(1,-1)">DIG_3</text>
+			<path d="M 10.488189,94.56378 L 11.622047,94.56378 Z" style="stroke: rgb(7%,12%,16%); stroke-linecap: butt; stroke-width: 0.510236220472441;"/>
+			<circle cx="6.236220472440946" cy="87.36377952755906" r="2.976377952755906" style="stroke: rgb(7%,12%,16%); stroke-linecap: butt; stroke-width: 0.7086614173228347; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="4.846220472440946" y="85.80472440944882" style="font-family: Helvetica-Bold; font-size: 5px;fill: rgb(7%,12%,16%); stroke:none;" transform="translate(0,171) scale(1,-1)">8</text>
+			<text x="12.188976377952757" y="85.37952755905513" style="font-family: Helvetica-Bold; font-size: 6.7px;fill: rgb(7%,39%,60%); stroke:none;" transform="translate(0,170) scale(1,-1)">DIG_7</text>
+			<path d="M 10.488189,87.36378 L 11.622047,87.36378 Z" style="stroke: rgb(7%,12%,16%); stroke-linecap: butt; stroke-width: 0.510236220472441;"/>
+			<rect x="1.4173228346456694" y="75.62834645669292" width="38.267716535433074" height="8.787401574803155" style="stroke: none; stroke-linecap: butt; stroke-width: 0.5669291338582678; fill: rgb(84%,92%,97%); fill-rule: evenodd;"/>
+			<circle cx="6.236220472440946" cy="80.16377952755907" r="2.976377952755906" style="stroke: rgb(7%,39%,60%); stroke-linecap: butt; stroke-width: 0.7086614173228347; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="4.846220472440946" y="78.60472440944883" style="font-family: Helvetica-Bold; font-size: 5px;fill: rgb(7%,39%,60%); stroke:none;" transform="translate(0,157) scale(1,-1)">9</text>
+			<text x="12.188976377952757" y="78.17952755905513" style="font-family: Helvetica-Bold; font-size: 6.7px;fill: rgb(7%,12%,16%); stroke:none;" transform="translate(0,156) scale(1,-1)">GND</text>
+			<path d="M 10.488189,80.16378 L 11.622047,80.16378 Z" style="stroke: rgb(7%,12%,16%); stroke-linecap: butt; stroke-width: 0.510236220472441;"/>
+			<circle cx="6.236220472440946" cy="72.96377952755907" r="2.976377952755906" style="stroke: rgb(7%,12%,16%); stroke-linecap: butt; stroke-width: 0.7086614173228347; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="3.456220472440946" y="71.40472440944883" style="font-family: Helvetica-Bold; font-size: 5px;fill: rgb(7%,12%,16%); stroke:none;" transform="translate(0,142) scale(1,-1)">10</text>
+			<text x="12.188976377952757" y="70.97952755905513" style="font-family: Helvetica-Bold; font-size: 6.7px;fill: rgb(7%,39%,60%); stroke:none;" transform="translate(0,141) scale(1,-1)">DIG_5</text>
+			<path d="M 10.488189,72.96378 L 11.622047,72.96378 Z" style="stroke: rgb(7%,12%,16%); stroke-linecap: butt; stroke-width: 0.510236220472441;"/>
+			<circle cx="6.236220472440946" cy="65.76377952755907" r="2.976377952755906" style="stroke: rgb(7%,12%,16%); stroke-linecap: butt; stroke-width: 0.7086614173228347; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="3.456220472440946" y="64.20472440944884" style="font-family: Helvetica-Bold; font-size: 5px;fill: rgb(7%,12%,16%); stroke:none;" transform="translate(0,128) scale(1,-1)">11</text>
+			<text x="12.188976377952757" y="63.779527559055126" style="font-family: Helvetica-Bold; font-size: 6.7px;fill: rgb(7%,39%,60%); stroke:none;" transform="translate(0,127) scale(1,-1)">DIG_1</text>
+			<path d="M 10.488189,65.76378 L 11.622047,65.76378 Z" style="stroke: rgb(7%,12%,16%); stroke-linecap: butt; stroke-width: 0.510236220472441;"/>
+			<circle cx="6.236220472440946" cy="58.56377952755905" r="2.976377952755906" style="stroke: rgb(7%,12%,16%); stroke-linecap: butt; stroke-width: 0.7086614173228347; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="3.456220472440946" y="57.004724409448826" style="font-family: Helvetica-Bold; font-size: 5px;fill: rgb(7%,12%,16%); stroke:none;" transform="translate(0,114) scale(1,-1)">12</text>
+			<text x="12.188976377952757" y="56.57952755905511" style="font-family: Helvetica-Bold; font-size: 6.7px;fill: rgb(7%,12%,16%); stroke:none;" transform="translate(0,113) scale(1,-1)">LOAD</text>
+			<path d="M 10.488189,58.56378 L 11.622047,58.56378 Z" style="stroke: rgb(7%,12%,16%); stroke-linecap: butt; stroke-width: 0.510236220472441;"/>
+			<circle cx="121.32283464566929" cy="58.56377952755905" r="2.976377952755906" style="stroke: rgb(7%,12%,16%); stroke-linecap: butt; stroke-width: 0.7086614173228347; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="118.54283464566929" y="57.004724409448826" style="font-family: Helvetica-Bold; font-size: 5px;fill: rgb(7%,12%,16%); stroke:none;" transform="translate(0,114) scale(1,-1)">13</text>
+			<text x="101.60157874015749" y="56.57952755905511" style="font-family: Helvetica-Bold; font-size: 6.7px;fill: rgb(7%,12%,16%); stroke:none;" transform="translate(0,113) scale(1,-1)">CLK</text>
+			<path d="M 117.070866,58.56378 L 115.937008,58.56378 Z" style="stroke: rgb(7%,12%,16%); stroke-linecap: butt; stroke-width: 0.510236220472441;"/>
+			<circle cx="121.32283464566929" cy="65.76377952755907" r="2.976377952755906" style="stroke: rgb(7%,12%,16%); stroke-linecap: butt; stroke-width: 0.7086614173228347; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="118.54283464566929" y="64.20472440944884" style="font-family: Helvetica-Bold; font-size: 5px;fill: rgb(7%,12%,16%); stroke:none;" transform="translate(0,128) scale(1,-1)">14</text>
+			<text x="92.65707874015749" y="63.779527559055126" style="font-family: Helvetica-Bold; font-size: 6.7px;fill: rgb(7%,39%,60%); stroke:none;" transform="translate(0,127) scale(1,-1)">SEG_A</text>
+			<path d="M 117.070866,65.76378 L 115.937008,65.76378 Z" style="stroke: rgb(7%,12%,16%); stroke-linecap: butt; stroke-width: 0.510236220472441;"/>
+			<circle cx="121.32283464566929" cy="72.96377952755907" r="2.976377952755906" style="stroke: rgb(7%,12%,16%); stroke-linecap: butt; stroke-width: 0.7086614173228347; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="118.54283464566929" y="71.40472440944883" style="font-family: Helvetica-Bold; font-size: 5px;fill: rgb(7%,12%,16%); stroke:none;" transform="translate(0,142) scale(1,-1)">15</text>
+			<text x="93.40077874015749" y="70.97952755905513" style="font-family: Helvetica-Bold; font-size: 6.7px;fill: rgb(7%,39%,60%); stroke:none;" transform="translate(0,141) scale(1,-1)">SEG_F</text>
+			<path d="M 117.070866,72.96378 L 115.937008,72.96378 Z" style="stroke: rgb(7%,12%,16%); stroke-linecap: butt; stroke-width: 0.510236220472441;"/>
+			<circle cx="121.32283464566929" cy="80.16377952755907" r="2.976377952755906" style="stroke: rgb(7%,12%,16%); stroke-linecap: butt; stroke-width: 0.7086614173228347; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="118.54283464566929" y="78.60472440944883" style="font-family: Helvetica-Bold; font-size: 5px;fill: rgb(7%,12%,16%); stroke:none;" transform="translate(0,157) scale(1,-1)">16</text>
+			<text x="92.65707874015749" y="78.17952755905513" style="font-family: Helvetica-Bold; font-size: 6.7px;fill: rgb(7%,39%,60%); stroke:none;" transform="translate(0,156) scale(1,-1)">SEG_B</text>
+			<path d="M 117.070866,80.16378 L 115.937008,80.16378 Z" style="stroke: rgb(7%,12%,16%); stroke-linecap: butt; stroke-width: 0.510236220472441;"/>
+			<circle cx="121.32283464566929" cy="87.36377952755906" r="2.976377952755906" style="stroke: rgb(7%,12%,16%); stroke-linecap: butt; stroke-width: 0.7086614173228347; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="118.54283464566929" y="85.80472440944882" style="font-family: Helvetica-Bold; font-size: 5px;fill: rgb(7%,12%,16%); stroke:none;" transform="translate(0,171) scale(1,-1)">17</text>
+			<text x="92.2818787401575" y="85.37952755905513" style="font-family: Helvetica-Bold; font-size: 6.7px;fill: rgb(7%,39%,60%); stroke:none;" transform="translate(0,170) scale(1,-1)">SEG_G</text>
+			<path d="M 117.070866,87.36378 L 115.937008,87.36378 Z" style="stroke: rgb(7%,12%,16%); stroke-linecap: butt; stroke-width: 0.510236220472441;"/>
+			<circle cx="121.32283464566929" cy="94.56377952755906" r="2.976377952755906" style="stroke: rgb(7%,12%,16%); stroke-linecap: butt; stroke-width: 0.7086614173228347; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="118.54283464566929" y="93.00472440944884" style="font-family: Helvetica-Bold; font-size: 5px;fill: rgb(7%,12%,16%); stroke:none;" transform="translate(0,186) scale(1,-1)">18</text>
+			<text x="100.4759787401575" y="92.57952755905512" style="font-family: Helvetica-Bold; font-size: 6.7px;fill: rgb(7%,12%,16%); stroke:none;" transform="translate(0,185) scale(1,-1)">ISET</text>
+			<path d="M 117.070866,94.56378 L 115.937008,94.56378 Z" style="stroke: rgb(7%,12%,16%); stroke-linecap: butt; stroke-width: 0.510236220472441;"/>
+			<rect x="87.87401574803151" y="97.22834645669292" width="38.26771653543308" height="8.787401574803155" style="stroke: none; stroke-linecap: butt; stroke-width: 0.5669291338582678; fill: rgb(100%,87%,87%); fill-rule: evenodd;"/>
+			<circle cx="121.32283464566929" cy="101.76377952755907" r="2.976377952755906" style="stroke: rgb(64%,17%,19%); stroke-linecap: butt; stroke-width: 0.7086614173228347; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="118.54283464566929" y="100.20472440944881" style="font-family: Helvetica-Bold; font-size: 5px;fill: rgb(64%,17%,19%); stroke:none;" transform="translate(0,200) scale(1,-1)">19</text>
+			<text x="106.9883787401575" y="99.77952755905514" style="font-family: Helvetica-Bold; font-size: 6.7px;fill: rgb(7%,12%,16%); stroke:none;" transform="translate(0,199) scale(1,-1)">V+</text>
+			<path d="M 117.070866,101.76378 L 115.937008,101.76378 Z" style="stroke: rgb(7%,12%,16%); stroke-linecap: butt; stroke-width: 0.510236220472441;"/>
+			<circle cx="121.32283464566929" cy="108.96377952755905" r="2.976377952755906" style="stroke: rgb(7%,12%,16%); stroke-linecap: butt; stroke-width: 0.7086614173228347; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="118.54283464566929" y="107.40472440944883" style="font-family: Helvetica-Bold; font-size: 5px;fill: rgb(7%,12%,16%); stroke:none;" transform="translate(0,214) scale(1,-1)">20</text>
+			<text x="92.65707874015749" y="106.97952755905511" style="font-family: Helvetica-Bold; font-size: 6.7px;fill: rgb(7%,39%,60%); stroke:none;" transform="translate(0,213) scale(1,-1)">SEG_C</text>
+			<path d="M 117.070866,108.96378 L 115.937008,108.96378 Z" style="stroke: rgb(7%,12%,16%); stroke-linecap: butt; stroke-width: 0.510236220472441;"/>
+			<circle cx="121.32283464566929" cy="116.16377952755907" r="2.976377952755906" style="stroke: rgb(7%,12%,16%); stroke-linecap: butt; stroke-width: 0.7086614173228347; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="118.54283464566929" y="114.60472440944883" style="font-family: Helvetica-Bold; font-size: 5px;fill: rgb(7%,12%,16%); stroke:none;" transform="translate(0,229) scale(1,-1)">21</text>
+			<text x="93.0255787401575" y="114.17952755905513" style="font-family: Helvetica-Bold; font-size: 6.7px;fill: rgb(7%,39%,60%); stroke:none;" transform="translate(0,228) scale(1,-1)">SEG_E</text>
+			<path d="M 117.070866,116.16378 L 115.937008,116.16378 Z" style="stroke: rgb(7%,12%,16%); stroke-linecap: butt; stroke-width: 0.510236220472441;"/>
+			<circle cx="121.32283464566929" cy="123.36377952755906" r="2.976377952755906" style="stroke: rgb(7%,12%,16%); stroke-linecap: butt; stroke-width: 0.7086614173228347; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="118.54283464566929" y="121.80472440944882" style="font-family: Helvetica-Bold; font-size: 5px;fill: rgb(7%,12%,16%); stroke:none;" transform="translate(0,243) scale(1,-1)">22</text>
+			<text x="88.1881787401575" y="121.37952755905513" style="font-family: Helvetica-Bold; font-size: 6.7px;fill: rgb(7%,39%,60%); stroke:none;" transform="translate(0,242) scale(1,-1)">SEG_DP</text>
+			<path d="M 117.070866,123.36378 L 115.937008,123.36378 Z" style="stroke: rgb(7%,12%,16%); stroke-linecap: butt; stroke-width: 0.510236220472441;"/>
+			<circle cx="121.32283464566929" cy="130.56377952755906" r="2.976377952755906" style="stroke: rgb(7%,12%,16%); stroke-linecap: butt; stroke-width: 0.7086614173228347; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="118.54283464566929" y="129.00472440944884" style="font-family: Helvetica-Bold; font-size: 5px;fill: rgb(7%,12%,16%); stroke:none;" transform="translate(0,258) scale(1,-1)">23</text>
+			<text x="92.65707874015749" y="128.57952755905512" style="font-family: Helvetica-Bold; font-size: 6.7px;fill: rgb(7%,39%,60%); stroke:none;" transform="translate(0,257) scale(1,-1)">SEG_D</text>
+			<path d="M 117.070866,130.56378 L 115.937008,130.56378 Z" style="stroke: rgb(7%,12%,16%); stroke-linecap: butt; stroke-width: 0.510236220472441;"/>
+			<circle cx="121.32283464566929" cy="137.76377952755908" r="2.976377952755906" style="stroke: rgb(7%,12%,16%); stroke-linecap: butt; stroke-width: 0.7086614173228347; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="118.54283464566929" y="136.20472440944883" style="font-family: Helvetica-Bold; font-size: 5px;fill: rgb(7%,12%,16%); stroke:none;" transform="translate(0,272) scale(1,-1)">24</text>
+			<text x="96.3889787401575" y="135.77952755905514" style="font-family: Helvetica-Bold; font-size: 6.7px;fill: rgb(7%,39%,60%); stroke:none;" transform="translate(0,271) scale(1,-1)">DOUT</text>
+			<path d="M 117.070866,137.76378 L 115.937008,137.76378 Z" style="stroke: rgb(7%,12%,16%); stroke-linecap: butt; stroke-width: 0.510236220472441;"/>
+			<rect x="45.35433070866142" y="39.68503937007874" width="36.85039370078741" height="85.03937007874016" style="stroke: rgb(52%,58%,63%); stroke-linecap: butt; stroke-width: 0.4251968503937008; fill: rgb(96%,97%,98%); fill-rule: evenodd;"/>
+			<text x="46.771653543307096" y="113.38582677165356" style="font-family: Helvetica-Bold; font-size: 4.937690235374665px;fill: rgb(7%,12%,16%); stroke:none;" transform="translate(0,226) scale(1,-1)">LED-Anzeigetr</text>
+			<text x="52.085827559055126" y="104.88188976377954" style="font-family: Helvetica; font-size: 6.1px;fill: rgb(7%,12%,16%); stroke:none;" transform="translate(0,209) scale(1,-1)">eiber mit</text>
+			<text x="53.10452755905513" y="96.37795275590553" style="font-family: Helvetica; font-size: 6.1px;fill: rgb(7%,12%,16%); stroke:none;" transform="translate(0,192) scale(1,-1)">serieller</text>
+			<text x="47.33697755905513" y="87.87401574803151" style="font-family: Helvetica; font-size: 6.1px;fill: rgb(7%,12%,16%); stroke:none;" transform="translate(0,175) scale(1,-1)">Schnittstelle</text>
+			<text x="49.14777755905513" y="17.007874015748033" style="font-family: Helvetica; font-size: 4.5px;fill: rgb(39%,44%,47%); stroke:none;" transform="translate(0,34) scale(1,-1)">Ref: MAX7219</text>
+		</g>
+	</g>
+</svg>

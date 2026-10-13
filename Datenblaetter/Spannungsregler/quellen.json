@@ -1,0 +1,288 @@
+[
+  {
+    "part": "78L05",
+    "category": "Spannungsregler",
+    "function": "Positiver Festspannungsregler, +5 V Ausgang",
+    "package": "TO-92",
+    "pdf": "L78L05_12_ST_Familie.pdf",
+    "manufacturer": "STMicroelectronics",
+    "assignment": "Typreferenz; Hersteller am Bauteil noch zu prüfen",
+    "note": "Sortiment nennt 78L05 ohne Herstellerpräfix; L78L-Familie als Referenz.",
+    "quantity": "offen",
+    "evidence": [
+      {
+        "pdf": "Transistoren_und_Aehnliche_2.pdf",
+        "page": 1
+      }
+    ],
+    "downloaded_on": "2026-10-13",
+    "url": "https://datasheet4u.com/pdf/1307369/L78L05C.pdf",
+    "final_url": "https://datasheet4u.com/pdf/1307369/L78L05C.pdf",
+    "sha256": "b2faf8f8c705f9b62d4f3cfc079dd6a44d51bfdc85734b60d2b39e7456aba8fa",
+    "pages": 41
+  },
+  {
+    "part": "78L12",
+    "category": "Spannungsregler",
+    "function": "Positiver Festspannungsregler, +12 V Ausgang",
+    "package": "TO-92",
+    "pdf": "L78L05_12_ST_Familie.pdf",
+    "manufacturer": "STMicroelectronics",
+    "assignment": "Typreferenz; Hersteller am Bauteil noch zu prüfen",
+    "note": "Sortiment nennt 78L12 ohne Herstellerpräfix; L78L-Familie als Referenz.",
+    "quantity": "offen",
+    "evidence": [
+      {
+        "pdf": "Transistoren_und_Aehnliche_2.pdf",
+        "page": 1
+      }
+    ],
+    "downloaded_on": "2026-10-13",
+    "url": "https://datasheet4u.com/pdf/1307369/L78L05C.pdf",
+    "final_url": "https://datasheet4u.com/pdf/1307369/L78L05C.pdf",
+    "sha256": "b2faf8f8c705f9b62d4f3cfc079dd6a44d51bfdc85734b60d2b39e7456aba8fa",
+    "pages": 41
+  },
+  {
+    "part": "79L05",
+    "category": "Spannungsregler",
+    "function": "Negativer Festspannungsregler, -5 V Ausgang",
+    "package": "TO-92",
+    "pdf": "L79L05_ST_Familie.pdf",
+    "manufacturer": "STMicroelectronics",
+    "assignment": "Typreferenz; Hersteller am Bauteil noch zu prüfen",
+    "note": "Sortiment nennt 79L05 ohne Herstellerpräfix; L79L-Familie als Referenz.",
+    "quantity": "offen",
+    "evidence": [
+      {
+        "pdf": "Transistoren_und_Aehnliche_2.pdf",
+        "page": 1
+      }
+    ],
+    "downloaded_on": "2026-10-13",
+    "url": "https://datasheet4u.com/pdf/1234825/L79L05AC.pdf",
+    "final_url": "https://datasheet4u.com/pdf/1234825/L79L05AC.pdf",
+    "sha256": "bcf5edf4ea53f137f0699ed346c8027a33817d53f1d6ff5a2680265b2eaa4c1d",
+    "pages": 23
+  },
+  {
+    "part": "KA7909",
+    "category": "Spannungsregler",
+    "function": "Negativer Festspannungsregler, -9 V Ausgang",
+    "package": "TO-220",
+    "pdf": "KA7909_Fairchild.pdf",
+    "manufacturer": "Fairchild Semiconductor",
+    "assignment": "Herstellerdatenblatt",
+    "note": "Bereits vorhandener Eintrag aus Diverse, in diese Kategorie verschoben. Gemeinsames KA79XX-/LM79XX-Datenblatt; Tabelle für KA7909 verwenden.",
+    "quantity": "offen",
+    "evidence": [
+      {
+        "pdf": "../weitere_diverse_ICs.pdf",
+        "page": 1
+      }
+    ],
+    "downloaded_on": "2026-10-13",
+    "url": "https://datasheet4u.com/pdf/390075/KA7909.pdf",
+    "final_url": "https://datasheet4u.com/pdf/390075/KA7909.pdf",
+    "sha256": "1b03649befe47aead1374c561a1455d7a0e9ef578e24426be63b2578c4ee0f46",
+    "pages": 17
+  },
+  {
+    "part": "L7805CV",
+    "category": "Spannungsregler",
+    "function": "Positiver Festspannungsregler, +5 V Ausgang",
+    "package": "TO-220",
+    "pdf": "L78_ST.pdf",
+    "manufacturer": "STMicroelectronics",
+    "assignment": "Herstellerdatenblatt",
+    "note": "Bereits vorhandener Eintrag aus Diverse, in diese Kategorie verschoben. Gemeinsames L78-Datenblatt; C-Variante und TO-220 beachten.",
+    "quantity": "offen",
+    "evidence": [
+      {
+        "pdf": "../weitere_diverse_ICs.pdf",
+        "page": 1
+      }
+    ],
+    "downloaded_on": "2026-10-13",
+    "url": "https://datasheet4u.com/pdf/1162253/L7824.pdf",
+    "final_url": "https://datasheet4u.com/pdf/1162253/L7824.pdf",
+    "sha256": "f7b390b5c05e0abad21a6e902c7f58d25a02d568032dd036ed228294fc01673e",
+    "pages": 55
+  },
+  {
+    "part": "L7809CV",
+    "category": "Spannungsregler",
+    "function": "Positiver Festspannungsregler, +9 V Ausgang",
+    "package": "TO-220",
+    "pdf": "L78_ST.pdf",
+    "manufacturer": "STMicroelectronics",
+    "assignment": "Herstellerdatenblatt",
+    "note": "Bereits vorhandener Eintrag aus Diverse, in diese Kategorie verschoben. Gemeinsames L78-Datenblatt; C-Variante und TO-220 beachten.",
+    "quantity": "offen",
+    "evidence": [
+      {
+        "pdf": "../weitere_diverse_ICs.pdf",
+        "page": 1
+      }
+    ],
+    "downloaded_on": "2026-10-13",
+    "url": "https://datasheet4u.com/pdf/1162253/L7824.pdf",
+    "final_url": "https://datasheet4u.com/pdf/1162253/L7824.pdf",
+    "sha256": "f7b390b5c05e0abad21a6e902c7f58d25a02d568032dd036ed228294fc01673e",
+    "pages": 55
+  },
+  {
+    "part": "L7812CV",
+    "category": "Spannungsregler",
+    "function": "Positiver Festspannungsregler, +12 V Ausgang",
+    "package": "TO-220",
+    "pdf": "L78_ST.pdf",
+    "manufacturer": "STMicroelectronics",
+    "assignment": "Herstellerdatenblatt",
+    "note": "Bereits vorhandener Eintrag aus Diverse, in diese Kategorie verschoben. Gemeinsames L78-Datenblatt; C-Variante und TO-220 beachten.",
+    "quantity": "offen",
+    "evidence": [
+      {
+        "pdf": "../weitere_diverse_ICs.pdf",
+        "page": 1
+      }
+    ],
+    "downloaded_on": "2026-10-13",
+    "url": "https://datasheet4u.com/pdf/1162253/L7824.pdf",
+    "final_url": "https://datasheet4u.com/pdf/1162253/L7824.pdf",
+    "sha256": "f7b390b5c05e0abad21a6e902c7f58d25a02d568032dd036ed228294fc01673e",
+    "pages": 55
+  },
+  {
+    "part": "L7815CV",
+    "category": "Spannungsregler",
+    "function": "Positiver Festspannungsregler, +15 V Ausgang",
+    "package": "TO-220",
+    "pdf": "L78_ST.pdf",
+    "manufacturer": "STMicroelectronics",
+    "assignment": "Herstellerdatenblatt",
+    "note": "Bereits vorhandener Eintrag aus Diverse, in diese Kategorie verschoben. Gemeinsames L78-Datenblatt; C-Variante und TO-220 beachten.",
+    "quantity": "offen",
+    "evidence": [
+      {
+        "pdf": "../weitere_diverse_ICs.pdf",
+        "page": 1
+      }
+    ],
+    "downloaded_on": "2026-10-13",
+    "url": "https://datasheet4u.com/pdf/1162253/L7824.pdf",
+    "final_url": "https://datasheet4u.com/pdf/1162253/L7824.pdf",
+    "sha256": "f7b390b5c05e0abad21a6e902c7f58d25a02d568032dd036ed228294fc01673e",
+    "pages": 55
+  },
+  {
+    "part": "L7824CV",
+    "category": "Spannungsregler",
+    "function": "Positiver Festspannungsregler, +24 V Ausgang",
+    "package": "TO-220",
+    "pdf": "L78_ST.pdf",
+    "manufacturer": "STMicroelectronics",
+    "assignment": "Herstellerdatenblatt",
+    "note": "Bereits vorhandener Eintrag aus Diverse, in diese Kategorie verschoben. Gemeinsames L78-Datenblatt; C-Variante und TO-220 beachten.",
+    "quantity": "offen",
+    "evidence": [
+      {
+        "pdf": "../weitere_diverse_ICs.pdf",
+        "page": 1
+      }
+    ],
+    "downloaded_on": "2026-10-13",
+    "url": "https://datasheet4u.com/pdf/1162253/L7824.pdf",
+    "final_url": "https://datasheet4u.com/pdf/1162253/L7824.pdf",
+    "sha256": "f7b390b5c05e0abad21a6e902c7f58d25a02d568032dd036ed228294fc01673e",
+    "pages": 55
+  },
+  {
+    "part": "L7905CV",
+    "category": "Spannungsregler",
+    "function": "Negativer Festspannungsregler, -5 V Ausgang",
+    "package": "TO-220",
+    "pdf": "L79_ST.pdf",
+    "manufacturer": "STMicroelectronics",
+    "assignment": "Herstellerdatenblatt",
+    "note": "Bereits vorhandener Eintrag aus Diverse, in diese Kategorie verschoben. Gemeinsames L79-Datenblatt; C-Variante und TO-220 beachten.",
+    "quantity": "offen",
+    "evidence": [
+      {
+        "pdf": "../weitere_diverse_ICs.pdf",
+        "page": 1
+      }
+    ],
+    "downloaded_on": "2026-10-13",
+    "url": "https://datasheet4u.com/pdf/973913/L79.pdf",
+    "final_url": "https://datasheet4u.com/pdf/973913/L79.pdf",
+    "sha256": "6bfc95316882d4b8bb5ab1195b86005477f9751756344706805fd39366ca2071",
+    "pages": 29
+  },
+  {
+    "part": "L7912CV",
+    "category": "Spannungsregler",
+    "function": "Negativer Festspannungsregler, -12 V Ausgang",
+    "package": "TO-220",
+    "pdf": "L79_ST.pdf",
+    "manufacturer": "STMicroelectronics",
+    "assignment": "Herstellerdatenblatt",
+    "note": "Bereits vorhandener Eintrag aus Diverse, in diese Kategorie verschoben. Gemeinsames L79-Datenblatt; C-Variante und TO-220 beachten.",
+    "quantity": "offen",
+    "evidence": [
+      {
+        "pdf": "../weitere_diverse_ICs.pdf",
+        "page": 1
+      }
+    ],
+    "downloaded_on": "2026-10-13",
+    "url": "https://datasheet4u.com/pdf/973913/L79.pdf",
+    "final_url": "https://datasheet4u.com/pdf/973913/L79.pdf",
+    "sha256": "6bfc95316882d4b8bb5ab1195b86005477f9751756344706805fd39366ca2071",
+    "pages": 29
+  },
+  {
+    "part": "LM317",
+    "category": "Spannungsregler",
+    "function": "Einstellbarer positiver Spannungsregler",
+    "package": "TO-220",
+    "pdf": "LM317_TI.pdf",
+    "manufacturer": "Texas Instruments",
+    "assignment": "Typreferenz; Hersteller am Bauteil noch zu prüfen",
+    "note": "Hersteller am Bauteil prüfen; Eingang muss zur gewünschten Ausgangsspannung passen.",
+    "quantity": "offen",
+    "evidence": [
+      {
+        "pdf": "Transistoren_und_Aehnliche_2.pdf",
+        "page": 1
+      }
+    ],
+    "downloaded_on": "2026-10-13",
+    "url": "https://www.ti.com/lit/ds/symlink/lm317.pdf",
+    "final_url": "https://www.ti.com/lit/ds/symlink/lm317.pdf",
+    "sha256": "1646fb2e4f8cf8c2cbd93aaf22edad368571619ad062476deca8ee29f95c65d3",
+    "pages": 45
+  },
+  {
+    "part": "TL431A",
+    "category": "Spannungsregler",
+    "function": "Einstellbare Shunt-Spannungsreferenz",
+    "package": "TO-92",
+    "pdf": "TL431_TI.pdf",
+    "manufacturer": "Texas Instruments",
+    "assignment": "Typreferenz; Hersteller am Bauteil noch zu prüfen",
+    "note": "Shunt-Regler, kein dreipoliger Serienregler. Die Emitter-/Collector-Bezeichnungen des Kitaufklebers gelten hier nicht.",
+    "quantity": "offen",
+    "evidence": [
+      {
+        "pdf": "Transistoren_und_Aehnliche_2.pdf",
+        "page": 1
+      }
+    ],
+    "downloaded_on": "2026-10-13",
+    "url": "https://www.ti.com/lit/ds/symlink/tl431.pdf",
+    "final_url": "https://www.ti.com/lit/ds/symlink/tl431.pdf",
+    "sha256": "ed2e90697de4e2c553195514adf1ee59cda42863716b6ef702b8304a5b921d22",
+    "pages": 85
+  }
+]

@@ -1,0 +1,1036 @@
+[
+  {
+    "part": "2N2222",
+    "category": "Transistor",
+    "function": "NPN-Bipolartransistor",
+    "package": "TO-92",
+    "pdf": "2N2222_P2N2222A_onsemi_Referenz.pdf",
+    "manufacturer": "onsemi",
+    "assignment": "Typreferenz; Hersteller am Bauteil noch zu prüfen",
+    "note": "Sortiment nennt 2N2222 in TO-92. P2N2222A ist nur eine Kunststoff-Referenz mit anderem Präfix; Pinbelegung und genaue Ausführung prüfen.",
+    "quantity": "offen",
+    "evidence": [
+      {
+        "pdf": "Transistoren_und_Aehnliche_4.pdf",
+        "page": 1
+      },
+      {
+        "pdf": "Transistoren_und_Aehnliche_3.pdf",
+        "page": 1
+      }
+    ],
+    "downloaded_on": "2026-10-13",
+    "url": "https://datasheet4u.com/pdf/1590393/P2N2222A.pdf",
+    "final_url": "https://datasheet4u.com/pdf/1590393/P2N2222A.pdf",
+    "sha256": "e0fe1ed1657a1500aef6c99d5d6d99c8aa28ec140c5054312c89dcbeea06bcf9",
+    "pages": 8
+  },
+  {
+    "part": "2N3904",
+    "category": "Transistor",
+    "function": "NPN-Bipolartransistor",
+    "package": "TO-92",
+    "pdf": "2N3904_ST.pdf",
+    "manufacturer": "STMicroelectronics",
+    "assignment": "Typreferenz; Hersteller am Bauteil noch zu prüfen",
+    "note": "",
+    "quantity": "offen",
+    "evidence": [
+      {
+        "pdf": "Transistoren_und_Aehnliche_4.pdf",
+        "page": 1
+      },
+      {
+        "pdf": "Transistoren_und_Aehnliche_3.pdf",
+        "page": 1
+      }
+    ],
+    "downloaded_on": "2026-10-13",
+    "url": "https://datasheet4u.com/pdf/956154/2N3904.pdf",
+    "final_url": "https://datasheet4u.com/pdf/956154/2N3904.pdf",
+    "sha256": "eaff8bc2fc4392a78c4bce0034119ccabe2c601bf0428143984d92ea44e219df",
+    "pages": 5
+  },
+  {
+    "part": "2N3906",
+    "category": "Transistor",
+    "function": "PNP-Bipolartransistor",
+    "package": "TO-92",
+    "pdf": "2N3906_Fairchild.pdf",
+    "manufacturer": "Fairchild Semiconductor",
+    "assignment": "Typreferenz; Hersteller am Bauteil noch zu prüfen",
+    "note": "",
+    "quantity": "offen",
+    "evidence": [
+      {
+        "pdf": "Transistoren_und_Aehnliche_4.pdf",
+        "page": 1
+      },
+      {
+        "pdf": "Transistoren_und_Aehnliche_3.pdf",
+        "page": 1
+      }
+    ],
+    "downloaded_on": "2026-10-13",
+    "url": "https://datasheet4u.com/pdf/74316/2N3906.pdf",
+    "final_url": "https://datasheet4u.com/pdf/74316/2N3906.pdf",
+    "sha256": "6fc276ebefb2743ae673dfcddba407dd90fa26dfe2846f1396b225d334fc9eb7",
+    "pages": 11
+  },
+  {
+    "part": "2N5401",
+    "category": "Transistor",
+    "function": "PNP-Bipolartransistor",
+    "package": "TO-92",
+    "pdf": "2N5401_Fairchild.pdf",
+    "manufacturer": "Fairchild Semiconductor",
+    "assignment": "Typreferenz; Hersteller am Bauteil noch zu prüfen",
+    "note": "",
+    "quantity": "offen",
+    "evidence": [
+      {
+        "pdf": "Transistoren_und_Aehnliche_4.pdf",
+        "page": 1
+      },
+      {
+        "pdf": "Transistoren_und_Aehnliche_3.pdf",
+        "page": 1
+      }
+    ],
+    "downloaded_on": "2026-10-13",
+    "url": "https://datasheet4u.com/pdf/72202/2N5401.pdf",
+    "final_url": "https://datasheet4u.com/pdf/72202/2N5401.pdf",
+    "sha256": "186a1ee4be6c254bf1a93638362c38d0086431e9c06e33b0ebe24470e0a9e063",
+    "pages": 4
+  },
+  {
+    "part": "2N5551",
+    "category": "Transistor",
+    "function": "NPN-Bipolartransistor",
+    "package": "TO-92",
+    "pdf": "2N5551_KEC.pdf",
+    "manufacturer": "KEC",
+    "assignment": "Typreferenz; Hersteller am Bauteil noch zu prüfen",
+    "note": "Kitbezeichnung eindeutig; handschriftliche Lesart 2N5501 in PDF 3 separat ungeklärt.",
+    "quantity": "offen",
+    "evidence": [
+      {
+        "pdf": "Transistoren_und_Aehnliche_4.pdf",
+        "page": 1
+      }
+    ],
+    "downloaded_on": "2026-10-13",
+    "url": "https://datasheet4u.com/pdf/1018575/2N5551.pdf",
+    "final_url": "https://datasheet4u.com/pdf/1018575/2N5551.pdf",
+    "sha256": "19056b9bfad661a3e3cb6efaf2e03351e75edb523391251ac9a852b07e314b8e",
+    "pages": 2
+  },
+  {
+    "part": "2SA1015",
+    "category": "Transistor",
+    "function": "PNP-Bipolartransistor",
+    "package": "TO-92",
+    "pdf": "2SA1015_Toshiba.pdf",
+    "manufacturer": "Toshiba",
+    "assignment": "Typreferenz; Hersteller am Bauteil noch zu prüfen",
+    "note": "Kurzbezeichnung A1015; Zuordnung zur 2S-Grundnummer als Referenz, vollständigen Aufdruck prüfen.",
+    "quantity": "offen",
+    "evidence": [
+      {
+        "pdf": "Transistoren_und_Aehnliche_3.pdf",
+        "page": 1
+      },
+      {
+        "pdf": "Transistoren_und_Aehnliche_4.pdf",
+        "page": 1
+      }
+    ],
+    "downloaded_on": "2026-10-13",
+    "url": "https://datasheet4u.com/pdf/73224/2SA1015.pdf",
+    "final_url": "https://datasheet4u.com/pdf/73224/2SA1015.pdf",
+    "sha256": "086f2a81af3aa911a345698e248ff72b74dd368b879583efce6b26d06d4df6d8",
+    "pages": 3
+  },
+  {
+    "part": "2SB772",
+    "category": "Transistor",
+    "function": "PNP-Bipolartransistor",
+    "package": "TO-126",
+    "pdf": "2SB772_MCC.pdf",
+    "manufacturer": "Micro Commercial Components",
+    "assignment": "Typreferenz; Hersteller am Bauteil noch zu prüfen",
+    "note": "Kurzbezeichnung B772; Zuordnung zur 2S-Grundnummer als Referenz, vollständigen Aufdruck prüfen.",
+    "quantity": "offen",
+    "evidence": [
+      {
+        "pdf": "Transistoren_und_Aehnliche_2.pdf",
+        "page": 1
+      }
+    ],
+    "downloaded_on": "2026-10-13",
+    "url": "https://media.digikey.com/pdf/Data%20Sheets/Micro%20Commercial%20PDFs/2SB772-x.pdf",
+    "final_url": "https://media.digikey.com/pdf/Data%20Sheets/Micro%20Commercial%20PDFs/2SB772-x.pdf",
+    "sha256": "4fe4de4dca23051e0bc4e1f09cf69a7218fdd62e153b0c42a5c5174ca6dc5058",
+    "pages": 2
+  },
+  {
+    "part": "2SC1815",
+    "category": "Transistor",
+    "function": "NPN-Bipolartransistor",
+    "package": "TO-92",
+    "pdf": "2SC1815_UTC.pdf",
+    "manufacturer": "Unisonic Technologies",
+    "assignment": "Typreferenz; Hersteller am Bauteil noch zu prüfen",
+    "note": "Kurzbezeichnung C1815; Zuordnung zur 2S-Grundnummer als Referenz, vollständigen Aufdruck prüfen.",
+    "quantity": "offen",
+    "evidence": [
+      {
+        "pdf": "Transistoren_und_Aehnliche_3.pdf",
+        "page": 1
+      },
+      {
+        "pdf": "Transistoren_und_Aehnliche_4.pdf",
+        "page": 1
+      }
+    ],
+    "downloaded_on": "2026-10-13",
+    "url": "https://datasheet4u.com/pdf/576802/2SC1815.pdf",
+    "final_url": "https://datasheet4u.com/pdf/576802/2SC1815.pdf",
+    "sha256": "f4a9841d5175588d8c1a724579834726ceb0e738461fb94e4ddae3ffd1dd1313",
+    "pages": 4
+  },
+  {
+    "part": "2SC945",
+    "category": "Transistor",
+    "function": "NPN-Bipolartransistor",
+    "package": "TO-92",
+    "pdf": "2SC945_NEC.pdf",
+    "manufacturer": "NEC",
+    "assignment": "Typreferenz; Hersteller am Bauteil noch zu prüfen",
+    "note": "Kurzbezeichnung C945; Zuordnung zur 2S-Grundnummer als Referenz, vollständigen Aufdruck prüfen.",
+    "quantity": "offen",
+    "evidence": [
+      {
+        "pdf": "Transistoren_und_Aehnliche_3.pdf",
+        "page": 1
+      },
+      {
+        "pdf": "Transistoren_und_Aehnliche_4.pdf",
+        "page": 1
+      }
+    ],
+    "downloaded_on": "2026-10-13",
+    "url": "https://datasheet4u.com/pdf/609326/2SC945.pdf",
+    "final_url": "https://datasheet4u.com/pdf/609326/2SC945.pdf",
+    "sha256": "d1f72543dcd48e2eb3fc76fa0467b8042f330feb6af30371fc7cff521eba12a9",
+    "pages": 4
+  },
+  {
+    "part": "2SD882",
+    "category": "Transistor",
+    "function": "NPN-Bipolartransistor",
+    "package": "TO-126",
+    "pdf": "2SD882_ST.pdf",
+    "manufacturer": "STMicroelectronics",
+    "assignment": "Typreferenz; Hersteller am Bauteil noch zu prüfen",
+    "note": "Kurzbezeichnung D882; Zuordnung zur 2S-Grundnummer als Referenz, vollständigen Aufdruck prüfen.",
+    "quantity": "offen",
+    "evidence": [
+      {
+        "pdf": "Transistoren_und_Aehnliche_2.pdf",
+        "page": 1
+      }
+    ],
+    "downloaded_on": "2026-10-13",
+    "url": "https://datasheet4u.com/pdf/574714/2SD882.pdf",
+    "final_url": "https://datasheet4u.com/pdf/574714/2SD882.pdf",
+    "sha256": "09d5fdc20399279b1f6499836227f1bc622d24345c14a8005343d86a2e5ed400",
+    "pages": 8
+  },
+  {
+    "part": "BC327",
+    "category": "Transistor",
+    "function": "PNP-Transistor",
+    "package": "TO-92",
+    "pdf": "BC327_NXP.pdf",
+    "manufacturer": "NXP",
+    "assignment": "Typreferenz; Hersteller am Bauteil noch zu prüfen",
+    "note": "",
+    "quantity": "offen",
+    "evidence": [
+      {
+        "pdf": "Transistoren_und_Aehnliche_4.pdf",
+        "page": 1
+      },
+      {
+        "pdf": "Transistoren_und_Aehnliche_6.pdf",
+        "page": 1
+      }
+    ],
+    "downloaded_on": "2026-10-13",
+    "url": "https://datasheet4u.com/pdf/128205/BC327.pdf",
+    "final_url": "https://datasheet4u.com/pdf/128205/BC327.pdf",
+    "sha256": "d33fe4e500b4eb5fafbb92083606420ea1086bad5f07fd435e6ac7cfaf2fcdca",
+    "pages": 19
+  },
+  {
+    "part": "BC337",
+    "category": "Transistor",
+    "function": "NPN-Transistor",
+    "package": "TO-92",
+    "pdf": "BC337_onsemi.pdf",
+    "manufacturer": "onsemi",
+    "assignment": "Typreferenz; Hersteller am Bauteil noch zu prüfen",
+    "note": "",
+    "quantity": "offen",
+    "evidence": [
+      {
+        "pdf": "Transistoren_und_Aehnliche_4.pdf",
+        "page": 1
+      },
+      {
+        "pdf": "Transistoren_und_Aehnliche_7.pdf",
+        "page": 1
+      }
+    ],
+    "downloaded_on": "2026-10-13",
+    "url": "https://datasheet4u.com/pdf/128245/BC337.pdf",
+    "final_url": "https://datasheet4u.com/pdf/128245/BC337.pdf",
+    "sha256": "0deb88fa896ffa69ac32adb1c41b6e435e87dceb347ebdf584635e9180e58a05",
+    "pages": 5
+  },
+  {
+    "part": "BC517",
+    "category": "Transistor",
+    "function": "NPN-Darlington-Transistor",
+    "package": "TO-92",
+    "pdf": "BC517_onsemi.pdf",
+    "manufacturer": "onsemi",
+    "assignment": "Typreferenz; Hersteller am Bauteil noch zu prüfen",
+    "note": "",
+    "quantity": "offen",
+    "evidence": [
+      {
+        "pdf": "Transistoren_und_Aehnliche_4.pdf",
+        "page": 1
+      }
+    ],
+    "downloaded_on": "2026-10-13",
+    "url": "https://datasheet4u.com/pdf/128352/BC517.pdf",
+    "final_url": "https://datasheet4u.com/pdf/128352/BC517.pdf",
+    "sha256": "bd37c56b2c42d70a18b1e8a4f385240ac79792188914e6582cc0c76a9fcbaef8",
+    "pages": 5
+  },
+  {
+    "part": "BC546",
+    "category": "Transistor",
+    "function": "NPN-Kleinsignaltransistor",
+    "package": "TO-92",
+    "pdf": "BC546_547_548_549_550_onsemi.pdf",
+    "manufacturer": "onsemi",
+    "assignment": "Typreferenz; Hersteller am Bauteil noch zu prüfen",
+    "note": "Auch BC546B laut Beutelzettel (PDF 7).",
+    "quantity": "offen",
+    "evidence": [
+      {
+        "pdf": "Transistoren_und_Aehnliche_7.pdf",
+        "page": 1
+      }
+    ],
+    "downloaded_on": "2026-10-13",
+    "url": "https://datasheet4u.com/pdf/1501989/BC549.pdf",
+    "final_url": "https://datasheet4u.com/pdf/1501989/BC549.pdf",
+    "sha256": "ef0878baccc13fbaaeb444aba7a3cf147ad242cd391a96492d78eb3c7ddf36e5",
+    "pages": 7
+  },
+  {
+    "part": "BC547",
+    "category": "Transistor",
+    "function": "NPN-Kleinsignaltransistor",
+    "package": "TO-92",
+    "pdf": "BC546_547_548_549_550_onsemi.pdf",
+    "manufacturer": "onsemi",
+    "assignment": "Typreferenz; Hersteller am Bauteil noch zu prüfen",
+    "note": "Auch BC547C laut Beutelzettel (PDF 7).",
+    "quantity": "offen",
+    "evidence": [
+      {
+        "pdf": "Transistoren_und_Aehnliche_4.pdf",
+        "page": 1
+      },
+      {
+        "pdf": "Transistoren_und_Aehnliche_7.pdf",
+        "page": 1
+      }
+    ],
+    "downloaded_on": "2026-10-13",
+    "url": "https://datasheet4u.com/pdf/1501989/BC549.pdf",
+    "final_url": "https://datasheet4u.com/pdf/1501989/BC549.pdf",
+    "sha256": "ef0878baccc13fbaaeb444aba7a3cf147ad242cd391a96492d78eb3c7ddf36e5",
+    "pages": 7
+  },
+  {
+    "part": "BC548",
+    "category": "Transistor",
+    "function": "NPN-Kleinsignaltransistor",
+    "package": "TO-92",
+    "pdf": "BC546_547_548_549_550_onsemi.pdf",
+    "manufacturer": "onsemi",
+    "assignment": "Typreferenz; Hersteller am Bauteil noch zu prüfen",
+    "note": "Auch BC548B laut Beutelzettel (PDF 7).",
+    "quantity": "offen",
+    "evidence": [
+      {
+        "pdf": "Transistoren_und_Aehnliche_4.pdf",
+        "page": 1
+      },
+      {
+        "pdf": "Transistoren_und_Aehnliche_7.pdf",
+        "page": 1
+      }
+    ],
+    "downloaded_on": "2026-10-13",
+    "url": "https://datasheet4u.com/pdf/1501989/BC549.pdf",
+    "final_url": "https://datasheet4u.com/pdf/1501989/BC549.pdf",
+    "sha256": "ef0878baccc13fbaaeb444aba7a3cf147ad242cd391a96492d78eb3c7ddf36e5",
+    "pages": 7
+  },
+  {
+    "part": "BC549",
+    "category": "Transistor",
+    "function": "NPN-Kleinsignaltransistor",
+    "package": "TO-92",
+    "pdf": "BC546_547_548_549_550_onsemi.pdf",
+    "manufacturer": "onsemi",
+    "assignment": "Typreferenz; Hersteller am Bauteil noch zu prüfen",
+    "note": "",
+    "quantity": "offen",
+    "evidence": [
+      {
+        "pdf": "Transistoren_und_Aehnliche_4.pdf",
+        "page": 1
+      }
+    ],
+    "downloaded_on": "2026-10-13",
+    "url": "https://datasheet4u.com/pdf/1501989/BC549.pdf",
+    "final_url": "https://datasheet4u.com/pdf/1501989/BC549.pdf",
+    "sha256": "ef0878baccc13fbaaeb444aba7a3cf147ad242cd391a96492d78eb3c7ddf36e5",
+    "pages": 7
+  },
+  {
+    "part": "BC550",
+    "category": "Transistor",
+    "function": "NPN-Kleinsignaltransistor",
+    "package": "TO-92",
+    "pdf": "BC546_547_548_549_550_onsemi.pdf",
+    "manufacturer": "onsemi",
+    "assignment": "Typreferenz; Hersteller am Bauteil noch zu prüfen",
+    "note": "",
+    "quantity": "offen",
+    "evidence": [
+      {
+        "pdf": "Transistoren_und_Aehnliche_4.pdf",
+        "page": 1
+      }
+    ],
+    "downloaded_on": "2026-10-13",
+    "url": "https://datasheet4u.com/pdf/1501989/BC549.pdf",
+    "final_url": "https://datasheet4u.com/pdf/1501989/BC549.pdf",
+    "sha256": "ef0878baccc13fbaaeb444aba7a3cf147ad242cd391a96492d78eb3c7ddf36e5",
+    "pages": 7
+  },
+  {
+    "part": "BC556",
+    "category": "Transistor",
+    "function": "PNP-Kleinsignaltransistor",
+    "package": "TO-92",
+    "pdf": "BC556_557_558_onsemi.pdf",
+    "manufacturer": "onsemi",
+    "assignment": "Typreferenz; Hersteller am Bauteil noch zu prüfen",
+    "note": "Auch BC556B laut Beutelzettel (PDF 6); Verstärkungsgruppe am Bauteil prüfen.",
+    "quantity": "offen",
+    "evidence": [
+      {
+        "pdf": "Transistoren_und_Aehnliche_4.pdf",
+        "page": 1
+      },
+      {
+        "pdf": "Transistoren_und_Aehnliche_6.pdf",
+        "page": 1
+      }
+    ],
+    "downloaded_on": "2026-10-13",
+    "url": "https://datasheet4u.com/pdf/1528121/BC556.pdf",
+    "final_url": "https://datasheet4u.com/pdf/1528121/BC556.pdf",
+    "sha256": "cac0cf6f1a5d34293e66cb8a7f714740d28add864c235382a1252ddb449e4dbd",
+    "pages": 7
+  },
+  {
+    "part": "BC557",
+    "category": "Transistor",
+    "function": "PNP-Kleinsignaltransistor",
+    "package": "TO-92",
+    "pdf": "BC556_557_558_onsemi.pdf",
+    "manufacturer": "onsemi",
+    "assignment": "Typreferenz; Hersteller am Bauteil noch zu prüfen",
+    "note": "Auch BC557B laut Beutelzettel (PDF 6); Verstärkungsgruppe am Bauteil prüfen.",
+    "quantity": "offen",
+    "evidence": [
+      {
+        "pdf": "Transistoren_und_Aehnliche_4.pdf",
+        "page": 1
+      },
+      {
+        "pdf": "Transistoren_und_Aehnliche_6.pdf",
+        "page": 1
+      }
+    ],
+    "downloaded_on": "2026-10-13",
+    "url": "https://datasheet4u.com/pdf/1528121/BC556.pdf",
+    "final_url": "https://datasheet4u.com/pdf/1528121/BC556.pdf",
+    "sha256": "cac0cf6f1a5d34293e66cb8a7f714740d28add864c235382a1252ddb449e4dbd",
+    "pages": 7
+  },
+  {
+    "part": "BC558",
+    "category": "Transistor",
+    "function": "PNP-Kleinsignaltransistor",
+    "package": "TO-92",
+    "pdf": "BC556_557_558_onsemi.pdf",
+    "manufacturer": "onsemi",
+    "assignment": "Typreferenz; Hersteller am Bauteil noch zu prüfen",
+    "note": "Auch BC558B laut Beutelzettel (PDF 6); Verstärkungsgruppe am Bauteil prüfen.",
+    "quantity": "offen",
+    "evidence": [
+      {
+        "pdf": "Transistoren_und_Aehnliche_4.pdf",
+        "page": 1
+      },
+      {
+        "pdf": "Transistoren_und_Aehnliche_6.pdf",
+        "page": 1
+      }
+    ],
+    "downloaded_on": "2026-10-13",
+    "url": "https://datasheet4u.com/pdf/1528121/BC556.pdf",
+    "final_url": "https://datasheet4u.com/pdf/1528121/BC556.pdf",
+    "sha256": "cac0cf6f1a5d34293e66cb8a7f714740d28add864c235382a1252ddb449e4dbd",
+    "pages": 7
+  },
+  {
+    "part": "BD139",
+    "category": "Transistor",
+    "function": "NPN-Transistor",
+    "package": "TO-126",
+    "pdf": "BD139_140_Fairchild.pdf",
+    "manufacturer": "Fairchild Semiconductor",
+    "assignment": "Typreferenz; Hersteller am Bauteil noch zu prüfen",
+    "note": "",
+    "quantity": "offen",
+    "evidence": [
+      {
+        "pdf": "Transistoren_und_Aehnliche_2.pdf",
+        "page": 1
+      }
+    ],
+    "downloaded_on": "2026-10-13",
+    "url": "https://datasheet4u.com/pdf/127841/BD139.pdf",
+    "final_url": "https://datasheet4u.com/pdf/127841/BD139.pdf",
+    "sha256": "b80a5a4f8fd28defd50c36fd20dac1917de4d830b5a22ace0cf3863c0eb6a93e",
+    "pages": 5
+  },
+  {
+    "part": "BD140",
+    "category": "Transistor",
+    "function": "PNP-Transistor",
+    "package": "TO-126",
+    "pdf": "BD140_Fairchild.pdf",
+    "manufacturer": "Fairchild Semiconductor",
+    "assignment": "Typreferenz; Hersteller am Bauteil noch zu prüfen",
+    "note": "",
+    "quantity": "offen",
+    "evidence": [
+      {
+        "pdf": "Transistoren_und_Aehnliche_2.pdf",
+        "page": 1
+      }
+    ],
+    "downloaded_on": "2026-10-13",
+    "url": "https://datasheet4u.com/pdf/127851/BD140.pdf",
+    "final_url": "https://datasheet4u.com/pdf/127851/BD140.pdf",
+    "sha256": "fef3a5f3d9e8206388ba9c3334056869c2277285fb64f350256d6808df834c82",
+    "pages": 5
+  },
+  {
+    "part": "MPQ2222A",
+    "category": "Transistor",
+    "function": "4 unabhängige NPN-Transistoren",
+    "package": "DIP-14",
+    "pdf": "MPQ2222A_Central.pdf",
+    "manufacturer": "Central Semiconductor",
+    "assignment": "Herstellerdatenblatt",
+    "note": "Bereits vorhandener Eintrag aus Diverse, in diese Kategorie verschoben. Vier unabhängige NPN-Transistoren im 14-Pin-DIP.",
+    "quantity": "offen",
+    "evidence": [
+      {
+        "pdf": "../weitere_diverse_ICs.pdf",
+        "page": 3
+      }
+    ],
+    "downloaded_on": "2026-10-13",
+    "url": "https://my.centralsemi.com/datasheets/mpq2222.PDF",
+    "final_url": "https://my.centralsemi.com/datasheets/mpq2222.PDF",
+    "sha256": "3abb1b306fc3459f71f380371adb0de760f250fab99db4a7ac5597df2eca46e4",
+    "pages": 4
+  },
+  {
+    "part": "S8050",
+    "category": "Transistor",
+    "function": "NPN-Bipolartransistor",
+    "package": "TO-92",
+    "pdf": "S8050_SS8050_Fairchild_Referenz.pdf",
+    "manufacturer": "Fairchild Semiconductor",
+    "assignment": "Typreferenz; Hersteller am Bauteil noch zu prüfen",
+    "note": "SS8050 in TO-92 als Typreferenz; Hersteller, Stromgrenzen und Pinbelegung des konkreten S8050 prüfen. Die als S8050 beschriftete Seite in PDF 5 nennt widersprüchlich PNP; dieser Eintrag folgt der NPN-Referenz.",
+    "quantity": "offen",
+    "evidence": [
+      {
+        "pdf": "Transistoren_und_Aehnliche_3.pdf",
+        "page": 1
+      },
+      {
+        "pdf": "Transistoren_und_Aehnliche_4.pdf",
+        "page": 1
+      },
+      {
+        "pdf": "Transistoren_und_Aehnliche_5.pdf",
+        "page": 1
+      }
+    ],
+    "downloaded_on": "2026-10-13",
+    "url": "https://datasheet4u.com/pdf/1482274/SS8050DTA.pdf",
+    "final_url": "https://datasheet4u.com/pdf/1482274/SS8050DTA.pdf",
+    "sha256": "b9f170a6d2b4a0be7260d395fec2b0dfda8113d6d141234941736d7796dc0182",
+    "pages": 6
+  },
+  {
+    "part": "S8550",
+    "category": "Transistor",
+    "function": "PNP-Bipolartransistor",
+    "package": "TO-92",
+    "pdf": "S8550_SS8550_Fairchild_Referenz.pdf",
+    "manufacturer": "Fairchild Semiconductor",
+    "assignment": "Typreferenz; Hersteller am Bauteil noch zu prüfen",
+    "note": "SS8550 in TO-92 als Typreferenz; Hersteller, Stromgrenzen und Pinbelegung des konkreten S8550 prüfen.",
+    "quantity": "offen",
+    "evidence": [
+      {
+        "pdf": "Transistoren_und_Aehnliche_3.pdf",
+        "page": 1
+      },
+      {
+        "pdf": "Transistoren_und_Aehnliche_4.pdf",
+        "page": 1
+      }
+    ],
+    "downloaded_on": "2026-10-13",
+    "url": "https://datasheet4u.com/pdf/446159/SS8550.pdf",
+    "final_url": "https://datasheet4u.com/pdf/446159/SS8550.pdf",
+    "sha256": "ad258616218d878a74ebad0fe2e040989e6f4102aae8c271cffef8f3459210b9",
+    "pages": 6
+  },
+  {
+    "part": "S9012",
+    "category": "Transistor",
+    "function": "PNP-Bipolartransistor",
+    "package": "TO-92",
+    "pdf": "S9012_SS9012_Fairchild_Referenz.pdf",
+    "manufacturer": "Fairchild Semiconductor",
+    "assignment": "Typreferenz; Hersteller am Bauteil noch zu prüfen",
+    "note": "SS9012 in TO-92 als Typreferenz; Hersteller, Stromgrenzen und Pinbelegung des konkreten S9012 prüfen.",
+    "quantity": "offen",
+    "evidence": [
+      {
+        "pdf": "Transistoren_und_Aehnliche_3.pdf",
+        "page": 1
+      },
+      {
+        "pdf": "Transistoren_und_Aehnliche_4.pdf",
+        "page": 1
+      }
+    ],
+    "downloaded_on": "2026-10-13",
+    "url": "https://datasheet4u.com/pdf/503958/SS9012.pdf",
+    "final_url": "https://datasheet4u.com/pdf/503958/SS9012.pdf",
+    "sha256": "3936f8a718a8d87c1049ba62e6a1260dc64efa2ead42a3d3ad3c687739ed5edd",
+    "pages": 4
+  },
+  {
+    "part": "S9013",
+    "category": "Transistor",
+    "function": "NPN-Bipolartransistor",
+    "package": "TO-92",
+    "pdf": "S9013_SS9013_Fairchild_Referenz.pdf",
+    "manufacturer": "Fairchild Semiconductor",
+    "assignment": "Typreferenz; Hersteller am Bauteil noch zu prüfen",
+    "note": "SS9013 in TO-92 als Typreferenz; Hersteller, Stromgrenzen und Pinbelegung des konkreten S9013 prüfen.",
+    "quantity": "offen",
+    "evidence": [
+      {
+        "pdf": "Transistoren_und_Aehnliche_3.pdf",
+        "page": 1
+      },
+      {
+        "pdf": "Transistoren_und_Aehnliche_4.pdf",
+        "page": 1
+      }
+    ],
+    "downloaded_on": "2026-10-13",
+    "url": "https://datasheet4u.com/pdf/503957/SS9013.pdf",
+    "final_url": "https://datasheet4u.com/pdf/503957/SS9013.pdf",
+    "sha256": "0ddb645bf69c1cc1b8b4b0d7b4e1f5b982a991b9e7f76410eb8169781584e59b",
+    "pages": 4
+  },
+  {
+    "part": "S9014",
+    "category": "Transistor",
+    "function": "NPN-Bipolartransistor",
+    "package": "TO-92",
+    "pdf": "S9014_SS9014_Fairchild_Referenz.pdf",
+    "manufacturer": "Fairchild Semiconductor",
+    "assignment": "Typreferenz; Hersteller am Bauteil noch zu prüfen",
+    "note": "SS9014 in TO-92 als Typreferenz; Hersteller, Stromgrenzen und Pinbelegung des konkreten S9014 prüfen. Mehrfach in der handschriftlichen Übersicht genannt; nur ein Grundtypeintrag.",
+    "quantity": "offen",
+    "evidence": [
+      {
+        "pdf": "Transistoren_und_Aehnliche_3.pdf",
+        "page": 1
+      },
+      {
+        "pdf": "Transistoren_und_Aehnliche_4.pdf",
+        "page": 1
+      }
+    ],
+    "downloaded_on": "2026-10-13",
+    "url": "https://datasheet4u.com/pdf/503955/SS9014.pdf",
+    "final_url": "https://datasheet4u.com/pdf/503955/SS9014.pdf",
+    "sha256": "ef98e54948c604353ea17297c9475d8a5f2c70993b378482146dbfc0ae1d605c",
+    "pages": 4
+  },
+  {
+    "part": "S9015",
+    "category": "Transistor",
+    "function": "PNP-Bipolartransistor",
+    "package": "TO-92",
+    "pdf": "S9015_SS9015_Fairchild_Referenz.pdf",
+    "manufacturer": "Fairchild Semiconductor",
+    "assignment": "Typreferenz; Hersteller am Bauteil noch zu prüfen",
+    "note": "SS9015 in TO-92 als Typreferenz; Hersteller, Stromgrenzen und Pinbelegung des konkreten S9015 prüfen.",
+    "quantity": "offen",
+    "evidence": [
+      {
+        "pdf": "Transistoren_und_Aehnliche_3.pdf",
+        "page": 1
+      },
+      {
+        "pdf": "Transistoren_und_Aehnliche_4.pdf",
+        "page": 1
+      }
+    ],
+    "downloaded_on": "2026-10-13",
+    "url": "https://datasheet4u.com/pdf/503954/SS9015.pdf",
+    "final_url": "https://datasheet4u.com/pdf/503954/SS9015.pdf",
+    "sha256": "79f715faf1e583d16217acfeb4bdc5bdb25d452f128b6227c25de5e5369b10d8",
+    "pages": 4
+  },
+  {
+    "part": "S9018",
+    "category": "Transistor",
+    "function": "NPN-Bipolartransistor",
+    "package": "TO-92",
+    "pdf": "S9018_SS9018_Fairchild_Referenz.pdf",
+    "manufacturer": "Fairchild Semiconductor",
+    "assignment": "Typreferenz; Hersteller am Bauteil noch zu prüfen",
+    "note": "SS9018 in TO-92 als Typreferenz; Hersteller, Stromgrenzen und Pinbelegung des konkreten S9018 prüfen.",
+    "quantity": "offen",
+    "evidence": [
+      {
+        "pdf": "Transistoren_und_Aehnliche_3.pdf",
+        "page": 1
+      }
+    ],
+    "downloaded_on": "2026-10-13",
+    "url": "https://datasheet4u.com/pdf/503953/SS9018.pdf",
+    "final_url": "https://datasheet4u.com/pdf/503953/SS9018.pdf",
+    "sha256": "b4f8cd54ade375655f13b84ab595b349a0bf1dc604c484517ace52370cab5df1",
+    "pages": 4
+  },
+  {
+    "part": "TIP120",
+    "category": "Transistor",
+    "function": "NPN-Leistungs-Darlingtontransistor",
+    "package": "TO-220",
+    "pdf": "TIP120_121_122_ST.pdf",
+    "manufacturer": "STMicroelectronics",
+    "assignment": "Typreferenz; Hersteller am Bauteil noch zu prüfen",
+    "note": "",
+    "quantity": "offen",
+    "evidence": [
+      {
+        "pdf": "Transistoren_und_Aehnliche.pdf",
+        "page": 1
+      },
+      {
+        "pdf": "Transistoren_und_Aehnliche_1.pdf",
+        "page": 1
+      }
+    ],
+    "downloaded_on": "2026-10-13",
+    "url": "https://datasheet4u.com/pdf/1484575/TIP120.pdf",
+    "final_url": "https://datasheet4u.com/pdf/1484575/TIP120.pdf",
+    "sha256": "e726b0e3ab76c110125d8efe279b1ebb36aab3962eac17b6f2e274d2096b1f99",
+    "pages": 13
+  },
+  {
+    "part": "TIP121",
+    "category": "Transistor",
+    "function": "NPN-Leistungs-Darlingtontransistor",
+    "package": "TO-220",
+    "pdf": "TIP120_121_122_ST.pdf",
+    "manufacturer": "STMicroelectronics",
+    "assignment": "Typreferenz; Hersteller am Bauteil noch zu prüfen",
+    "note": "",
+    "quantity": "offen",
+    "evidence": [
+      {
+        "pdf": "Transistoren_und_Aehnliche.pdf",
+        "page": 1
+      },
+      {
+        "pdf": "Transistoren_und_Aehnliche_1.pdf",
+        "page": 1
+      }
+    ],
+    "downloaded_on": "2026-10-13",
+    "url": "https://datasheet4u.com/pdf/1484575/TIP120.pdf",
+    "final_url": "https://datasheet4u.com/pdf/1484575/TIP120.pdf",
+    "sha256": "e726b0e3ab76c110125d8efe279b1ebb36aab3962eac17b6f2e274d2096b1f99",
+    "pages": 13
+  },
+  {
+    "part": "TIP122",
+    "category": "Transistor",
+    "function": "NPN-Leistungs-Darlingtontransistor",
+    "package": "TO-220",
+    "pdf": "TIP120_121_122_ST.pdf",
+    "manufacturer": "STMicroelectronics",
+    "assignment": "Typreferenz; Hersteller am Bauteil noch zu prüfen",
+    "note": "",
+    "quantity": "offen",
+    "evidence": [
+      {
+        "pdf": "Transistoren_und_Aehnliche.pdf",
+        "page": 1
+      },
+      {
+        "pdf": "Transistoren_und_Aehnliche_2.pdf",
+        "page": 1
+      },
+      {
+        "pdf": "Transistoren_und_Aehnliche_1.pdf",
+        "page": 1
+      }
+    ],
+    "downloaded_on": "2026-10-13",
+    "url": "https://datasheet4u.com/pdf/1484575/TIP120.pdf",
+    "final_url": "https://datasheet4u.com/pdf/1484575/TIP120.pdf",
+    "sha256": "e726b0e3ab76c110125d8efe279b1ebb36aab3962eac17b6f2e274d2096b1f99",
+    "pages": 13
+  },
+  {
+    "part": "TIP125",
+    "category": "Transistor",
+    "function": "PNP-Leistungs-Darlingtontransistor",
+    "package": "TO-220",
+    "pdf": "TIP125_126_127_Fairchild.pdf",
+    "manufacturer": "Fairchild Semiconductor",
+    "assignment": "Typreferenz; Hersteller am Bauteil noch zu prüfen",
+    "note": "",
+    "quantity": "offen",
+    "evidence": [
+      {
+        "pdf": "Transistoren_und_Aehnliche.pdf",
+        "page": 1
+      },
+      {
+        "pdf": "Transistoren_und_Aehnliche_1.pdf",
+        "page": 1
+      }
+    ],
+    "downloaded_on": "2026-10-13",
+    "url": "https://datasheet4u.com/pdf/323279/TIP125.pdf",
+    "final_url": "https://datasheet4u.com/pdf/323279/TIP125.pdf",
+    "sha256": "522340fd973a5034c9e2f96c2653b9160cf41da598f307e4c0760a929b194c23",
+    "pages": 5
+  },
+  {
+    "part": "TIP126",
+    "category": "Transistor",
+    "function": "PNP-Leistungs-Darlingtontransistor",
+    "package": "TO-220",
+    "pdf": "TIP125_126_127_Fairchild.pdf",
+    "manufacturer": "Fairchild Semiconductor",
+    "assignment": "Typreferenz; Hersteller am Bauteil noch zu prüfen",
+    "note": "",
+    "quantity": "offen",
+    "evidence": [
+      {
+        "pdf": "Transistoren_und_Aehnliche.pdf",
+        "page": 1
+      }
+    ],
+    "downloaded_on": "2026-10-13",
+    "url": "https://datasheet4u.com/pdf/323279/TIP125.pdf",
+    "final_url": "https://datasheet4u.com/pdf/323279/TIP125.pdf",
+    "sha256": "522340fd973a5034c9e2f96c2653b9160cf41da598f307e4c0760a929b194c23",
+    "pages": 5
+  },
+  {
+    "part": "TIP127",
+    "category": "Transistor",
+    "function": "PNP-Leistungs-Darlingtontransistor",
+    "package": "TO-220",
+    "pdf": "TIP125_126_127_Fairchild.pdf",
+    "manufacturer": "Fairchild Semiconductor",
+    "assignment": "Typreferenz; Hersteller am Bauteil noch zu prüfen",
+    "note": "",
+    "quantity": "offen",
+    "evidence": [
+      {
+        "pdf": "Transistoren_und_Aehnliche.pdf",
+        "page": 1
+      },
+      {
+        "pdf": "Transistoren_und_Aehnliche_2.pdf",
+        "page": 1
+      },
+      {
+        "pdf": "Transistoren_und_Aehnliche_1.pdf",
+        "page": 1
+      }
+    ],
+    "downloaded_on": "2026-10-13",
+    "url": "https://datasheet4u.com/pdf/323279/TIP125.pdf",
+    "final_url": "https://datasheet4u.com/pdf/323279/TIP125.pdf",
+    "sha256": "522340fd973a5034c9e2f96c2653b9160cf41da598f307e4c0760a929b194c23",
+    "pages": 5
+  },
+  {
+    "part": "TIP31C",
+    "category": "Transistor",
+    "function": "NPN-Leistungstransistor",
+    "package": "TO-220",
+    "pdf": "TIP31C_GME.pdf",
+    "manufacturer": "GME",
+    "assignment": "Typreferenz; Hersteller am Bauteil noch zu prüfen",
+    "note": "TIP31C/32C/41C/42C sind keine Darlingtontransistoren, trotz Aufschrift des Kits.",
+    "quantity": "offen",
+    "evidence": [
+      {
+        "pdf": "Transistoren_und_Aehnliche.pdf",
+        "page": 1
+      },
+      {
+        "pdf": "Transistoren_und_Aehnliche_2.pdf",
+        "page": 1
+      },
+      {
+        "pdf": "Transistoren_und_Aehnliche_1.pdf",
+        "page": 1
+      }
+    ],
+    "downloaded_on": "2026-10-13",
+    "url": "https://datasheet4u.com/pdf/1259174/TIP31C.pdf",
+    "final_url": "https://datasheet4u.com/pdf/1259174/TIP31C.pdf",
+    "sha256": "7896e922020a3393358be719e6e46f8f80fe390715bb439790fc6e07ef997079",
+    "pages": 3
+  },
+  {
+    "part": "TIP32C",
+    "category": "Transistor",
+    "function": "PNP-Leistungstransistor",
+    "package": "TO-220",
+    "pdf": "TIP32C_Fairchild.pdf",
+    "manufacturer": "Fairchild Semiconductor",
+    "assignment": "Typreferenz; Hersteller am Bauteil noch zu prüfen",
+    "note": "TIP31C/32C/41C/42C sind keine Darlingtontransistoren, trotz Aufschrift des Kits.",
+    "quantity": "offen",
+    "evidence": [
+      {
+        "pdf": "Transistoren_und_Aehnliche.pdf",
+        "page": 1
+      },
+      {
+        "pdf": "Transistoren_und_Aehnliche_2.pdf",
+        "page": 1
+      }
+    ],
+    "downloaded_on": "2026-10-13",
+    "url": "https://datasheet4u.com/pdf/323535/TIP32C.pdf",
+    "final_url": "https://datasheet4u.com/pdf/323535/TIP32C.pdf",
+    "sha256": "6cb60e4a764edc53b955ffa33a5397bd752d372f0a1768c27c2c8090fb09042e",
+    "pages": 4
+  },
+  {
+    "part": "TIP41C",
+    "category": "Transistor",
+    "function": "NPN-Leistungstransistor",
+    "package": "TO-220",
+    "pdf": "TIP41C_ST.pdf",
+    "manufacturer": "STMicroelectronics",
+    "assignment": "Typreferenz; Hersteller am Bauteil noch zu prüfen",
+    "note": "TIP31C/32C/41C/42C sind keine Darlingtontransistoren, trotz Aufschrift des Kits.",
+    "quantity": "offen",
+    "evidence": [
+      {
+        "pdf": "Transistoren_und_Aehnliche.pdf",
+        "page": 1
+      },
+      {
+        "pdf": "Transistoren_und_Aehnliche_2.pdf",
+        "page": 1
+      }
+    ],
+    "downloaded_on": "2026-10-13",
+    "url": "https://datasheet4u.com/pdf/1447774/TIP41C.pdf",
+    "final_url": "https://datasheet4u.com/pdf/1447774/TIP41C.pdf",
+    "sha256": "aa85ae59926516e6c6a32831b248340077a4bfc23b96305f59a2c047278f632d",
+    "pages": 13
+  },
+  {
+    "part": "TIP42C",
+    "category": "Transistor",
+    "function": "PNP-Leistungstransistor",
+    "package": "TO-220",
+    "pdf": "TIP41C_ST.pdf",
+    "manufacturer": "STMicroelectronics",
+    "assignment": "Typreferenz; Hersteller am Bauteil noch zu prüfen",
+    "note": "TIP31C/32C/41C/42C sind keine Darlingtontransistoren, trotz Aufschrift des Kits.",
+    "quantity": "offen",
+    "evidence": [
+      {
+        "pdf": "Transistoren_und_Aehnliche.pdf",
+        "page": 1
+      },
+      {
+        "pdf": "Transistoren_und_Aehnliche_2.pdf",
+        "page": 1
+      }
+    ],
+    "downloaded_on": "2026-10-13",
+    "url": "https://datasheet4u.com/pdf/1447774/TIP41C.pdf",
+    "final_url": "https://datasheet4u.com/pdf/1447774/TIP41C.pdf",
+    "sha256": "aa85ae59926516e6c6a32831b248340077a4bfc23b96305f59a2c047278f632d",
+    "pages": 13
+  }
+]
