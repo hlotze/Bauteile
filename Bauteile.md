@@ -1,4 +1,4 @@
-# IC-Sammlung
+# Bauteil-Sammlung
 
 Lokale Dokumentation meiner ICs aus den Familien **SN74xx** und **CD4xxx** sowie **Transistoren, MOSFETs, Triacs, Spannungsreglern** und weiterer Bauteile unter **Diverse**, vorbereitet für eine spätere Veröffentlichung auf GitHub.
 
