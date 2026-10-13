@@ -2,7 +2,7 @@
 <!DOCTYPE svg
   PUBLIC '-//W3C//DTD SVG 1.0//EN'
   'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'>
-<svg width="45mm" height="55mm" preserveAspectRatio="xMinYMin meet" viewBox="0 0 127 155" xmlns="http://www.w3.org/2000/svg" version="1.0" fill-rule="evenodd" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="45mm" height="55mm" preserveAspectRatio="xMinYMin meet" viewBox="0 0 127.559055118 155.905511811" xmlns="http://www.w3.org/2000/svg" version="1.0" fill-rule="evenodd" xmlns:xlink="http://www.w3.org/1999/xlink">
 	<title>...</title>
 	<desc>...</desc>
 	<clipPath id="clip">
@@ -10,15 +10,16 @@
 	</clipPath>
 	<g id="group" transform="scale(1,-1) translate(0,-155)" style="clip-path: url(#clip)">
 		<g transform="">
-			<rect x="0.7086614173228347" y="0.7086614173228347" width="126.14173228346458" height="154.48818897637796" style="stroke: rgb(72%,76%,80%); stroke-linecap: butt; stroke-width: 0.2834645669291339; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
-			<text x="38.76952755905513" y="146.2677165354331" style="font-family: Helvetica-Bold; font-size: 10px;fill: rgb(7%,12%,16%); stroke:none;" transform="translate(0,292) scale(1,-1)">LH6764-20</text>
-			<text x="48.273327559055126" y="3.1181102362204767" style="font-family: Helvetica-Bold; font-size: 6.2px;fill: rgb(7%,12%,16%); stroke:none;" transform="translate(0,6) scale(1,-1)">LH6764-20</text>
-			<rect x="8.503937007874017" y="39.68503937007874" width="110.55118110236222" height="87.87401574803151" style="stroke: rgb(68%,39%,7%); stroke-linecap: butt; stroke-width: 0.5669291338582678; fill: rgb(100%,94%,86%); fill-rule: evenodd;"/>
-			<text x="23.115527559055124" y="107.71653543307087" style="font-family: Helvetica-Bold; font-size: 8px;fill: rgb(68%,39%,7%); stroke:none;" transform="translate(0,215) scale(1,-1)">ZUORDNUNG OFFEN</text>
-			<text x="32.30202755905513" y="87.87401574803151" style="font-family: Helvetica; font-size: 7.5px;fill: rgb(7%,12%,16%); stroke:none;" transform="translate(0,175) scale(1,-1)">Keine Pinbelegung</text>
-			<text x="14.068877559055124" y="73.70078740157481" style="font-family: Helvetica; font-size: 6.7px;fill: rgb(7%,12%,16%); stroke:none;" transform="translate(0,147) scale(1,-1)">Nicht zum Verdrahten verwenden</text>
-			<text x="36.10152755905512" y="56.69291338582678" style="font-family: Helvetica; font-size: 6px;fill: rgb(39%,44%,47%); stroke:none;" transform="translate(0,113) scale(1,-1)">Herstellerdatenblatt /</text>
-			<text x="32.426527559055124" y="48.18897637795276" style="font-family: Helvetica; font-size: 6px;fill: rgb(39%,44%,47%); stroke:none;" transform="translate(0,96) scale(1,-1)">genaue Funktion fehlen</text>
+			<rect x="0.7086614173228347" y="0.7086614173228347" width="126.14173228346458" height="154.48818897637796" style="stroke: rgb(9%,27%,17%); stroke-linecap: butt; stroke-width: 0.8503937007874016; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="9.05582109793393" y="146.9763779527559" style="font-family: Helvetica-Bold; font-size: 8.170156234864317px;fill: rgb(9%,27%,17%); stroke:none;" transform="translate(0,293) scale(1,-1)">LH6764-20</text>
+			<text x="52.19424601801753" y="146.9763779527559" style="font-family: Helvetica; font-size: 8.170156234864317px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,293) scale(1,-1)">Identifikation offen</text>
+			<rect x="8.503937007874017" y="45.35433070866142" width="110.55118110236222" height="79.37007874015748" style="stroke: rgb(68%,39%,7%); stroke-linecap: butt; stroke-width: 0.651968503937008; fill: rgb(100%,94%,86%); fill-rule: evenodd;"/>
+			<text x="23.115527559055124" y="104.88188976377954" style="font-family: Helvetica-Bold; font-size: 8px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,209) scale(1,-1)">ZUORDNUNG OFFEN</text>
+			<text x="18.005127559055126" y="85.03937007874016" style="font-family: Helvetica; font-size: 6.1px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,170) scale(1,-1)">Keine dokumentierte Pinbelegung</text>
+			<text x="18.520577559055127" y="65.1968503937008" style="font-family: Helvetica; font-size: 6.1px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,130) scale(1,-1)">Nicht zum Verdrahten verwenden</text>
+			<text x="20.24252755905513" y="10.77165354330708" style="font-family: Helvetica-Bold; font-size: 6.5px;fill: rgb(9%,27%,17%); stroke:none;" transform="translate(0,21) scale(1,-1)">LH6764-20</text>
+			<text x="54.562527559055134" y="10.77165354330708" style="font-family: Helvetica; font-size: 6.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,21) scale(1,-1)">Identifikation offen</text>
+			<text x="28.74672755905513" y="3.8267716535433114" style="font-family: Helvetica; font-size: 4.8px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,7) scale(1,-1)">Draufsicht | Überstrich: aktiv Low</text>
 		</g>
 	</g>
 </svg>

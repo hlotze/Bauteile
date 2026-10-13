@@ -1,5 +1,6 @@
 from pathlib import Path
 import json,re,math,textwrap,hashlib,sys,subprocess
+import argparse,base64
 from collections import defaultdict,Counter
 from reportlab.graphics.shapes import Drawing,Group,Rect,Circle,Line,String,Polygon,Path as GPath
 from reportlab.graphics import renderPDF,renderSVG
@@ -7,6 +8,9 @@ from reportlab.pdfgen import canvas
 from reportlab.pdfbase.pdfmetrics import stringWidth
 from reportlab.lib import colors
 sys.path.insert(0,str(Path(__file__).parent));from maps import MANUAL,UNRESOLVED
+from cd_cards import draw_cd
+from diverse_cards import draw_diverse
+from sn_cards import draw_sn
 MM=72/25.4;W=45*MM;H=55*MM;ROOT=Path(__file__).resolve().parents[2]
 rows=json.loads((Path(__file__).parent/'inventar.json').read_text())
 BLACK=colors.HexColor('#14212b');BLUE=colors.HexColor('#12649b');RED=colors.HexColor('#a52c31');GREY=colors.HexColor('#64717a')
@@ -55,7 +59,7 @@ for r in rows:
   r['pins']=sorted(pins,key=lambda p:p['number'])
   r['sources']=[dict(file='scripts/kaertchen/'+r['library'],symbol=r['symbol'])]
   if key in primary:r['sources'].append(dict(file=primary[key]))
-  if 'HC' in str(r['symbol']) and 'LS' in key:r['reference']=key.replace('N','')+' (Pinref. '+r['symbol']+')'
+  if 'HC' in str(r['symbol']) and 'LS' in key:r['reference']=re.sub(r'N$','',key)+' (Pinref. '+r['symbol']+')'
  if not r['pins'] and key not in UNRESOLVED:raise RuntimeError('Ohne Pinquelle: '+key)
  if r['pins']:
   r['pin_count']=len(r['pins']);assert {p['number'] for p in r['pins']}==set(range(1,r['pin_count']+1)),key
@@ -70,6 +74,9 @@ for r in rows:
  r['svg']=f"images/{r['category']}/{key}_karte_45x55mm.svg";r['pdf']=r['svg'].replace('.svg','.pdf')
 
 def draw(r):
+ if r['category']=='CD4xxx':return draw_cd(r)
+ if r['category']=='Diverse':return draw_diverse(r)
+ if r['category']=='SN7xxx':return draw_sn(r)
  d=Drawing(W,H)
  def rect(x,y,w,h,fill=None,stroke=BLACK,width=.2):d.add(Rect(x*MM,(55-y-h)*MM,w*MM,h*MM,fillColor=fill,strokeColor=stroke,strokeWidth=width*MM))
  def line(x,y,x2,y2,c=BLACK,width=.18):d.add(Line(x*MM,(55-y)*MM,x2*MM,(55-y2)*MM,strokeColor=c,strokeWidth=width*MM))
@@ -159,13 +166,33 @@ def draw_block_replacement(d,r,gate):
  return d
 
 if __name__=='__main__':
+ parser=argparse.ArgumentParser(description='Experimentierkarten und A4-Druckbogen erstellen')
+ parser.add_argument('--category',help='Nur Einzelkarten dieser Kategorie neu schreiben; A4 enthält weiterhin alle Karten')
+ args=parser.parse_args()
+ existing={r['key']:r for r in json.loads((ROOT/'images/karten.json').read_text())} if (ROOT/'images/karten.json').exists() else {}
  for r in rows:
+  if r['pins']:r['first_pin_y_mm']=6.4
+  r['png']=r['svg'].replace('.svg','.png')
+  if args.category and r['category']!=args.category:
+   if r['key'] in existing:r.update(existing[r['key']])
+   r['sha256_svg']=hashlib.sha256((ROOT/r['svg']).read_bytes()).hexdigest()
+   continue
   d=draw(r);p=ROOT/r['svg'];p.parent.mkdir(parents=True,exist_ok=True)
   svg=renderSVG.drawToString(d)
+  # ReportLab links raster diagrams by filename. Embed them so each SVG is
+  # self-contained and can be moved or opened outside the repository.
+  def embed_image(match):
+   if match.group(2).startswith('data:'):return match.group(0)
+   path=Path(match.group(2))
+   if path.is_file():
+    data=base64.b64encode(path.read_bytes()).decode('ascii')
+    return match.group(1)+'data:image/png;base64,'+data+match.group(3)
+   return match.group(0)
+  svg=re.sub(r'((?:xlink:)?href=")([^"]+)(")',embed_image,svg)
   svg=re.sub(r'<svg\s+', '<svg ',svg,count=1)
   svg=re.sub(r'width="[^"]+"', 'width="45mm"',svg,count=1);svg=re.sub(r'height="[^"]+"','height="55mm"',svg,count=1)
+  svg=re.sub(r'viewBox="[^"]+"',f'viewBox="0 0 {W:.9f} {H:.9f}"',svg,count=1)
   p.write_text(svg);renderPDF.drawToFile(d,str(ROOT/r['pdf']))
-  r['png']=r['svg'].replace('.svg','.png')
   subprocess.run(['pdftoppm','-singlefile','-r','300','-png',str(ROOT/r['pdf']),str((ROOT/r['png']).with_suffix(''))],check=True,stdout=subprocess.DEVNULL,stderr=subprocess.PIPE)
   from PIL import Image
   im=Image.open(ROOT/r['png']);im.save(ROOT/r['png'],dpi=(300,300))

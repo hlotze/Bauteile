@@ -1,0 +1,87 @@
+{
+  "COM8126": {
+    "file": "Datenblaetter/Diverse/COM8126_SMC_Datenbuchauszug.pdf",
+    "page": 1,
+    "figure": "BLOCK DIAGRAM",
+    "sha256_pdf": "5174ca9a153456947785a20f05f52079490473149b978519ec246395ca50cf07",
+    "crop_pixels_300dpi": [
+      159,
+      1430,
+      1790,
+      2255
+    ],
+    "image": "COM8126.png"
+  },
+  "MAX250CPD": {
+    "file": "Datenblaetter/Diverse/MAX250_MAX251_Maxim.pdf",
+    "page": 7,
+    "figure": "Figure 1. MAX250 Block Diagram",
+    "sha256_pdf": "e3dc07494af705ebb8cea8f84a02a71144850ae59395c0819eaf8172bafd6f3a",
+    "crop_pixels_300dpi": [
+      264,
+      586,
+      1191,
+      1626
+    ],
+    "image": "MAX250CPD.png"
+  },
+  "MAX7219CNG": {
+    "file": "Datenblaetter/Diverse/MAX7219_Maxim.pdf",
+    "page": 5,
+    "figure": "Functional Diagram",
+    "sha256_pdf": "7585bd4469c4355ea7e7d7193710605f2ab96afa14491c377420d057f9c8d5eb",
+    "crop_pixels_300dpi": [
+      475,
+      1964,
+      2088,
+      2957
+    ],
+    "image": "MAX7219CNG.png"
+  },
+  "NE555": {
+    "file": "Datenblaetter/Diverse/NE555_TI.pdf",
+    "page": 10,
+    "figure": "Figure 6-1. Simplified Schematic",
+    "sha256_pdf": "a3756e59fd06d0ba736edf9ffe71d99d2aae33fb7e49fedc86165a241179f4a6",
+    "crop_pixels_300dpi": [
+      541,
+      747,
+      2004,
+      1666
+    ],
+    "image": "NE555.png"
+  },
+  "PCF8574N": {
+    "file": "Datenblaetter/Diverse/PCF8574_TI_Referenz.pdf",
+    "page": 12,
+    "figure": "Figure 7-1. Simplified Block Diagram",
+    "sha256_pdf": "bc9562c2edc206bd99f299523e853e2161b1287751978db1888cf8d08bdccc96",
+    "crop_pixels_300dpi": [
+      301,
+      1666,
+      2307,
+      2817
+    ],
+    "image": "PCF8574N.png",
+    "detail_image": "PCF8574N_GPIO.png",
+    "detail_crop_pixels_300dpi": [
+      1750,
+      1869,
+      2310,
+      2537
+    ]
+  },
+  "UA78S40PC": {
+    "file": "Datenblaetter/Diverse/UA78S40_onsemi_Referenz.pdf",
+    "page": 1,
+    "figure": "Figure 1. Simplified Block Diagram",
+    "sha256_pdf": "b43b356e01a451c3167f87d8d22f64e280b90a1f7dd9a55bd06c867e73fcaf1b",
+    "crop_pixels_300dpi": [
+      248,
+      1870,
+      1403,
+      2853
+    ],
+    "image": "UA78S40PC.png"
+  }
+}

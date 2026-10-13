@@ -2,7 +2,13 @@
 
 [Alle Karten als A4-Druckbogen](IC_Karten_A4.pdf) – **100 % / tatsächliche Größe**, keine Seitenanpassung. Einzel-PDFs und SVGs haben exakt 45 × 55 mm; PNGs dienen der Vorschau (300 dpi).
 
-Pin 1 liegt oben links. Links steigen die Pinnummern nach unten, rechts nach oben, wie an den Anschlüssen deines Boards. Abstand: **5,08 mm**, beim **MAX7219 mit 24 Pins 2,54 mm**. Die erste Pinmitte liegt 6,4 mm unter der Kartenoberkante; das Kärtchen entsprechend zu den Anschlüssen ausrichten. Versorgung ist rot, Masse hellblau und Ausgänge blau markiert. `/` vor einem Signal bedeutet aktiv Low; NC bleibt unbeschaltet.
+Pin 1 liegt oben links. Links steigen die Pinnummern nach unten, rechts nach oben, wie an den Anschlüssen deines Boards. Abstand: **5,08 mm**, beim **MAX7219 mit 24 Pins 2,54 mm**. Die erste Pinmitte liegt 6,4 mm unter der Kartenoberkante; das Kärtchen entsprechend zu den Anschlüssen ausrichten. Versorgung ist rot, Masse hellblau und Ausgänge blau markiert. `/` vor einem Signal bedeutet aktiv Low; bei CD4xxx, Diverse und SN7xxx wird dafür ein **Überstrich** verwendet. NC bleibt unbeschaltet.
+
+Alle **56 CD4xxx-Karten** folgen den alten Vorlagen aus „PNG Kopie“: Die Funktion steht direkt hinter der Typbezeichnung, Gatter sind mit ihren Anschlüssen verdrahtet, und vorhandene interne Logikskizzen sowie Zeitdiagramme sind übernommen. Für Typen ohne alte Vorlage gibt es eine Darstellung im gleichen Stil. Die Karten wiederholen Typ und Funktion unten. Die übernommenen Blockschaltbilder sind auch in den SVGs eingebettet.
+
+Die **19 Karten in Diverse** verwenden denselben Stil mit verdrahteten Verstärker-, Komparator-, Optokoppler- und Treibersymbolen. Komplexere Bausteine enthalten zugeschnittene Schaltbilder aus den lokalen Datenblättern, ergänzt um lesbare Funktionsblöcke und Pinzuordnungen. Die Bildausschnitte sind in SVG und PDF eingebettet. **LH6764-20** bleibt eine Identifikationskarte. Beim **LM311** zeigt `E-OUT` den separat herausgeführten Ausgangsemitter an Pin 1.
+
+Die **83 Karten in SN7xxx** verwenden ebenfalls diesen Stil: Typ und Funktion im Titel, verdrahtete Gatter und Treiber sowie Flipflops mit DIP-Pinzuordnung. Decoder, Zähler und Schieberegister enthalten passende Herstellerdiagramme oder Funktionsblöcke mit Signalanschlüssen. Die Diagramme sind in SVG und PDF eingebettet; bei 20 Pins bleibt der Fuß kompakt zwischen den Pinreihen.
 
 Die Karten nennen die verwendete Pinreferenz. Bei Grundnummern und ungeklärten Familien ist diese eine dokumentierte Referenzvariante; die tatsächliche IC-Variante muss dazu passen. Vollständige Kennwerte stehen in den Datenblättern. **LH6764-20** erhält ausschließlich eine Identifikationskarte, weil eine belastbare Pinbelegung fehlt. **CD4513 / MC14513B hat 18 Pins**.
 

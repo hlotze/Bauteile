@@ -1,0 +1,552 @@
+{
+  "CD4001": {
+    "original": "images/PNG Kopie/4001.png",
+    "sha256_original": "ff4eddc72f4a55f680153274446dfb42be2c11405649b509e1f1d5952c9a7eeb",
+    "diagrams": []
+  },
+  "CD4011": {
+    "original": "images/PNG Kopie/4011.png",
+    "sha256_original": "311c33474a5ac57aca08931853838ae1d475aecc250f9cd5c5e860ebc517a7e4",
+    "diagrams": []
+  },
+  "CD4013": {
+    "original": "images/PNG Kopie/4013.png",
+    "sha256_original": "8d827d70c52cde3a7b3a2d52a480d26cd670bdb808b7febe618dbead97308a30",
+    "diagrams": []
+  },
+  "CD4015": {
+    "original": "images/PNG Kopie/4015.png",
+    "sha256_original": "84fb2817005d7e17a5255bd778a6b818851c02b8e63d0c81bc5787b238c06874",
+    "diagrams": [
+      {
+        "file": "CD4015_1.png",
+        "crop": [
+          227,
+          132,
+          466,
+          508
+        ]
+      },
+      {
+        "file": "CD4015_2.png",
+        "crop": [
+          150,
+          514,
+          496,
+          674
+        ]
+      }
+    ]
+  },
+  "CD4016": {
+    "original": "images/PNG Kopie/4016.png",
+    "sha256_original": "8588aca6afac64bf0dcb78bffd7ae23db3f6864167dfe45369e451374b2a922c",
+    "diagrams": [
+      {
+        "file": "CD4016_1.png",
+        "crop": [
+          171,
+          510,
+          435,
+          672
+        ]
+      }
+    ]
+  },
+  "CD4017": {
+    "original": "images/PNG Kopie/4017.png",
+    "sha256_original": "5652d3ce147c7928648d9071e3850cafe7934606696950b0ce219268a8a0dcd8",
+    "diagrams": [
+      {
+        "file": "CD4017_1.png",
+        "crop": [
+          167,
+          147,
+          426,
+          492
+        ]
+      },
+      {
+        "file": "CD4017_2.png",
+        "crop": [
+          235,
+          500,
+          463,
+          674
+        ]
+      }
+    ]
+  },
+  "CD4021": {
+    "original": "images/PNG Kopie/4021.png",
+    "sha256_original": "021cc2a463e8d6f9ab471daf6cee0a32edd7fb5d8e03dba880c05cc49b48480c",
+    "diagrams": [
+      {
+        "file": "CD4021_1.png",
+        "crop": [
+          197,
+          149,
+          466,
+          529
+        ]
+      },
+      {
+        "file": "CD4021_2.png",
+        "crop": [
+          201,
+          543,
+          415,
+          674
+        ]
+      }
+    ]
+  },
+  "CD4022": {
+    "original": "images/PNG Kopie/4022.png",
+    "sha256_original": "a293c6e6da30e1f0e1d9de40f1b97000fa6e6b9b329c895a7f9a66511d14762f",
+    "diagrams": [
+      {
+        "file": "CD4022_1.png",
+        "crop": [
+          167,
+          147,
+          427,
+          429
+        ]
+      },
+      {
+        "file": "CD4022_2.png",
+        "crop": [
+          186,
+          481,
+          512,
+          656
+        ]
+      }
+    ]
+  },
+  "CD4023": {
+    "original": "images/PNG Kopie/4023.png",
+    "sha256_original": "4ff13aa887cbc7e7b4f426b93d92a1696f199e6ebfd635e9ac924daff88d2ddf",
+    "diagrams": []
+  },
+  "CD4024": {
+    "original": "images/PNG Kopie/4024.png",
+    "sha256_original": "8062013e0630d3ab56b765d28955382f0896c597154f08f67d7d1bfb01ae0406",
+    "diagrams": [
+      {
+        "file": "CD4024_1.png",
+        "crop": [
+          178,
+          153,
+          510,
+          590
+        ]
+      }
+    ]
+  },
+  "CD4025": {
+    "original": "images/PNG Kopie/4025.png",
+    "sha256_original": "0323656444309fc1f3338a6e7f359b5095707f9033644a2a0af88bbc7af672b2",
+    "diagrams": []
+  },
+  "CD4026": {
+    "original": "images/PNG Kopie/4026.png",
+    "sha256_original": "7aa93d1976c8d77e592a4516750959199c088d5fcca0a3795fd578ad9a6c79bd",
+    "diagrams": [
+      {
+        "file": "CD4026_1.png",
+        "crop": [
+          224,
+          240,
+          474,
+          641
+        ]
+      }
+    ]
+  },
+  "CD4027": {
+    "original": "images/PNG Kopie/4027.png",
+    "sha256_original": "495001fa52fb229a76061b32e2021406ca2d2632fcc29f536a21f14c255c5aea",
+    "diagrams": [
+      {
+        "file": "CD4027_1.png",
+        "crop": [
+          182,
+          132,
+          502,
+          659
+        ]
+      }
+    ]
+  },
+  "CD4028": {
+    "original": "images/PNG Kopie/4028.png",
+    "sha256_original": "862556aa8a5cba7ccdb9535741fe25e78b7c0a504792704f40427daf65cda61f",
+    "diagrams": [
+      {
+        "file": "CD4028_1.png",
+        "crop": [
+          158,
+          190,
+          535,
+          626
+        ]
+      }
+    ]
+  },
+  "CD4029": {
+    "original": "images/PNG Kopie/4029.png",
+    "sha256_original": "8ff89a46ff511d8ac75b8c1f4eb99357102c525ffdd9bd3c0dd5cfbd7957063c",
+    "diagrams": [
+      {
+        "file": "CD4029_1.png",
+        "crop": [
+          216,
+          176,
+          501,
+          496
+        ]
+      },
+      {
+        "file": "CD4029_2.png",
+        "crop": [
+          197,
+          525,
+          431,
+          674
+        ]
+      }
+    ]
+  },
+  "CD4033": {
+    "original": "images/PNG Kopie/4033.png",
+    "sha256_original": "4dc4e706fc38926b90519e92b2364a042357529676e9699b806b1a6a04e19507",
+    "diagrams": [
+      {
+        "file": "CD4033_1.png",
+        "crop": [
+          237,
+          208,
+          505,
+          630
+        ]
+      }
+    ]
+  },
+  "CD4042": {
+    "original": "images/PNG Kopie/4042.png",
+    "sha256_original": "3227d76e5eda3134afa1b36c37a5a785841a32fdb41ad461bfec1c000522138f",
+    "diagrams": [
+      {
+        "file": "CD4042_1.png",
+        "crop": [
+          182,
+          151,
+          506,
+          557
+        ]
+      }
+    ]
+  },
+  "CD4043": {
+    "original": "images/PNG Kopie/4043.png",
+    "sha256_original": "58ab1424379db22593b4dff7ec71205fc3081ea2197700277b5cd99617fd9711",
+    "diagrams": [
+      {
+        "file": "CD4043_1.png",
+        "crop": [
+          172,
+          132,
+          496,
+          673
+        ]
+      }
+    ]
+  },
+  "CD4046": {
+    "original": "images/PNG Kopie/4046.png",
+    "sha256_original": "7caad538d29090ec966c8a82c7ca3dc10f6bf15673f25ec004937cbff9c54c25",
+    "diagrams": []
+  },
+  "CD4047": {
+    "original": "images/PNG Kopie/4047.png",
+    "sha256_original": "6969d48de7c866919c067266ddd4e5e3832cb47d0ee74d4b240923e5c47dfbc9",
+    "diagrams": []
+  },
+  "CD4049": {
+    "original": "images/PNG Kopie/4049.png",
+    "sha256_original": "60bb9b6b0912bd2d0ee65c2a4c215c58688be40a0d907a2c1fed19856834fa69",
+    "diagrams": []
+  },
+  "CD4050": {
+    "original": "images/PNG Kopie/4050.png",
+    "sha256_original": "99942e8f4fe82c623b4527202cb8922c734245a91eee0c4747299bf51d0d5946",
+    "diagrams": [
+      {
+        "file": "CD4050_1.png",
+        "crop": [
+          233,
+          505,
+          397,
+          662
+        ]
+      }
+    ]
+  },
+  "CD4051": {
+    "original": "images/PNG Kopie/4051.png",
+    "sha256_original": "b91b1bf13e32958983bc9dbdf991d922e8bc890d40130ed1bc518b4f94611984",
+    "diagrams": [
+      {
+        "file": "CD4051_1.png",
+        "crop": [
+          193,
+          388,
+          528,
+          675
+        ]
+      }
+    ]
+  },
+  "CD4053": {
+    "original": "images/PNG Kopie/4053.png",
+    "sha256_original": "6ef48ebb80c5861496629b5f4c7c5a8bef3e1298e9b02ff6c08fab8e00bd4fa2",
+    "diagrams": [
+      {
+        "file": "CD4053_1.png",
+        "crop": [
+          244,
+          381,
+          510,
+          654
+        ]
+      }
+    ]
+  },
+  "CD4060": {
+    "original": "images/PNG Kopie/4060.png",
+    "sha256_original": "386bc0700730cb20c08280124b884c326c4e38498ec405eb37c91eee6a06ce08",
+    "diagrams": [
+      {
+        "file": "CD4060_1.png",
+        "crop": [
+          177,
+          173,
+          502,
+          542
+        ]
+      }
+    ]
+  },
+  "CD4063": {
+    "original": "images/PNG Kopie/4063.png",
+    "sha256_original": "d8f07c8520676d5af537e4ddc20d559bbcadfc4e4c3abbe9c2d97fce8edbae1c",
+    "diagrams": [
+      {
+        "file": "CD4063_1.png",
+        "crop": [
+          236,
+          156,
+          480,
+          653
+        ]
+      }
+    ]
+  },
+  "CD4066": {
+    "original": "images/PNG Kopie/4066.png",
+    "sha256_original": "b65d9162241cf1ce665ae2712453d76a2cbe0a8bedef4ed945950441e7bc1b03",
+    "diagrams": [
+      {
+        "file": "CD4066_1.png",
+        "crop": [
+          214,
+          218,
+          492,
+          646
+        ]
+      }
+    ]
+  },
+  "CD4069": {
+    "original": "images/PNG Kopie/4069.png",
+    "sha256_original": "cfb01db02f7e7c38e41b6589c819ae89564dfde8a76af75b2df404fe88451b81",
+    "diagrams": []
+  },
+  "CD4070": {
+    "original": "images/PNG Kopie/4070.png",
+    "sha256_original": "dc7c5d732e4a663bf8c3cf16f378b221a2dbcc5250a8f824b6f8040f1844d805",
+    "diagrams": []
+  },
+  "CD4071": {
+    "original": "images/PNG Kopie/4071.png",
+    "sha256_original": "9c455e2beb04860834b0631d95083d055db42671336a45741fabe9a06a978855",
+    "diagrams": []
+  },
+  "CD4072": {
+    "original": "images/PNG Kopie/4072.png",
+    "sha256_original": "a6a00f419fd67ad15f20e4d375a9270f6950fa5a8203e77b744d3b5f0a27e0ce",
+    "diagrams": []
+  },
+  "CD4073": {
+    "original": "images/PNG Kopie/4073.png",
+    "sha256_original": "7032bee32a8fa77bfa811e3c1daefa620920ff3ddf8ce109218b8b605fd4db18",
+    "diagrams": []
+  },
+  "CD4075": {
+    "original": "images/PNG Kopie/4075.png",
+    "sha256_original": "dbf9a108ab819593e2bc53c9c139ab311b0c5f6ded1ef754c55d7fcf0d20a4a7",
+    "diagrams": []
+  },
+  "CD4077": {
+    "original": "images/PNG Kopie/4077.png",
+    "sha256_original": "7c2f36ff232aa4cf3aa088911d0f102b9a1823d8c68315657402d4e4f94d8df5",
+    "diagrams": []
+  },
+  "CD4081": {
+    "original": "images/PNG Kopie/4081.png",
+    "sha256_original": "600806ff5e730d39b6898bfdd24eb8cd26cc0b6893d3afb65379b4eed115b4f6",
+    "diagrams": []
+  },
+  "CD4082": {
+    "original": "images/PNG Kopie/4082.png",
+    "sha256_original": "0109bcf4f153efa2283665f2edf8cd4dc9d18a28755199ea670970f7efed048f",
+    "diagrams": []
+  },
+  "CD4093": {
+    "original": "images/PNG Kopie/4093.png",
+    "sha256_original": "8b46086f9eff97333ddeb8e7fae09cf156b2d3b574c2c72e64c7d8b11683b7c7",
+    "diagrams": []
+  },
+  "CD4094": {
+    "original": "images/PNG Kopie/4094.png",
+    "sha256_original": "62d94e175a6b3c0af2451a4ac144a257f0217905e509f8eccef83663bb755d30",
+    "diagrams": [
+      {
+        "file": "CD4094_1.png",
+        "crop": [
+          194,
+          238,
+          508,
+          674
+        ]
+      }
+    ]
+  },
+  "CD4503": {
+    "original": "images/PNG Kopie/4503.png",
+    "sha256_original": "a29d54b1a038fa188281254c9b1c1daed3ee8e2b8468c2e11e5ec41da353ab51",
+    "diagrams": [
+      {
+        "file": "CD4503_1.png",
+        "crop": [
+          178,
+          230,
+          534,
+          665
+        ]
+      }
+    ]
+  },
+  "CD4511": {
+    "original": "images/PNG Kopie/4511.png",
+    "sha256_original": "cc8d7031a6da5400de758d4ddf470d894161d52d1de002cc97173bd44ec60766",
+    "diagrams": [
+      {
+        "file": "CD4511_1.png",
+        "crop": [
+          187,
+          131,
+          511,
+          552
+        ]
+      }
+    ]
+  },
+  "CD4518": {
+    "original": "images/PNG Kopie/4518.png",
+    "sha256_original": "e3f93d5c3f472da7a7c00e8a3da49e64fc469c8961866df5ff8e85258331ee7d",
+    "diagrams": [
+      {
+        "file": "CD4518_1.png",
+        "crop": [
+          194,
+          362,
+          505,
+          661
+        ]
+      }
+    ]
+  },
+  "CD4520": {
+    "original": "images/PNG Kopie/4520.png",
+    "sha256_original": "2e6dd0050d011fdb473d861ba475b9b07e2192425e21b504f2e1680e5bd5277b",
+    "diagrams": [
+      {
+        "file": "CD4520_1.png",
+        "crop": [
+          194,
+          362,
+          505,
+          660
+        ]
+      }
+    ]
+  },
+  "CD4541": {
+    "original": "images/PNG Kopie/4541.png",
+    "sha256_original": "4d5ca15489d403f1e93379dfa7b4ccf3d7eb16ac1310074c651aef21121011fc",
+    "diagrams": [
+      {
+        "file": "CD4541_1.png",
+        "crop": [
+          154,
+          352,
+          569,
+          641
+        ]
+      }
+    ]
+  },
+  "CD4543": {
+    "original": "images/PNG Kopie/4543.png",
+    "sha256_original": "cd93a8ca8804faa2e7c903c1da7a5418ec679bbba14e1ac332409350fcdb8b27",
+    "diagrams": [
+      {
+        "file": "CD4543_1.png",
+        "crop": [
+          222,
+          165,
+          494,
+          647
+        ]
+      }
+    ]
+  },
+  "CD4553": {
+    "original": "images/PNG Kopie/4553.png",
+    "sha256_original": "e9a79ce70c73e6ea7b886f8ea162ad46ad3f08cd0f5c42a1399796a00fb7a217",
+    "diagrams": [
+      {
+        "file": "CD4553_1.png",
+        "crop": [
+          163,
+          218,
+          517,
+          637
+        ]
+      }
+    ]
+  },
+  "CD74HCT08": {
+    "original": "images/PNG Kopie/74HCT08.png",
+    "sha256_original": "3985accae8363d0357d8a80f9e02c48b5948123a1c8d296bbc337211998321a4",
+    "diagrams": []
+  },
+  "CD74LS02": {
+    "original": "images/PNG Kopie/74LS02.png",
+    "sha256_original": "5cfaaf93d6d746750824128846c8596c905b3e68cc3399b8087f4f22ff0407fc",
+    "diagrams": []
+  }
+}

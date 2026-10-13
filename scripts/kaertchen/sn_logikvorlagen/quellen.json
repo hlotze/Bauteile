@@ -1,0 +1,379 @@
+{
+  "SN74LS42N": {
+    "file": "Datenblaetter/SN7xxx/SN74LS42N_TI.pdf",
+    "page": 2,
+    "figure": "Logic symbol / logic diagram, passende Bausteinvariante",
+    "sha256_pdf": "122d9f9280abbbe3ae316d15e239b6584e7c9505da1747a17b6496048a6d6c6a",
+    "crop_pixels_300dpi": [
+      906,
+      420,
+      1536,
+      1158
+    ],
+    "image": "SN74LS42N.png"
+  },
+  "SN74LS47N": {
+    "file": "Datenblaetter/SN7xxx/SN74LS47N_TI.pdf",
+    "page": 2,
+    "figure": "Logic symbol / logic diagram, passende Bausteinvariante",
+    "sha256_pdf": "8f8497047bd80a5eafb9ad301eeedb972460c7a872f3c7ed9c5fd2340bcf788b",
+    "crop_pixels_300dpi": [
+      273,
+      1545,
+      1092,
+      2205
+    ],
+    "image": "SN74LS47N.png"
+  },
+  "SN74LS48N": {
+    "file": "Datenblaetter/SN7xxx/SN74LS48N_TI.pdf",
+    "page": 2,
+    "figure": "Logic symbol / logic diagram, passende Bausteinvariante",
+    "sha256_pdf": "8f8497047bd80a5eafb9ad301eeedb972460c7a872f3c7ed9c5fd2340bcf788b",
+    "crop_pixels_300dpi": [
+      1431,
+      1545,
+      2250,
+      2205
+    ],
+    "image": "SN74LS48N.png"
+  },
+  "SN74LS51N": {
+    "file": "Datenblaetter/SN7xxx/SN74LS51N_TI.pdf",
+    "page": 1,
+    "figure": "Logic symbol / logic diagram, passende Bausteinvariante",
+    "sha256_pdf": "8dae26aa17b15caa7f00433b948817a4c50d352db3578eb0b11d0135d1a4fc53",
+    "crop_pixels_300dpi": [
+      435,
+      2256,
+      1167,
+      2901
+    ],
+    "image": "SN74LS51N.png"
+  },
+  "SN74LS54N": {
+    "file": "Datenblaetter/SN7xxx/SN74LS54N_TI.pdf",
+    "page": 1,
+    "figure": "Logic symbol / logic diagram, passende Bausteinvariante",
+    "sha256_pdf": "a8197bdc691dd1e58a43f5216933371ff1e67970ec2ca8dea26e9cf7d1c64191",
+    "crop_pixels_300dpi": [
+      480,
+      2193,
+      1137,
+      2775
+    ],
+    "image": "SN74LS54N.png"
+  },
+  "SN74LS55N": {
+    "file": "Datenblaetter/SN7xxx/SN74LS55N_Motorola.pdf",
+    "page": 1,
+    "figure": "Logic symbol / logic diagram, passende Bausteinvariante",
+    "sha256_pdf": "84d97e86076c12573696f83616755bda1d969795617ad74d67011d5eb4129daa",
+    "crop_pixels_300dpi": [
+      504,
+      852,
+      1230,
+      1350
+    ],
+    "image": "SN74LS55N.png"
+  },
+  "SN74LS90N": {
+    "file": "Datenblaetter/SN7xxx/SN74LS90N_TI.pdf",
+    "page": 2,
+    "figure": "Logic symbol / logic diagram, passende Bausteinvariante",
+    "sha256_pdf": "43d2e13b0f0e6ce235dbd25bfc460613a6e62a0bc83eb7ba33ce5a9dda564059",
+    "crop_pixels_300dpi": [
+      174,
+      480,
+      831,
+      1161
+    ],
+    "image": "SN74LS90N.png"
+  },
+  "SN74LS92N": {
+    "file": "Datenblaetter/SN7xxx/SN74LS92N_TI.pdf",
+    "page": 2,
+    "figure": "Logic symbol / logic diagram, passende Bausteinvariante",
+    "sha256_pdf": "43d2e13b0f0e6ce235dbd25bfc460613a6e62a0bc83eb7ba33ce5a9dda564059",
+    "crop_pixels_300dpi": [
+      879,
+      480,
+      1557,
+      990
+    ],
+    "image": "SN74LS92N.png"
+  },
+  "SN74LS93N": {
+    "file": "Datenblaetter/SN7xxx/SN74LS93N_TI.pdf",
+    "page": 2,
+    "figure": "Logic symbol / logic diagram, passende Bausteinvariante",
+    "sha256_pdf": "43d2e13b0f0e6ce235dbd25bfc460613a6e62a0bc83eb7ba33ce5a9dda564059",
+    "crop_pixels_300dpi": [
+      1611,
+      480,
+      2253,
+      987
+    ],
+    "image": "SN74LS93N.png"
+  },
+  "SN74LS95N": {
+    "file": "Datenblaetter/SN7xxx/SN74LS95N_TI.pdf",
+    "page": 2,
+    "figure": "Logic symbol / logic diagram, passende Bausteinvariante",
+    "sha256_pdf": "4ced568349ef604fbb484c61cd928760849725b246d5aa2d8155053b3fdb3c3f",
+    "crop_pixels_300dpi": [
+      507,
+      363,
+      1398,
+      2113
+    ],
+    "image": "SN74LS95N.png"
+  },
+  "SN74LS138N": {
+    "file": "Datenblaetter/SN7xxx/SN74LS138N_TI.pdf",
+    "page": 2,
+    "figure": "Logic symbol / logic diagram, passende Bausteinvariante",
+    "sha256_pdf": "14bf40cf3b13499dedf8f23b3bfabf5c763af103e9bdbe9ba9147b0dcaa48539",
+    "crop_pixels_300dpi": [
+      675,
+      594,
+      1983,
+      1275
+    ],
+    "image": "SN74LS138N.png"
+  },
+  "SN74LS139N": {
+    "file": "Datenblaetter/SN7xxx/SN74LS139N_TI.pdf",
+    "page": 2,
+    "figure": "Logic symbol / logic diagram, passende Bausteinvariante",
+    "sha256_pdf": "0ee39a26c75f7639f86abd32783179ae6ba5f89ff7111c1ced37db717c20ed31",
+    "crop_pixels_300dpi": [
+      768,
+      480,
+      1896,
+      1119
+    ],
+    "image": "SN74LS139N.png"
+  },
+  "SN74LS151N": {
+    "file": "Datenblaetter/SN7xxx/SN74LS151N_TI.pdf",
+    "page": 2,
+    "figure": "Logic symbol / logic diagram, passende Bausteinvariante",
+    "sha256_pdf": "d6b031ca98d4912ffab180a37512e2c4082ffc4d273e790f818a1a4d69a019fc",
+    "crop_pixels_300dpi": [
+      1593,
+      531,
+      2124,
+      1065
+    ],
+    "image": "SN74LS151N.png"
+  },
+  "SN74LS153N": {
+    "file": "Datenblaetter/SN7xxx/SN74LS153N_TI.pdf",
+    "page": 2,
+    "figure": "Logic symbol / logic diagram, passende Bausteinvariante",
+    "sha256_pdf": "72557fe3909bcbb367ba3534504143b840cf7936267c7915c89afdd82aed22a3",
+    "crop_pixels_300dpi": [
+      870,
+      444,
+      1773,
+      1380
+    ],
+    "image": "SN74LS153N.png"
+  },
+  "SN74LS155N": {
+    "file": "Datenblaetter/SN7xxx/SN74LS155N_TI.pdf",
+    "page": 1,
+    "figure": "Logic symbol / logic diagram, passende Bausteinvariante",
+    "sha256_pdf": "893a930eaec60d8f58d56ea4a6ca5addea653c7fa6a5b697075ed46f7cc8598b",
+    "crop_pixels_300dpi": [
+      408,
+      2283,
+      1155,
+      2796
+    ],
+    "image": "SN74LS155N.png"
+  },
+  "SN74LS156N": {
+    "file": "Datenblaetter/SN7xxx/SN74LS156N_TI.pdf",
+    "page": 1,
+    "figure": "Logic symbol / logic diagram, passende Bausteinvariante",
+    "sha256_pdf": "893a930eaec60d8f58d56ea4a6ca5addea653c7fa6a5b697075ed46f7cc8598b",
+    "crop_pixels_300dpi": [
+      1458,
+      2274,
+      2268,
+      2805
+    ],
+    "image": "SN74LS156N.png"
+  },
+  "SN74LS157N": {
+    "file": "Datenblaetter/SN7xxx/SN74LS157N_TI.pdf",
+    "page": 2,
+    "figure": "Logic symbol / logic diagram, passende Bausteinvariante",
+    "sha256_pdf": "998f4a5c11e3d83c3547aef0b5fbea36f0a6581dc7abb72be9183447ab9816ff",
+    "crop_pixels_300dpi": [
+      471,
+      540,
+      1101,
+      1089
+    ],
+    "image": "SN74LS157N.png"
+  },
+  "SN74LS160N": {
+    "file": "Datenblaetter/SN7xxx/SN74LS160N_TI.pdf",
+    "page": 2,
+    "figure": "Logic symbol / logic diagram, passende Bausteinvariante",
+    "sha256_pdf": "0ea50a72dfbd95c3c1f521e1f153c3a73922df75396ae5097da3a96577f2e580",
+    "crop_pixels_300dpi": [
+      333,
+      1086,
+      1089,
+      1692
+    ],
+    "image": "SN74LS160N.png"
+  },
+  "SN74LS161N": {
+    "file": "Datenblaetter/SN7xxx/SN74LS161N_TI.pdf",
+    "page": 2,
+    "figure": "Logic symbol / logic diagram, passende Bausteinvariante",
+    "sha256_pdf": "0ea50a72dfbd95c3c1f521e1f153c3a73922df75396ae5097da3a96577f2e580",
+    "crop_pixels_300dpi": [
+      1350,
+      1086,
+      2112,
+      1692
+    ],
+    "image": "SN74LS161N.png"
+  },
+  "SN74LS162N": {
+    "file": "Datenblaetter/SN7xxx/SN74LS162N_TI.pdf",
+    "page": 2,
+    "figure": "Logic symbol / logic diagram, passende Bausteinvariante",
+    "sha256_pdf": "0ea50a72dfbd95c3c1f521e1f153c3a73922df75396ae5097da3a96577f2e580",
+    "crop_pixels_300dpi": [
+      330,
+      1779,
+      1077,
+      2385
+    ],
+    "image": "SN74LS162N.png"
+  },
+  "SN74LS163N": {
+    "file": "Datenblaetter/SN7xxx/SN74LS163N_TI.pdf",
+    "page": 2,
+    "figure": "Logic symbol / logic diagram, passende Bausteinvariante",
+    "sha256_pdf": "0ea50a72dfbd95c3c1f521e1f153c3a73922df75396ae5097da3a96577f2e580",
+    "crop_pixels_300dpi": [
+      1362,
+      1779,
+      2124,
+      2385
+    ],
+    "image": "SN74LS163N.png"
+  },
+  "SN74LS164N": {
+    "file": "Datenblaetter/SN7xxx/SN74LS164N_TI.pdf",
+    "page": 2,
+    "figure": "Logic symbol / logic diagram, passende Bausteinvariante",
+    "sha256_pdf": "55d7259a296728e63da468b9ea8688e1044fb2fe2f4d44e166c7f3f7430a0bb7",
+    "crop_pixels_300dpi": [
+      927,
+      1950,
+      1560,
+      2556
+    ],
+    "image": "SN74LS164N.png"
+  },
+  "SN74LS190N": {
+    "file": "Datenblaetter/SN7xxx/SN74LS190N_TI.pdf",
+    "page": 2,
+    "figure": "Logic symbol / logic diagram, passende Bausteinvariante",
+    "sha256_pdf": "0109f92d0857a9248cdce80e786cee9d9edaa5f72c298f9fdc11f00641451eb2",
+    "crop_pixels_300dpi": [
+      828,
+      435,
+      1908,
+      1059
+    ],
+    "image": "SN74LS190N.png"
+  },
+  "SN74LS191N": {
+    "file": "Datenblaetter/SN7xxx/SN74LS191N_TI.pdf",
+    "page": 2,
+    "figure": "Logic symbol / logic diagram, passende Bausteinvariante",
+    "sha256_pdf": "0109f92d0857a9248cdce80e786cee9d9edaa5f72c298f9fdc11f00641451eb2",
+    "crop_pixels_300dpi": [
+      828,
+      1215,
+      1908,
+      1842
+    ],
+    "image": "SN74LS191N.png"
+  },
+  "SN74LS192N": {
+    "file": "Datenblaetter/SN7xxx/SN74LS192N_TI.pdf",
+    "page": 2,
+    "figure": "Logic symbol / logic diagram, passende Bausteinvariante",
+    "sha256_pdf": "5aa04c2facde7227a1916088a2d2cdc4f858ba4eea721a43312dcc34da55d461",
+    "crop_pixels_300dpi": [
+      771,
+      474,
+      1972,
+      2816
+    ],
+    "image": "SN74LS192N.png"
+  },
+  "SN74LS193N": {
+    "file": "Datenblaetter/SN7xxx/SN74LS193N_TI.pdf",
+    "page": 2,
+    "figure": "Logic symbol / logic diagram, passende Bausteinvariante",
+    "sha256_pdf": "5aa04c2facde7227a1916088a2d2cdc4f858ba4eea721a43312dcc34da55d461",
+    "crop_pixels_300dpi": [
+      771,
+      474,
+      1972,
+      2816
+    ],
+    "image": "SN74LS193N.png"
+  },
+  "SN74LS194N": {
+    "file": "Datenblaetter/SN7xxx/SN74LS194N_TI.pdf",
+    "page": 1,
+    "figure": "Logic symbol / logic diagram, passende Bausteinvariante",
+    "sha256_pdf": "81ce8369d68d4888ab4b9bc95be0e477d741e3510f687bec6de3c761788a3e50",
+    "crop_pixels_300dpi": [
+      1512,
+      1941,
+      2220,
+      2538
+    ],
+    "image": "SN74LS194N.png"
+  },
+  "SN74LS247N": {
+    "file": "Datenblaetter/SN7xxx/SN74LS247N_TI.pdf",
+    "page": 2,
+    "figure": "Logic symbol / logic diagram, passende Bausteinvariante",
+    "sha256_pdf": "fb021c0f3703abf07bfb38ca3380d1ae94bcbc7240fde15f74aa224213bbc91b",
+    "crop_pixels_300dpi": [
+      354,
+      1836,
+      1215,
+      2514
+    ],
+    "image": "SN74LS247N.png"
+  },
+  "SN74LS248N": {
+    "file": "Datenblaetter/SN7xxx/SN74LS248N_TI.pdf",
+    "page": 2,
+    "figure": "Logic symbol / logic diagram, passende Bausteinvariante",
+    "sha256_pdf": "fb021c0f3703abf07bfb38ca3380d1ae94bcbc7240fde15f74aa224213bbc91b",
+    "crop_pixels_300dpi": [
+      1398,
+      1836,
+      2241,
+      2514
+    ],
+    "image": "SN74LS248N.png"
+  }
+}
