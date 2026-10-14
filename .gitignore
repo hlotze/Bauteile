@@ -6,3 +6,4 @@ venv/
 Bauteile.db-journal
 Bauteile.db-wal
 Bauteile.db-shm
+*Kopie/
