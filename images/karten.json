@@ -5442,6 +5442,166 @@
     "sha256_svg": "4f30bc328271d224341ff32aeaa3c4f7d4e51a249c892aad593ec3f3561921f2"
   },
   {
+    "part": "CD74HCT85E",
+    "key": "CD74HCT85E",
+    "function": "4-Bit-Größenkomparator mit Kaskadierung",
+    "category": "SN7xxx",
+    "symbol": null,
+    "library": null,
+    "pins": [
+      {
+        "number": 1,
+        "name": "B3",
+        "role": "passive",
+        "unit": "manual"
+      },
+      {
+        "number": 2,
+        "name": "LT-IN",
+        "role": "passive",
+        "unit": "manual"
+      },
+      {
+        "number": 3,
+        "name": "EQ-IN",
+        "role": "passive",
+        "unit": "manual"
+      },
+      {
+        "number": 4,
+        "name": "GT-IN",
+        "role": "passive",
+        "unit": "manual"
+      },
+      {
+        "number": 5,
+        "name": "GT-OUT",
+        "role": "passive",
+        "unit": "manual"
+      },
+      {
+        "number": 6,
+        "name": "EQ-OUT",
+        "role": "passive",
+        "unit": "manual"
+      },
+      {
+        "number": 7,
+        "name": "LT-OUT",
+        "role": "passive",
+        "unit": "manual"
+      },
+      {
+        "number": 8,
+        "name": "GND",
+        "role": "passive",
+        "unit": "manual"
+      },
+      {
+        "number": 9,
+        "name": "B0",
+        "role": "passive",
+        "unit": "manual"
+      },
+      {
+        "number": 10,
+        "name": "A0",
+        "role": "passive",
+        "unit": "manual"
+      },
+      {
+        "number": 11,
+        "name": "B1",
+        "role": "passive",
+        "unit": "manual"
+      },
+      {
+        "number": 12,
+        "name": "A1",
+        "role": "passive",
+        "unit": "manual"
+      },
+      {
+        "number": 13,
+        "name": "A2",
+        "role": "passive",
+        "unit": "manual"
+      },
+      {
+        "number": 14,
+        "name": "B2",
+        "role": "passive",
+        "unit": "manual"
+      },
+      {
+        "number": 15,
+        "name": "A3",
+        "role": "passive",
+        "unit": "manual"
+      },
+      {
+        "number": 16,
+        "name": "VCC",
+        "role": "passive",
+        "unit": "manual"
+      }
+    ],
+    "package": "DIP-16",
+    "candidates": [],
+    "reference": "CD74HCT85E",
+    "sources": [
+      {
+        "file": "Datenblaetter/SN7xxx/CD74HCT85E_TI.pdf",
+        "page": 3
+      }
+    ],
+    "status": "Referenzkarte",
+    "pin_count": 16,
+    "pitch_mm": 5.08,
+    "svg": "images/SN7xxx/CD74HCT85E_karte_45x55mm.svg",
+    "pdf": "images/SN7xxx/CD74HCT85E_karte_45x55mm.pdf",
+    "first_pin_y_mm": 6.4,
+    "png": "images/SN7xxx/CD74HCT85E_karte_45x55mm.png",
+    "card_layout": "SN7xxx im gemeinsamen Kartenstil",
+    "diagram_layout": "Funktionsblöcke mit Signalanschlüssen",
+    "card_function_title": "4-Bit-Größenkomparator",
+    "wired_pin_numbers": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ],
+    "card_pin_labels": {
+      "1": "B3",
+      "2": "LT-IN",
+      "3": "EQ-IN",
+      "4": "GT-IN",
+      "5": "GT-OUT",
+      "6": "EQ-OUT",
+      "7": "LT-OUT",
+      "8": "GND",
+      "9": "B0",
+      "10": "A0",
+      "11": "B1",
+      "12": "A1",
+      "13": "A2",
+      "14": "B2",
+      "15": "A3",
+      "16": "VCC"
+    },
+    "sha256_svg": "321390dc20ee9d543981b9831fd65151fb02e0c77b662d3c4b4126be340b432f"
+  },
+  {
     "part": "SN74LS83N",
     "key": "SN74LS83N",
     "function": "4-Bit-Binär-Volladdierer mit schnellem Übertrag",
@@ -16355,6 +16515,171 @@
       "20": "VCC"
     },
     "sha256_svg": "2d2c55d6c94961ab825397a60d69c8188967e186f772e4e6d7b09396b385312f"
+  },
+  {
+    "part": "SN74HC595",
+    "key": "SN74HC595",
+    "function": "8-Bit-Schieberegister mit Ausgangsregister und 3-State-Ausgängen",
+    "category": "SN7xxx",
+    "symbol": "74HC595",
+    "library": "74xx.kicad_sym",
+    "pins": [
+      {
+        "number": 1,
+        "name": "QB",
+        "role": "passive",
+        "unit": "manual"
+      },
+      {
+        "number": 2,
+        "name": "QC",
+        "role": "passive",
+        "unit": "manual"
+      },
+      {
+        "number": 3,
+        "name": "QD",
+        "role": "passive",
+        "unit": "manual"
+      },
+      {
+        "number": 4,
+        "name": "QE",
+        "role": "passive",
+        "unit": "manual"
+      },
+      {
+        "number": 5,
+        "name": "QF",
+        "role": "passive",
+        "unit": "manual"
+      },
+      {
+        "number": 6,
+        "name": "QG",
+        "role": "passive",
+        "unit": "manual"
+      },
+      {
+        "number": 7,
+        "name": "QH",
+        "role": "passive",
+        "unit": "manual"
+      },
+      {
+        "number": 8,
+        "name": "GND",
+        "role": "passive",
+        "unit": "manual"
+      },
+      {
+        "number": 9,
+        "name": "QH-ser",
+        "role": "passive",
+        "unit": "manual"
+      },
+      {
+        "number": 10,
+        "name": "/SRCLR",
+        "role": "passive",
+        "unit": "manual"
+      },
+      {
+        "number": 11,
+        "name": "SRCLK",
+        "role": "passive",
+        "unit": "manual"
+      },
+      {
+        "number": 12,
+        "name": "RCLK",
+        "role": "passive",
+        "unit": "manual"
+      },
+      {
+        "number": 13,
+        "name": "/OE",
+        "role": "passive",
+        "unit": "manual"
+      },
+      {
+        "number": 14,
+        "name": "SER",
+        "role": "passive",
+        "unit": "manual"
+      },
+      {
+        "number": 15,
+        "name": "QA",
+        "role": "passive",
+        "unit": "manual"
+      },
+      {
+        "number": 16,
+        "name": "VCC",
+        "role": "passive",
+        "unit": "manual"
+      }
+    ],
+    "package": "DIP-16 (Referenz: N)",
+    "candidates": [
+      "74HC595",
+      "74HC595A",
+      "74HC595B",
+      "74LS595"
+    ],
+    "reference": "SN74HC595",
+    "sources": [
+      {
+        "file": "Datenblaetter/SN7xxx/SN74HC595_TI.pdf",
+        "page": 3
+      }
+    ],
+    "status": "Referenzkarte",
+    "pin_count": 16,
+    "pitch_mm": 5.08,
+    "svg": "images/SN7xxx/SN74HC595_karte_45x55mm.svg",
+    "pdf": "images/SN7xxx/SN74HC595_karte_45x55mm.pdf",
+    "first_pin_y_mm": 6.4,
+    "png": "images/SN7xxx/SN74HC595_karte_45x55mm.png",
+    "card_layout": "SN7xxx im gemeinsamen Kartenstil",
+    "diagram_layout": "Funktionsblöcke mit Signalanschlüssen",
+    "card_function_title": "8-Bit-Schieberegister / Speicher",
+    "wired_pin_numbers": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ],
+    "card_pin_labels": {
+      "1": "QB",
+      "2": "QC",
+      "3": "QD",
+      "4": "QE",
+      "5": "QF",
+      "6": "QG",
+      "7": "QH",
+      "8": "GND",
+      "9": "QH-ser",
+      "10": "/SRCLR",
+      "11": "SRCLK",
+      "12": "RCLK",
+      "13": "/OE",
+      "14": "SER",
+      "15": "QA",
+      "16": "VCC"
+    },
+    "sha256_svg": "57236b2503f0ea8650093e89c081bac897acdf3541c3a38f236235a958bcfc04"
   },
   {
     "part": "CD4001",
@@ -27530,6 +27855,7 @@
       "LH6764-20",
       "LH6764-20"
     ],
+    "marking": "Sharp546EG",
     "reference": "LH6764-20",
     "sources": [],
     "status": "Identifikationskarte",
@@ -27544,7 +27870,7 @@
     "card_function_title": "Identifikation offen",
     "wired_pin_numbers": [],
     "card_pin_labels": {},
-    "sha256_svg": "6836cf8498a82a9081cd03e5a9aaa5543c5888515eda2a59e7d5f9e674dff7e9"
+    "sha256_svg": "00febdb0345cfa7e7c4159aab6f8801b67f9387e0054d2e44238c93eec7707db"
   },
   {
     "part": "LM311N",
@@ -27674,114 +28000,86 @@
       {
         "number": 1,
         "name": "1Y",
-        "role": "output",
-        "shape": "line",
-        "unit": "LM2902_1_1",
-        "unnamed": true
+        "role": "passive",
+        "unit": "manual"
       },
       {
         "number": 2,
         "name": "IN1-",
-        "role": "input",
-        "shape": "line",
-        "unit": "LM2902_1_1",
-        "unnamed": false
+        "role": "passive",
+        "unit": "manual"
       },
       {
         "number": 3,
         "name": "IN1+",
-        "role": "input",
-        "shape": "line",
-        "unit": "LM2902_1_1",
-        "unnamed": false
+        "role": "passive",
+        "unit": "manual"
       },
       {
         "number": 4,
         "name": "V+",
-        "role": "power_in",
-        "shape": "line",
-        "unit": "LM2902_5_1",
-        "unnamed": false
+        "role": "passive",
+        "unit": "manual"
       },
       {
         "number": 5,
         "name": "IN2+",
-        "role": "input",
-        "shape": "line",
-        "unit": "LM2902_2_1",
-        "unnamed": false
+        "role": "passive",
+        "unit": "manual"
       },
       {
         "number": 6,
         "name": "IN2-",
-        "role": "input",
-        "shape": "line",
-        "unit": "LM2902_2_1",
-        "unnamed": false
+        "role": "passive",
+        "unit": "manual"
       },
       {
         "number": 7,
         "name": "2Y",
-        "role": "output",
-        "shape": "line",
-        "unit": "LM2902_2_1",
-        "unnamed": true
+        "role": "passive",
+        "unit": "manual"
       },
       {
         "number": 8,
         "name": "3Y",
-        "role": "output",
-        "shape": "line",
-        "unit": "LM2902_3_1",
-        "unnamed": true
+        "role": "passive",
+        "unit": "manual"
       },
       {
         "number": 9,
         "name": "IN3-",
-        "role": "input",
-        "shape": "line",
-        "unit": "LM2902_3_1",
-        "unnamed": false
+        "role": "passive",
+        "unit": "manual"
       },
       {
         "number": 10,
         "name": "IN3+",
-        "role": "input",
-        "shape": "line",
-        "unit": "LM2902_3_1",
-        "unnamed": false
+        "role": "passive",
+        "unit": "manual"
       },
       {
         "number": 11,
         "name": "V-",
-        "role": "power_in",
-        "shape": "line",
-        "unit": "LM2902_5_1",
-        "unnamed": false
+        "role": "passive",
+        "unit": "manual"
       },
       {
         "number": 12,
         "name": "IN4+",
-        "role": "input",
-        "shape": "line",
-        "unit": "LM2902_4_1",
-        "unnamed": false
+        "role": "passive",
+        "unit": "manual"
       },
       {
         "number": 13,
         "name": "IN4-",
-        "role": "input",
-        "shape": "line",
-        "unit": "LM2902_4_1",
-        "unnamed": false
+        "role": "passive",
+        "unit": "manual"
       },
       {
         "number": 14,
         "name": "4Y",
-        "role": "output",
-        "shape": "line",
-        "unit": "LM2902_4_1",
-        "unnamed": true
+        "role": "passive",
+        "unit": "manual"
       }
     ],
     "package": "DIP-14",
@@ -27791,14 +28089,11 @@
       "LM324N",
       "LM324N"
     ],
-    "reference": "LM324",
+    "reference": "ST LM324N",
     "sources": [
       {
-        "file": "scripts/kaertchen/Amplifier_Operational.kicad_sym",
-        "symbol": "LM324"
-      },
-      {
-        "file": "Datenblaetter/Diverse/LM324_ST.pdf"
+        "file": "Datenblaetter/Diverse/LM324_ST.pdf",
+        "page": 3
       }
     ],
     "status": "Referenzkarte",
@@ -27841,7 +28136,154 @@
       "13": "IN4-",
       "14": "4Y"
     },
-    "sha256_svg": "4dc14203487391550e260010f7f97b8f929104cd619220a090af94ed82008490"
+    "sha256_svg": "8814494963428ec6f31111858cc99af903d812b5d6f8f6a333efc7deda59cc76"
+  },
+  {
+    "part": "LP324N",
+    "key": "LP324N",
+    "function": "4 Micropower-Operationsverstärker",
+    "category": "Diverse",
+    "symbol": "LM324",
+    "library": "Amplifier_Operational.kicad_sym",
+    "pins": [
+      {
+        "number": 1,
+        "name": "1Y",
+        "role": "passive",
+        "unit": "manual"
+      },
+      {
+        "number": 2,
+        "name": "IN1-",
+        "role": "passive",
+        "unit": "manual"
+      },
+      {
+        "number": 3,
+        "name": "IN1+",
+        "role": "passive",
+        "unit": "manual"
+      },
+      {
+        "number": 4,
+        "name": "V+",
+        "role": "passive",
+        "unit": "manual"
+      },
+      {
+        "number": 5,
+        "name": "IN2+",
+        "role": "passive",
+        "unit": "manual"
+      },
+      {
+        "number": 6,
+        "name": "IN2-",
+        "role": "passive",
+        "unit": "manual"
+      },
+      {
+        "number": 7,
+        "name": "2Y",
+        "role": "passive",
+        "unit": "manual"
+      },
+      {
+        "number": 8,
+        "name": "3Y",
+        "role": "passive",
+        "unit": "manual"
+      },
+      {
+        "number": 9,
+        "name": "IN3-",
+        "role": "passive",
+        "unit": "manual"
+      },
+      {
+        "number": 10,
+        "name": "IN3+",
+        "role": "passive",
+        "unit": "manual"
+      },
+      {
+        "number": 11,
+        "name": "V-",
+        "role": "passive",
+        "unit": "manual"
+      },
+      {
+        "number": 12,
+        "name": "IN4+",
+        "role": "passive",
+        "unit": "manual"
+      },
+      {
+        "number": 13,
+        "name": "IN4-",
+        "role": "passive",
+        "unit": "manual"
+      },
+      {
+        "number": 14,
+        "name": "4Y",
+        "role": "passive",
+        "unit": "manual"
+      }
+    ],
+    "package": "DIP-14",
+    "candidates": [
+      "LM324"
+    ],
+    "marking": "JM218AK",
+    "reference": "TI/National LP324N (Ref.)",
+    "sources": [
+      {
+        "file": "Datenblaetter/Diverse/LP324N_TI_National.pdf",
+        "page": 1
+      }
+    ],
+    "status": "Referenzkarte",
+    "pin_count": 14,
+    "pitch_mm": 5.08,
+    "svg": "images/Diverse/LP324N_karte_45x55mm.svg",
+    "pdf": "images/Diverse/LP324N_karte_45x55mm.pdf",
+    "first_pin_y_mm": 6.4,
+    "png": "images/Diverse/LP324N_karte_45x55mm.png",
+    "card_layout": "Diverse im Stil der CD4xxx-Karten",
+    "diagram_layout": "verdrahtete Verstärker-/Komparatorsymbole",
+    "card_function_title": "4 Micropower-Operationsverstärker",
+    "wired_pin_numbers": [
+      1,
+      2,
+      3,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      12,
+      13,
+      14
+    ],
+    "card_pin_labels": {
+      "1": "1Y",
+      "2": "IN1-",
+      "3": "IN1+",
+      "4": "V+",
+      "5": "IN2+",
+      "6": "IN2-",
+      "7": "2Y",
+      "8": "3Y",
+      "9": "IN3-",
+      "10": "IN3+",
+      "11": "V-",
+      "12": "IN4+",
+      "13": "IN4-",
+      "14": "4Y"
+    },
+    "sha256_svg": "a7d935b13db34f867a6e6e421c09344c5dae053cda87d0afbf892b892dd329d1"
   },
   {
     "part": "LM339AN",
@@ -28899,6 +29341,102 @@
     "sha256_svg": "fa51638a14e0c767dbcbee0819650396412e5854d86cfe281402e958d2d7ad7e"
   },
   {
+    "part": "MC1455",
+    "key": "MC1455",
+    "function": "Timer, astabiler oder monostabiler Multivibrator",
+    "category": "Diverse",
+    "symbol": null,
+    "library": null,
+    "pins": [
+      {
+        "number": 1,
+        "name": "GND",
+        "role": "passive",
+        "unit": "manual"
+      },
+      {
+        "number": 2,
+        "name": "TRIG",
+        "role": "passive",
+        "unit": "manual"
+      },
+      {
+        "number": 3,
+        "name": "OUT",
+        "role": "output",
+        "unit": "manual"
+      },
+      {
+        "number": 4,
+        "name": "/RESET",
+        "role": "passive",
+        "unit": "manual"
+      },
+      {
+        "number": 5,
+        "name": "CTRL",
+        "role": "passive",
+        "unit": "manual"
+      },
+      {
+        "number": 6,
+        "name": "THR",
+        "role": "passive",
+        "unit": "manual"
+      },
+      {
+        "number": 7,
+        "name": "DISCH",
+        "role": "open_collector",
+        "unit": "manual"
+      },
+      {
+        "number": 8,
+        "name": "VCC",
+        "role": "passive",
+        "unit": "manual"
+      }
+    ],
+    "package": "DIP-8",
+    "candidates": [],
+    "reference": "MC1455",
+    "sources": [
+      {
+        "file": "Datenblaetter/Diverse/MC1455_onsemi.pdf",
+        "page": 1
+      }
+    ],
+    "status": "Referenzkarte",
+    "pin_count": 8,
+    "pitch_mm": 5.08,
+    "svg": "images/Diverse/MC1455_karte_45x55mm.svg",
+    "pdf": "images/Diverse/MC1455_karte_45x55mm.pdf",
+    "first_pin_y_mm": 6.4,
+    "png": "images/Diverse/MC1455_karte_45x55mm.png",
+    "card_layout": "Diverse im Stil der CD4xxx-Karten",
+    "diagram_layout": "Timer-Funktionsblock mit DIP-Pinzuordnung",
+    "card_function_title": "Timer / Multivibrator",
+    "wired_pin_numbers": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "card_pin_labels": {
+      "1": "GND",
+      "2": "TRIG",
+      "3": "OUT",
+      "4": "/RESET",
+      "5": "CTRL",
+      "6": "THR",
+      "7": "DISCH",
+      "8": "VCC"
+    },
+    "sha256_svg": "817b1bdcb9202001f085facd5d93fe9323824157e5c7b53ee7c387d4506c8de5"
+  },
+  {
     "part": "NE555",
     "key": "NE555",
     "function": "Timer / astabiler oder monostabiler Multivibrator",
@@ -29419,6 +29957,101 @@
       "16": "C1"
     },
     "sha256_svg": "5f69821ea621ae2888bd96ee1bddb291fe0506e6b4726b94cb1a3cd2e154e379"
+  },
+  {
+    "part": "UA741CN",
+    "key": "UA741CN",
+    "function": "1 Operationsverstärker mit Offset-Abgleich",
+    "category": "Diverse",
+    "symbol": null,
+    "library": null,
+    "pins": [
+      {
+        "number": 1,
+        "name": "NULL1",
+        "role": "passive",
+        "unit": "manual"
+      },
+      {
+        "number": 2,
+        "name": "IN1-",
+        "role": "passive",
+        "unit": "manual"
+      },
+      {
+        "number": 3,
+        "name": "IN1+",
+        "role": "passive",
+        "unit": "manual"
+      },
+      {
+        "number": 4,
+        "name": "V-",
+        "role": "passive",
+        "unit": "manual"
+      },
+      {
+        "number": 5,
+        "name": "NULL2",
+        "role": "passive",
+        "unit": "manual"
+      },
+      {
+        "number": 6,
+        "name": "1Y",
+        "role": "output",
+        "unit": "manual"
+      },
+      {
+        "number": 7,
+        "name": "V+",
+        "role": "passive",
+        "unit": "manual"
+      },
+      {
+        "number": 8,
+        "name": "NC",
+        "role": "passive",
+        "unit": "manual"
+      }
+    ],
+    "package": "DIP-8",
+    "candidates": [],
+    "reference": "ST UA741CN (Ref.)",
+    "sources": [
+      {
+        "file": "Datenblaetter/Diverse/UA741CN_ST.pdf",
+        "page": 1
+      }
+    ],
+    "status": "Referenzkarte",
+    "pin_count": 8,
+    "pitch_mm": 5.08,
+    "svg": "images/Diverse/UA741CN_karte_45x55mm.svg",
+    "pdf": "images/Diverse/UA741CN_karte_45x55mm.pdf",
+    "first_pin_y_mm": 6.4,
+    "png": "images/Diverse/UA741CN_karte_45x55mm.png",
+    "card_layout": "Diverse im Stil der CD4xxx-Karten",
+    "diagram_layout": "Operationsverstärker mit Offset-Abgleich und DIP-Pins",
+    "card_function_title": "Operationsverstärker / Offset",
+    "wired_pin_numbers": [
+      1,
+      2,
+      3,
+      5,
+      6
+    ],
+    "card_pin_labels": {
+      "1": "NULL1",
+      "2": "IN1-",
+      "3": "IN1+",
+      "4": "V-",
+      "5": "NULL2",
+      "6": "1Y",
+      "7": "V+",
+      "8": "NC"
+    },
+    "sha256_svg": "884ba0b7dde3dec815ef2f3b3e6d940d5de43e7474dabb490ff86c8eb8bcbc80"
   },
   {
     "part": "UA78S40PC",

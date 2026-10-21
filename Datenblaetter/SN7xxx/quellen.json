@@ -732,5 +732,30 @@
     "manufacturer": "TI",
     "note": "Pinbelegungsreferenz; konkrete Variante abgleichen",
     "download_date": "2026-10-13"
+  },
+  {
+    "number": "595",
+    "part": "SN74HC595",
+    "pins": 16,
+    "function": "8-Bit-Schieberegister mit Ausgangsregister und 3-State-Ausgängen",
+    "pdf": "SN74HC595_TI.pdf",
+    "url": "https://www.ti.com/lit/ds/symlink/sn74hc595.pdf",
+    "source_part": "SN74HC595",
+    "downloaded": "2026-10-21",
+    "sha256": "5a6a5aeecc79a2d4bf4e15aae681e0f99cb13b54d6524be253a6844c898eeb0d"
+  },
+  {
+    "part": "CD74HCT85E",
+    "pdf": "CD74HCT85E_TI.pdf",
+    "manufacturer": "Texas Instruments",
+    "assignment": "Herstellerdatenblatt",
+    "quantity": "1",
+    "note": "Texas Instruments; Typnummer vom Nutzer auf CD74HCT85E korrigiert; HCT-Logik; für Einzelbetrieb LT-IN=0, EQ-IN=1, GT-IN=0",
+    "checked_on": "2026-10-21",
+    "pins": 16,
+    "function": "4-Bit-Größenkomparator mit Kaskadierung",
+    "downloaded_on": "2026-10-21",
+    "url": "https://www.ti.com/lit/ds/symlink/cd74hct85.pdf",
+    "sha256": "1a8b9d560ba6e590b53911c1a73938a96250a576fa2aebdec971a3cfc7807e09"
   }
 ]

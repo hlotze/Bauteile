@@ -11,8 +11,11 @@ from cd_cards import Card, MM, GREEN, BLUE, BLACK
 BASE=Path(__file__).parent/'diverse_logikvorlagen'
 SOURCES=json.loads((BASE/'quellen.json').read_text())
 TITLES={
+ 'MC1455':'Timer / Multivibrator',
+ 'UA741CN':'Operationsverstärker / Offset',
  'COM8126':'Baudraten- / Frequenzgenerator', 'L293D':'4 Halbbrücken / Motortreiber',
  'L293NE':'4 Halbbrücken / Motortreiber', 'LH6764-20':'Identifikation offen',
+ 'LP324N':'4 Micropower-Operationsverstärker',
  'LM311N':'Komparator, offener Kollektor', 'LM324N':'4 Operationsverstärker',
  'LM339AN':'4 Komparatoren, offener Kollektor', 'LM358':'2 Operationsverstärker',
  'MAX250CPD':'Isolierte RS-232-Schnittstelle', 'MAX7219CNG':'8-stelliger LED-Treiber',
@@ -100,7 +103,35 @@ class DiverseCard(Card):
    if key=='LM339AN':self.text(x,y+4,'OC',4.5,BLUE,'middle')
   supply=' | '.join(p['name']+': '+str(p['number']) for p in self.pins.values() if p['name'] in ('V+','V-'))
   self.text(22.5,44,supply,5.4,BLACK,'middle',width=24)
+  if key=='LM324N':self.text(22.5,46,'ST | Versorgung: 3 bis 30 V',5,BLACK,'middle',width=28)
+  if key=='LP324N':self.text(22.5,46,'Iq gesamt: 85 uA typ. (Ref.)',4.8,BLACK,'middle',width=28)
   if key=='LM339AN':self.text(22.5,46,'OC: Pull-up am Ausgang',5.2,BLUE,'middle',width=27)
+
+ def mc1455(self):
+  self.pins[3]['role']='output';self.pins[7]['role']='open_collector'
+  self.rect(13,8,19,17)
+  self.text(22.5,11,'555-TIMER',6.5,anchor='middle',bold=True)
+  self.text(22.5,15,'Komparatoren',5.3,anchor='middle')
+  self.text(22.5,19,'RS-Speicher',5.5,anchor='middle')
+  self.text(22.5,23,'Ausgang / Entladen',4.8,anchor='middle',width=18)
+  for num in (2,3,4):self.wire(num,(13,self.pin_y(num)))
+  for num in (5,6,7):self.wire(num,(32,self.pin_y(num)))
+  self.text(22.5,31,'Astabil / Monostabil',6,anchor='middle',width=35)
+  self.text(22.5,36,'Externe R / C bestimmen Zeit',5.3,anchor='middle',width=38)
+  self.text(22.5,41,'CTRL: Steuerspannung',5.3,anchor='middle',width=35)
+  self.text(22.5,45,'DISCH: Entladeausgang',5.3,anchor='middle',width=35)
+
+ def ua741(self):
+  self.pins[6]['role']='output'
+  ports,out=self.triangle(22.5,15,width=13,height=12)
+  self.text(17,14,'-',6,anchor='middle');self.text(17,17,'+',6,anchor='middle')
+  self.wire(2,ports[0]);self.wire(3,ports[1]);self.wire(6,out)
+  self.rect(13,29,19,8)
+  self.text(22.5,32.3,'Offset-Abgleich',5.8,anchor='middle',width=18)
+  self.text(22.5,35.3,'NULL1 / NULL2',5.3,anchor='middle')
+  self.wire(1,(13,31));self.wire(5,(32,35))
+  self.text(22.5,41,'V+: Pin 7 | V-: Pin 4',5.5,anchor='middle',width=30)
+  self.text(22.5,45,'Pin 8: nicht beschalten',5.3,anchor='middle',width=30)
 
  def comparator(self):
   ports,out=self.triangle(22,14,width=7,height=8)
@@ -299,8 +330,11 @@ class DiverseCard(Card):
    self.text(22.5,18,'ZUORDNUNG OFFEN',8,BLACK,'middle',True)
    self.text(22.5,25,'Keine dokumentierte Pinbelegung',6.1,BLACK,'middle')
    self.text(22.5,32,'Nicht zum Verdrahten verwenden',6.1,BLACK,'middle')
+   if self.r.get('marking'):self.text(22.5,36.5,'Aufdruck: '+self.r['marking'],5.8,BLACK,'middle')
    layout='Identifikationskarte'
-  elif key in ('LM324N','LM339AN','LM358'):self.amplifiers();layout='verdrahtete Verstärker-/Komparatorsymbole'
+  elif key in ('LM324N','LP324N','LM339AN','LM358'):self.amplifiers();layout='verdrahtete Verstärker-/Komparatorsymbole'
+  elif key=='MC1455':self.mc1455();layout='Timer-Funktionsblock mit DIP-Pinzuordnung'
+  elif key=='UA741CN':self.ua741();layout='Operationsverstärker mit Offset-Abgleich und DIP-Pins'
   elif key=='LM311N':self.comparator();layout='Komparator mit Ausgangstransistor'
   elif key=='PS2501-4':self.optocouplers();layout='verdrahtete Optokoppler'
   elif key.startswith('ULN'):self.darlingtons();layout='verdrahtete Darlington-Stufen mit Freilaufdioden'

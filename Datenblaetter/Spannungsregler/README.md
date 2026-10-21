@@ -1,6 +1,6 @@
 # Datenblätter: Spannungsregler und Spannungsreferenzen
 
-**13 Typen, 7 PDF-Dateien.** Erfasst am 13.10.2026. Mehrere Typen teilen sich ein Familien-Datenblatt. Hersteller und Varianten der Sortimentsbauteile sind überwiegend nicht bestätigt; die zugeordneten Herstellerunterlagen dienen als Typreferenz. Gehäuse, Pinbelegung und Kennwerte sind am vorhandenen Bauteil zu prüfen.
+**18 Typen, 10 PDF-Dateien.** Erfasst am 13.10.2026. Mehrere Typen teilen sich ein Familien-Datenblatt. Hersteller und Varianten der Sortimentsbauteile sind überwiegend nicht bestätigt; die zugeordneten Herstellerunterlagen dienen als Typreferenz. Gehäuse, Pinbelegung und Kennwerte sind am vorhandenen Bauteil zu prüfen.
 
 Die [Fotoauswertung](../../Quellen/Transistoren_und_Aehnliche/Auswertung.md) dokumentiert alle zehn Quellen und unklare Beschriftungen. Die Dateiquellen und SHA-256-Prüfsummen stehen in [quellen.json](quellen.json).
 
@@ -37,3 +37,15 @@ Die [Fotoauswertung](../../Quellen/Transistoren_und_Aehnliche/Auswertung.md) dok
 - **TL431A:** Shunt-Regler, kein dreipoliger Serienregler. Die Emitter-/Collector-Bezeichnungen des Kitaufklebers gelten hier nicht. Nachweis: [Foto-PDF](../../Quellen/Transistoren_und_Aehnliche/Transistoren_und_Aehnliche_2.pdf#page=1). [Downloadquelle](https://www.ti.com/lit/ds/symlink/tl431.pdf).
 
 Die genannten Festspannungen sind Ausgangsspannungen. Eingangsbereich, Spannungsreserve, Strom und Verlustleistung sind gesondert zu prüfen. TL431A arbeitet als Shunt-Regler; positive und negative Dreipolregler haben unterschiedliche Anschlussbelegungen.
+
+## Ergänzung vom 21.10.2026
+
+**L78S12CV:** STMicroelectronics, positiver Festspannungsregler mit +12 V Ausgang, bis 2 A bei ausreichender Kühlung, TO-220. Bestand: 10 Stück. [ST-Originaldatenblatt](L78S12CV_ST.pdf), DocID2148 Rev. 8, März 2014, 35 Seiten; [Downloadquelle](https://www.allelcoelec.jp/datasheets.84/L78S12CV.pdf). Der ST-Direktdownload war nicht erreichbar. Pinbelegung von vorn: 1 Eingang, 2 Masse, 3 Ausgang; Kühlfahne an Masse (Seite 6).
+
+**L78S05CV: 8 Stück.** Schreibweise S05 vom Nutzer bestätigt; ST-Typbezeichnung vereinheitlicht. Positiver Festspannungsregler, +5 V, bis 2 A bei ausreichender Kühlung, TO-220. Das vorhandene [L78S-Familiendatenblatt](L78S12CV_ST.pdf) deckt diesen Typ ab.
+
+**TS7805: 5 Stück.** Positiver +5-V-Festspannungsregler, bis 1 A bei ausreichender Kühlung. [TSC-TS7800-Familiendatenblatt](TS7805_TSC_Familie.pdf), Rev. 1 (03/2003), [Downloadquelle](https://cdn-reichelt.de/documents/datenblatt/A200/TS7800~TSC.pdf). Gehäusesuffix noch offen: CZ = TO-220, CI = TO-220F. Pinfolge: 1 Eingang, 2 Masse, 3 Ausgang.
+
+**L78S09CV: 18 Stück.** ST-L78S-Familie, +9 V Ausgang, bis 2 A bei ausreichender Kühlung, TO-220. Im vorhandenen [ST-Familiendatenblatt](L78S12CV_ST.pdf) enthalten. Pinfolge von vorn: 1 Eingang, 2 Masse, 3 Ausgang; Kühlfahne an Masse.
+
+**KA7809: 10 Stück.** Positiver +9-V-Festspannungsregler, bis 1 A bei ausreichender Kühlung. [Fairchild-Familiendatenblatt](KA7809_Fairchild.pdf), [Downloadquelle](https://www.haje.nl/pub/pdf/electronica/halfgeleiders/ka78xx.pdf). TO-220 als Referenz; genaue Gehäusevariante am Bauteil prüfen. Pin 1 Eingang, 2 Masse, 3 Ausgang.

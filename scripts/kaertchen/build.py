@@ -27,7 +27,7 @@ def power(name):return name.upper() in ['VCC','VDD','V+','V-','VEE','GND','OP-VC
 for r in rows:
  key=r['key'];r['reference']=r.get('symbol') or key;r['sources']=[];r['status']='Referenzkarte'
  if key in MANUAL:
-  names,src,page=MANUAL[key];r['pins']=[dict(number=i+1,name=n,role='passive',unit='manual') for i,n in enumerate(names.split())];r['sources']=[dict(file=src,page=page)];r['reference']={'7487':'SN74H87','CD4513':'MC14513B','74576':'SN74ALS576B','CD4553':'MC14553B'}.get(key,key)
+  names,src,page=MANUAL[key];r['pins']=[dict(number=i+1,name=n,role='passive',unit='manual') for i,n in enumerate(names.split())];r['sources']=[dict(file=src,page=page)];r['reference']={'UA741CN':'ST UA741CN (Ref.)','LM324N':'ST LM324N','LP324N':'TI/National LP324N (Ref.)','7487':'SN74H87','CD4513':'MC14513B','74576':'SN74ALS576B','CD4553':'MC14553B'}.get(key,key)
  elif key in UNRESOLVED:r['pins']=[];r['status']='Identifikationskarte';r['unresolved']=UNRESOLVED[key]
  elif r['pins']:
   unique={}
@@ -168,12 +168,13 @@ def draw_block_replacement(d,r,gate):
 if __name__=='__main__':
  parser=argparse.ArgumentParser(description='Experimentierkarten und A4-Druckbogen erstellen')
  parser.add_argument('--category',help='Nur Einzelkarten dieser Kategorie neu schreiben; A4 enthält weiterhin alle Karten')
+ parser.add_argument('--part',action='append',help='Nur diese Einzelkarte neu schreiben; mehrfach verwendbar; A4 enthält alle Karten')
  args=parser.parse_args()
  existing={r['key']:r for r in json.loads((ROOT/'images/karten.json').read_text())} if (ROOT/'images/karten.json').exists() else {}
  for r in rows:
   if r['pins']:r['first_pin_y_mm']=6.4
   r['png']=r['svg'].replace('.svg','.png')
-  if args.category and r['category']!=args.category:
+  if (args.category and r['category']!=args.category) or (args.part and r['key'] not in args.part):
    if r['key'] in existing:r.update(existing[r['key']])
    r['sha256_svg']=hashlib.sha256((ROOT/r['svg']).read_bytes()).hexdigest()
    continue

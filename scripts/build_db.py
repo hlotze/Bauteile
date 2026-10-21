@@ -7,6 +7,8 @@ import sqlite3
 
 ROOT = Path(__file__).resolve().parents[1]
 CATEGORIES = {
+    'Bestand: Quarze': ('Quarz', 'Quarze'),
+    'Bestand: Dioden': ('Diode', 'Dioden'),
     'IC-Bestand: SN74xx': ('IC SN7xxx', 'SN7xxx'),
     'IC-Bestand: CD4xxx': ('IC CD4xxx', 'CD4xxx'),
     'IC-Bestand: Diverse': ('IC diverse', 'Diverse'),
@@ -26,6 +28,7 @@ def main():
     sources = {
         folder: {entry['part']: entry for entry in json.loads(
             (ROOT / 'Datenblaetter' / folder / 'quellen.json').read_text())}
+        if (ROOT / 'Datenblaetter' / folder / 'quellen.json').is_file() else {}
         for _, folder in CATEGORIES.values()
     }
     rows = []

@@ -13,6 +13,8 @@ from cd_cards import GREEN, BLUE, BLACK, MM
 BASE=Path(__file__).parent/'sn_logikvorlagen'
 SOURCES=json.loads((BASE/'quellen.json').read_text())
 NAMES={
+ 85:'4-Bit-Größenkomparator',
+ 595:'8-Bit-Schieberegister / Speicher',
  0:'4 NAND, je 2 Eingänge',2:'4 NOR, je 2 Eingänge',4:'6 Inverter',5:'6 Inverter, OC',
  6:'6 Inverter / Treiber, OC',7:'6 Puffer / Treiber, OC',8:'4 AND, je 2 Eingänge',
  10:'3 NAND, je 3 Eingänge',11:'3 AND, je 3 Eingänge',12:'3 NAND, 3 Eingänge, OC',
@@ -52,6 +54,8 @@ class SNCard(DiverseCard):
   self.num=int(re.search(r'74(?:LS|ACT|HCT|HC)?(\d+)',r['key'])[1])
   self.pins={p['number']:dict(p) for p in r['pins']}
   for p in self.pins.values():
+   if self.num==85 and p['number'] in (5,6,7):p['role']='output'
+   if self.num==595 and p['name'].startswith('Q'):p['role']='output' if p['number']==9 else 'tri_state'
    if p['role']=='passive' and (re.fullmatch(r'/?(?:Y\d*|Q\d+|\dX)',p['name'])):p['role']='output'
 
  def heading(self,y,size):
@@ -247,11 +251,23 @@ class SNCard(DiverseCard):
     self.rect(16,y-1,13,2.6)
     self.text(22.5,y+.85,('D'+str(i+1)+' -> /Q'+str(i+1)) if num==576 else ('D'+str(i)+' -> '+('O' if num in (373,374) else 'Q')+str(i)),5.3,BLUE,'middle',width=12)
    self.text(22.5,44.1,'LE: transparent' if num==373 else 'Gemeinsamer CLK',4.8,BLACK,'middle',width=17)
+  elif num==595:
+   self.rect(14,10,17,12)
+   for i,line in enumerate(('SER -> 8-Bit', 'Schieberegister', 'SRCLK steigt', '/SRCLR: löschen')):
+    self.text(22.5,12.5+i*2.6,line,5.2,BLACK,'middle',width=16)
+   self.line([(22.5,22),(22.5,26)])
+   self.rect(14,26,17,8)
+   self.text(22.5,29,'8-Bit-Speicher',5.7,BLACK,'middle',width=16)
+   self.text(22.5,32,'RCLK steigt',5.2,BLACK,'middle')
+   self.line([(22.5,34),(22.5,37)])
+   self.text(22.5,39,'QA bis QH: 3-State',5.2,BLUE,'middle',width=18)
+   self.text(22.5,42,'/OE=1: hochohmig',5,BLACK,'middle',width=18)
+   self.text(22.5,45,'QH-ser: Kaskadierung',4.8,BLUE,'middle',width=18)
   elif num==87:
    self.text(22.5,13,'4 × Funktion A -> Y',5.8,anchor='middle',width=17)
    for i,line in enumerate(('B C | Y','0 0 | /A','0 1 | A','1 0 | 1','1 1 | 0')):self.text(22.5,21+i*4,line,6.3,BLACK,'middle',i==0)
   else:
-   caption={60:['2 EXPANDER','4 Eingänge je','X / X inv.'],83:['4-Bit-ADDER','A + B + Cin','-> S / Cout'],
+   caption={85:['4-Bit-Vergleich','A und B','A < B / A = B','A > B','Kaskadierbar'],60:['2 EXPANDER','4 Eingänge je','X / X inv.'],83:['4-Bit-ADDER','A + B + Cin','-> S / Cout'],
     145:['BCD -> DEC','1 aus 10','OC-Ausgänge'],147:['PRIORITÄT','DEZ -> BCD'],148:['PRIORITÄT','8 -> 3'],
     165:['8-Bit','SCHIEBEREG.','Parallel ->','seriell'],166:['8-Bit','SCHIEBEREG.','Parallel /','seriell'],
     247:['BCD ->','7-SEGMENT','6 / 9 anders','OC'],248:['BCD ->','7-SEGMENT','6 / 9 anders'],

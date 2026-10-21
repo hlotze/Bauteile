@@ -4004,6 +4004,17 @@
     ]
   },
   {
+    "part": "CD74HCT85E",
+    "key": "CD74HCT85E",
+    "function": "4-Bit-Größenkomparator mit Kaskadierung",
+    "category": "SN7xxx",
+    "symbol": null,
+    "library": null,
+    "pins": [],
+    "package": "DIP-16",
+    "candidates": []
+  },
+  {
     "part": "SN74LS83N",
     "key": "SN74LS83N",
     "function": "4-Bit-Binär-Volladdierer mit schnellem Übertrag",
@@ -10622,6 +10633,135 @@
       "74641A",
       "74641B",
       "74LS641"
+    ]
+  },
+  {
+    "part": "SN74HC595",
+    "key": "SN74HC595",
+    "function": "8-Bit-Schieberegister mit Ausgangsregister und 3-State-Ausgängen",
+    "category": "SN7xxx",
+    "symbol": "74HC595",
+    "library": "74xx.kicad_sym",
+    "pins": [
+      {
+        "number": 14,
+        "name": "SER",
+        "role": "input",
+        "shape": "line",
+        "unit": "74HC595_1_0"
+      },
+      {
+        "number": 11,
+        "name": "SRCLK",
+        "role": "input",
+        "shape": "line",
+        "unit": "74HC595_1_0"
+      },
+      {
+        "number": 10,
+        "name": "~{SRCLR}",
+        "role": "input",
+        "shape": "line",
+        "unit": "74HC595_1_0"
+      },
+      {
+        "number": 12,
+        "name": "RCLK",
+        "role": "input",
+        "shape": "line",
+        "unit": "74HC595_1_0"
+      },
+      {
+        "number": 13,
+        "name": "~{OE}",
+        "role": "input",
+        "shape": "line",
+        "unit": "74HC595_1_0"
+      },
+      {
+        "number": 16,
+        "name": "VCC",
+        "role": "power_in",
+        "shape": "line",
+        "unit": "74HC595_1_0"
+      },
+      {
+        "number": 8,
+        "name": "GND",
+        "role": "power_in",
+        "shape": "line",
+        "unit": "74HC595_1_0"
+      },
+      {
+        "number": 15,
+        "name": "QA",
+        "role": "tri_state",
+        "shape": "line",
+        "unit": "74HC595_1_0"
+      },
+      {
+        "number": 1,
+        "name": "QB",
+        "role": "tri_state",
+        "shape": "line",
+        "unit": "74HC595_1_0"
+      },
+      {
+        "number": 2,
+        "name": "QC",
+        "role": "tri_state",
+        "shape": "line",
+        "unit": "74HC595_1_0"
+      },
+      {
+        "number": 3,
+        "name": "QD",
+        "role": "tri_state",
+        "shape": "line",
+        "unit": "74HC595_1_0"
+      },
+      {
+        "number": 4,
+        "name": "QE",
+        "role": "tri_state",
+        "shape": "line",
+        "unit": "74HC595_1_0"
+      },
+      {
+        "number": 5,
+        "name": "QF",
+        "role": "tri_state",
+        "shape": "line",
+        "unit": "74HC595_1_0"
+      },
+      {
+        "number": 6,
+        "name": "QG",
+        "role": "tri_state",
+        "shape": "line",
+        "unit": "74HC595_1_0"
+      },
+      {
+        "number": 7,
+        "name": "QH",
+        "role": "tri_state",
+        "shape": "line",
+        "unit": "74HC595_1_0"
+      },
+      {
+        "number": 9,
+        "name": "QH'",
+        "role": "output",
+        "shape": "line",
+        "unit": "74HC595_1_0"
+      }
+    ],
+    "package": "DIP-16 (Referenz: N)",
+    "candidates": [
+      "74HC595",
+      "74HC595A",
+      "74HC595B",
+      "74LS595"
     ]
   },
   {
@@ -18056,7 +18196,8 @@
       "LH6764-20",
       "LH6764-20",
       "LH6764-20"
-    ]
+    ],
+    "marking": "Sharp546EG"
   },
   {
     "part": "LM311N",
@@ -18245,6 +18386,119 @@
       "LM324N",
       "LM324N"
     ]
+  },
+  {
+    "part": "LP324N",
+    "key": "LP324N",
+    "function": "4 Micropower-Operationsverstärker",
+    "category": "Diverse",
+    "symbol": "LM324",
+    "library": "Amplifier_Operational.kicad_sym",
+    "pins": [
+      {
+        "number": 3,
+        "name": "+",
+        "role": "input",
+        "shape": "line",
+        "unit": "LM2902_1_1"
+      },
+      {
+        "number": 2,
+        "name": "-",
+        "role": "input",
+        "shape": "line",
+        "unit": "LM2902_1_1"
+      },
+      {
+        "number": 1,
+        "name": "~",
+        "role": "output",
+        "shape": "line",
+        "unit": "LM2902_1_1"
+      },
+      {
+        "number": 5,
+        "name": "+",
+        "role": "input",
+        "shape": "line",
+        "unit": "LM2902_2_1"
+      },
+      {
+        "number": 6,
+        "name": "-",
+        "role": "input",
+        "shape": "line",
+        "unit": "LM2902_2_1"
+      },
+      {
+        "number": 7,
+        "name": "~",
+        "role": "output",
+        "shape": "line",
+        "unit": "LM2902_2_1"
+      },
+      {
+        "number": 10,
+        "name": "+",
+        "role": "input",
+        "shape": "line",
+        "unit": "LM2902_3_1"
+      },
+      {
+        "number": 9,
+        "name": "-",
+        "role": "input",
+        "shape": "line",
+        "unit": "LM2902_3_1"
+      },
+      {
+        "number": 8,
+        "name": "~",
+        "role": "output",
+        "shape": "line",
+        "unit": "LM2902_3_1"
+      },
+      {
+        "number": 12,
+        "name": "+",
+        "role": "input",
+        "shape": "line",
+        "unit": "LM2902_4_1"
+      },
+      {
+        "number": 13,
+        "name": "-",
+        "role": "input",
+        "shape": "line",
+        "unit": "LM2902_4_1"
+      },
+      {
+        "number": 14,
+        "name": "~",
+        "role": "output",
+        "shape": "line",
+        "unit": "LM2902_4_1"
+      },
+      {
+        "number": 4,
+        "name": "V+",
+        "role": "power_in",
+        "shape": "line",
+        "unit": "LM2902_5_1"
+      },
+      {
+        "number": 11,
+        "name": "V-",
+        "role": "power_in",
+        "shape": "line",
+        "unit": "LM2902_5_1"
+      }
+    ],
+    "package": "DIP-14",
+    "candidates": [
+      "LM324"
+    ],
+    "marking": "JM218AK"
   },
   {
     "part": "LM339AN",
@@ -18672,6 +18926,17 @@
     ]
   },
   {
+    "part": "MC1455",
+    "key": "MC1455",
+    "function": "Timer, astabiler oder monostabiler Multivibrator",
+    "category": "Diverse",
+    "symbol": null,
+    "library": null,
+    "pins": [],
+    "package": "DIP-8",
+    "candidates": []
+  },
+  {
     "part": "NE555",
     "key": "NE555",
     "function": "Timer / astabiler oder monostabiler Multivibrator",
@@ -18890,6 +19155,17 @@
       "PS2501-4",
       "PS2501-4"
     ]
+  },
+  {
+    "part": "UA741CN",
+    "key": "UA741CN",
+    "function": "1 Operationsverstärker mit Offset-Abgleich",
+    "category": "Diverse",
+    "symbol": null,
+    "library": null,
+    "pins": [],
+    "package": "DIP-8",
+    "candidates": []
   },
   {
     "part": "UA78S40PC",

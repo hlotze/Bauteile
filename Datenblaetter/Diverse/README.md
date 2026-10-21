@@ -1,6 +1,6 @@
 # Datenblätter: Diverse
 
-Heruntergeladen und geprüft am **13.10.2026**. **18 PDF-Dateien für 20 der 21 Einträge**. Spannungsregler und MPQ2222A sind in die entsprechenden Kategorien verschoben. Für **LH6764-20** bleibt die Zuordnung offen.
+Stand **21.10.2026**: **22 PDF-Dateien für 26 der 27 Einträge**. Spannungsregler und MPQ2222A sind in die entsprechenden Kategorien verschoben. Für **LH6764-20** bleibt die Zuordnung offen.
 
 Die Tabelle unterscheidet Herstellerdatenblätter, Familienunterlagen und Referenzen anderer Hersteller. Eine Referenz bestätigt nicht alle Kennwerte des vorhandenen Exemplars. Die Original-Herstellerdokumente wurden teilweise aus Händler- oder Datenblattarchiven bezogen, weil die Herstellerseiten den Download nicht zuließen. Downloadquelle, SHA-256-Prüfsumme und Zuordnung stehen in [quellen.json](quellen.json).
 
@@ -9,7 +9,7 @@ Die Tabelle unterscheidet Herstellerdatenblätter, Familienunterlagen und Refere
 | Baustein | Lokales PDF | Dokumenthersteller | Zuordnung | Downloadquelle | Karte |
 | --- | --- | --- | --- | --- | --- |
 | B3CA4.5Z | [PDF](B3CA4_5Z_FTR_B3_FCL_Referenz.pdf) | FCL Components (ehemals Fujitsu) | Familienreferenz | [Quelle](https://www.fcl-components.com/downloads/MICRO/fcai/relays/ftr-b3.pdf) | – |
-| COM8126 | [PDF](COM8126_SMC_Datenbuchauszug.pdf) | Standard Microsystems Corporation | Herstellerdatenbuch | [Quelle](https://bitsavers.org/components/standardMicrosystems/_dataBooks/1981_StandardMicrosystems.pdf) | [Bild](../../images/Diverse/COM8126_karte_45x55mm.png) / [PDF](../../images/Diverse/COM8126_karte_45x55mm.pdf) / [SVG](../../images/Diverse/COM8126_karte_45x55mm.svg) |
+| COM8126 | [PDF](COM8126_COM8146_SMC.pdf) / [Auszug 1981](COM8126_SMC_Datenbuchauszug.pdf) | Standard Microsystems Corporation | Herstellerdatenbuch | [Quelle](https://bitsavers.org/components/standardMicrosystems/_dataBooks/1981_StandardMicrosystems.pdf) | [Bild](../../images/Diverse/COM8126_karte_45x55mm.png) / [PDF](../../images/Diverse/COM8126_karte_45x55mm.pdf) / [SVG](../../images/Diverse/COM8126_karte_45x55mm.svg) |
 | DIP05-1A72-12L | [PDF](DIP05_1A72_12L_MEDER.pdf) | MEDER electronic | Herstellerdatenblatt | [Quelle](https://www.eve.de/sales/document/download/filename/3205100012e.pdf) | – |
 | L293D | [PDF](L293_TI.pdf) | Texas Instruments | Fremdherstellerreferenz | [Quelle](https://www.ti.com/lit/ds/symlink/l293.pdf) | [Bild](../../images/Diverse/L293D_karte_45x55mm.png) / [PDF](../../images/Diverse/L293D_karte_45x55mm.pdf) / [SVG](../../images/Diverse/L293D_karte_45x55mm.svg) |
 | L293NE | [PDF](L293_TI.pdf) | Texas Instruments | Herstellerdatenblatt | [Quelle](https://www.ti.com/lit/ds/symlink/l293.pdf) | [Bild](../../images/Diverse/L293NE_karte_45x55mm.png) / [PDF](../../images/Diverse/L293NE_karte_45x55mm.pdf) / [SVG](../../images/Diverse/L293NE_karte_45x55mm.svg) |
@@ -49,7 +49,7 @@ Die Tabelle unterscheidet Herstellerdatenblätter, Familienunterlagen und Refere
 - **NE555:** Hersteller und vollständiger Typzusatz nicht bestätigt; TI-NE555 als Referenz.
 - **PCF8574N:** TI-Logo und PCF8574N auf dem Foto; Dokument enthält PDIP-16 (N). Dateiname enthält den ursprünglichen Arbeitsvermerk Referenz.
 - **PS2501-4:** Vier Kanäle; PS2501-4-Ausführung im gemeinsamen Familien-Datenblatt.
-- **UA78S40PC:** Motorola-Aufdruck; onsemi-Herststellerunterlage mit UA78S40PC, PDIP-16.
+- **UA78S40PC: 3 Stück.** Kennzeichnung M laut Nutzer, vermutlich Motorola; Hersteller nicht abschließend bestätigt. onsemi-Nachfolgedokument mit UA78S40PC, PDIP-16.
 - **ULN2004A:** ST-Aufdruck; TI-ULN2004A als Referenz. Eingangspegel des 2004 unterscheiden sich vom 2003.
 - **ULN2004AG:** Toshiba-Aufdruck; nur TI-Grundtyp-Referenz. Exakte Toshiba-G-Ausführung noch zu prüfen.
 - **ULN2803A:** Gemeinsames ULN2801A–ULN2804A-Datenblatt; ULN2803A ist die 5-V-TTL/CMOS-Ausführung.
@@ -59,3 +59,28 @@ Die Tabelle unterscheidet Herstellerdatenblätter, Familienunterlagen und Refere
 Spannungsregler sind keine direkt austauschbaren +5-V-Logikbausteine. Die angegebene Ausgangsspannung ist nicht ihre Eingangsspannung; positive und negative Regler haben unterschiedliche Pinbelegungen. Für Treiber, Relais, Optokoppler und Schnittstellenbausteine gelten die jeweiligen Versorgungs-, Last- und Anschlussbedingungen des Datenblatts.
 
 Der COM8126-Auszug enthält die gedruckten Seiten 193–194 des SMC-Datenbuchs 1981 (PDF-Seiten 194–195). Der Auszug wurde nach dem Extrahieren visuell kontrolliert. Die vollständige Quelle und deren Prüfsumme sind in der Quellenliste verzeichnet.
+
+## Aktualisierung vom 21.10.2026
+
+COM8126: ergänzendes [SMC-Herstellerdatenbuch](COM8126_COM8146_SMC.pdf) heruntergeladen ([Originalquelle](https://electrickery.hosting.philpem.me.uk/comp/divcomp/doc/SMC_BaudGen.pdf)). COM8126/COM8146: PDF-Seiten 14–15, gemeinsame Kennwerte: 16–17, Frequenzoptionen: 19. Pin 8 ist nur beim COM8146 belegt und bleibt beim COM8126 NC. Bestand: 5 Stück.
+
+LH6764-20: Bestand 1 Stück; erneut recherchiert, weiterhin kein belastbares Datenblatt gefunden. Identifikationskarte ohne Pinbelegung; Aufdruck vom Nutzer bestätigt: `LH6764-20 / Sharp546EG`; Funktion und Pinbelegung bleiben ungeklärt.
+
+## Operationsverstärker: Ergänzung vom 21.10.2026
+
+- **LM324N / ST, 16 Stück:** [ST-Datenblatt](LM324_ST.pdf) erneut aus dem [Archiv](https://chipdatasheet.com/wp-content/uploads/2023/02/STMICROELECTRONICS-LM324.pdf) heruntergeladen. Rev. 3, Juni 2005; DIP-14; 3–30 V Einzelversorgung. ST-Direktdownload nicht erreichbar.
+- **LP324N, 5 Stück:** [TI/National-Referenzdatenblatt](LP324N_TI_National.pdf), [Originalquelle](https://www.ti.com/lit/ds/symlink/lp324-n.pdf). Zusatzaufdruck `JM218AK`; Hersteller des vorhandenen ICs bleibt unbestätigt. DIP-14, vier Micropower-Operationsverstärker, Pinbelegung kompatibel zu LM324.
+
+Karten: [LM324N](../../images/Diverse/LM324N_karte_45x55mm.pdf), [LP324N](../../images/Diverse/LP324N_karte_45x55mm.pdf).
+
+Bestandsaktualisierung: **LM358: 9 Stück**, **LM358P: 1 Stück** (separat erfasst). Für LM358P gelten das vorhandene [TI-Referenzdatenblatt](LM358_TI_Referenz.pdf) und die [LM358-Karte als Pinreferenz](../../images/Diverse/LM358_karte_45x55mm.pdf); Hersteller des vorhandenen LM358P nicht angegeben.
+
+**UA741CN: 10 Stück.** Einzel-Operationsverstärker mit Offset-Abgleich, DIP-8. [ST-Typreferenzdatenblatt](UA741CN_ST.pdf), DocID5304 Rev. 3, September 2013, 11 Seiten; [Archivquelle](https://www.datasheets.com/stmicroelectronics/ua741cn/datasheet.pdf). Hersteller des vorhandenen Bauteils nicht angegeben. [Karte](../../images/Diverse/UA741CN_karte_45x55mm.pdf).
+
+## Timerbestände
+
+- **NE555 (E): 41 Stück.** E als Herstellerkennzeichnung übernommen; genauer Hersteller unbestätigt. Vorhandenes [TI-NE555-Datenblatt](NE555_TI.pdf) und NE555-Karte als Referenz.
+- **NE555 (TI): 1 Stück.** TI-Herstellerangabe vom Nutzer; gleiches Datenblatt und gleiche Referenzkarte.
+- **MC1455: 1 Stück.** [onsemi-Datenblatt](MC1455_onsemi.pdf), [Originalquelle](https://www.onsemi.com/download/data-sheet/pdf/mc1455-d.pdf). Hersteller des vorhandenen ICs nicht angegeben; DIP-8/P1 als Referenz. [Karte](../../images/Diverse/MC1455_karte_45x55mm.pdf).
+
+**L298N: 5 Stück.** Zweifacher Vollbrücken-Motortreiber, Multiwatt-15 vertikal. [ST-Datenblatt](L298N_ST.pdf), DS0218 Rev. 5 (Oktober 2023), [Downloadquelle](https://www.datasheets.com/stmicroelectronics/L298N/datasheet.pdf). ST als Typreferenz; Hersteller des vorhandenen ICs nicht genannt. Keine DIP-Experimentierkarte für dieses Gehäuse.

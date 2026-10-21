@@ -13,24 +13,29 @@
   },
   {
     "part": "COM8126",
-    "pdf": "COM8126_SMC_Datenbuchauszug.pdf",
+    "pdf": "COM8126_COM8146_SMC.pdf",
     "manufacturer": "Standard Microsystems Corporation",
     "assignment": "Herstellerdatenbuch",
-    "note": "Auszug aus dem Datenbuch 1981: gedruckte Seiten 193–194, PDF-Seiten 194–195.",
-    "downloaded_on": "2026-10-13",
-    "url": "https://bitsavers.org/components/standardMicrosystems/_dataBooks/1981_StandardMicrosystems.pdf",
-    "final_url": "https://bitsavers.org/components/standardMicrosystems/_dataBooks/1981_StandardMicrosystems.pdf",
-    "sha256": "5174ca9a153456947785a20f05f52079490473149b978519ec246395ca50cf07",
-    "pages": 2,
-    "source_sha256": "fa8fd1e2f5e16e30584972d7d91991205f47a080a229fad18d30d9aa84367f8f",
-    "source_pdf_pages": [
-      194,
-      195
-    ],
-    "printed_pages": [
-      193,
-      194
-    ]
+    "note": "SMC-Herstellerdatenbuch: COM8126/COM8146 auf PDF-Seiten 14–15 (gedruckt 277–278); gemeinsame Kennwerte auf 16–17, Frequenzen auf 19. Pin 8 nur beim COM8146 belegt. Der bisherige Auszug aus dem Datenbuch 1981 bleibt erhalten.",
+    "downloaded_on": "2026-10-21",
+    "url": "https://electrickery.hosting.philpem.me.uk/comp/divcomp/doc/SMC_BaudGen.pdf",
+    "final_url": "https://electrickery.hosting.philpem.me.uk/comp/divcomp/doc/SMC_BaudGen.pdf",
+    "sha256": "46e6d03e1f2e909a3db3a2bfa2df7bc140c8caad1c5315e148e210c1f519116d",
+    "pages": 26,
+    "previous_source": {
+      "pdf": "COM8126_SMC_Datenbuchauszug.pdf",
+      "url": "https://bitsavers.org/components/standardMicrosystems/_dataBooks/1981_StandardMicrosystems.pdf",
+      "sha256": "5174ca9a153456947785a20f05f52079490473149b978519ec246395ca50cf07",
+      "source_sha256": "fa8fd1e2f5e16e30584972d7d91991205f47a080a229fad18d30d9aa84367f8f",
+      "source_pdf_pages": [
+        194,
+        195
+      ],
+      "printed_pages": [
+        193,
+        194
+      ]
+    }
   },
   {
     "part": "DIP05-1A72-12L",
@@ -54,7 +59,9 @@
     "url": "https://www.ti.com/lit/ds/symlink/l293.pdf",
     "final_url": "https://www.ti.com/lit/ds/symlink/l293.pdf",
     "sha256": "ee1e8923495a2c0d0e8c0184de344b424b4e665cc68c7e5e882c6fd2eed55158",
-    "pages": 19
+    "pages": 19,
+    "quantity": "10",
+    "component_manufacturer": "STMicroelectronics"
   },
   {
     "part": "L293NE",
@@ -66,15 +73,18 @@
     "url": "https://www.ti.com/lit/ds/symlink/l293.pdf",
     "final_url": "https://www.ti.com/lit/ds/symlink/l293.pdf",
     "sha256": "ee1e8923495a2c0d0e8c0184de344b424b4e665cc68c7e5e882c6fd2eed55158",
-    "pages": 19
+    "pages": 19,
+    "quantity": "4"
   },
   {
     "part": "LH6764-20",
     "pdf": null,
     "manufacturer": "Sharp laut Aufdruck",
     "assignment": "Offen",
-    "note": "Kein belastbares Datenblatt gefunden. LH5764 ist ein anderer Typ und wird nicht ersatzweise zugeordnet.",
-    "downloaded_on": "2026-10-13"
+    "note": "Aufdruck vom Nutzer am 21.10.2026 bestätigt: LH6764-20 / Sharp546EG. Auch mit vollständigem Aufdruck kein belastbares Datenblatt gefunden; Funktion und Pinbelegung bleiben ungeklärt.",
+    "downloaded_on": "2026-10-13",
+    "checked_on": "2026-10-21",
+    "marking": "LH6764-20 / Sharp546EG"
   },
   {
     "part": "LM311N",
@@ -93,8 +103,8 @@
     "pdf": "LM324_ST.pdf",
     "manufacturer": "STMicroelectronics",
     "assignment": "Herstellerdatenblatt",
-    "note": "Archiviertes ST-Herstellerdatenblatt mit DIP-14-Ausführung.",
-    "downloaded_on": "2026-10-13",
+    "note": "ST-Hersteller vom Nutzer bestätigt; Bestand 16. Archiviertes ST-Datenblatt Rev. 3 (Juni 2005), DIP-14: LM324N. Direktdownload bei ST fehlgeschlagen; ST-Original aus dem dokumentierten Archiv erneut heruntergeladen.",
+    "downloaded_on": "2026-10-21",
     "url": "https://chipdatasheet.com/wp-content/uploads/2023/02/STMICROELECTRONICS-LM324.pdf",
     "final_url": "https://chipdatasheet.com/wp-content/uploads/2023/02/STMICROELECTRONICS-LM324.pdf",
     "sha256": "8b253cf16e89027feb056fa2f0ef68b494b41975df8887ba88bf5fcfb57690d2",
@@ -110,7 +120,8 @@
     "url": "https://docs.rs-online.com/fbf7/0900766b80ecccbe.pdf",
     "final_url": "https://docs.rs-online.com/fbf7/0900766b80ecccbe.pdf",
     "sha256": "3f64c2b21fa63da6f18c94532ab7aee8e91e374e72b4924869a93ff87d8cd1ce",
-    "pages": 16
+    "pages": 16,
+    "quantity": "offen"
   },
   {
     "part": "LM358",
@@ -122,7 +133,21 @@
     "url": "https://www.ti.com/lit/ds/symlink/lm358.pdf",
     "final_url": "https://www.ti.com/lit/ds/symlink/lm358.pdf",
     "sha256": "95fd2cc9c87014b32c2939009266e2c5938fc3c11a61d52015fa53fdeef5ab70",
-    "pages": 68
+    "pages": 68,
+    "quantity": "9"
+  },
+  {
+    "part": "LM358P",
+    "pdf": "LM358_TI_Referenz.pdf",
+    "manufacturer": "Texas Instruments",
+    "assignment": "Typreferenz",
+    "note": "Separat erfasster LM358P; Hersteller nicht angegeben; TI-LM358P im DIP-8 als Referenz; vorhandene LM358-Karte als Pinreferenz",
+    "downloaded_on": "2026-10-13",
+    "url": "https://www.ti.com/lit/ds/symlink/lm358.pdf",
+    "final_url": "https://www.ti.com/lit/ds/symlink/lm358.pdf",
+    "sha256": "95fd2cc9c87014b32c2939009266e2c5938fc3c11a61d52015fa53fdeef5ab70",
+    "pages": 68,
+    "quantity": "1"
   },
   {
     "part": "MAX250CPD",
@@ -173,16 +198,30 @@
     "pages": 29
   },
   {
-    "part": "NE555",
+    "part": "NE555 (E)",
     "pdf": "NE555_TI.pdf",
-    "manufacturer": "Texas Instruments",
+    "manufacturer": "E (Kennzeichnung; Hersteller unbestätigt)",
     "assignment": "Typreferenz",
-    "note": "Hersteller und vollständiger Typzusatz nicht bestätigt; TI-NE555 als Referenz.",
+    "note": "Herstellerkennzeichnung E laut Nutzer; genauer Hersteller unbestätigt; TI-NE555-Datenblatt und vorhandene Karte als Referenz",
     "downloaded_on": "2026-10-13",
     "url": "https://www.ti.com/lit/ds/symlink/ne555.pdf",
     "final_url": "https://www.ti.com/lit/ds/symlink/ne555.pdf",
     "sha256": "a3756e59fd06d0ba736edf9ffe71d99d2aae33fb7e49fedc86165a241179f4a6",
-    "pages": 39
+    "pages": 39,
+    "quantity": "41"
+  },
+  {
+    "part": "NE555 (TI)",
+    "pdf": "NE555_TI.pdf",
+    "manufacturer": "Texas Instruments",
+    "assignment": "Herstellerdatenblatt",
+    "note": "Texas Instruments laut Nutzer; vollständigen Gehäusesuffix prüfen",
+    "downloaded_on": "2026-10-13",
+    "url": "https://www.ti.com/lit/ds/symlink/ne555.pdf",
+    "final_url": "https://www.ti.com/lit/ds/symlink/ne555.pdf",
+    "sha256": "a3756e59fd06d0ba736edf9ffe71d99d2aae33fb7e49fedc86165a241179f4a6",
+    "pages": 39,
+    "quantity": "1"
   },
   {
     "part": "PCF8574N",
@@ -213,12 +252,14 @@
     "pdf": "UA78S40_onsemi_Referenz.pdf",
     "manufacturer": "onsemi / Motorola",
     "assignment": "Nachfolgedokument",
-    "note": "Motorola-Aufdruck; onsemi-Herststellerunterlage mit UA78S40PC, PDIP-16.",
+    "note": "Kennzeichnung M laut Nutzer; vermutlich Motorola, Hersteller nicht abschließend bestätigt; onsemi-Unterlage als Nachfolgedokument für UA78S40PC, PDIP-16",
     "downloaded_on": "2026-10-13",
     "url": "https://datasheet4u.com/pdf/502453/UA78S40.pdf",
     "final_url": "https://datasheet4u.com/pdf/502453/UA78S40.pdf",
     "sha256": "b43b356e01a451c3167f87d8d22f64e280b90a1f7dd9a55bd06c867e73fcaf1b",
-    "pages": 7
+    "pages": 7,
+    "quantity": "3",
+    "component_manufacturer": "vermutlich Motorola (Kennzeichnung M)"
   },
   {
     "part": "ULN2004A",
@@ -255,5 +296,55 @@
     "final_url": "https://datasheet4u.com/pdf/1495366/ULN2803A.pdf",
     "sha256": "78d49085c6e74186f60f0927029d0fdfd3b756e2e39771d64b056a19223635ac",
     "pages": 14
+  },
+  {
+    "part": "LP324N",
+    "pdf": "LP324N_TI_National.pdf",
+    "manufacturer": "TI / National Semiconductor (Referenz; Hersteller des vorhandenen ICs unbestätigt)",
+    "assignment": "Typreferenz",
+    "note": "Zusatzaufdruck JM218AK vom Nutzer genannt; kein gesicherter Herstellername. TI/National LP324N als Referenz, DIP-14; Pinfolge auf Seite 1, DIP-Bestelltyp im Gehäuseanhang.",
+    "downloaded_on": "2026-10-21",
+    "url": "https://www.ti.com/lit/ds/symlink/lp324-n.pdf",
+    "final_url": "https://www.ti.com/lit/ds/symlink/lp324-n.pdf",
+    "sha256": "ae21e6c8576b684e3211ac9062fc8e71d834deba1a56d23ea8aafebb5265936e"
+  },
+  {
+    "part": "UA741CN",
+    "pdf": "UA741CN_ST.pdf",
+    "manufacturer": "STMicroelectronics (Typreferenz)",
+    "assignment": "Typreferenz",
+    "quantity": "10",
+    "note": "ST-UA741CN als Typreferenz; Hersteller des vorhandenen ICs nicht angegeben; DIP-8; Pins 1/5: Offset-Abgleich, 8: NC; keine Rail-to-Rail-Ausführung",
+    "downloaded_on": "2026-10-21",
+    "url": "https://www.datasheets.com/stmicroelectronics/ua741cn/datasheet.pdf",
+    "final_url": "https://www.datasheets.com/stmicroelectronics/ua741cn/datasheet.pdf",
+    "manufacturer_url": "https://www.st.com/resource/en/datasheet/ua741.pdf",
+    "sha256": "0afc5c332f2cc1d333724ec94b78afac9f4e9f8dc300f68d9f0e67f51c989e44",
+    "pages": 11
+  },
+  {
+    "part": "MC1455",
+    "pdf": "MC1455_onsemi.pdf",
+    "manufacturer": "onsemi (Typreferenz)",
+    "assignment": "Typreferenz",
+    "quantity": "1",
+    "note": "MC1455, Hersteller nicht angegeben; onsemi-Typreferenz; DIP-8 als Referenz (P1), genauen Gehäusesuffix prüfen; nicht mit MC14553B verwechseln",
+    "downloaded_on": "2026-10-21",
+    "url": "https://www.onsemi.com/download/data-sheet/pdf/mc1455-d.pdf",
+    "sha256": "d8298f4fea2c7401875a94fadf1ac0248f83cc8fba81869b282aef8e8f2bd3e6"
+  },
+  {
+    "part": "L298N",
+    "pdf": "L298N_ST.pdf",
+    "manufacturer": "STMicroelectronics (Typreferenz)",
+    "assignment": "Typreferenz",
+    "quantity": "5",
+    "note": "ST-L298-Typreferenz; getrennte Motor- und Logikversorgung; Enable und Strommessanschlüsse je Brücke; externe Freilaufdioden bei induktiven Lasten gemäß Datenblatt; Kühlung beachten; kein DIP-Gehäuse",
+    "downloaded_on": "2026-10-21",
+    "url": "https://www.datasheets.com/stmicroelectronics/L298N/datasheet.pdf",
+    "final_url": "https://www.datasheets.com/stmicroelectronics/L298N/datasheet.pdf",
+    "manufacturer_url": "https://www.st.com/resource/en/datasheet/l298.pdf",
+    "sha256": "f2c118d4d565df195beae453cef0dbbde740b435efbfd7fa6ba346f6ad9c8227",
+    "pages": 23
   }
 ]

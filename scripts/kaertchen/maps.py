@@ -1,6 +1,12 @@
 # Manuell aus den angegebenen Hersteller-PDFs abgelesene DIP-Pinfolgen.
 # Reihenfolge jeweils Pin 1 bis N, Draufsicht; / kennzeichnet aktiv Low.
 MANUAL={
+ 'CD74HCT85E':('B3 LT-IN EQ-IN GT-IN GT-OUT EQ-OUT LT-OUT GND B0 A0 B1 A1 A2 B2 A3 VCC','Datenblaetter/SN7xxx/CD74HCT85E_TI.pdf',3),
+ 'MC1455':('GND TRIG OUT /RESET CTRL THR DISCH VCC','Datenblaetter/Diverse/MC1455_onsemi.pdf',1),
+ 'UA741CN':('NULL1 IN1- IN1+ V- NULL2 1Y V+ NC','Datenblaetter/Diverse/UA741CN_ST.pdf',1),
+ 'LM324N':('1Y IN1- IN1+ V+ IN2+ IN2- 2Y 3Y IN3- IN3+ V- IN4+ IN4- 4Y','Datenblaetter/Diverse/LM324_ST.pdf',3),
+ 'LP324N':('1Y IN1- IN1+ V+ IN2+ IN2- 2Y 3Y IN3- IN3+ V- IN4+ IN4- 4Y','Datenblaetter/Diverse/LP324N_TI_National.pdf',1),
+ 'SN74HC595':('QB QC QD QE QF QG QH GND QH-ser /SRCLR SRCLK RCLK /OE SER QA VCC','Datenblaetter/SN7xxx/SN74HC595_TI.pdf',3),
  'CD4042':('Q4 Q1 /Q1 D1 CLK POL D2 GND /Q2 Q2 Q3 /Q3 D3 D4 /Q4 VDD','Datenblaetter/CD4xxx/CD4042_TI.pdf',1),
  'CD4043':('Q4 Q1 R1 S1 EN S2 R2 GND Q2 Q3 R3 S3 NC S4 R4 VDD','Datenblaetter/CD4xxx/CD4043_TI.pdf',1),
  'SN74LS54N':('A B C D E Y GND NC F G H I J VCC','Datenblaetter/SN7xxx/SN74LS54N_TI.pdf',1),

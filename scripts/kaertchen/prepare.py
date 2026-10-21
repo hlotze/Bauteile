@@ -40,8 +40,9 @@ for line in (base.resolve().parents[1]/'Bauteile.md').read_text().splitlines():
    if not 'LS' in stem and not any(t in stem for t in ['HC','ACT']):candidates+=['74LS'+number.group(1)]
    if 'HC' in stem or 'ACT' in stem:candidates+=['74LS'+number.group(1)]
   else:candidates=[clean,clean.rstrip('N'),'ULN2004A' if clean=='ULN2004AG' else clean,'ULN2803A' if clean=='ULN2803A' else clean]
-  aliases={'SN74LS164N':'74HC164','L293NE':'L293','LM339AN':'LM339','MAX7219CNG':'MAX7219','NE555':'NE555P','PCF8574N':'PCF8574P','CD4541':'CD4541BE','MC1488':'MC1488','MC1489':'MC1489'}
+  aliases={'LP324N':'LM324','SN74LS164N':'74HC164','L293NE':'L293','LM339AN':'LM339','MAX7219CNG':'MAX7219','NE555':'NE555P','PCF8574N':'PCF8574P','CD4541':'CD4541BE','MC1488':'MC1488','MC1489':'MC1489'}
   if clean in aliases:candidates.insert(0,aliases[clean])
+  if clean=='NE555' and any(r['key']==clean for r in rows):continue # Herstellerbestände teilen eine Referenzkarte
   sym=next((n for n in candidates if n in symbols),None)
   pinrows,lib=get(sym) if sym else ([],None)
   r=dict(part=part,key=clean,function=cells[1],category='SN7xxx' if section.endswith('SN74xx') else 'CD4xxx' if section.endswith('CD4xxx') else 'Transistor' if section=='Bestand: Transistoren' else 'Diverse',symbol=sym,library=lib,pins=pinrows,package=cells[2],candidates=candidates)

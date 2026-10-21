@@ -1,0 +1,38 @@
+[
+  {
+    "part": "1N4148",
+    "manufacturer": "Vishay",
+    "url": "https://www.vishay.com/docs/81857/1n4148.pdf",
+    "note": "Herstellerdatenblatt als Referenz; tatsächlicher Hersteller der vorhandenen Exemplare nicht bestätigt."
+  },
+  {
+    "part": "1N4001",
+    "manufacturer": "Vishay",
+    "url": "https://www.vishay.com/docs/88503/1n4001.pdf",
+    "note": "Gemeinsames Datenblatt 1N4001–1N4007 als Referenz; tatsächlicher Hersteller der vorhandenen Exemplare nicht bestätigt."
+  },
+  {
+    "part": "1N4002",
+    "manufacturer": "Vishay",
+    "url": "https://www.vishay.com/docs/88503/1n4001.pdf",
+    "note": "Gemeinsames Datenblatt 1N4001–1N4007 als Referenz; tatsächlicher Hersteller der vorhandenen Exemplare nicht bestätigt."
+  },
+  {
+    "part": "1N4003",
+    "manufacturer": "Vishay",
+    "url": "https://www.vishay.com/docs/88503/1n4001.pdf",
+    "note": "Gemeinsames Datenblatt 1N4001–1N4007 als Referenz; tatsächlicher Hersteller der vorhandenen Exemplare nicht bestätigt."
+  },
+  {
+    "part": "1N4004",
+    "manufacturer": "Vishay",
+    "url": "https://www.vishay.com/docs/88503/1n4001.pdf",
+    "note": "Gemeinsames Datenblatt 1N4001–1N4007 als Referenz; tatsächlicher Hersteller der vorhandenen Exemplare nicht bestätigt."
+  },
+  {
+    "part": "SY356",
+    "manufacturer": "VEB Mikroelektronik „Karl Liebknecht“, Stahnsdorf (Referenz)",
+    "url": "https://hjs.lima-city.de/DDR/index.php?pdf=SY356",
+    "note": "Historischer Herstellerbeitrag „Schnelle Gleichrichterdiode SY 356“, Egon Schwerdt; Scan aus DDR-Halbleiterarchiv. Spannungszusatz und Geschwindigkeitsgruppe der vorhandenen Exemplare offen."
+  }
+]

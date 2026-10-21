@@ -140,7 +140,7 @@
     "manufacturer": "STMicroelectronics",
     "assignment": "Herstellerdatenblatt",
     "note": "Bereits vorhandener Eintrag aus Diverse, in diese Kategorie verschoben. Gemeinsames L78-Datenblatt; C-Variante und TO-220 beachten.",
-    "quantity": "offen",
+    "quantity": "9",
     "evidence": [
       {
         "pdf": "../weitere_diverse_ICs.pdf",
@@ -206,7 +206,7 @@
     "manufacturer": "STMicroelectronics",
     "assignment": "Herstellerdatenblatt",
     "note": "Bereits vorhandener Eintrag aus Diverse, in diese Kategorie verschoben. Gemeinsames L79-Datenblatt; C-Variante und TO-220 beachten.",
-    "quantity": "offen",
+    "quantity": "10",
     "evidence": [
       {
         "pdf": "../weitere_diverse_ICs.pdf",
@@ -228,7 +228,7 @@
     "manufacturer": "STMicroelectronics",
     "assignment": "Herstellerdatenblatt",
     "note": "Bereits vorhandener Eintrag aus Diverse, in diese Kategorie verschoben. Gemeinsames L79-Datenblatt; C-Variante und TO-220 beachten.",
-    "quantity": "offen",
+    "quantity": "10",
     "evidence": [
       {
         "pdf": "../weitere_diverse_ICs.pdf",
@@ -284,5 +284,86 @@
     "final_url": "https://www.ti.com/lit/ds/symlink/tl431.pdf",
     "sha256": "ed2e90697de4e2c553195514adf1ee59cda42863716b6ef702b8304a5b921d22",
     "pages": 85
+  },
+  {
+    "part": "L78S12CV",
+    "category": "Spannungsregler",
+    "function": "Positiver Festspannungsregler, Ausgangsspannung +12 V, bis 2 A",
+    "package": "TO-220",
+    "quantity": "10",
+    "pdf": "L78S12CV_ST.pdf",
+    "manufacturer": "STMicroelectronics",
+    "assignment": "Herstellerdatenblatt",
+    "note": "STMicroelectronics L78S-Familie; ausreichende Kühlung für 2 A erforderlich; TO-220 von vorn: 1 Eingang, 2 Masse, 3 Ausgang; Kühlfahne an Masse; Bestand: 10 Stück",
+    "downloaded_on": "2026-10-21",
+    "url": "https://www.allelcoelec.jp/datasheets.84/L78S12CV.pdf",
+    "final_url": "https://www.allelcoelec.jp/datasheets.84/L78S12CV.pdf",
+    "manufacturer_url": "https://www.st.com/resource/en/datasheet/l78s.pdf",
+    "sha256": "31b132a9252aa322da09baebb3d3e2ed7fb6ea783d3af24c81b4f28ff9c4a60d",
+    "pages": 35
+  },
+  {
+    "part": "L78S05CV",
+    "category": "Spannungsregler",
+    "function": "Positiver Festspannungsregler, Ausgangsspannung +5 V, bis 2 A",
+    "package": "TO-220",
+    "quantity": "8",
+    "pdf": "L78S12CV_ST.pdf",
+    "manufacturer": "STMicroelectronics",
+    "assignment": "Herstellerdatenblatt",
+    "note": "Schreibweise S05 vom Nutzer bestätigt; ursprüngliche Angabe LM78SO5CV auf ST-Typ L78S05CV vereinheitlicht. Ausreichende Kühlung für 2 A erforderlich; TO-220 von vorn: 1 Eingang, 2 Masse, 3 Ausgang; Kühlfahne an Masse",
+    "downloaded_on": "2026-10-21",
+    "url": "https://www.allelcoelec.jp/datasheets.84/L78S12CV.pdf",
+    "final_url": "https://www.allelcoelec.jp/datasheets.84/L78S12CV.pdf",
+    "manufacturer_url": "https://www.st.com/resource/en/datasheet/l78s.pdf",
+    "sha256": "31b132a9252aa322da09baebb3d3e2ed7fb6ea783d3af24c81b4f28ff9c4a60d",
+    "pages": 35
+  },
+  {
+    "part": "TS7805",
+    "category": "Spannungsregler",
+    "function": "Positiver Festspannungsregler, Ausgangsspannung +5 V, bis 1 A",
+    "package": "TO-220 / TO-220F (Suffix prüfen)",
+    "quantity": "5",
+    "pdf": "TS7805_TSC_Familie.pdf",
+    "manufacturer": "Taiwan Semiconductor (Typreferenz)",
+    "assignment": "Typreferenz; genauer Gehäusesuffix offen",
+    "note": "Taiwan-Semiconductor-TS7800-Familie als Referenz; vollständiger Gehäusesuffix nicht angegeben (CZ: TO-220, CI: TO-220F); Pin 1 Eingang, 2 Masse, 3 Ausgang; bis 1 A bei ausreichender Kühlung",
+    "downloaded_on": "2026-10-21",
+    "url": "https://cdn-reichelt.de/documents/datenblatt/A200/TS7800~TSC.pdf",
+    "final_url": "https://cdn-reichelt.de/documents/datenblatt/A200/TS7800~TSC.pdf",
+    "sha256": "a624ee96a369716f0fca207a5c93a49856c132e2bc7cdbd3ebe5239c66b42827"
+  },
+  {
+    "part": "L78S09CV",
+    "category": "Spannungsregler",
+    "function": "Positiver Festspannungsregler, Ausgangsspannung +9 V, bis 2 A",
+    "package": "TO-220",
+    "quantity": "18",
+    "pdf": "L78S12CV_ST.pdf",
+    "manufacturer": "STMicroelectronics",
+    "assignment": "Herstellerdatenblatt",
+    "note": "STMicroelectronics L78S-Familie; ausreichende Kühlung für 2 A erforderlich; TO-220 von vorn: 1 Eingang, 2 Masse, 3 Ausgang; Kühlfahne an Masse",
+    "downloaded_on": "2026-10-21",
+    "url": "https://www.allelcoelec.jp/datasheets.84/L78S12CV.pdf",
+    "final_url": "https://www.allelcoelec.jp/datasheets.84/L78S12CV.pdf",
+    "manufacturer_url": "https://www.st.com/resource/en/datasheet/l78s.pdf",
+    "sha256": "31b132a9252aa322da09baebb3d3e2ed7fb6ea783d3af24c81b4f28ff9c4a60d",
+    "pages": 35
+  },
+  {
+    "part": "KA7809",
+    "category": "Spannungsregler",
+    "function": "Positiver Festspannungsregler, Ausgangsspannung +9 V, bis 1 A",
+    "package": "TO-220 (Typreferenz)",
+    "quantity": "10",
+    "pdf": "KA7809_Fairchild.pdf",
+    "manufacturer": "Fairchild Semiconductor (Typreferenz)",
+    "assignment": "Typreferenz",
+    "note": "Fairchild-KA78XX-Familie als Referenz; Gehäuse am Bauteil prüfen (Familie auch in D-PAK verfügbar); Pin 1 Eingang, 2 Masse, 3 Ausgang; ausreichende Kühlung erforderlich",
+    "downloaded_on": "2026-10-21",
+    "url": "https://www.haje.nl/pub/pdf/electronica/halfgeleiders/ka78xx.pdf",
+    "final_url": "https://www.haje.nl/pub/pdf/electronica/halfgeleiders/ka78xx.pdf",
+    "sha256": "ef693e80b780f8f67b19d7753c9c490c6d08e0f97ad98dae3fca6e90c524488e"
   }
 ]

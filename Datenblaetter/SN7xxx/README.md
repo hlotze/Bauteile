@@ -78,3 +78,11 @@ Die Dateinamen beziehen sich auf die Bezeichnungen der eingesandten Übersicht. 
 | 7460 | [PDF](7460_TI_Referenz.pdf) | TI SN7460 | [Quelle](https://sapr.asvcorp.ru/datasheets/33/02/00000000233.pdf) | [Bild](../../images/SN7xxx/7460_karte_45x55mm.png) / [PDF](../../images/SN7xxx/7460_karte_45x55mm.pdf) / [SVG](../../images/SN7xxx/7460_karte_45x55mm.svg) |
 | 7487 | [PDF](7487_TI_Datenbuchauszug.pdf) | TI SN74H87; Referenzfamilie H | [Quelle](https://bitsavers.org/components/ti/_dataBooks/1985_TI_The_TTL_Data_Book_Vol_2.pdf) | [Bild](../../images/SN7xxx/7487_karte_45x55mm.png) / [PDF](../../images/SN7xxx/7487_karte_45x55mm.pdf) / [SVG](../../images/SN7xxx/7487_karte_45x55mm.svg) |
 | 74576 | [PDF](74576_TI_ALS576_Referenz.pdf) | TI SN74ALS576B; Referenzfamilie ALS | [Quelle](https://www.ti.com/lit/ds/symlink/sn74als576b.pdf) | [Bild](../../images/SN7xxx/74576_karte_45x55mm.png) / [PDF](../../images/SN7xxx/74576_karte_45x55mm.pdf) / [SVG](../../images/SN7xxx/74576_karte_45x55mm.svg) |
+
+## Ergänzung vom 21.10.2026
+
+| Typ | Lokales PDF | Hersteller / Referenz | Originalquelle | Karte |
+| --- | --- | --- | --- | --- |
+| SN74HC595 | [PDF](SN74HC595_TI.pdf) | Texas Instruments; SCLS041J; DIP-16: SN74HC595N | [TI](https://www.ti.com/lit/ds/symlink/sn74hc595.pdf) | [Bild](../../images/SN7xxx/SN74HC595_karte_45x55mm.png) / [PDF](../../images/SN7xxx/SN74HC595_karte_45x55mm.pdf) / [SVG](../../images/SN7xxx/SN74HC595_karte_45x55mm.svg) |
+
+**CD74HCT85E: 1 Stück, Texas Instruments.** Korrigierte Typnummer; 4-Bit-Größenkomparator, DIP-16. [TI-Datenblatt](CD74HCT85E_TI.pdf), [Originalquelle](https://www.ti.com/lit/ds/symlink/cd74hct85.pdf), [Karte](../../images/SN7xxx/CD74HCT85E_karte_45x55mm.pdf).
