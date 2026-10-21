@@ -731,7 +731,9 @@
     "url": "https://www.ti.com/lit/ds/symlink/sn74als576b.pdf",
     "manufacturer": "TI",
     "note": "Pinbelegungsreferenz; konkrete Variante abgleichen",
-    "download_date": "2026-10-13"
+    "download_date": "2026-10-13",
+    "quantity": "10",
+    "package": "DIP-20"
   },
   {
     "number": "595",

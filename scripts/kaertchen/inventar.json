@@ -8733,7 +8733,7 @@
         "unit": "74LS240_1_0"
       }
     ],
-    "package": "offen",
+    "package": "DIP-20",
     "candidates": [
       "74240",
       "74240A",
@@ -9430,7 +9430,7 @@
         "unit": "74253_1_1"
       }
     ],
-    "package": "offen",
+    "package": "DIP-16",
     "candidates": [
       "74253",
       "74253A",
@@ -9829,7 +9829,7 @@
         "unit": "74LS279_5_0"
       }
     ],
-    "package": "offen",
+    "package": "DIP-16",
     "candidates": [
       "74LS279",
       "74LS279A",
@@ -10297,7 +10297,7 @@
         "unit": "74LS541_1_0"
       }
     ],
-    "package": "offen",
+    "package": "DIP-20",
     "candidates": [
       "74541",
       "74541A",
@@ -10313,7 +10313,7 @@
     "symbol": null,
     "library": null,
     "pins": [],
-    "package": "offen",
+    "package": "DIP-20",
     "candidates": [
       "74576",
       "74576A",
@@ -10470,7 +10470,7 @@
         "unit": "74LS620_1_1"
       }
     ],
-    "package": "offen",
+    "package": "DIP-20",
     "candidates": [
       "74640",
       "74640A",
@@ -10627,7 +10627,7 @@
         "unit": "74LS621_1_1"
       }
     ],
-    "package": "offen",
+    "package": "DIP-20",
     "candidates": [
       "74641",
       "74641A",
