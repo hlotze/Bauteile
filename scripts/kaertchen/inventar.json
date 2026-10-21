@@ -10965,7 +10965,7 @@
     ]
   },
   {
-    "part": "CD4002 (Grundtyp; Aufdruck PC74HC4002P)",
+    "part": "CD4002 (Grundtyp; Aufdruck PC74HCT4002P)",
     "key": "CD4002",
     "function": "2 NOR-Gatter mit je 4 Eingängen",
     "category": "CD4xxx",
@@ -19598,6 +19598,241 @@
       "MPQ2222A",
       "MPQ2222A",
       "MPQ2222A"
+    ]
+  },
+  {
+    "part": "MAX7221CNG",
+    "key": "MAX7221CNG",
+    "function": "LED-Anzeigetreiber mit SPI-Schnittstelle",
+    "category": "Diverse",
+    "symbol": "MAX7221",
+    "library": "Driver_LED.kicad_sym",
+    "pins": [
+      {
+        "number": 18,
+        "name": "ISET",
+        "role": "input",
+        "shape": "line",
+        "unit": "MAX7219_1_1"
+      },
+      {
+        "number": 12,
+        "name": "/CS",
+        "role": "input",
+        "shape": "line",
+        "unit": "MAX7219_1_1"
+      },
+      {
+        "number": 13,
+        "name": "CLK",
+        "role": "input",
+        "shape": "line",
+        "unit": "MAX7219_1_1"
+      },
+      {
+        "number": 1,
+        "name": "DIN",
+        "role": "input",
+        "shape": "line",
+        "unit": "MAX7219_1_1"
+      },
+      {
+        "number": 19,
+        "name": "V+",
+        "role": "power_in",
+        "shape": "line",
+        "unit": "MAX7219_1_1"
+      },
+      {
+        "number": 4,
+        "name": "GND",
+        "role": "power_in",
+        "shape": "line",
+        "unit": "MAX7219_1_1"
+      },
+      {
+        "number": 9,
+        "name": "GND",
+        "role": "passive",
+        "shape": "line",
+        "unit": "MAX7219_1_1"
+      },
+      {
+        "number": 14,
+        "name": "SEG_A",
+        "role": "output",
+        "shape": "line",
+        "unit": "MAX7219_1_1"
+      },
+      {
+        "number": 16,
+        "name": "SEG_B",
+        "role": "output",
+        "shape": "line",
+        "unit": "MAX7219_1_1"
+      },
+      {
+        "number": 20,
+        "name": "SEG_C",
+        "role": "output",
+        "shape": "line",
+        "unit": "MAX7219_1_1"
+      },
+      {
+        "number": 23,
+        "name": "SEG_D",
+        "role": "output",
+        "shape": "line",
+        "unit": "MAX7219_1_1"
+      },
+      {
+        "number": 21,
+        "name": "SEG_E",
+        "role": "output",
+        "shape": "line",
+        "unit": "MAX7219_1_1"
+      },
+      {
+        "number": 15,
+        "name": "SEG_F",
+        "role": "output",
+        "shape": "line",
+        "unit": "MAX7219_1_1"
+      },
+      {
+        "number": 17,
+        "name": "SEG_G",
+        "role": "output",
+        "shape": "line",
+        "unit": "MAX7219_1_1"
+      },
+      {
+        "number": 22,
+        "name": "SEG_DP",
+        "role": "output",
+        "shape": "line",
+        "unit": "MAX7219_1_1"
+      },
+      {
+        "number": 2,
+        "name": "DIG_0",
+        "role": "output",
+        "shape": "line",
+        "unit": "MAX7219_1_1"
+      },
+      {
+        "number": 11,
+        "name": "DIG_1",
+        "role": "output",
+        "shape": "line",
+        "unit": "MAX7219_1_1"
+      },
+      {
+        "number": 6,
+        "name": "DIG_2",
+        "role": "output",
+        "shape": "line",
+        "unit": "MAX7219_1_1"
+      },
+      {
+        "number": 7,
+        "name": "DIG_3",
+        "role": "output",
+        "shape": "line",
+        "unit": "MAX7219_1_1"
+      },
+      {
+        "number": 3,
+        "name": "DIG_4",
+        "role": "output",
+        "shape": "line",
+        "unit": "MAX7219_1_1"
+      },
+      {
+        "number": 10,
+        "name": "DIG_5",
+        "role": "output",
+        "shape": "line",
+        "unit": "MAX7219_1_1"
+      },
+      {
+        "number": 5,
+        "name": "DIG_6",
+        "role": "output",
+        "shape": "line",
+        "unit": "MAX7219_1_1"
+      },
+      {
+        "number": 8,
+        "name": "DIG_7",
+        "role": "output",
+        "shape": "line",
+        "unit": "MAX7219_1_1"
+      },
+      {
+        "number": 24,
+        "name": "DOUT",
+        "role": "output",
+        "shape": "line",
+        "unit": "MAX7219_1_1"
+      }
+    ],
+    "package": "DIP-24",
+    "candidates": [
+      "MAX7221",
+      "MAX7221CNG"
+    ]
+  },
+  {
+    "part": "MCP3008-I/P",
+    "key": "MCP3008-I_P",
+    "function": "8-Kanal-A/D-Wandler, 10 Bit, SPI",
+    "category": "Diverse",
+    "symbol": null,
+    "library": null,
+    "pins": [],
+    "package": "DIP-16",
+    "candidates": [
+      "MCP3008"
+    ]
+  },
+  {
+    "part": "PC74HCT08P",
+    "key": "PC74HCT08P",
+    "function": "4 AND-Gatter mit je 2 Eingängen",
+    "category": "SN7xxx",
+    "symbol": null,
+    "library": null,
+    "pins": [],
+    "package": "DIP-14",
+    "candidates": [
+      "74HCT08"
+    ]
+  },
+  {
+    "part": "CD40194BE",
+    "key": "CD40194BE",
+    "function": "4-Bit-Universal-Schieberegister, bidirektional",
+    "category": "CD4xxx",
+    "package": "DIP-16",
+    "pins": [],
+    "symbol": null,
+    "library": null,
+    "candidates": [
+      "CD40194B"
+    ]
+  },
+  {
+    "part": "MC14521BCP",
+    "key": "MC14521BCP",
+    "function": "24-stufiger Frequenzteiler mit RC-/Quarzoszillator",
+    "category": "CD4xxx",
+    "package": "DIP-16",
+    "pins": [],
+    "symbol": null,
+    "library": null,
+    "candidates": [
+      "4521"
     ]
   }
 ]

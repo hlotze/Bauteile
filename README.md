@@ -9,7 +9,8 @@ Der vollständige Bestand steht in **[Bauteile.md](Bauteile.md)**. Die Tabellen 
 Für die DIL-ICs gibt es **Experimentierkarten im Format 45 × 55 mm**. Sie zeigen Funktion und Pinbelegung und werden zwischen die Anschlussleisten meiner Experimentierboards eingelegt; das IC sitzt auf der Rückseite. Die Karten liegen als PNG, SVG und einzelne PDF-Dateien vor. Zusätzlich gibt es einen A4-Druckbogen. Der Pinabstand beträgt 5,08 mm, beim separaten 24-Pin-Board für den MAX7219 2,54 mm.
 
 - [Bauteilbestand und Funktionen](Bauteile.md)
-- [SQLite-Datenbank](Bauteile.db) – 250 Einträge in der Tabelle `Bauteile`; erste Spalte `Type` mit den Kategorien `IC SN7xxx`, `IC CD4xxx`, `IC diverse`, `Transitor`, `MOSFET`, `Spannungsregler` `Triac_Thyristor` `Diode` und `Quarz`.
+- [Beispielschaltungen und Quellen](Quellen/Beispielschaltungen.md) – 361 Links für 257 Bauteile; als letzte Spalte auch direkt in der Bestandsliste
+- [SQLite-Datenbank](Bauteile.db) – 258 Einträge in der Tabelle `Bauteile`; erste Spalte `Type` mit den Kategorien `IC SN7xxx`, `IC CD4xxx`, `IC diverse`, `Transitor`, `MOSFET`, `Spannungsregler` `Triac_Thyristor` `Diode` und `Quarz`.
 - [Datenblätter nach Kategorien](Datenblaetter/README.md)
 - [Experimentierkarten und Druckhinweise](images/README.md)
 - [A4-Druckbogen](images/IC_Karten_A4.pdf) – mit **100 % / tatsächlicher Größe** drucken

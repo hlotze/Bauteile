@@ -70,3 +70,13 @@ Alle hier dokumentierten Referenztypen haben Kennwerte für 5 V. Maßgeblich sin
 | IC laut Bild | Lokales PDF | Hersteller / Referenztyp | Originalquelle | Karte |
 | --- | --- | --- | --- | --- |
 | CD4513 | [PDF](CD4513_MC14513B_onsemi_Referenz.pdf) | onsemi MC14513B, DIP-18 | [Quelle](https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/935/MC14513B-Rev2006.pdf) | [Bild](../../images/CD4xxx/CD4513_karte_45x55mm.png) / [PDF](../../images/CD4xxx/CD4513_karte_45x55mm.pdf) / [SVG](../../images/CD4xxx/CD4513_karte_45x55mm.svg) |
+
+## Ergänzungen vom 21.10.2026
+
+- **CD40194BE, 5 Stück:** [TI-Herstellerdatenblatt](CD40194BE_TI.pdf).
+- **40098, 2 Stück:** [HEF40098B-Typreferenz](https://assets.nexperia.com/documents/data-sheet/HEF40098B.pdf); Hersteller und Ausführung offen, Download HTTP 403.
+- **PC74HCT4002P, insgesamt 1 Stück:** korrigierter Aufdruck; [HCT-Familienreferenz](https://assets.nexperia.com/documents/data-sheet/74HC_HCT4002.pdf), Download HTTP 403.
+
+- **MC14528BCP (onsemi), 2 Stück:** [onsemi-Datenblatt](MC14528B_onsemi.pdf); Hersteller-Familienreferenz.
+- **MC14521BCP (Motorola), 2 Stück:** [onsemi-Datenblatt](MC14521B_onsemi.pdf); Nachfolgerreferenz zum vorhandenen Motorola-IC.
+- **MC14538BCP (Motorola), 5 Stück:** [onsemi-Datenblatt](MC14538B_onsemi.pdf); Nachfolgerreferenz zum vorhandenen Motorola-IC.

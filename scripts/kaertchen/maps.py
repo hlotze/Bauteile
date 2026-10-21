@@ -29,3 +29,15 @@ MANUAL={
 }
 # Keine geratenen Verdrahtungsangaben für Typen ohne belastbare Pinquelle.
 UNRESOLVED={'LH6764-20':'Herstellerdatenblatt / genaue Funktion fehlen'}
+
+MANUAL['MAX7221CNG']=('DIN DIG0 DIG4 GND DIG6 DIG2 DIG3 DIG7 GND DIG5 DIG1 /CS CLK a f b g ISET V+ c e DP d DOUT','Datenblaetter/Diverse/MAX7219_Maxim.pdf',5)
+
+MANUAL['MCP3008-I_P']=('CH0 CH1 CH2 CH3 CH4 CH5 CH6 CH7 DGND /CS CLK DOUT DIN AGND VREF VDD','Datenblaetter/Diverse/MCP3008_Microchip.pdf',1)
+
+MANUAL['PC74HCT08P']=('1A 1B 1Y 2A 2B 2Y GND 3Y 3A 3B 4Y 4A 4B VCC','Datenblaetter/SN7xxx/PC74HCT08P_TI_Referenz.pdf',3)
+
+MANUAL['CD40194BE']=('/RESET SR D0 D1 D2 D3 SL GND S0 S1 CLK Q3 Q2 Q1 Q0 VDD','Datenblaetter/CD4xxx/CD40194BE_TI.pdf',1)
+
+MANUAL['MC14521BCP']=("Q24 RESET GND' OUT2 VDD' IN2 OUT1 GND IN1 Q18 Q19 Q20 Q21 Q22 Q23 VDD",'Datenblaetter/CD4xxx/MC14521B_onsemi.pdf',1)
+MANUAL['CD4528']=('GND RC1 /RESET1 A1 B1 Q1 /Q1 GND /Q2 Q2 B2 A2 /RESET2 RC2 GND VDD','Datenblaetter/CD4xxx/MC14528B_onsemi.pdf',1)
+MANUAL['CD4538']=('GND RC1 /RESET1 A1 B1 Q1 /Q1 GND /Q2 Q2 B2 A2 /RESET2 RC2 GND VDD','Datenblaetter/CD4xxx/MC14538B_onsemi.pdf',2)

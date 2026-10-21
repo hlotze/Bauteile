@@ -12,13 +12,14 @@ BASE=Path(__file__).parent/'diverse_logikvorlagen'
 SOURCES=json.loads((BASE/'quellen.json').read_text())
 TITLES={
  'MC1455':'Timer / Multivibrator',
+ 'MCP3008-I_P':'8-Kanal-ADC, 10 Bit / SPI',
  'UA741CN':'Operationsverstärker / Offset',
  'COM8126':'Baudraten- / Frequenzgenerator', 'L293D':'4 Halbbrücken / Motortreiber',
  'L293NE':'4 Halbbrücken / Motortreiber', 'LH6764-20':'Identifikation offen',
  'LP324N':'4 Micropower-Operationsverstärker',
  'LM311N':'Komparator, offener Kollektor', 'LM324N':'4 Operationsverstärker',
  'LM339AN':'4 Komparatoren, offener Kollektor', 'LM358':'2 Operationsverstärker',
- 'MAX250CPD':'Isolierte RS-232-Schnittstelle', 'MAX7219CNG':'8-stelliger LED-Treiber',
+ 'MAX250CPD':'Isolierte RS-232-Schnittstelle', 'MAX7219CNG':'8-stelliger LED-Treiber', 'MAX7221CNG':'8-stelliger SPI-LED-Treiber',
  'MC1488':'4 RS-232-Leitungstreiber', 'MC1489':'4 RS-232-Leitungsempfänger',
  'NE555':'Timer / Multivibrator', 'PCF8574N':'8-Bit-I/O-Expander, I2C',
  'PS2501-4':'4 Optokoppler', 'UA78S40PC':'Schaltregler-Steuerbaustein',
@@ -32,7 +33,7 @@ class DiverseCard(Card):
   return 6.4+(number-1 if number<=self.n//2 else self.n-number)*self.r['pitch_mm']
 
  def heading(self,y,size):
-  key=self.r['key'];title=TITLES[key]
+  key=self.r['key'];title=TITLES[key];key=key.replace('_','/')
   size=min(size,size*41*MM/stringWidth(key+' '+title,'Helvetica-Bold',size))
   key_width=stringWidth(key+' ','Helvetica-Bold',size)
   x=(45*MM-key_width-stringWidth(title,'Helvetica',size))/2/MM
@@ -53,7 +54,7 @@ class DiverseCard(Card):
   for p in self.pins.values():
    num=p['number'];left=num<=self.n//2;y=self.pin_y(num);name=self.display_name(p['name'])
    supply=bool(re.fullmatch(r'V(?:DD|CC\d*|EE|\+|-)',name)) or name=='OP-VCC'
-   ground=name=='GND'
+   ground=name in ('GND','AGND','DGND')
    output=p['role'] in ('output','tri_state','open_collector') or bool(re.match(r'^/?(?:\dY|Q$|O\d|R\d-OUT|OP-OUT|F-OUT|DOUT|DIG\d|[a-g]$|DP$)',name))
    if self.r['key']=='PS2501-4' and re.fullmatch('[CE][1-4]',name):output=True
    if self.r['key']=='LM311N' and name=='E-OUT':output=True
@@ -282,7 +283,7 @@ class DiverseCard(Card):
   self.rect(18,15,9,14)
   for i,t in enumerate(('Register','8 × 8 RAM','Decoder','PWM / Scan')):self.text(22.5,18+i*3,t,4.7,anchor='middle',width=8)
   self.line([(22.5,12.1),(22.5,15)])
-  self.text(22.5,13.8,'CLK:13 / LOAD:12',4.1,BLACK,'middle',width=15)
+  self.text(22.5,13.8,'CLK:13 / CS:12' if self.r['key']=='MAX7221CNG' else 'CLK:13 / LOAD:12',4.1,BLACK,'middle',width=15)
   self.line([(11.4,self.pin_y(12)),(17,self.pin_y(12))]);self.connections.append(12)
   self.line([(33.6,self.pin_y(13)),(28,self.pin_y(13))]);self.connections.append(13)
   for p in self.pins.values():
@@ -322,6 +323,21 @@ class DiverseCard(Card):
   self.source_image(15,25,15,17.5,detail=True)
   self.text(22.5,46,'P0..P7: bidirektional',5.2,BLUE,'middle')
 
+ def adc3008(self):
+  self.rect(12,5.8,7,37)
+  self.text(15.5,18,'8:1',6,anchor='middle')
+  self.text(15.5,22,'MUX',5.5,anchor='middle')
+  for num in range(1,9):self.wire(num,(12,self.pin_y(num)))
+  self.rect(21,17,8,12)
+  for i,t in enumerate(('S/H','10-Bit','SAR-ADC')):self.text(25,20+i*3,t,5,anchor='middle')
+  self.line([(19,24),(21,24)])
+  self.rect(21,32,8,10)
+  self.text(25,36,'SPI',6,anchor='middle')
+  self.line([(25,29),(25,32)])
+  for num,y in ((10,40),(11,38),(12,36),(13,34)):self.wire(num,(29,y))
+  self.wire(15,(29,18));self.wire(16,(29,15))
+  self.text(22.5,46,'2,7..5,5 V | AGND + DGND verbinden',4.8,BLACK,'middle',width=40)
+
  def draw(self):
   self.rect(.25,.25,44.5,54.5,colors.white,GREEN,.3);self.heading(3.15,8.2)
   key=self.r['key']
@@ -333,6 +349,7 @@ class DiverseCard(Card):
    if self.r.get('marking'):self.text(22.5,36.5,'Aufdruck: '+self.r['marking'],5.8,BLACK,'middle')
    layout='Identifikationskarte'
   elif key in ('LM324N','LP324N','LM339AN','LM358'):self.amplifiers();layout='verdrahtete Verstärker-/Komparatorsymbole'
+  elif key=='MCP3008-I_P':self.adc3008();layout='Analog-Multiplexer, SAR-ADC und SPI mit Pinzuordnung'
   elif key=='MC1455':self.mc1455();layout='Timer-Funktionsblock mit DIP-Pinzuordnung'
   elif key=='UA741CN':self.ua741();layout='Operationsverstärker mit Offset-Abgleich und DIP-Pins'
   elif key=='LM311N':self.comparator();layout='Komparator mit Ausgangstransistor'
@@ -341,7 +358,7 @@ class DiverseCard(Card):
   elif key in ('L293D','L293NE'):self.motor_drivers();layout='verdrahtete Halbbrücken mit Enable'
   elif key=='MC1489':self.line_receivers();layout='verdrahtete Leitungsempfänger'
   elif key=='COM8126':self.baud_generator();layout='verdrahteter Frequenzgenerator und Datenblatt-Diagramm'
-  elif key=='MAX7219CNG':self.led_driver();layout='LED-Treiberstufen und Datenblatt-Diagramm'
+  elif key in ('MAX7219CNG','MAX7221CNG'):self.led_driver();layout='LED-Treiberstufen und Datenblatt-Diagramm'
   elif key=='PCF8574N':self.io_expander();layout='I2C-Interface und Datenblatt-GPIO-Diagramm'
   elif key=='MC1488':
    # The native pin-connected logic is equivalent to the manufacturer's

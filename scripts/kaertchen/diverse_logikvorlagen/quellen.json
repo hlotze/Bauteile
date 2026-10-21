@@ -83,5 +83,18 @@
       2853
     ],
     "image": "UA78S40PC.png"
+  },
+  "MAX7221CNG": {
+    "file": "Datenblaetter/Diverse/MAX7219_Maxim.pdf",
+    "page": 5,
+    "figure": "Functional Diagram",
+    "sha256_pdf": "7585bd4469c4355ea7e7d7193710605f2ab96afa14491c377420d057f9c8d5eb",
+    "crop_pixels_300dpi": [
+      475,
+      1964,
+      2088,
+      2957
+    ],
+    "image": "MAX7219CNG.png"
   }
 }

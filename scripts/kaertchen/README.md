@@ -23,7 +23,7 @@ Nur die CD4xxx-Einzelkarten neu erzeugen und den kompletten A4-Druckbogen aktual
 python scripts/kaertchen/build.py --category CD4xxx
 ```
 
-Die 22 Karten in `Diverse` verwenden denselben Stil. `diverse_cards.py` zeichnet Operationsverstärker, Komparatoren, Optokoppler, Halbbrücken, Leitungstreiber und Darlington-Stufen mit ihren zugehörigen Pinnummern und Leitungen. Versorgung, aktive Low-Signale und die engeren 2,54-mm-Pinabstände des MAX7219 werden berücksichtigt. LH6764-20 bleibt eine Identifikationskarte ohne erfundene Pinbelegung. Beim LM311 wird Pin 1 als Ausgangsemitter (`E-OUT`) dargestellt; die dokumentierte ursprüngliche Pinfolge bleibt erhalten.
+Die 24 Karten in `Diverse` verwenden denselben Stil. `diverse_cards.py` zeichnet Operationsverstärker, Komparatoren, Optokoppler, Halbbrücken, Leitungstreiber und Darlington-Stufen mit ihren zugehörigen Pinnummern und Leitungen. Versorgung, aktive Low-Signale und die engeren 2,54-mm-Pinabstände des MAX7219 werden berücksichtigt. LH6764-20 bleibt eine Identifikationskarte ohne erfundene Pinbelegung. Beim LM311 wird Pin 1 als Ausgangsemitter (`E-OUT`) dargestellt; die dokumentierte ursprüngliche Pinfolge bleibt erhalten.
 
 Passende Schaltbilder wurden aus den lokalen Datenblättern für COM8126, MAX250, MAX7219, NE555, PCF8574 und UA78S40 ausgeschnitten. `diverse_logikvorlagen/quellen.json` nennt PDF, Seite, Abbildung, Prüfsumme und den Ausschnitt in Pixeln bei 300 dpi. Die zugeschnittenen PNGs werden direkt in SVG und PDF eingebettet. Bei COM8126 und MAX7219 ergänzen sie besser lesbare Funktionsblöcke; beim PCF8574 wird der relevante GPIO-Ausschnitt verwendet. Die Pin- und Diagrammzuordnung steht auch in `images/karten.json`.
 

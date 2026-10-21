@@ -1,0 +1,3837 @@
+{
+  "version": 1,
+  "checked_on": "2026-10-21",
+  "sources": {
+    "gate": {
+      "url": "https://www.allaboutcircuits.com/textbook/experiments/chpt-7/basic-gate-function/",
+      "kind": "Grundschaltung",
+      "checked_on": "2026-10-21"
+    },
+    "nor_latch": {
+      "url": "https://www.allaboutcircuits.com/textbook/experiments/chpt-7/nor-gate-s-r-latch/",
+      "kind": "Grundschaltung",
+      "checked_on": "2026-10-21"
+    },
+    "aoi": {
+      "url": "https://www.allaboutcircuits.com/textbook/digital/chpt-7/circuit-simplification-examples/",
+      "kind": "Grundschaltung",
+      "checked_on": "2026-10-21"
+    },
+    "xor": {
+      "url": "https://www.allaboutcircuits.com/textbook/digital/chpt-7/the-exclusive-or-function-xor/",
+      "kind": "Grundschaltung",
+      "checked_on": "2026-10-21"
+    },
+    "oc_bus": {
+      "url": "https://www.allaboutcircuits.com/textbook/digital/chpt-3/special-output-gates/",
+      "kind": "Grundschaltung",
+      "checked_on": "2026-10-21"
+    },
+    "d_latch": {
+      "url": "https://www.allaboutcircuits.com/textbook/digital/chpt-10/d-latch/",
+      "kind": "Grundschaltung",
+      "checked_on": "2026-10-21"
+    },
+    "d_ff": {
+      "url": "https://www.allaboutcircuits.com/textbook/digital/chpt-10/edge-triggered-latches-flip-flops/",
+      "kind": "Grundschaltung",
+      "checked_on": "2026-10-21"
+    },
+    "jk": {
+      "url": "https://www.allaboutcircuits.com/textbook/digital/chpt-10/j-k-flip-flop/",
+      "kind": "Grundschaltung",
+      "checked_on": "2026-10-21"
+    },
+    "counter": {
+      "url": "https://www.allaboutcircuits.com/textbook/digital/chpt-11/asynchronous-counters/",
+      "kind": "Grundschaltung",
+      "checked_on": "2026-10-21"
+    },
+    "sync": {
+      "url": "https://www.allaboutcircuits.com/textbook/digital/chpt-11/synchronous-counters/",
+      "kind": "Grundschaltung",
+      "checked_on": "2026-10-21"
+    },
+    "modulo": {
+      "url": "https://www.allaboutcircuits.com/textbook/digital/chpt-11/counter-modulus/",
+      "kind": "Grundschaltung",
+      "checked_on": "2026-10-21"
+    },
+    "ring": {
+      "url": "https://www.allaboutcircuits.com/textbook/digital/chpt-12/ring-counters/",
+      "kind": "Grundschaltung",
+      "checked_on": "2026-10-21"
+    },
+    "sipo": {
+      "url": "https://www.allaboutcircuits.com/textbook/digital/chpt-12/serial-in-parallel-out-shift-register/",
+      "kind": "Grundschaltung",
+      "checked_on": "2026-10-21"
+    },
+    "piso": {
+      "url": "https://www.allaboutcircuits.com/textbook/digital/chpt-12/parallel-in-serial-out-shift-register/",
+      "kind": "Grundschaltung",
+      "checked_on": "2026-10-21"
+    },
+    "universal": {
+      "url": "https://www.allaboutcircuits.com/textbook/digital/chpt-12/parallel-in-parallel-out-universal-shift-register/",
+      "kind": "Grundschaltung",
+      "checked_on": "2026-10-21"
+    },
+    "mux": {
+      "url": "https://www.allaboutcircuits.com/textbook/digital/chpt-9/multiplexers/",
+      "kind": "Grundschaltung",
+      "checked_on": "2026-10-21"
+    },
+    "demux": {
+      "url": "https://www.allaboutcircuits.com/textbook/digital/chpt-9/demultiplexers/",
+      "kind": "Grundschaltung",
+      "checked_on": "2026-10-21"
+    },
+    "decoder": {
+      "url": "https://www.allaboutcircuits.com/textbook/digital/chpt-9/decoder/",
+      "kind": "Grundschaltung",
+      "checked_on": "2026-10-21"
+    },
+    "encoder": {
+      "url": "https://www.allaboutcircuits.com/textbook/digital/chpt-9/encoder/",
+      "kind": "Grundschaltung",
+      "checked_on": "2026-10-21"
+    },
+    "adder": {
+      "url": "https://www.allaboutcircuits.com/textbook/digital/chpt-9/full-adder/",
+      "kind": "Grundschaltung",
+      "checked_on": "2026-10-21"
+    },
+    "display": {
+      "url": "https://www.allaboutcircuits.com/textbook/experiments/chpt-7/7-segment-display/",
+      "kind": "Grundschaltung",
+      "checked_on": "2026-10-21"
+    },
+    "npn_switch": {
+      "url": "https://www.allaboutcircuits.com/textbook/experiments/chpt-5/transistor-as-a-switch/",
+      "kind": "Grundschaltung",
+      "checked_on": "2026-10-21"
+    },
+    "emitter": {
+      "url": "https://www.allaboutcircuits.com/textbook/experiments/chpt-5/common-emitter-amplifier1/",
+      "kind": "Grundschaltung",
+      "checked_on": "2026-10-21"
+    },
+    "mirror": {
+      "url": "https://www.allaboutcircuits.com/textbook/experiments/chpt-5/current-mirror/",
+      "kind": "Grundschaltung",
+      "checked_on": "2026-10-21"
+    },
+    "opamp": {
+      "url": "https://www.allaboutcircuits.com/textbook/experiments/chpt-6/noninverting-amplifier/",
+      "kind": "Grundschaltung",
+      "checked_on": "2026-10-21"
+    },
+    "op_follower": {
+      "url": "https://www.allaboutcircuits.com/textbook/experiments/chpt-6/precision-voltage-follower/",
+      "kind": "Grundschaltung",
+      "checked_on": "2026-10-21"
+    },
+    "comparator": {
+      "url": "https://www.allaboutcircuits.com/textbook/experiments/chpt-6/voltage-comparator/",
+      "kind": "Grundschaltung",
+      "checked_on": "2026-10-21"
+    },
+    "timer_astable": {
+      "url": "https://www.allaboutcircuits.com/textbook/experiments/chpt-6/555-audio-oscillator/",
+      "kind": "Grundschaltung",
+      "checked_on": "2026-10-21"
+    },
+    "timer_mono": {
+      "url": "https://www.allaboutcircuits.com/textbook/experiments/chpt-8/555-monostable-multivibrator/",
+      "kind": "Grundschaltung",
+      "checked_on": "2026-10-21"
+    },
+    "timer_pwm": {
+      "url": "https://www.allaboutcircuits.com/textbook/experiments/chpt-6/pwm-power-controller/",
+      "kind": "Grundschaltung",
+      "checked_on": "2026-10-21"
+    },
+    "rectifier": {
+      "url": "https://www.allaboutcircuits.com/textbook/experiments/chpt-5/full-wave-bridge-rectifier/",
+      "kind": "Grundschaltung",
+      "checked_on": "2026-10-21"
+    },
+    "half_wave": {
+      "url": "https://www.allaboutcircuits.com/textbook/experiments/chpt-5/half-wave-rectifier/",
+      "kind": "Grundschaltung",
+      "checked_on": "2026-10-21"
+    },
+    "flyback": {
+      "url": "https://www.allaboutcircuits.com/textbook/experiments/chpt-5/commutating-diode/",
+      "kind": "Grundschaltung",
+      "checked_on": "2026-10-21"
+    },
+    "clipper": {
+      "url": "https://www.allaboutcircuits.com/textbook/semiconductors/chpt-3/clipper-circuits/",
+      "kind": "Grundschaltung",
+      "checked_on": "2026-10-21"
+    },
+    "triac": {
+      "url": "https://www.allaboutcircuits.com/textbook/semiconductors/chpt-7/the-triac/",
+      "kind": "Grundschaltung",
+      "checked_on": "2026-10-21"
+    },
+    "crystal": {
+      "url": "https://www.allaboutcircuits.com/textbook/designing-analog-chips/timers-and-oscillators/crystal-oscillators/",
+      "kind": "Grundschaltung",
+      "checked_on": "2026-10-21"
+    },
+    "bjt_switch": {
+      "url": "https://www.electronics-tutorials.ws/transistor/tran_4.html",
+      "kind": "Grundschaltung",
+      "checked_on": "2026-10-21"
+    },
+    "mos_switch": {
+      "url": "https://www.electronics-tutorials.ws/transistor/tran_7.html",
+      "kind": "Grundschaltung",
+      "checked_on": "2026-10-21"
+    },
+    "compare": {
+      "url": "https://www.electronics-tutorials.ws/combination/comb_8.html",
+      "kind": "Grundschaltung",
+      "checked_on": "2026-10-21"
+    },
+    "crystal_st": {
+      "url": "https://www.st.com/resource/en/application_note/an2867-guidelines-for-oscillator-design-on-stm8afals-and-stm32-mcusmpus-stmicroelectronics.pdf",
+      "kind": "Hersteller-Anwendungshinweis",
+      "checked_on": "2026-10-21",
+      "note": "Pierce-Oszillator: Lastkapazität, Frequenzbereich und Treiber des konkreten Quarzes auslegen; keine pauschale Austauschbarkeit der Frequenzen."
+    },
+    "pll": {
+      "url": "https://www.ti.com/lit/an/scha002a/scha002a.pdf",
+      "kind": "Hersteller-Anwendungshinweis",
+      "checked_on": "2026-10-21"
+    },
+    "mono4098": {
+      "url": "https://www.ti.com/lit/ds/symlink/cd4098b.pdf#page=1",
+      "kind": "Hersteller-Grundbeschaltung",
+      "checked_on": "2026-10-21"
+    },
+    "mono4528": {
+      "url": "https://www.onsemi.com/pdf/datasheet/mc14528b-d.pdf#page=1",
+      "kind": "Referenzschaltung",
+      "checked_on": "2026-10-21",
+      "note": "MC14528B als Funktionsreferenz für CD4528; Hersteller, Pinbelegung und Zeitformel abgleichen."
+    },
+    "mono4538": {
+      "url": "https://www.ti.com/lit/ds/symlink/cd14538b.pdf#page=1",
+      "kind": "Referenzschaltung",
+      "checked_on": "2026-10-21",
+      "note": "CD14538B als dokumentierte Funktionsreferenz für CD4538; genaue Variante abgleichen."
+    },
+    "opto": {
+      "url": "https://www.renesas.com/en/products/interface/optoelectronics/how-photocouplers-optocouplers-are-used",
+      "kind": "Hersteller-Anwendungshinweis",
+      "checked_on": "2026-10-21"
+    },
+    "pcf_adafruit": {
+      "url": "https://learn.adafruit.com/adafruit-pcf8574?view=all",
+      "kind": "Projekt",
+      "checked_on": "2026-10-21",
+      "note": "Enthält ein Breakout; dessen Pull-ups und Beschaltung bei Verwendung des nackten ICs berücksichtigen."
+    },
+    "relay": {
+      "url": "Datenblaetter/Diverse/ULN2004A_TI_Referenz.pdf#page=16",
+      "kind": "Herstellerbeispiel (lokales PDF)",
+      "checked_on": "2026-10-21"
+    },
+    "serial": {
+      "url": "Datenblaetter/Diverse/MC1488_TI_Referenz.pdf#page=7",
+      "kind": "Herstellerbeispiel (lokales PDF)",
+      "checked_on": "2026-10-21"
+    },
+    "max250": {
+      "url": "Datenblaetter/Diverse/MAX250_MAX251_Maxim.pdf#page=8",
+      "kind": "Herstellerbeispiel (lokales PDF)",
+      "checked_on": "2026-10-21"
+    },
+    "max7219": {
+      "url": "Datenblaetter/Diverse/MAX7219_Maxim.pdf#page=1",
+      "kind": "Herstellerbeispiel (lokales PDF)",
+      "checked_on": "2026-10-21"
+    },
+    "baud": {
+      "url": "Datenblaetter/Diverse/COM8126_COM8146_SMC.pdf#page=17",
+      "kind": "Herstellerbeispiel (lokales PDF)",
+      "checked_on": "2026-10-21"
+    },
+    "ua78_buck": {
+      "url": "Datenblaetter/Diverse/UA78S40_onsemi_Referenz.pdf#page=6",
+      "kind": "Herstellerbeispiel (lokales PDF)",
+      "checked_on": "2026-10-21"
+    },
+    "ua78_boost": {
+      "url": "Datenblaetter/Diverse/UA78S40_onsemi_Referenz.pdf#page=5",
+      "kind": "Herstellerbeispiel (lokales PDF)",
+      "checked_on": "2026-10-21"
+    },
+    "comparator_st": {
+      "url": "Datenblaetter/Diverse/LM339_ST_Historisch.pdf#page=7",
+      "kind": "Herstellerbeispiel (lokales PDF)",
+      "checked_on": "2026-10-21"
+    },
+    "lm324": {
+      "url": "Datenblaetter/Diverse/LM324_ST.pdf#page=9",
+      "kind": "Herstellerbeispiel (lokales PDF)",
+      "checked_on": "2026-10-21"
+    },
+    "lp324": {
+      "url": "Datenblaetter/Diverse/LP324N_TI_National.pdf#page=7",
+      "kind": "Herstellerbeispiel (lokales PDF)",
+      "checked_on": "2026-10-21"
+    },
+    "lm358": {
+      "url": "Datenblaetter/Diverse/LM358_TI_Referenz.pdf#page=27",
+      "kind": "Herstellerbeispiel (lokales PDF)",
+      "checked_on": "2026-10-21"
+    },
+    "driver_l293": {
+      "url": "Datenblaetter/Diverse/L293_TI.pdf#page=9",
+      "kind": "Herstellerbeispiel (lokales PDF)",
+      "checked_on": "2026-10-21"
+    },
+    "driver_l298": {
+      "url": "Datenblaetter/Diverse/L298N_ST.pdf#page=10",
+      "kind": "Herstellerbeispiel (lokales PDF)",
+      "checked_on": "2026-10-21"
+    },
+    "buffer49": {
+      "url": "Datenblaetter/CD4xxx/CD4049_TI.pdf#page=17",
+      "kind": "Herstellerbeispiel (lokales PDF)",
+      "checked_on": "2026-10-21"
+    },
+    "buffer50": {
+      "url": "Datenblaetter/CD4xxx/CD4050_TI.pdf#page=17",
+      "kind": "Herstellerbeispiel (lokales PDF)",
+      "checked_on": "2026-10-21"
+    },
+    "analogmux1": {
+      "url": "Datenblaetter/CD4xxx/CD4051_TI.pdf#page=18",
+      "kind": "Herstellerbeispiel (lokales PDF)",
+      "checked_on": "2026-10-21"
+    },
+    "analogmux2": {
+      "url": "Datenblaetter/CD4xxx/CD4052_TI.pdf#page=18",
+      "kind": "Herstellerbeispiel (lokales PDF)",
+      "checked_on": "2026-10-21"
+    },
+    "analogmux3": {
+      "url": "Datenblaetter/CD4xxx/CD4053_TI.pdf#page=18",
+      "kind": "Herstellerbeispiel (lokales PDF)",
+      "checked_on": "2026-10-21"
+    },
+    "analog_switch": {
+      "url": "Datenblaetter/CD4xxx/CD4066_TI.pdf#page=16",
+      "kind": "Herstellerbeispiel (lokales PDF)",
+      "checked_on": "2026-10-21"
+    },
+    "invert69": {
+      "url": "Datenblaetter/CD4xxx/CD4069_TI.pdf#page=14",
+      "kind": "Herstellerbeispiel (lokales PDF)",
+      "checked_on": "2026-10-21"
+    },
+    "crystal69": {
+      "url": "Datenblaetter/CD4xxx/CD4069_TI.pdf#page=11",
+      "kind": "Herstellerbeispiel (lokales PDF)",
+      "checked_on": "2026-10-21"
+    },
+    "cd4060": {
+      "url": "Datenblaetter/CD4xxx/CD4060_TI.pdf#page=3",
+      "kind": "Herstellerbeispiel (lokales PDF)",
+      "checked_on": "2026-10-21"
+    },
+    "cd4047": {
+      "url": "Datenblaetter/CD4xxx/CD4047_TI.pdf#page=1",
+      "kind": "Herstellerbeispiel (lokales PDF)",
+      "checked_on": "2026-10-21"
+    },
+    "cd4541": {
+      "url": "Datenblaetter/CD4xxx/CD4541_TI.pdf#page=5",
+      "kind": "Herstellerbeispiel (lokales PDF)",
+      "checked_on": "2026-10-21"
+    },
+    "cd4026": {
+      "url": "Datenblaetter/CD4xxx/CD4026_TI.pdf#page=5",
+      "kind": "Herstellerbeispiel (lokales PDF)",
+      "checked_on": "2026-10-21"
+    },
+    "cd4033": {
+      "url": "Datenblaetter/CD4xxx/CD4033_TI.pdf#page=5",
+      "kind": "Herstellerbeispiel (lokales PDF)",
+      "checked_on": "2026-10-21"
+    },
+    "cd4511": {
+      "url": "Datenblaetter/CD4xxx/CD4511_TI.pdf#page=5",
+      "kind": "Herstellerbeispiel (lokales PDF)",
+      "checked_on": "2026-10-21"
+    },
+    "cd4513": {
+      "url": "Datenblaetter/CD4xxx/CD4513_MC14513B_onsemi_Referenz.pdf#page=7",
+      "kind": "Herstellerbeispiel (lokales PDF)",
+      "checked_on": "2026-10-21"
+    },
+    "cd4553": {
+      "url": "Datenblaetter/CD4xxx/CD4553_MC14553B_Motorola_Referenz.pdf#page=6",
+      "kind": "Herstellerbeispiel (lokales PDF)",
+      "checked_on": "2026-10-21"
+    },
+    "cd4094": {
+      "url": "Datenblaetter/CD4xxx/CD4094_TI.pdf#page=3",
+      "kind": "Herstellerbeispiel (lokales PDF)",
+      "checked_on": "2026-10-21"
+    },
+    "cd4013": {
+      "url": "Datenblaetter/CD4xxx/CD4013_TI.pdf#page=11",
+      "kind": "Herstellerbeispiel (lokales PDF)",
+      "checked_on": "2026-10-21"
+    },
+    "nand00": {
+      "url": "Datenblaetter/SN7xxx/SN74LS00N_TI.pdf#page=11",
+      "kind": "Herstellerbeispiel (lokales PDF)",
+      "checked_on": "2026-10-21"
+    },
+    "oc06": {
+      "url": "Datenblaetter/SN7xxx/SN74LS06N_TI.pdf#page=9",
+      "kind": "Herstellerbeispiel (lokales PDF)",
+      "checked_on": "2026-10-21"
+    },
+    "oc07": {
+      "url": "Datenblaetter/SN7xxx/SN74LS07N_TI.pdf#page=8",
+      "kind": "Herstellerbeispiel (lokales PDF)",
+      "checked_on": "2026-10-21"
+    },
+    "schmitt14": {
+      "url": "Datenblaetter/SN7xxx/SN74LS14N_TI.pdf#page=14",
+      "kind": "Herstellerbeispiel (lokales PDF)",
+      "checked_on": "2026-10-21"
+    },
+    "bus244": {
+      "url": "Datenblaetter/SN7xxx/SN74LS244N_TI.pdf#page=14",
+      "kind": "Herstellerbeispiel (lokales PDF)",
+      "checked_on": "2026-10-21"
+    },
+    "bus245": {
+      "url": "Datenblaetter/SN7xxx/SN74LS245N_TI.pdf#page=10",
+      "kind": "Herstellerbeispiel (lokales PDF)",
+      "checked_on": "2026-10-21"
+    },
+    "encoder148": {
+      "url": "Datenblaetter/SN7xxx/SN74LS148N_TI.pdf#page=13",
+      "kind": "Herstellerbeispiel (lokales PDF)",
+      "checked_on": "2026-10-21"
+    },
+    "hc595": {
+      "url": "Datenblaetter/SN7xxx/SN74HC595_TI.pdf#page=13",
+      "kind": "Herstellerbeispiel (lokales PDF)",
+      "checked_on": "2026-10-21"
+    },
+    "expander60": {
+      "url": "Datenblaetter/SN7xxx/7460_TI_Referenz.pdf#page=1",
+      "kind": "Herstellerbeispiel (lokales PDF)",
+      "checked_on": "2026-10-21"
+    },
+    "element87": {
+      "url": "Datenblaetter/SN7xxx/7487_TI_Datenbuchauszug.pdf#page=1",
+      "kind": "Herstellerbeispiel (lokales PDF)",
+      "checked_on": "2026-10-21"
+    },
+    "reg_78L05": {
+      "url": "Datenblaetter/Spannungsregler/L78L05_12_ST_Familie.pdf#page=17",
+      "kind": "Herstellerbeispiel (lokales PDF)",
+      "checked_on": "2026-10-21"
+    },
+    "reg_78L12": {
+      "url": "Datenblaetter/Spannungsregler/L78L05_12_ST_Familie.pdf#page=17",
+      "kind": "Herstellerbeispiel (lokales PDF)",
+      "checked_on": "2026-10-21"
+    },
+    "reg_79L05": {
+      "url": "Datenblaetter/Spannungsregler/L79L05_ST_Familie.pdf#page=4",
+      "kind": "Herstellerbeispiel (lokales PDF)",
+      "checked_on": "2026-10-21"
+    },
+    "reg_KA7909": {
+      "url": "Datenblaetter/Spannungsregler/KA7909_Fairchild.pdf#page=15",
+      "kind": "Herstellerbeispiel (lokales PDF)",
+      "checked_on": "2026-10-21"
+    },
+    "reg_L7805CV": {
+      "url": "Datenblaetter/Spannungsregler/L78_ST.pdf#page=4",
+      "kind": "Herstellerbeispiel (lokales PDF)",
+      "checked_on": "2026-10-21"
+    },
+    "reg_L7809CV": {
+      "url": "Datenblaetter/Spannungsregler/L78_ST.pdf#page=4",
+      "kind": "Herstellerbeispiel (lokales PDF)",
+      "checked_on": "2026-10-21"
+    },
+    "reg_L7812CV": {
+      "url": "Datenblaetter/Spannungsregler/L78_ST.pdf#page=4",
+      "kind": "Herstellerbeispiel (lokales PDF)",
+      "checked_on": "2026-10-21"
+    },
+    "reg_L7815CV": {
+      "url": "Datenblaetter/Spannungsregler/L78_ST.pdf#page=4",
+      "kind": "Herstellerbeispiel (lokales PDF)",
+      "checked_on": "2026-10-21"
+    },
+    "reg_L7824CV": {
+      "url": "Datenblaetter/Spannungsregler/L78_ST.pdf#page=4",
+      "kind": "Herstellerbeispiel (lokales PDF)",
+      "checked_on": "2026-10-21"
+    },
+    "reg_L7905CV": {
+      "url": "Datenblaetter/Spannungsregler/L79_ST.pdf#page=11",
+      "kind": "Herstellerbeispiel (lokales PDF)",
+      "checked_on": "2026-10-21"
+    },
+    "reg_L7912CV": {
+      "url": "Datenblaetter/Spannungsregler/L79_ST.pdf#page=11",
+      "kind": "Herstellerbeispiel (lokales PDF)",
+      "checked_on": "2026-10-21"
+    },
+    "reg_LM317": {
+      "url": "Datenblaetter/Spannungsregler/LM317_TI.pdf#page=15",
+      "kind": "Herstellerbeispiel (lokales PDF)",
+      "checked_on": "2026-10-21"
+    },
+    "lm317_0v": {
+      "url": "Datenblaetter/Spannungsregler/LM317_TI.pdf#page=17",
+      "kind": "Herstellerbeispiel (lokales PDF)",
+      "checked_on": "2026-10-21"
+    },
+    "reg_TL431A": {
+      "url": "Datenblaetter/Spannungsregler/TL431_TI.pdf#page=26",
+      "kind": "Herstellerbeispiel (lokales PDF)",
+      "checked_on": "2026-10-21"
+    },
+    "tl431_cmp": {
+      "url": "Datenblaetter/Spannungsregler/TL431_TI.pdf#page=23",
+      "kind": "Herstellerbeispiel (lokales PDF)",
+      "checked_on": "2026-10-21"
+    },
+    "reg_L78S12CV": {
+      "url": "Datenblaetter/Spannungsregler/L78S12CV_ST.pdf#page=7",
+      "kind": "Herstellerbeispiel (lokales PDF)",
+      "checked_on": "2026-10-21"
+    },
+    "reg_L78S05CV": {
+      "url": "Datenblaetter/Spannungsregler/L78S12CV_ST.pdf#page=7",
+      "kind": "Herstellerbeispiel (lokales PDF)",
+      "checked_on": "2026-10-21"
+    },
+    "reg_TS7805": {
+      "url": "Datenblaetter/Spannungsregler/TS7805_TSC_Familie.pdf#page=1",
+      "kind": "Herstellerbeispiel (lokales PDF)",
+      "checked_on": "2026-10-21"
+    },
+    "reg_L78S09CV": {
+      "url": "Datenblaetter/Spannungsregler/L78S12CV_ST.pdf#page=7",
+      "kind": "Herstellerbeispiel (lokales PDF)",
+      "checked_on": "2026-10-21"
+    },
+    "reg_KA7809": {
+      "url": "Datenblaetter/Spannungsregler/KA7809_Fairchild.pdf#page=21",
+      "kind": "Herstellerbeispiel (lokales PDF)",
+      "checked_on": "2026-10-21"
+    },
+    "serial_receiver": {
+      "url": "https://www.onsemi.com/pdf/datasheet/mc1489-d.pdf#page=7",
+      "kind": "Herstellerbeispiel",
+      "checked_on": "2026-10-21",
+      "note": "MC1489/MC1489A-Anwendungsbeispiele; beim vorhandenen MC1489 dessen Schwellenwerte verwenden."
+    },
+    "ds18b20": {
+      "url": "Datenblaetter/Diverse/DS18B20_Maxim_Referenz.pdf#page=6",
+      "kind": "Grundschaltung (Typreferenz Maxim)",
+      "checked_on": "2026-10-21"
+    },
+    "mcp3008_filter": {
+      "url": "Datenblaetter/Diverse/MCP3008_Microchip.pdf#page=23",
+      "kind": "Familienreferenz: Eingangsfilter am MCP3004",
+      "checked_on": "2026-10-21"
+    },
+    "register40194": {
+      "url": "https://www.allaboutcircuits.com/textbook/digital/chpt-12/parallel-in-parallel-out-universal-shift-register/",
+      "kind": "Grundschaltung",
+      "checked_on": "2026-10-21"
+    },
+    "buffer40098": {
+      "url": "https://assets.nexperia.com/documents/data-sheet/HEF40098B.pdf#page=2",
+      "kind": "Funktionsreferenz, keine vollständige Beispielschaltung",
+      "checked_on": "2026-10-21"
+    },
+    "mc14528": {
+      "url": "Datenblaetter/CD4xxx/MC14528B_onsemi.pdf#page=2",
+      "kind": "Herstellerbeschaltung",
+      "checked_on": "2026-10-21"
+    },
+    "mc14521": {
+      "url": "Datenblaetter/CD4xxx/MC14521B_onsemi.pdf#page=5",
+      "kind": "Nachfolger-/Typreferenz",
+      "checked_on": "2026-10-21"
+    },
+    "mc14538": {
+      "url": "Datenblaetter/CD4xxx/MC14538B_onsemi.pdf#page=2",
+      "kind": "Nachfolger-/Typreferenz",
+      "checked_on": "2026-10-21"
+    }
+  },
+  "parts": [
+    {
+      "type": "IC SN7xxx",
+      "part": "SN74LS00N",
+      "links": [
+        {
+          "source": "nand00",
+          "label": "Fehlererkennung (TI)"
+        },
+        {
+          "source": "gate",
+          "label": "Gatter mit Tastern/LED (Grundschaltung)"
+        }
+      ],
+      "note": "Bei Grundschaltungen Eingangs-/Ausgangspolarität, Anzahl der Kanäle, Versorgung und Pinfolge für die dokumentierte Logikfamilie abgleichen."
+    },
+    {
+      "type": "IC SN7xxx",
+      "part": "SN74LS02N",
+      "links": [
+        {
+          "source": "gate",
+          "label": "Gatter mit Tastern/LED (Grundschaltung)"
+        },
+        {
+          "source": "nor_latch",
+          "label": "RS-Speicher (Grundschaltung)"
+        }
+      ],
+      "note": "Bei Grundschaltungen Eingangs-/Ausgangspolarität, Anzahl der Kanäle, Versorgung und Pinfolge für die dokumentierte Logikfamilie abgleichen."
+    },
+    {
+      "type": "IC SN7xxx",
+      "part": "SN74LS04N",
+      "links": [
+        {
+          "source": "gate",
+          "label": "Gatter mit Tastern/LED (Grundschaltung)"
+        }
+      ],
+      "note": "Bei Grundschaltungen Eingangs-/Ausgangspolarität, Anzahl der Kanäle, Versorgung und Pinfolge für die dokumentierte Logikfamilie abgleichen."
+    },
+    {
+      "type": "IC SN7xxx",
+      "part": "SN74LS05N",
+      "links": [
+        {
+          "source": "oc_bus",
+          "label": "Open-Collector-Ansteuerung (Grundschaltung)"
+        }
+      ],
+      "note": "Bei Grundschaltungen Eingangs-/Ausgangspolarität, Anzahl der Kanäle, Versorgung und Pinfolge für die dokumentierte Logikfamilie abgleichen."
+    },
+    {
+      "type": "IC SN7xxx",
+      "part": "SN74LS06N",
+      "links": [
+        {
+          "source": "oc06",
+          "label": "Lastansteuerung (TI)"
+        },
+        {
+          "source": "oc_bus",
+          "label": "Open-Collector-Ansteuerung (Grundschaltung)"
+        }
+      ],
+      "note": "Bei Grundschaltungen Eingangs-/Ausgangspolarität, Anzahl der Kanäle, Versorgung und Pinfolge für die dokumentierte Logikfamilie abgleichen."
+    },
+    {
+      "type": "IC SN7xxx",
+      "part": "SN74LS07N",
+      "links": [
+        {
+          "source": "oc07",
+          "label": "Lastansteuerung (TI)"
+        },
+        {
+          "source": "oc_bus",
+          "label": "Open-Collector-Ansteuerung (Grundschaltung)"
+        }
+      ],
+      "note": "Bei Grundschaltungen Eingangs-/Ausgangspolarität, Anzahl der Kanäle, Versorgung und Pinfolge für die dokumentierte Logikfamilie abgleichen."
+    },
+    {
+      "type": "IC SN7xxx",
+      "part": "SN74LS08N",
+      "links": [
+        {
+          "source": "gate",
+          "label": "Gatter mit Tastern/LED (Grundschaltung)"
+        }
+      ],
+      "note": "Bei Grundschaltungen Eingangs-/Ausgangspolarität, Anzahl der Kanäle, Versorgung und Pinfolge für die dokumentierte Logikfamilie abgleichen."
+    },
+    {
+      "type": "IC SN7xxx",
+      "part": "SN74LS10N",
+      "links": [
+        {
+          "source": "gate",
+          "label": "Gatter mit Tastern/LED (Grundschaltung)"
+        }
+      ],
+      "note": "Bei Grundschaltungen Eingangs-/Ausgangspolarität, Anzahl der Kanäle, Versorgung und Pinfolge für die dokumentierte Logikfamilie abgleichen."
+    },
+    {
+      "type": "IC SN7xxx",
+      "part": "SN74LS11N",
+      "links": [
+        {
+          "source": "gate",
+          "label": "Gatter mit Tastern/LED (Grundschaltung)"
+        }
+      ],
+      "note": "Bei Grundschaltungen Eingangs-/Ausgangspolarität, Anzahl der Kanäle, Versorgung und Pinfolge für die dokumentierte Logikfamilie abgleichen."
+    },
+    {
+      "type": "IC SN7xxx",
+      "part": "7412",
+      "links": [
+        {
+          "source": "oc_bus",
+          "label": "Open-Collector-Ansteuerung (Grundschaltung)"
+        }
+      ],
+      "note": "Bei Grundschaltungen Eingangs-/Ausgangspolarität, Anzahl der Kanäle, Versorgung und Pinfolge für die dokumentierte Logikfamilie abgleichen."
+    },
+    {
+      "type": "IC SN7xxx",
+      "part": "SN74LS14N",
+      "links": [
+        {
+          "source": "schmitt14",
+          "label": "Signalaufbereitung (TTL-Referenz)"
+        }
+      ],
+      "note": "Bei Grundschaltungen Eingangs-/Ausgangspolarität, Anzahl der Kanäle, Versorgung und Pinfolge für die dokumentierte Logikfamilie abgleichen."
+    },
+    {
+      "type": "IC SN7xxx",
+      "part": "7416",
+      "links": [
+        {
+          "source": "oc_bus",
+          "label": "Open-Collector-Ansteuerung (Grundschaltung)"
+        }
+      ],
+      "note": "Bei Grundschaltungen Eingangs-/Ausgangspolarität, Anzahl der Kanäle, Versorgung und Pinfolge für die dokumentierte Logikfamilie abgleichen."
+    },
+    {
+      "type": "IC SN7xxx",
+      "part": "SN74LS20N",
+      "links": [
+        {
+          "source": "gate",
+          "label": "Gatter mit Tastern/LED (Grundschaltung)"
+        }
+      ],
+      "note": "Bei Grundschaltungen Eingangs-/Ausgangspolarität, Anzahl der Kanäle, Versorgung und Pinfolge für die dokumentierte Logikfamilie abgleichen."
+    },
+    {
+      "type": "IC SN7xxx",
+      "part": "SN74LS21N",
+      "links": [
+        {
+          "source": "gate",
+          "label": "Gatter mit Tastern/LED (Grundschaltung)"
+        }
+      ],
+      "note": "Bei Grundschaltungen Eingangs-/Ausgangspolarität, Anzahl der Kanäle, Versorgung und Pinfolge für die dokumentierte Logikfamilie abgleichen."
+    },
+    {
+      "type": "IC SN7xxx",
+      "part": "SN74LS27N",
+      "links": [
+        {
+          "source": "gate",
+          "label": "Gatter mit Tastern/LED (Grundschaltung)"
+        },
+        {
+          "source": "nor_latch",
+          "label": "RS-Speicher (Grundschaltung)"
+        }
+      ],
+      "note": "Bei Grundschaltungen Eingangs-/Ausgangspolarität, Anzahl der Kanäle, Versorgung und Pinfolge für die dokumentierte Logikfamilie abgleichen."
+    },
+    {
+      "type": "IC SN7xxx",
+      "part": "SN74LS30N",
+      "links": [
+        {
+          "source": "gate",
+          "label": "Gatter mit Tastern/LED (Grundschaltung)"
+        }
+      ],
+      "note": "Bei Grundschaltungen Eingangs-/Ausgangspolarität, Anzahl der Kanäle, Versorgung und Pinfolge für die dokumentierte Logikfamilie abgleichen."
+    },
+    {
+      "type": "IC SN7xxx",
+      "part": "SN74LS32N",
+      "links": [
+        {
+          "source": "gate",
+          "label": "Gatter mit Tastern/LED (Grundschaltung)"
+        }
+      ],
+      "note": "Bei Grundschaltungen Eingangs-/Ausgangspolarität, Anzahl der Kanäle, Versorgung und Pinfolge für die dokumentierte Logikfamilie abgleichen."
+    },
+    {
+      "type": "IC SN7xxx",
+      "part": "7438",
+      "links": [
+        {
+          "source": "oc_bus",
+          "label": "Open-Collector-Ansteuerung (Grundschaltung)"
+        }
+      ],
+      "note": "Bei Grundschaltungen Eingangs-/Ausgangspolarität, Anzahl der Kanäle, Versorgung und Pinfolge für die dokumentierte Logikfamilie abgleichen."
+    },
+    {
+      "type": "IC SN7xxx",
+      "part": "7440",
+      "links": [
+        {
+          "source": "gate",
+          "label": "Gatter mit Tastern/LED (Grundschaltung)"
+        }
+      ],
+      "note": "Bei Grundschaltungen Eingangs-/Ausgangspolarität, Anzahl der Kanäle, Versorgung und Pinfolge für die dokumentierte Logikfamilie abgleichen."
+    },
+    {
+      "type": "IC SN7xxx",
+      "part": "SN74LS42N",
+      "links": [
+        {
+          "source": "decoder",
+          "label": "Adress-/Leitungsdecoder (Grundschaltung)"
+        },
+        {
+          "source": "demux",
+          "label": "Signalverteilung (Grundschaltung)"
+        }
+      ],
+      "note": "Bei Grundschaltungen Eingangs-/Ausgangspolarität, Anzahl der Kanäle, Versorgung und Pinfolge für die dokumentierte Logikfamilie abgleichen."
+    },
+    {
+      "type": "IC SN7xxx",
+      "part": "SN74LS47N",
+      "links": [
+        {
+          "source": "display",
+          "label": "7-Segment-Anzeige (Grundschaltung)"
+        }
+      ],
+      "note": "Grundschaltung mit 4511: Segmentwiderstände, gemeinsame Anode/Kathode, Ausgangspolarität und Pinfolge an den vorhandenen Treiber anpassen."
+    },
+    {
+      "type": "IC SN7xxx",
+      "part": "SN74LS48N",
+      "links": [
+        {
+          "source": "display",
+          "label": "7-Segment-Anzeige (Grundschaltung)"
+        }
+      ],
+      "note": "Grundschaltung mit 4511: Segmentwiderstände, gemeinsame Anode/Kathode, Ausgangspolarität und Pinfolge an den vorhandenen Treiber anpassen."
+    },
+    {
+      "type": "IC SN7xxx",
+      "part": "SN74LS51N",
+      "links": [
+        {
+          "source": "aoi",
+          "label": "Verknüpfungslogik (Grundschaltung)"
+        }
+      ],
+      "note": "Bei Grundschaltungen Eingangs-/Ausgangspolarität, Anzahl der Kanäle, Versorgung und Pinfolge für die dokumentierte Logikfamilie abgleichen."
+    },
+    {
+      "type": "IC SN7xxx",
+      "part": "SN74LS54N",
+      "links": [
+        {
+          "source": "aoi",
+          "label": "Verknüpfungslogik (Grundschaltung)"
+        }
+      ],
+      "note": "Bei Grundschaltungen Eingangs-/Ausgangspolarität, Anzahl der Kanäle, Versorgung und Pinfolge für die dokumentierte Logikfamilie abgleichen."
+    },
+    {
+      "type": "IC SN7xxx",
+      "part": "SN74LS55N",
+      "links": [
+        {
+          "source": "aoi",
+          "label": "Verknüpfungslogik (Grundschaltung)"
+        }
+      ],
+      "note": "Bei Grundschaltungen Eingangs-/Ausgangspolarität, Anzahl der Kanäle, Versorgung und Pinfolge für die dokumentierte Logikfamilie abgleichen."
+    },
+    {
+      "type": "IC SN7xxx",
+      "part": "7460",
+      "links": [
+        {
+          "source": "expander60",
+          "label": "Gattererweiterung an 7450 (TI-Referenz)"
+        }
+      ],
+      "note": "Dokument beschreibt den Anschluss an X/X-invertiert eines passenden SN7450/7423/7453. Referenzfamilien beachten; kein gewöhnlicher Logikausgang und nicht ungeprüft an LS-Gatter anschließen."
+    },
+    {
+      "type": "IC SN7xxx",
+      "part": "SN74LS73N",
+      "links": [
+        {
+          "source": "jk",
+          "label": "JK-Flipflop/Teiler (Grundschaltung)"
+        },
+        {
+          "source": "counter",
+          "label": "Binärzähler (Grundschaltung)"
+        }
+      ],
+      "note": "Bei Grundschaltungen Eingangs-/Ausgangspolarität, Anzahl der Kanäle, Versorgung und Pinfolge für die dokumentierte Logikfamilie abgleichen."
+    },
+    {
+      "type": "IC SN7xxx",
+      "part": "SN74LS74N",
+      "links": [
+        {
+          "source": "d_ff",
+          "label": "D-Flipflop (Grundschaltung)"
+        },
+        {
+          "source": "universal",
+          "label": "Registeraufbau (Grundschaltung)"
+        }
+      ],
+      "note": "Bei Grundschaltungen Eingangs-/Ausgangspolarität, Anzahl der Kanäle, Versorgung und Pinfolge für die dokumentierte Logikfamilie abgleichen."
+    },
+    {
+      "type": "IC SN7xxx",
+      "part": "SN74LS75N",
+      "links": [
+        {
+          "source": "d_latch",
+          "label": "Daten zwischenspeichern (Grundschaltung)"
+        }
+      ],
+      "note": "Bei Grundschaltungen Eingangs-/Ausgangspolarität, Anzahl der Kanäle, Versorgung und Pinfolge für die dokumentierte Logikfamilie abgleichen."
+    },
+    {
+      "type": "IC SN7xxx",
+      "part": "SN74LS76N",
+      "links": [
+        {
+          "source": "jk",
+          "label": "JK-Flipflop/Teiler (Grundschaltung)"
+        },
+        {
+          "source": "counter",
+          "label": "Binärzähler (Grundschaltung)"
+        }
+      ],
+      "note": "Bei Grundschaltungen Eingangs-/Ausgangspolarität, Anzahl der Kanäle, Versorgung und Pinfolge für die dokumentierte Logikfamilie abgleichen."
+    },
+    {
+      "type": "IC SN7xxx",
+      "part": "SN74LS83N",
+      "links": [
+        {
+          "source": "adder",
+          "label": "Binäraddition (Grundschaltung)"
+        }
+      ],
+      "note": "Bei Grundschaltungen Eingangs-/Ausgangspolarität, Anzahl der Kanäle, Versorgung und Pinfolge für die dokumentierte Logikfamilie abgleichen."
+    },
+    {
+      "type": "IC SN7xxx",
+      "part": "SN74ACT86N",
+      "links": [
+        {
+          "source": "xor",
+          "label": "Vergleich/Parität (Grundschaltung)"
+        }
+      ],
+      "note": "Bei Grundschaltungen Eingangs-/Ausgangspolarität, Anzahl der Kanäle, Versorgung und Pinfolge für die dokumentierte Logikfamilie abgleichen."
+    },
+    {
+      "type": "IC SN7xxx",
+      "part": "SN74LS86N",
+      "links": [
+        {
+          "source": "xor",
+          "label": "Vergleich/Parität (Grundschaltung)"
+        }
+      ],
+      "note": "Bei Grundschaltungen Eingangs-/Ausgangspolarität, Anzahl der Kanäle, Versorgung und Pinfolge für die dokumentierte Logikfamilie abgleichen."
+    },
+    {
+      "type": "IC SN7xxx",
+      "part": "7487",
+      "links": [
+        {
+          "source": "element87",
+          "label": "Direkt/Invertiert/0/1 (TI-Referenz)"
+        }
+      ],
+      "note": "Ansteuerbeispiel anhand Funktionstabelle der Referenz SN74H87; tatsächliche Familie weiterhin abgleichen."
+    },
+    {
+      "type": "IC SN7xxx",
+      "part": "SN74LS90N",
+      "links": [
+        {
+          "source": "counter",
+          "label": "Zähler kaskadieren (Grundschaltung)"
+        },
+        {
+          "source": "modulo",
+          "label": "Modulo-/Frequenzteiler (Grundschaltung)"
+        }
+      ],
+      "note": "Bei Grundschaltungen Eingangs-/Ausgangspolarität, Anzahl der Kanäle, Versorgung und Pinfolge für die dokumentierte Logikfamilie abgleichen."
+    },
+    {
+      "type": "IC SN7xxx",
+      "part": "SN74LS92N",
+      "links": [
+        {
+          "source": "counter",
+          "label": "Zähler kaskadieren (Grundschaltung)"
+        },
+        {
+          "source": "modulo",
+          "label": "Modulo-/Frequenzteiler (Grundschaltung)"
+        }
+      ],
+      "note": "Bei Grundschaltungen Eingangs-/Ausgangspolarität, Anzahl der Kanäle, Versorgung und Pinfolge für die dokumentierte Logikfamilie abgleichen."
+    },
+    {
+      "type": "IC SN7xxx",
+      "part": "SN74LS93N",
+      "links": [
+        {
+          "source": "counter",
+          "label": "Zähler kaskadieren (Grundschaltung)"
+        },
+        {
+          "source": "modulo",
+          "label": "Modulo-/Frequenzteiler (Grundschaltung)"
+        }
+      ],
+      "note": "Bei Grundschaltungen Eingangs-/Ausgangspolarität, Anzahl der Kanäle, Versorgung und Pinfolge für die dokumentierte Logikfamilie abgleichen."
+    },
+    {
+      "type": "IC SN7xxx",
+      "part": "SN74LS95N",
+      "links": [
+        {
+          "source": "universal",
+          "label": "Paralleles Laden/Schieben (Grundschaltung)"
+        }
+      ],
+      "note": "Bei Grundschaltungen Eingangs-/Ausgangspolarität, Anzahl der Kanäle, Versorgung und Pinfolge für die dokumentierte Logikfamilie abgleichen."
+    },
+    {
+      "type": "IC SN7xxx",
+      "part": "SN74LS107N",
+      "links": [
+        {
+          "source": "jk",
+          "label": "JK-Flipflop/Teiler (Grundschaltung)"
+        },
+        {
+          "source": "counter",
+          "label": "Binärzähler (Grundschaltung)"
+        }
+      ],
+      "note": "Bei Grundschaltungen Eingangs-/Ausgangspolarität, Anzahl der Kanäle, Versorgung und Pinfolge für die dokumentierte Logikfamilie abgleichen."
+    },
+    {
+      "type": "IC SN7xxx",
+      "part": "74109",
+      "links": [
+        {
+          "source": "jk",
+          "label": "JK-Flipflop/Teiler (Grundschaltung)"
+        },
+        {
+          "source": "counter",
+          "label": "Binärzähler (Grundschaltung)"
+        }
+      ],
+      "note": "Bei Grundschaltungen Eingangs-/Ausgangspolarität, Anzahl der Kanäle, Versorgung und Pinfolge für die dokumentierte Logikfamilie abgleichen."
+    },
+    {
+      "type": "IC SN7xxx",
+      "part": "SN74LS112N",
+      "links": [
+        {
+          "source": "jk",
+          "label": "JK-Flipflop/Teiler (Grundschaltung)"
+        },
+        {
+          "source": "counter",
+          "label": "Binärzähler (Grundschaltung)"
+        }
+      ],
+      "note": "Bei Grundschaltungen Eingangs-/Ausgangspolarität, Anzahl der Kanäle, Versorgung und Pinfolge für die dokumentierte Logikfamilie abgleichen."
+    },
+    {
+      "type": "IC SN7xxx",
+      "part": "SN74LS138N",
+      "links": [
+        {
+          "source": "decoder",
+          "label": "Adress-/Leitungsdecoder (Grundschaltung)"
+        },
+        {
+          "source": "demux",
+          "label": "Signalverteilung (Grundschaltung)"
+        }
+      ],
+      "note": "Bei Grundschaltungen Eingangs-/Ausgangspolarität, Anzahl der Kanäle, Versorgung und Pinfolge für die dokumentierte Logikfamilie abgleichen."
+    },
+    {
+      "type": "IC SN7xxx",
+      "part": "SN74LS139N",
+      "links": [
+        {
+          "source": "decoder",
+          "label": "Adress-/Leitungsdecoder (Grundschaltung)"
+        },
+        {
+          "source": "demux",
+          "label": "Signalverteilung (Grundschaltung)"
+        }
+      ],
+      "note": "Bei Grundschaltungen Eingangs-/Ausgangspolarität, Anzahl der Kanäle, Versorgung und Pinfolge für die dokumentierte Logikfamilie abgleichen."
+    },
+    {
+      "type": "IC SN7xxx",
+      "part": "SN74LS145N",
+      "links": [
+        {
+          "source": "decoder",
+          "label": "Adress-/Leitungsdecoder (Grundschaltung)"
+        },
+        {
+          "source": "demux",
+          "label": "Signalverteilung (Grundschaltung)"
+        }
+      ],
+      "note": "Bei Grundschaltungen Eingangs-/Ausgangspolarität, Anzahl der Kanäle, Versorgung und Pinfolge für die dokumentierte Logikfamilie abgleichen."
+    },
+    {
+      "type": "IC SN7xxx",
+      "part": "SN74LS147N",
+      "links": [
+        {
+          "source": "encoder",
+          "label": "Tastencodierung (Grundschaltung)"
+        }
+      ],
+      "note": "Bei Grundschaltungen Eingangs-/Ausgangspolarität, Anzahl der Kanäle, Versorgung und Pinfolge für die dokumentierte Logikfamilie abgleichen."
+    },
+    {
+      "type": "IC SN7xxx",
+      "part": "SN74LS148N",
+      "links": [
+        {
+          "source": "encoder148",
+          "label": "Encoder-Kaskadierung (TI)"
+        },
+        {
+          "source": "encoder",
+          "label": "Tastencodierung (Grundschaltung)"
+        }
+      ],
+      "note": "Bei Grundschaltungen Eingangs-/Ausgangspolarität, Anzahl der Kanäle, Versorgung und Pinfolge für die dokumentierte Logikfamilie abgleichen."
+    },
+    {
+      "type": "IC SN7xxx",
+      "part": "SN74LS151N",
+      "links": [
+        {
+          "source": "mux",
+          "label": "Datenauswahl (Grundschaltung)"
+        }
+      ],
+      "note": "Bei Grundschaltungen Eingangs-/Ausgangspolarität, Anzahl der Kanäle, Versorgung und Pinfolge für die dokumentierte Logikfamilie abgleichen."
+    },
+    {
+      "type": "IC SN7xxx",
+      "part": "SN74LS153N",
+      "links": [
+        {
+          "source": "mux",
+          "label": "Datenauswahl (Grundschaltung)"
+        }
+      ],
+      "note": "Bei Grundschaltungen Eingangs-/Ausgangspolarität, Anzahl der Kanäle, Versorgung und Pinfolge für die dokumentierte Logikfamilie abgleichen."
+    },
+    {
+      "type": "IC SN7xxx",
+      "part": "SN74LS155N",
+      "links": [
+        {
+          "source": "decoder",
+          "label": "Adress-/Leitungsdecoder (Grundschaltung)"
+        },
+        {
+          "source": "demux",
+          "label": "Signalverteilung (Grundschaltung)"
+        }
+      ],
+      "note": "Bei Grundschaltungen Eingangs-/Ausgangspolarität, Anzahl der Kanäle, Versorgung und Pinfolge für die dokumentierte Logikfamilie abgleichen."
+    },
+    {
+      "type": "IC SN7xxx",
+      "part": "SN74LS156N",
+      "links": [
+        {
+          "source": "decoder",
+          "label": "Adress-/Leitungsdecoder (Grundschaltung)"
+        },
+        {
+          "source": "demux",
+          "label": "Signalverteilung (Grundschaltung)"
+        }
+      ],
+      "note": "Bei Grundschaltungen Eingangs-/Ausgangspolarität, Anzahl der Kanäle, Versorgung und Pinfolge für die dokumentierte Logikfamilie abgleichen."
+    },
+    {
+      "type": "IC SN7xxx",
+      "part": "SN74LS157N",
+      "links": [
+        {
+          "source": "mux",
+          "label": "Datenauswahl (Grundschaltung)"
+        }
+      ],
+      "note": "Bei Grundschaltungen Eingangs-/Ausgangspolarität, Anzahl der Kanäle, Versorgung und Pinfolge für die dokumentierte Logikfamilie abgleichen."
+    },
+    {
+      "type": "IC SN7xxx",
+      "part": "SN74LS160N",
+      "links": [
+        {
+          "source": "sync",
+          "label": "Zähler kaskadieren (Grundschaltung)"
+        },
+        {
+          "source": "modulo",
+          "label": "Modulo-/Frequenzteiler (Grundschaltung)"
+        }
+      ],
+      "note": "Bei Grundschaltungen Eingangs-/Ausgangspolarität, Anzahl der Kanäle, Versorgung und Pinfolge für die dokumentierte Logikfamilie abgleichen."
+    },
+    {
+      "type": "IC SN7xxx",
+      "part": "SN74LS161N",
+      "links": [
+        {
+          "source": "sync",
+          "label": "Zähler kaskadieren (Grundschaltung)"
+        },
+        {
+          "source": "modulo",
+          "label": "Modulo-/Frequenzteiler (Grundschaltung)"
+        }
+      ],
+      "note": "Bei Grundschaltungen Eingangs-/Ausgangspolarität, Anzahl der Kanäle, Versorgung und Pinfolge für die dokumentierte Logikfamilie abgleichen."
+    },
+    {
+      "type": "IC SN7xxx",
+      "part": "SN74LS162N",
+      "links": [
+        {
+          "source": "sync",
+          "label": "Zähler kaskadieren (Grundschaltung)"
+        },
+        {
+          "source": "modulo",
+          "label": "Modulo-/Frequenzteiler (Grundschaltung)"
+        }
+      ],
+      "note": "Bei Grundschaltungen Eingangs-/Ausgangspolarität, Anzahl der Kanäle, Versorgung und Pinfolge für die dokumentierte Logikfamilie abgleichen."
+    },
+    {
+      "type": "IC SN7xxx",
+      "part": "SN74LS163N",
+      "links": [
+        {
+          "source": "sync",
+          "label": "Zähler kaskadieren (Grundschaltung)"
+        },
+        {
+          "source": "modulo",
+          "label": "Modulo-/Frequenzteiler (Grundschaltung)"
+        }
+      ],
+      "note": "Bei Grundschaltungen Eingangs-/Ausgangspolarität, Anzahl der Kanäle, Versorgung und Pinfolge für die dokumentierte Logikfamilie abgleichen."
+    },
+    {
+      "type": "IC SN7xxx",
+      "part": "SN74LS164N",
+      "links": [
+        {
+          "source": "sipo",
+          "label": "LED-Ausgänge erweitern (Grundschaltung)"
+        }
+      ],
+      "note": "Bei Grundschaltungen Eingangs-/Ausgangspolarität, Anzahl der Kanäle, Versorgung und Pinfolge für die dokumentierte Logikfamilie abgleichen."
+    },
+    {
+      "type": "IC SN7xxx",
+      "part": "CD74HC165E",
+      "links": [
+        {
+          "source": "piso",
+          "label": "Taster seriell einlesen (Grundschaltung)"
+        }
+      ],
+      "note": "Bei Grundschaltungen Eingangs-/Ausgangspolarität, Anzahl der Kanäle, Versorgung und Pinfolge für die dokumentierte Logikfamilie abgleichen."
+    },
+    {
+      "type": "IC SN7xxx",
+      "part": "SN74LS165N",
+      "links": [
+        {
+          "source": "piso",
+          "label": "Taster seriell einlesen (Grundschaltung)"
+        }
+      ],
+      "note": "Bei Grundschaltungen Eingangs-/Ausgangspolarität, Anzahl der Kanäle, Versorgung und Pinfolge für die dokumentierte Logikfamilie abgleichen."
+    },
+    {
+      "type": "IC SN7xxx",
+      "part": "74166",
+      "links": [
+        {
+          "source": "piso",
+          "label": "Taster seriell einlesen (Grundschaltung)"
+        }
+      ],
+      "note": "Bei Grundschaltungen Eingangs-/Ausgangspolarität, Anzahl der Kanäle, Versorgung und Pinfolge für die dokumentierte Logikfamilie abgleichen."
+    },
+    {
+      "type": "IC SN7xxx",
+      "part": "74174N",
+      "links": [
+        {
+          "source": "d_ff",
+          "label": "D-Flipflop (Grundschaltung)"
+        },
+        {
+          "source": "universal",
+          "label": "Registeraufbau (Grundschaltung)"
+        }
+      ],
+      "note": "Bei Grundschaltungen Eingangs-/Ausgangspolarität, Anzahl der Kanäle, Versorgung und Pinfolge für die dokumentierte Logikfamilie abgleichen."
+    },
+    {
+      "type": "IC SN7xxx",
+      "part": "PC74HCT174P",
+      "links": [
+        {
+          "source": "d_ff",
+          "label": "D-Flipflop (Grundschaltung)"
+        },
+        {
+          "source": "universal",
+          "label": "Registeraufbau (Grundschaltung)"
+        }
+      ],
+      "note": "Bei Grundschaltungen Eingangs-/Ausgangspolarität, Anzahl der Kanäle, Versorgung und Pinfolge für die dokumentierte Logikfamilie abgleichen."
+    },
+    {
+      "type": "IC SN7xxx",
+      "part": "SN74LS174N",
+      "links": [
+        {
+          "source": "d_ff",
+          "label": "D-Flipflop (Grundschaltung)"
+        },
+        {
+          "source": "universal",
+          "label": "Registeraufbau (Grundschaltung)"
+        }
+      ],
+      "note": "Bei Grundschaltungen Eingangs-/Ausgangspolarität, Anzahl der Kanäle, Versorgung und Pinfolge für die dokumentierte Logikfamilie abgleichen."
+    },
+    {
+      "type": "IC SN7xxx",
+      "part": "SN74LS175N",
+      "links": [
+        {
+          "source": "d_ff",
+          "label": "D-Flipflop (Grundschaltung)"
+        },
+        {
+          "source": "universal",
+          "label": "Registeraufbau (Grundschaltung)"
+        }
+      ],
+      "note": "Bei Grundschaltungen Eingangs-/Ausgangspolarität, Anzahl der Kanäle, Versorgung und Pinfolge für die dokumentierte Logikfamilie abgleichen."
+    },
+    {
+      "type": "IC SN7xxx",
+      "part": "SN74LS190N",
+      "links": [
+        {
+          "source": "sync",
+          "label": "Zähler kaskadieren (Grundschaltung)"
+        },
+        {
+          "source": "modulo",
+          "label": "Modulo-/Frequenzteiler (Grundschaltung)"
+        }
+      ],
+      "note": "Bei Grundschaltungen Eingangs-/Ausgangspolarität, Anzahl der Kanäle, Versorgung und Pinfolge für die dokumentierte Logikfamilie abgleichen."
+    },
+    {
+      "type": "IC SN7xxx",
+      "part": "SN74LS191N",
+      "links": [
+        {
+          "source": "sync",
+          "label": "Zähler kaskadieren (Grundschaltung)"
+        },
+        {
+          "source": "modulo",
+          "label": "Modulo-/Frequenzteiler (Grundschaltung)"
+        }
+      ],
+      "note": "Bei Grundschaltungen Eingangs-/Ausgangspolarität, Anzahl der Kanäle, Versorgung und Pinfolge für die dokumentierte Logikfamilie abgleichen."
+    },
+    {
+      "type": "IC SN7xxx",
+      "part": "SN74LS192N",
+      "links": [
+        {
+          "source": "sync",
+          "label": "Zähler kaskadieren (Grundschaltung)"
+        },
+        {
+          "source": "modulo",
+          "label": "Modulo-/Frequenzteiler (Grundschaltung)"
+        }
+      ],
+      "note": "Bei Grundschaltungen Eingangs-/Ausgangspolarität, Anzahl der Kanäle, Versorgung und Pinfolge für die dokumentierte Logikfamilie abgleichen."
+    },
+    {
+      "type": "IC SN7xxx",
+      "part": "SN74LS193N",
+      "links": [
+        {
+          "source": "sync",
+          "label": "Zähler kaskadieren (Grundschaltung)"
+        },
+        {
+          "source": "modulo",
+          "label": "Modulo-/Frequenzteiler (Grundschaltung)"
+        }
+      ],
+      "note": "Bei Grundschaltungen Eingangs-/Ausgangspolarität, Anzahl der Kanäle, Versorgung und Pinfolge für die dokumentierte Logikfamilie abgleichen."
+    },
+    {
+      "type": "IC SN7xxx",
+      "part": "SN74LS194N",
+      "links": [
+        {
+          "source": "universal",
+          "label": "Paralleles Laden/Schieben (Grundschaltung)"
+        }
+      ],
+      "note": "Bei Grundschaltungen Eingangs-/Ausgangspolarität, Anzahl der Kanäle, Versorgung und Pinfolge für die dokumentierte Logikfamilie abgleichen."
+    },
+    {
+      "type": "IC SN7xxx",
+      "part": "74240",
+      "links": [
+        {
+          "source": "oc_bus",
+          "label": "Gemeinsamer Datenbus (Grundschaltung)"
+        }
+      ],
+      "note": "Bei Grundschaltungen Eingangs-/Ausgangspolarität, Anzahl der Kanäle, Versorgung und Pinfolge für die dokumentierte Logikfamilie abgleichen."
+    },
+    {
+      "type": "IC SN7xxx",
+      "part": "SN74LS244N",
+      "links": [
+        {
+          "source": "bus244",
+          "label": "Buspuffer (TI)"
+        }
+      ],
+      "note": "Bei Grundschaltungen Eingangs-/Ausgangspolarität, Anzahl der Kanäle, Versorgung und Pinfolge für die dokumentierte Logikfamilie abgleichen."
+    },
+    {
+      "type": "IC SN7xxx",
+      "part": "SN74LS245N",
+      "links": [
+        {
+          "source": "bus245",
+          "label": "Bidirektionaler Bus (TI)"
+        }
+      ],
+      "note": "Bei Grundschaltungen Eingangs-/Ausgangspolarität, Anzahl der Kanäle, Versorgung und Pinfolge für die dokumentierte Logikfamilie abgleichen."
+    },
+    {
+      "type": "IC SN7xxx",
+      "part": "SN74LS247N",
+      "links": [
+        {
+          "source": "display",
+          "label": "7-Segment-Anzeige (Grundschaltung)"
+        }
+      ],
+      "note": "Grundschaltung mit 4511: Segmentwiderstände, gemeinsame Anode/Kathode, Ausgangspolarität und Pinfolge an den vorhandenen Treiber anpassen."
+    },
+    {
+      "type": "IC SN7xxx",
+      "part": "SN74LS248N",
+      "links": [
+        {
+          "source": "display",
+          "label": "7-Segment-Anzeige (Grundschaltung)"
+        }
+      ],
+      "note": "Grundschaltung mit 4511: Segmentwiderstände, gemeinsame Anode/Kathode, Ausgangspolarität und Pinfolge an den vorhandenen Treiber anpassen."
+    },
+    {
+      "type": "IC SN7xxx",
+      "part": "74253",
+      "links": [
+        {
+          "source": "mux",
+          "label": "Datenauswahl (Grundschaltung)"
+        }
+      ],
+      "note": "Bei Grundschaltungen Eingangs-/Ausgangspolarität, Anzahl der Kanäle, Versorgung und Pinfolge für die dokumentierte Logikfamilie abgleichen."
+    },
+    {
+      "type": "IC SN7xxx",
+      "part": "SN74LS266N",
+      "links": [
+        {
+          "source": "oc_bus",
+          "label": "Open-Collector-Ansteuerung (Grundschaltung)"
+        }
+      ],
+      "note": "Bei Grundschaltungen Eingangs-/Ausgangspolarität, Anzahl der Kanäle, Versorgung und Pinfolge für die dokumentierte Logikfamilie abgleichen."
+    },
+    {
+      "type": "IC SN7xxx",
+      "part": "SN74LS273N",
+      "links": [
+        {
+          "source": "d_ff",
+          "label": "D-Flipflop (Grundschaltung)"
+        },
+        {
+          "source": "universal",
+          "label": "Registeraufbau (Grundschaltung)"
+        }
+      ],
+      "note": "Bei Grundschaltungen Eingangs-/Ausgangspolarität, Anzahl der Kanäle, Versorgung und Pinfolge für die dokumentierte Logikfamilie abgleichen."
+    },
+    {
+      "type": "IC SN7xxx",
+      "part": "74LS279",
+      "links": [
+        {
+          "source": "nor_latch",
+          "label": "Setzen/Rücksetzen (Grundschaltung)"
+        }
+      ],
+      "note": "Bei NAND-RS-Latches aktive Low-Eingänge und Ausgangsfreigaben abgleichen; NOR-Beispiel zeigt das Speicherprinzip."
+    },
+    {
+      "type": "IC SN7xxx",
+      "part": "SN74LS373N",
+      "links": [
+        {
+          "source": "d_latch",
+          "label": "Daten zwischenspeichern (Grundschaltung)"
+        }
+      ],
+      "note": "Bei Grundschaltungen Eingangs-/Ausgangspolarität, Anzahl der Kanäle, Versorgung und Pinfolge für die dokumentierte Logikfamilie abgleichen."
+    },
+    {
+      "type": "IC SN7xxx",
+      "part": "SN74LS374N",
+      "links": [
+        {
+          "source": "d_ff",
+          "label": "D-Flipflop (Grundschaltung)"
+        },
+        {
+          "source": "universal",
+          "label": "Registeraufbau (Grundschaltung)"
+        }
+      ],
+      "note": "Bei Grundschaltungen Eingangs-/Ausgangspolarität, Anzahl der Kanäle, Versorgung und Pinfolge für die dokumentierte Logikfamilie abgleichen."
+    },
+    {
+      "type": "IC SN7xxx",
+      "part": "74541",
+      "links": [
+        {
+          "source": "oc_bus",
+          "label": "Gemeinsamer Datenbus (Grundschaltung)"
+        }
+      ],
+      "note": "Bei Grundschaltungen Eingangs-/Ausgangspolarität, Anzahl der Kanäle, Versorgung und Pinfolge für die dokumentierte Logikfamilie abgleichen."
+    },
+    {
+      "type": "IC SN7xxx",
+      "part": "74576",
+      "links": [
+        {
+          "source": "d_ff",
+          "label": "D-Flipflop (Grundschaltung)"
+        },
+        {
+          "source": "universal",
+          "label": "Registeraufbau (Grundschaltung)"
+        }
+      ],
+      "note": "Bei Grundschaltungen Eingangs-/Ausgangspolarität, Anzahl der Kanäle, Versorgung und Pinfolge für die dokumentierte Logikfamilie abgleichen."
+    },
+    {
+      "type": "IC SN7xxx",
+      "part": "74640",
+      "links": [
+        {
+          "source": "oc_bus",
+          "label": "Gemeinsamer Datenbus (Grundschaltung)"
+        }
+      ],
+      "note": "Bei Grundschaltungen Eingangs-/Ausgangspolarität, Anzahl der Kanäle, Versorgung und Pinfolge für die dokumentierte Logikfamilie abgleichen."
+    },
+    {
+      "type": "IC SN7xxx",
+      "part": "74641",
+      "links": [
+        {
+          "source": "oc_bus",
+          "label": "Gemeinsamer Datenbus (Grundschaltung)"
+        }
+      ],
+      "note": "Bei Grundschaltungen Eingangs-/Ausgangspolarität, Anzahl der Kanäle, Versorgung und Pinfolge für die dokumentierte Logikfamilie abgleichen."
+    },
+    {
+      "type": "IC SN7xxx",
+      "part": "SN74HC595",
+      "links": [
+        {
+          "source": "hc595",
+          "label": "Schieberegister-Anwendung (TI)"
+        },
+        {
+          "source": "sipo",
+          "label": "Seriell nach parallel (Grundschaltung)"
+        }
+      ],
+      "note": "Bei Grundschaltungen Eingangs-/Ausgangspolarität, Anzahl der Kanäle, Versorgung und Pinfolge für die dokumentierte Logikfamilie abgleichen."
+    },
+    {
+      "type": "IC CD4xxx",
+      "part": "CD4001",
+      "links": [
+        {
+          "source": "gate",
+          "label": "Gatter mit Tastern/LED (Grundschaltung)"
+        },
+        {
+          "source": "nor_latch",
+          "label": "RS-Speicher (Grundschaltung)"
+        }
+      ],
+      "note": "Bei Grundschaltungen Eingangs-/Ausgangspolarität, Anzahl der Kanäle, Versorgung und Pinfolge für die dokumentierte Logikfamilie abgleichen."
+    },
+    {
+      "type": "IC CD4xxx",
+      "part": "CD4002 (Grundtyp; Aufdruck PC74HCT4002P)",
+      "links": [
+        {
+          "source": "gate",
+          "label": "Gatter mit Tastern/LED (Grundschaltung)"
+        },
+        {
+          "source": "nor_latch",
+          "label": "RS-Speicher (Grundschaltung)"
+        }
+      ],
+      "note": "Bei Grundschaltungen Eingangs-/Ausgangspolarität, Anzahl der Kanäle, Versorgung und Pinfolge für die dokumentierte Logikfamilie abgleichen."
+    },
+    {
+      "type": "IC CD4xxx",
+      "part": "CD4009",
+      "links": [
+        {
+          "source": "gate",
+          "label": "Gatter mit Tastern/LED (Grundschaltung)"
+        }
+      ],
+      "note": "Bei Grundschaltungen Eingangs-/Ausgangspolarität, Anzahl der Kanäle, Versorgung und Pinfolge für die dokumentierte Logikfamilie abgleichen."
+    },
+    {
+      "type": "IC CD4xxx",
+      "part": "CD4011",
+      "links": [
+        {
+          "source": "gate",
+          "label": "Gatter mit Tastern/LED (Grundschaltung)"
+        }
+      ],
+      "note": "Bei Grundschaltungen Eingangs-/Ausgangspolarität, Anzahl der Kanäle, Versorgung und Pinfolge für die dokumentierte Logikfamilie abgleichen."
+    },
+    {
+      "type": "IC CD4xxx",
+      "part": "CD4012",
+      "links": [
+        {
+          "source": "gate",
+          "label": "Gatter mit Tastern/LED (Grundschaltung)"
+        }
+      ],
+      "note": "Bei Grundschaltungen Eingangs-/Ausgangspolarität, Anzahl der Kanäle, Versorgung und Pinfolge für die dokumentierte Logikfamilie abgleichen."
+    },
+    {
+      "type": "IC CD4xxx",
+      "part": "CD4013",
+      "links": [
+        {
+          "source": "cd4013",
+          "label": "Toggle-/Zähler-Anwendung (TI)"
+        },
+        {
+          "source": "d_ff",
+          "label": "D-Flipflop (Grundschaltung)"
+        }
+      ],
+      "note": "Bei Grundschaltungen Eingangs-/Ausgangspolarität, Anzahl der Kanäle, Versorgung und Pinfolge für die dokumentierte Logikfamilie abgleichen."
+    },
+    {
+      "type": "IC CD4xxx",
+      "part": "CD4015",
+      "links": [
+        {
+          "source": "sipo",
+          "label": "LED-Ausgänge erweitern (Grundschaltung)"
+        }
+      ],
+      "note": "Bei Grundschaltungen Eingangs-/Ausgangspolarität, Anzahl der Kanäle, Versorgung und Pinfolge für die dokumentierte Logikfamilie abgleichen."
+    },
+    {
+      "type": "IC CD4xxx",
+      "part": "CD4016",
+      "links": [
+        {
+          "source": "analog_switch",
+          "label": "Analogsignal schalten (TI-Referenz)"
+        }
+      ],
+      "note": "CD4066B-Referenzschaltung; für CD4016B insbesondere R_on, Leckstrom und zulässige Signalpegel abgleichen."
+    },
+    {
+      "type": "IC CD4xxx",
+      "part": "CD4017",
+      "links": [
+        {
+          "source": "ring",
+          "label": "Lauflicht/Ringzähler (Grundschaltung)"
+        }
+      ],
+      "note": "CD4022 hat acht statt zehn dekodierte Ausgänge; Verdrahtung und Reset entsprechend anpassen."
+    },
+    {
+      "type": "IC CD4xxx",
+      "part": "CD4019",
+      "links": [
+        {
+          "source": "mux",
+          "label": "Datenauswahl (Grundschaltung)"
+        }
+      ],
+      "note": "Bei Grundschaltungen Eingangs-/Ausgangspolarität, Anzahl der Kanäle, Versorgung und Pinfolge für die dokumentierte Logikfamilie abgleichen."
+    },
+    {
+      "type": "IC CD4xxx",
+      "part": "CD4021",
+      "links": [
+        {
+          "source": "piso",
+          "label": "Taster seriell einlesen (Grundschaltung)"
+        }
+      ],
+      "note": "Bei Grundschaltungen Eingangs-/Ausgangspolarität, Anzahl der Kanäle, Versorgung und Pinfolge für die dokumentierte Logikfamilie abgleichen."
+    },
+    {
+      "type": "IC CD4xxx",
+      "part": "CD4022",
+      "links": [
+        {
+          "source": "ring",
+          "label": "Lauflicht/Ringzähler (Grundschaltung)"
+        }
+      ],
+      "note": "CD4022 hat acht statt zehn dekodierte Ausgänge; Verdrahtung und Reset entsprechend anpassen."
+    },
+    {
+      "type": "IC CD4xxx",
+      "part": "CD4023",
+      "links": [
+        {
+          "source": "gate",
+          "label": "Gatter mit Tastern/LED (Grundschaltung)"
+        }
+      ],
+      "note": "Bei Grundschaltungen Eingangs-/Ausgangspolarität, Anzahl der Kanäle, Versorgung und Pinfolge für die dokumentierte Logikfamilie abgleichen."
+    },
+    {
+      "type": "IC CD4xxx",
+      "part": "CD4024",
+      "links": [
+        {
+          "source": "counter",
+          "label": "Zähler kaskadieren (Grundschaltung)"
+        },
+        {
+          "source": "modulo",
+          "label": "Modulo-/Frequenzteiler (Grundschaltung)"
+        }
+      ],
+      "note": "Bei Grundschaltungen Eingangs-/Ausgangspolarität, Anzahl der Kanäle, Versorgung und Pinfolge für die dokumentierte Logikfamilie abgleichen."
+    },
+    {
+      "type": "IC CD4xxx",
+      "part": "CD4025",
+      "links": [
+        {
+          "source": "gate",
+          "label": "Gatter mit Tastern/LED (Grundschaltung)"
+        },
+        {
+          "source": "nor_latch",
+          "label": "RS-Speicher (Grundschaltung)"
+        }
+      ],
+      "note": "Bei Grundschaltungen Eingangs-/Ausgangspolarität, Anzahl der Kanäle, Versorgung und Pinfolge für die dokumentierte Logikfamilie abgleichen."
+    },
+    {
+      "type": "IC CD4xxx",
+      "part": "CD4026",
+      "links": [
+        {
+          "source": "cd4026",
+          "label": "Anzeige-Ansteuerung (Hersteller)"
+        }
+      ],
+      "note": "Anzeigeart und Ausgangspolarität beachten; CD4513/4553 verwenden dokumentierte Motorola/onsemi-Referenzen."
+    },
+    {
+      "type": "IC CD4xxx",
+      "part": "CD4027",
+      "links": [
+        {
+          "source": "jk",
+          "label": "JK-Flipflop/Teiler (Grundschaltung)"
+        },
+        {
+          "source": "counter",
+          "label": "Binärzähler (Grundschaltung)"
+        }
+      ],
+      "note": "Bei Grundschaltungen Eingangs-/Ausgangspolarität, Anzahl der Kanäle, Versorgung und Pinfolge für die dokumentierte Logikfamilie abgleichen."
+    },
+    {
+      "type": "IC CD4xxx",
+      "part": "CD4028",
+      "links": [
+        {
+          "source": "decoder",
+          "label": "Adress-/Leitungsdecoder (Grundschaltung)"
+        },
+        {
+          "source": "demux",
+          "label": "Signalverteilung (Grundschaltung)"
+        }
+      ],
+      "note": "Bei Grundschaltungen Eingangs-/Ausgangspolarität, Anzahl der Kanäle, Versorgung und Pinfolge für die dokumentierte Logikfamilie abgleichen."
+    },
+    {
+      "type": "IC CD4xxx",
+      "part": "CD4029",
+      "links": [
+        {
+          "source": "sync",
+          "label": "Zähler kaskadieren (Grundschaltung)"
+        },
+        {
+          "source": "modulo",
+          "label": "Modulo-/Frequenzteiler (Grundschaltung)"
+        }
+      ],
+      "note": "Bei Grundschaltungen Eingangs-/Ausgangspolarität, Anzahl der Kanäle, Versorgung und Pinfolge für die dokumentierte Logikfamilie abgleichen."
+    },
+    {
+      "type": "IC CD4xxx",
+      "part": "CD4030",
+      "links": [
+        {
+          "source": "xor",
+          "label": "Vergleich/Parität (Grundschaltung)"
+        }
+      ],
+      "note": "Bei Grundschaltungen Eingangs-/Ausgangspolarität, Anzahl der Kanäle, Versorgung und Pinfolge für die dokumentierte Logikfamilie abgleichen."
+    },
+    {
+      "type": "IC CD4xxx",
+      "part": "CD4033",
+      "links": [
+        {
+          "source": "cd4033",
+          "label": "Anzeige-Ansteuerung (Hersteller)"
+        }
+      ],
+      "note": "Anzeigeart und Ausgangspolarität beachten; CD4513/4553 verwenden dokumentierte Motorola/onsemi-Referenzen."
+    },
+    {
+      "type": "IC CD4xxx",
+      "part": "CD4042",
+      "links": [
+        {
+          "source": "d_latch",
+          "label": "Daten zwischenspeichern (Grundschaltung)"
+        }
+      ],
+      "note": "Bei Grundschaltungen Eingangs-/Ausgangspolarität, Anzahl der Kanäle, Versorgung und Pinfolge für die dokumentierte Logikfamilie abgleichen."
+    },
+    {
+      "type": "IC CD4xxx",
+      "part": "CD4043",
+      "links": [
+        {
+          "source": "nor_latch",
+          "label": "Setzen/Rücksetzen (Grundschaltung)"
+        }
+      ],
+      "note": "Bei NAND-RS-Latches aktive Low-Eingänge und Ausgangsfreigaben abgleichen; NOR-Beispiel zeigt das Speicherprinzip."
+    },
+    {
+      "type": "IC CD4xxx",
+      "part": "CD4046",
+      "links": [
+        {
+          "source": "pll",
+          "label": "PLL-/VCO-Anwendungen (TI)"
+        }
+      ],
+      "note": "Bei Grundschaltungen Eingangs-/Ausgangspolarität, Anzahl der Kanäle, Versorgung und Pinfolge für die dokumentierte Logikfamilie abgleichen."
+    },
+    {
+      "type": "IC CD4xxx",
+      "part": "CD4047",
+      "links": [
+        {
+          "source": "cd4047",
+          "label": "Astabil-/Monoflop-Beschaltung (TI)"
+        }
+      ],
+      "note": "Bei Grundschaltungen Eingangs-/Ausgangspolarität, Anzahl der Kanäle, Versorgung und Pinfolge für die dokumentierte Logikfamilie abgleichen."
+    },
+    {
+      "type": "IC CD4xxx",
+      "part": "CD4049",
+      "links": [
+        {
+          "source": "buffer49",
+          "label": "Pegelwandler (TI)"
+        }
+      ],
+      "note": "Bei Grundschaltungen Eingangs-/Ausgangspolarität, Anzahl der Kanäle, Versorgung und Pinfolge für die dokumentierte Logikfamilie abgleichen."
+    },
+    {
+      "type": "IC CD4xxx",
+      "part": "CD4050",
+      "links": [
+        {
+          "source": "buffer50",
+          "label": "Pegelwandler (TI)"
+        }
+      ],
+      "note": "Bei Grundschaltungen Eingangs-/Ausgangspolarität, Anzahl der Kanäle, Versorgung und Pinfolge für die dokumentierte Logikfamilie abgleichen."
+    },
+    {
+      "type": "IC CD4xxx",
+      "part": "CD4051",
+      "links": [
+        {
+          "source": "analogmux1",
+          "label": "Analoger Kanalumschalter (TI)"
+        }
+      ],
+      "note": "Bei Grundschaltungen Eingangs-/Ausgangspolarität, Anzahl der Kanäle, Versorgung und Pinfolge für die dokumentierte Logikfamilie abgleichen."
+    },
+    {
+      "type": "IC CD4xxx",
+      "part": "CD4052",
+      "links": [
+        {
+          "source": "analogmux2",
+          "label": "Analoger Kanalumschalter (TI)"
+        }
+      ],
+      "note": "Bei Grundschaltungen Eingangs-/Ausgangspolarität, Anzahl der Kanäle, Versorgung und Pinfolge für die dokumentierte Logikfamilie abgleichen."
+    },
+    {
+      "type": "IC CD4xxx",
+      "part": "CD4053",
+      "links": [
+        {
+          "source": "analogmux3",
+          "label": "Analoger Kanalumschalter (TI)"
+        }
+      ],
+      "note": "Bei Grundschaltungen Eingangs-/Ausgangspolarität, Anzahl der Kanäle, Versorgung und Pinfolge für die dokumentierte Logikfamilie abgleichen."
+    },
+    {
+      "type": "IC CD4xxx",
+      "part": "CD4060",
+      "links": [
+        {
+          "source": "cd4060",
+          "label": "RC-/Quarzoszillator mit Teiler (TI)"
+        }
+      ],
+      "note": "Bei Grundschaltungen Eingangs-/Ausgangspolarität, Anzahl der Kanäle, Versorgung und Pinfolge für die dokumentierte Logikfamilie abgleichen."
+    },
+    {
+      "type": "IC CD4xxx",
+      "part": "CD4063",
+      "links": [
+        {
+          "source": "compare",
+          "label": "4-Bit-Vergleich/Kaskadierung (Grundschaltung)"
+        }
+      ],
+      "note": "Bei Grundschaltungen Eingangs-/Ausgangspolarität, Anzahl der Kanäle, Versorgung und Pinfolge für die dokumentierte Logikfamilie abgleichen."
+    },
+    {
+      "type": "IC CD4xxx",
+      "part": "CD4066",
+      "links": [
+        {
+          "source": "analog_switch",
+          "label": "Analogsignal schalten (TI-Referenz)"
+        }
+      ],
+      "note": "CD4066B-Referenzschaltung; für CD4016B insbesondere R_on, Leckstrom und zulässige Signalpegel abgleichen."
+    },
+    {
+      "type": "IC CD4xxx",
+      "part": "CD4068",
+      "links": [
+        {
+          "source": "gate",
+          "label": "Gatter mit Tastern/LED (Grundschaltung)"
+        }
+      ],
+      "note": "Bei Grundschaltungen Eingangs-/Ausgangspolarität, Anzahl der Kanäle, Versorgung und Pinfolge für die dokumentierte Logikfamilie abgleichen."
+    },
+    {
+      "type": "IC CD4xxx",
+      "part": "CD4069",
+      "links": [
+        {
+          "source": "invert69",
+          "label": "Inverter-Anwendung (TI)"
+        },
+        {
+          "source": "crystal69",
+          "label": "Quarzoszillator (TI)"
+        }
+      ],
+      "note": "Bei Grundschaltungen Eingangs-/Ausgangspolarität, Anzahl der Kanäle, Versorgung und Pinfolge für die dokumentierte Logikfamilie abgleichen."
+    },
+    {
+      "type": "IC CD4xxx",
+      "part": "CD4070",
+      "links": [
+        {
+          "source": "xor",
+          "label": "Vergleich/Parität (Grundschaltung)"
+        }
+      ],
+      "note": "Bei Grundschaltungen Eingangs-/Ausgangspolarität, Anzahl der Kanäle, Versorgung und Pinfolge für die dokumentierte Logikfamilie abgleichen."
+    },
+    {
+      "type": "IC CD4xxx",
+      "part": "CD4071",
+      "links": [
+        {
+          "source": "gate",
+          "label": "Gatter mit Tastern/LED (Grundschaltung)"
+        }
+      ],
+      "note": "Bei Grundschaltungen Eingangs-/Ausgangspolarität, Anzahl der Kanäle, Versorgung und Pinfolge für die dokumentierte Logikfamilie abgleichen."
+    },
+    {
+      "type": "IC CD4xxx",
+      "part": "CD4072",
+      "links": [
+        {
+          "source": "gate",
+          "label": "Gatter mit Tastern/LED (Grundschaltung)"
+        }
+      ],
+      "note": "Bei Grundschaltungen Eingangs-/Ausgangspolarität, Anzahl der Kanäle, Versorgung und Pinfolge für die dokumentierte Logikfamilie abgleichen."
+    },
+    {
+      "type": "IC CD4xxx",
+      "part": "CD4073",
+      "links": [
+        {
+          "source": "gate",
+          "label": "Gatter mit Tastern/LED (Grundschaltung)"
+        }
+      ],
+      "note": "Bei Grundschaltungen Eingangs-/Ausgangspolarität, Anzahl der Kanäle, Versorgung und Pinfolge für die dokumentierte Logikfamilie abgleichen."
+    },
+    {
+      "type": "IC CD4xxx",
+      "part": "CD4075",
+      "links": [
+        {
+          "source": "gate",
+          "label": "Gatter mit Tastern/LED (Grundschaltung)"
+        }
+      ],
+      "note": "Bei Grundschaltungen Eingangs-/Ausgangspolarität, Anzahl der Kanäle, Versorgung und Pinfolge für die dokumentierte Logikfamilie abgleichen."
+    },
+    {
+      "type": "IC CD4xxx",
+      "part": "CD4077",
+      "links": [
+        {
+          "source": "xor",
+          "label": "Vergleich/Parität (Grundschaltung)"
+        }
+      ],
+      "note": "Bei Grundschaltungen Eingangs-/Ausgangspolarität, Anzahl der Kanäle, Versorgung und Pinfolge für die dokumentierte Logikfamilie abgleichen."
+    },
+    {
+      "type": "IC CD4xxx",
+      "part": "CD4081",
+      "links": [
+        {
+          "source": "gate",
+          "label": "Gatter mit Tastern/LED (Grundschaltung)"
+        }
+      ],
+      "note": "Bei Grundschaltungen Eingangs-/Ausgangspolarität, Anzahl der Kanäle, Versorgung und Pinfolge für die dokumentierte Logikfamilie abgleichen."
+    },
+    {
+      "type": "IC CD4xxx",
+      "part": "CD4082",
+      "links": [
+        {
+          "source": "gate",
+          "label": "Gatter mit Tastern/LED (Grundschaltung)"
+        }
+      ],
+      "note": "Bei Grundschaltungen Eingangs-/Ausgangspolarität, Anzahl der Kanäle, Versorgung und Pinfolge für die dokumentierte Logikfamilie abgleichen."
+    },
+    {
+      "type": "IC CD4xxx",
+      "part": "CD4093",
+      "links": [
+        {
+          "source": "gate",
+          "label": "Schmitt-Gatter testen (Grundschaltung)"
+        }
+      ],
+      "note": "Bei Grundschaltungen Eingangs-/Ausgangspolarität, Anzahl der Kanäle, Versorgung und Pinfolge für die dokumentierte Logikfamilie abgleichen."
+    },
+    {
+      "type": "IC CD4xxx",
+      "part": "CD4094",
+      "links": [
+        {
+          "source": "cd4094",
+          "label": "Kaskadierte Schieberegister (TI)"
+        }
+      ],
+      "note": "Bei Grundschaltungen Eingangs-/Ausgangspolarität, Anzahl der Kanäle, Versorgung und Pinfolge für die dokumentierte Logikfamilie abgleichen."
+    },
+    {
+      "type": "IC CD4xxx",
+      "part": "CD4098",
+      "links": [
+        {
+          "source": "mono4098",
+          "label": "RC-Monoflop (Herstellerreferenz)"
+        }
+      ],
+      "note": "CD4528: MC14528B-Referenz; CD4538: CD14538B-Referenz. Nicht ungeprüft austauschen; Triggerpolarität, Zeitformel und Pinbelegung der konkreten Variante abgleichen."
+    },
+    {
+      "type": "IC CD4xxx",
+      "part": "CD4503",
+      "links": [
+        {
+          "source": "oc_bus",
+          "label": "Gemeinsamer Datenbus (Grundschaltung)"
+        }
+      ],
+      "note": "Bei Grundschaltungen Eingangs-/Ausgangspolarität, Anzahl der Kanäle, Versorgung und Pinfolge für die dokumentierte Logikfamilie abgleichen."
+    },
+    {
+      "type": "IC CD4xxx",
+      "part": "CD4511",
+      "links": [
+        {
+          "source": "cd4511",
+          "label": "Anzeige-Ansteuerung (Hersteller)"
+        }
+      ],
+      "note": "Anzeigeart und Ausgangspolarität beachten; CD4513/4553 verwenden dokumentierte Motorola/onsemi-Referenzen."
+    },
+    {
+      "type": "IC CD4xxx",
+      "part": "CD4513",
+      "links": [
+        {
+          "source": "cd4513",
+          "label": "Anzeige-Ansteuerung (Hersteller)"
+        }
+      ],
+      "note": "Anzeigeart und Ausgangspolarität beachten; CD4513/4553 verwenden dokumentierte Motorola/onsemi-Referenzen."
+    },
+    {
+      "type": "IC CD4xxx",
+      "part": "CD4518",
+      "links": [
+        {
+          "source": "counter",
+          "label": "Zähler kaskadieren (Grundschaltung)"
+        },
+        {
+          "source": "modulo",
+          "label": "Modulo-/Frequenzteiler (Grundschaltung)"
+        }
+      ],
+      "note": "Bei Grundschaltungen Eingangs-/Ausgangspolarität, Anzahl der Kanäle, Versorgung und Pinfolge für die dokumentierte Logikfamilie abgleichen."
+    },
+    {
+      "type": "IC CD4xxx",
+      "part": "CD4520",
+      "links": [
+        {
+          "source": "counter",
+          "label": "Zähler kaskadieren (Grundschaltung)"
+        },
+        {
+          "source": "modulo",
+          "label": "Modulo-/Frequenzteiler (Grundschaltung)"
+        }
+      ],
+      "note": "Bei Grundschaltungen Eingangs-/Ausgangspolarität, Anzahl der Kanäle, Versorgung und Pinfolge für die dokumentierte Logikfamilie abgleichen."
+    },
+    {
+      "type": "IC CD4xxx",
+      "part": "CD4528",
+      "links": [
+        {
+          "source": "mc14528",
+          "label": "RC-Zeitglied und Trigger (onsemi-Typreferenz)"
+        }
+      ],
+      "note": "Aufdruck MC14528BCP, Hersteller onsemi vom Nutzer bestätigt. onsemi-Herstellerdatenblatt zur MC14528B-Familie; aktuelle Ausgabe zeigt SOIC, vorhandene CP-Ausführung ist DIP-16. Pins 1, 8 und 15: VSS/GND; externe Zeitglieder laut Datenblatt anschließen."
+    },
+    {
+      "type": "IC CD4xxx",
+      "part": "CD4538",
+      "links": [
+        {
+          "source": "mc14538",
+          "label": "RC-Zeitglied und Trigger (onsemi-Typreferenz)"
+        }
+      ],
+      "note": "Aufdruck MC14538BCP, Hersteller Motorola vom Nutzer bestätigt. onsemi-Datenblatt als Nachfolger-/Typreferenz; vorhandene Motorola-CP-Ausführung ist DIP-16, keine Bestätigung der aktuellen Gehäusevarianten. Pins 1, 8 und 15: VSS/GND; externe Zeitglieder laut Datenblatt anschließen."
+    },
+    {
+      "type": "IC CD4xxx",
+      "part": "CD4541",
+      "links": [
+        {
+          "source": "cd4541",
+          "label": "Digitaler Timer (TI)"
+        }
+      ],
+      "note": "Bei Grundschaltungen Eingangs-/Ausgangspolarität, Anzahl der Kanäle, Versorgung und Pinfolge für die dokumentierte Logikfamilie abgleichen."
+    },
+    {
+      "type": "IC CD4xxx",
+      "part": "CD4543",
+      "links": [
+        {
+          "source": "display",
+          "label": "BCD-Anzeige (Grundschaltung)"
+        }
+      ],
+      "note": "Grundprinzip der BCD-Anzeige; für CD4543 Anzeigetyp, Phaseneingang, Segmentwiderstände und Pinfolge gemäß seinem Datenblatt anpassen. Die 4511-Verdrahtung nicht unverändert übernehmen."
+    },
+    {
+      "type": "IC CD4xxx",
+      "part": "CD4553",
+      "links": [
+        {
+          "source": "cd4553",
+          "label": "Anzeige-Ansteuerung (Hersteller)"
+        }
+      ],
+      "note": "Anzeigeart und Ausgangspolarität beachten; CD4513/4553 verwenden dokumentierte Motorola/onsemi-Referenzen."
+    },
+    {
+      "type": "IC diverse",
+      "part": "B3CA4.5Z",
+      "links": [
+        {
+          "source": "relay",
+          "label": "Relais mit Treiberarray (TI)"
+        }
+      ],
+      "note": "Treiberbeispiel auf Spulennennspannung und -strom des vorhandenen Relais auslegen; keine direkte Gleichsetzung mit der Beispielspule."
+    },
+    {
+      "type": "IC diverse",
+      "part": "COM8126",
+      "links": [
+        {
+          "source": "baud",
+          "label": "Quarz-/Takteingang (SMC)"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "type": "IC diverse",
+      "part": "DIP05-1A72-12L",
+      "links": [
+        {
+          "source": "relay",
+          "label": "Relais mit Treiberarray (TI)"
+        }
+      ],
+      "note": "Treiberbeispiel auf Spulennennspannung und -strom des vorhandenen Relais auslegen; keine direkte Gleichsetzung mit der Beispielspule."
+    },
+    {
+      "type": "IC diverse",
+      "part": "L293D",
+      "links": [
+        {
+          "source": "driver_l293",
+          "label": "DC-Motorsteuerung (TI)"
+        }
+      ],
+      "note": "L293 benötigt externe Freilaufdioden; L293D enthält Schutzdioden. Passende Variante des gemeinsamen Datenblatts verwenden."
+    },
+    {
+      "type": "IC diverse",
+      "part": "L293NE",
+      "links": [
+        {
+          "source": "driver_l293",
+          "label": "DC-Motorsteuerung (TI)"
+        }
+      ],
+      "note": "L293 benötigt externe Freilaufdioden; L293D enthält Schutzdioden. Passende Variante des gemeinsamen Datenblatts verwenden."
+    },
+    {
+      "type": "IC diverse",
+      "part": "LH6764-20",
+      "links": [],
+      "note": "Kein seriöses Schaltungsbeispiel zuordenbar: Typfunktion und Herstellerdatenblatt weiterhin ungeklärt."
+    },
+    {
+      "type": "IC diverse",
+      "part": "LM311N",
+      "links": [
+        {
+          "source": "comparator",
+          "label": "Schwellwertschalter (Grundschaltung)"
+        },
+        {
+          "source": "comparator_st",
+          "label": "Komparator-Beispiele (ST-Referenz)"
+        }
+      ],
+      "note": "Komparator-Grundschaltungen: Open-Collector-Pull-up und beim LM311 den separaten Ausgangsemitter berücksichtigen."
+    },
+    {
+      "type": "IC diverse",
+      "part": "LM324N",
+      "links": [
+        {
+          "source": "lm324",
+          "label": "Single-Supply-Beispiele (ST)"
+        },
+        {
+          "source": "opamp",
+          "label": "Nichtinvertierender Verstärker (Grundschaltung)"
+        },
+        {
+          "source": "op_follower",
+          "label": "Spannungsfolger (Grundschaltung)"
+        }
+      ],
+      "note": "Grundschaltungen: Versorgung, Eingangsspannungsbereich, Ausgangshub und Verstärkerpins an den konkreten OPV anpassen; insbesondere UA741 nicht wie einen Rail-to-Rail-OPV behandeln."
+    },
+    {
+      "type": "IC diverse",
+      "part": "LP324N",
+      "links": [
+        {
+          "source": "lp324",
+          "label": "Micropower-Beispiele (TI)"
+        },
+        {
+          "source": "opamp",
+          "label": "Nichtinvertierender Verstärker (Grundschaltung)"
+        },
+        {
+          "source": "op_follower",
+          "label": "Spannungsfolger (Grundschaltung)"
+        }
+      ],
+      "note": "Grundschaltungen: Versorgung, Eingangsspannungsbereich, Ausgangshub und Verstärkerpins an den konkreten OPV anpassen; insbesondere UA741 nicht wie einen Rail-to-Rail-OPV behandeln."
+    },
+    {
+      "type": "IC diverse",
+      "part": "LM339AN",
+      "links": [
+        {
+          "source": "comparator",
+          "label": "Schwellwertschalter (Grundschaltung)"
+        },
+        {
+          "source": "comparator_st",
+          "label": "Komparator-Beispiele (ST-Referenz)"
+        }
+      ],
+      "note": "Komparator-Grundschaltungen: Open-Collector-Pull-up und beim LM311 den separaten Ausgangsemitter berücksichtigen."
+    },
+    {
+      "type": "IC diverse",
+      "part": "LM358",
+      "links": [
+        {
+          "source": "lm358",
+          "label": "Anwendungsschaltung (TI)"
+        },
+        {
+          "source": "opamp",
+          "label": "Nichtinvertierender Verstärker (Grundschaltung)"
+        },
+        {
+          "source": "op_follower",
+          "label": "Spannungsfolger (Grundschaltung)"
+        }
+      ],
+      "note": "Grundschaltungen: Versorgung, Eingangsspannungsbereich, Ausgangshub und Verstärkerpins an den konkreten OPV anpassen; insbesondere UA741 nicht wie einen Rail-to-Rail-OPV behandeln."
+    },
+    {
+      "type": "IC diverse",
+      "part": "MAX250CPD",
+      "links": [
+        {
+          "source": "max250",
+          "label": "Isolierte RS-232-Schnittstelle (Maxim)"
+        }
+      ],
+      "note": "Beispiel benötigt MAX250/MAX251, Optokoppler und isolierte Versorgung wie im Datenblatt."
+    },
+    {
+      "type": "IC diverse",
+      "part": "MAX7219CNG",
+      "links": [
+        {
+          "source": "max7219",
+          "label": "8-stellige LED-Anzeige (Maxim)"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "type": "IC diverse",
+      "part": "MC1488",
+      "links": [
+        {
+          "source": "serial",
+          "label": "RS-232-Schnittstelle (TI)"
+        }
+      ],
+      "note": "Gemeinsames Systembeispiel für Leitungstreiber/-empfänger; Versorgung und Signalrichtung des jeweiligen Bausteins beachten."
+    },
+    {
+      "type": "IC diverse",
+      "part": "MC1489",
+      "links": [
+        {
+          "source": "serial_receiver",
+          "label": "RS-232-Empfänger (onsemi)"
+        }
+      ],
+      "note": "Gemeinsames Systembeispiel für Leitungstreiber/-empfänger; Versorgung und Signalrichtung des jeweiligen Bausteins beachten."
+    },
+    {
+      "type": "IC diverse",
+      "part": "PCF8574N",
+      "links": [
+        {
+          "source": "pcf_adafruit",
+          "label": "I²C-Taster/LEDs (Adafruit)"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "type": "IC diverse",
+      "part": "PS2501-4",
+      "links": [
+        {
+          "source": "opto",
+          "label": "Optokoppler-Ansteuerung (Renesas)"
+        }
+      ],
+      "note": "Auf vier Kanäle und Pinfolge des PS2501-4 übertragen; LED-Vorwiderstand und CTR auslegen."
+    },
+    {
+      "type": "IC diverse",
+      "part": "UA78S40PC",
+      "links": [
+        {
+          "source": "ua78_buck",
+          "label": "Abwärtswandler (onsemi)"
+        },
+        {
+          "source": "ua78_boost",
+          "label": "Aufwärts-/Invertierwandler (onsemi)"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "type": "IC diverse",
+      "part": "ULN2004A",
+      "links": [
+        {
+          "source": "relay",
+          "label": "Relais-/Motoransteuerung (TI)"
+        }
+      ],
+      "note": "Familien-Grundschaltung: Eingangsnetzwerk für ULN2004 gegenüber ULN2003 abgleichen; bei ULN2803 außerdem acht Kanäle und andere Pinfolge beachten."
+    },
+    {
+      "type": "IC diverse",
+      "part": "ULN2004AG",
+      "links": [
+        {
+          "source": "relay",
+          "label": "Relais-/Motoransteuerung (TI)"
+        }
+      ],
+      "note": "Familien-Grundschaltung: Eingangsnetzwerk für ULN2004 gegenüber ULN2003 abgleichen; bei ULN2803 außerdem acht Kanäle und andere Pinfolge beachten."
+    },
+    {
+      "type": "IC diverse",
+      "part": "ULN2803A",
+      "links": [
+        {
+          "source": "relay",
+          "label": "Relais-/Motoransteuerung (TI)"
+        }
+      ],
+      "note": "Familien-Grundschaltung: Eingangsnetzwerk für ULN2004 gegenüber ULN2003 abgleichen; bei ULN2803 außerdem acht Kanäle und andere Pinfolge beachten."
+    },
+    {
+      "type": "Transitor",
+      "part": "2N2222",
+      "links": [
+        {
+          "source": "npn_switch",
+          "label": "NPN-Schalter (Grundschaltung)"
+        },
+        {
+          "source": "emitter",
+          "label": "Emitterschaltung (Grundschaltung)"
+        }
+      ],
+      "note": "Pinbelegung, Polarität, Strom und Widerstände für den vorhandenen Transistortyp auslegen; Grundschaltungen sind keine unveränderten Ersatztypenempfehlungen."
+    },
+    {
+      "type": "Transitor",
+      "part": "2N3904",
+      "links": [
+        {
+          "source": "npn_switch",
+          "label": "NPN-Schalter (Grundschaltung)"
+        },
+        {
+          "source": "emitter",
+          "label": "Emitterschaltung (Grundschaltung)"
+        }
+      ],
+      "note": "Pinbelegung, Polarität, Strom und Widerstände für den vorhandenen Transistortyp auslegen; Grundschaltungen sind keine unveränderten Ersatztypenempfehlungen."
+    },
+    {
+      "type": "Transitor",
+      "part": "2N3906",
+      "links": [
+        {
+          "source": "bjt_switch",
+          "label": "PNP-Schalter (Grundschaltung)"
+        }
+      ],
+      "note": "Pinbelegung, Polarität, Strom und Widerstände für den vorhandenen Transistortyp auslegen; Grundschaltungen sind keine unveränderten Ersatztypenempfehlungen."
+    },
+    {
+      "type": "Transitor",
+      "part": "2N5401",
+      "links": [
+        {
+          "source": "bjt_switch",
+          "label": "PNP-Schalter (Grundschaltung)"
+        }
+      ],
+      "note": "Pinbelegung, Polarität, Strom und Widerstände für den vorhandenen Transistortyp auslegen; Grundschaltungen sind keine unveränderten Ersatztypenempfehlungen."
+    },
+    {
+      "type": "Transitor",
+      "part": "2N5551",
+      "links": [
+        {
+          "source": "npn_switch",
+          "label": "NPN-Schalter (Grundschaltung)"
+        },
+        {
+          "source": "emitter",
+          "label": "Emitterschaltung (Grundschaltung)"
+        }
+      ],
+      "note": "Pinbelegung, Polarität, Strom und Widerstände für den vorhandenen Transistortyp auslegen; Grundschaltungen sind keine unveränderten Ersatztypenempfehlungen."
+    },
+    {
+      "type": "Transitor",
+      "part": "2SA1015",
+      "links": [
+        {
+          "source": "bjt_switch",
+          "label": "PNP-Schalter (Grundschaltung)"
+        }
+      ],
+      "note": "Pinbelegung, Polarität, Strom und Widerstände für den vorhandenen Transistortyp auslegen; Grundschaltungen sind keine unveränderten Ersatztypenempfehlungen."
+    },
+    {
+      "type": "Transitor",
+      "part": "2SB772",
+      "links": [
+        {
+          "source": "bjt_switch",
+          "label": "PNP-Schalter (Grundschaltung)"
+        }
+      ],
+      "note": "Pinbelegung, Polarität, Strom und Widerstände für den vorhandenen Transistortyp auslegen; Grundschaltungen sind keine unveränderten Ersatztypenempfehlungen."
+    },
+    {
+      "type": "Transitor",
+      "part": "2SC1815",
+      "links": [
+        {
+          "source": "npn_switch",
+          "label": "NPN-Schalter (Grundschaltung)"
+        },
+        {
+          "source": "emitter",
+          "label": "Emitterschaltung (Grundschaltung)"
+        }
+      ],
+      "note": "Pinbelegung, Polarität, Strom und Widerstände für den vorhandenen Transistortyp auslegen; Grundschaltungen sind keine unveränderten Ersatztypenempfehlungen."
+    },
+    {
+      "type": "Transitor",
+      "part": "2SC945",
+      "links": [
+        {
+          "source": "npn_switch",
+          "label": "NPN-Schalter (Grundschaltung)"
+        },
+        {
+          "source": "emitter",
+          "label": "Emitterschaltung (Grundschaltung)"
+        }
+      ],
+      "note": "Pinbelegung, Polarität, Strom und Widerstände für den vorhandenen Transistortyp auslegen; Grundschaltungen sind keine unveränderten Ersatztypenempfehlungen."
+    },
+    {
+      "type": "Transitor",
+      "part": "2SD882",
+      "links": [
+        {
+          "source": "npn_switch",
+          "label": "NPN-Schalter (Grundschaltung)"
+        },
+        {
+          "source": "emitter",
+          "label": "Emitterschaltung (Grundschaltung)"
+        }
+      ],
+      "note": "Pinbelegung, Polarität, Strom und Widerstände für den vorhandenen Transistortyp auslegen; Grundschaltungen sind keine unveränderten Ersatztypenempfehlungen."
+    },
+    {
+      "type": "Transitor",
+      "part": "BC327",
+      "links": [
+        {
+          "source": "bjt_switch",
+          "label": "PNP-Schalter (Grundschaltung)"
+        }
+      ],
+      "note": "Pinbelegung, Polarität, Strom und Widerstände für den vorhandenen Transistortyp auslegen; Grundschaltungen sind keine unveränderten Ersatztypenempfehlungen."
+    },
+    {
+      "type": "Transitor",
+      "part": "BC337",
+      "links": [
+        {
+          "source": "npn_switch",
+          "label": "NPN-Schalter (Grundschaltung)"
+        },
+        {
+          "source": "emitter",
+          "label": "Emitterschaltung (Grundschaltung)"
+        }
+      ],
+      "note": "Pinbelegung, Polarität, Strom und Widerstände für den vorhandenen Transistortyp auslegen; Grundschaltungen sind keine unveränderten Ersatztypenempfehlungen."
+    },
+    {
+      "type": "Transitor",
+      "part": "BC517",
+      "links": [
+        {
+          "source": "bjt_switch",
+          "label": "Darlington-Schalter (Grundschaltung)"
+        }
+      ],
+      "note": "Pinbelegung, Polarität, Strom und Widerstände für den vorhandenen Transistortyp auslegen; Grundschaltungen sind keine unveränderten Ersatztypenempfehlungen."
+    },
+    {
+      "type": "Transitor",
+      "part": "BC546",
+      "links": [
+        {
+          "source": "npn_switch",
+          "label": "NPN-Schalter (Grundschaltung)"
+        },
+        {
+          "source": "emitter",
+          "label": "Emitterschaltung (Grundschaltung)"
+        }
+      ],
+      "note": "Pinbelegung, Polarität, Strom und Widerstände für den vorhandenen Transistortyp auslegen; Grundschaltungen sind keine unveränderten Ersatztypenempfehlungen."
+    },
+    {
+      "type": "Transitor",
+      "part": "BC547",
+      "links": [
+        {
+          "source": "npn_switch",
+          "label": "NPN-Schalter (Grundschaltung)"
+        },
+        {
+          "source": "emitter",
+          "label": "Emitterschaltung (Grundschaltung)"
+        }
+      ],
+      "note": "Pinbelegung, Polarität, Strom und Widerstände für den vorhandenen Transistortyp auslegen; Grundschaltungen sind keine unveränderten Ersatztypenempfehlungen."
+    },
+    {
+      "type": "Transitor",
+      "part": "BC548",
+      "links": [
+        {
+          "source": "npn_switch",
+          "label": "NPN-Schalter (Grundschaltung)"
+        },
+        {
+          "source": "emitter",
+          "label": "Emitterschaltung (Grundschaltung)"
+        }
+      ],
+      "note": "Pinbelegung, Polarität, Strom und Widerstände für den vorhandenen Transistortyp auslegen; Grundschaltungen sind keine unveränderten Ersatztypenempfehlungen."
+    },
+    {
+      "type": "Transitor",
+      "part": "BC549",
+      "links": [
+        {
+          "source": "npn_switch",
+          "label": "NPN-Schalter (Grundschaltung)"
+        },
+        {
+          "source": "emitter",
+          "label": "Emitterschaltung (Grundschaltung)"
+        }
+      ],
+      "note": "Pinbelegung, Polarität, Strom und Widerstände für den vorhandenen Transistortyp auslegen; Grundschaltungen sind keine unveränderten Ersatztypenempfehlungen."
+    },
+    {
+      "type": "Transitor",
+      "part": "BC550",
+      "links": [
+        {
+          "source": "npn_switch",
+          "label": "NPN-Schalter (Grundschaltung)"
+        },
+        {
+          "source": "emitter",
+          "label": "Emitterschaltung (Grundschaltung)"
+        }
+      ],
+      "note": "Pinbelegung, Polarität, Strom und Widerstände für den vorhandenen Transistortyp auslegen; Grundschaltungen sind keine unveränderten Ersatztypenempfehlungen."
+    },
+    {
+      "type": "Transitor",
+      "part": "BC556",
+      "links": [
+        {
+          "source": "bjt_switch",
+          "label": "PNP-Schalter (Grundschaltung)"
+        }
+      ],
+      "note": "Pinbelegung, Polarität, Strom und Widerstände für den vorhandenen Transistortyp auslegen; Grundschaltungen sind keine unveränderten Ersatztypenempfehlungen."
+    },
+    {
+      "type": "Transitor",
+      "part": "BC557",
+      "links": [
+        {
+          "source": "bjt_switch",
+          "label": "PNP-Schalter (Grundschaltung)"
+        }
+      ],
+      "note": "Pinbelegung, Polarität, Strom und Widerstände für den vorhandenen Transistortyp auslegen; Grundschaltungen sind keine unveränderten Ersatztypenempfehlungen."
+    },
+    {
+      "type": "Transitor",
+      "part": "BC558",
+      "links": [
+        {
+          "source": "bjt_switch",
+          "label": "PNP-Schalter (Grundschaltung)"
+        }
+      ],
+      "note": "Pinbelegung, Polarität, Strom und Widerstände für den vorhandenen Transistortyp auslegen; Grundschaltungen sind keine unveränderten Ersatztypenempfehlungen."
+    },
+    {
+      "type": "Transitor",
+      "part": "BD139",
+      "links": [
+        {
+          "source": "npn_switch",
+          "label": "NPN-Schalter (Grundschaltung)"
+        },
+        {
+          "source": "emitter",
+          "label": "Emitterschaltung (Grundschaltung)"
+        }
+      ],
+      "note": "Pinbelegung, Polarität, Strom und Widerstände für den vorhandenen Transistortyp auslegen; Grundschaltungen sind keine unveränderten Ersatztypenempfehlungen."
+    },
+    {
+      "type": "Transitor",
+      "part": "BD140",
+      "links": [
+        {
+          "source": "bjt_switch",
+          "label": "PNP-Schalter (Grundschaltung)"
+        }
+      ],
+      "note": "Pinbelegung, Polarität, Strom und Widerstände für den vorhandenen Transistortyp auslegen; Grundschaltungen sind keine unveränderten Ersatztypenempfehlungen."
+    },
+    {
+      "type": "Transitor",
+      "part": "MPQ2222A",
+      "links": [
+        {
+          "source": "mirror",
+          "label": "Stromspiegel (Grundschaltung)"
+        },
+        {
+          "source": "npn_switch",
+          "label": "NPN-Schalter (Grundschaltung)"
+        }
+      ],
+      "note": "Pinbelegung, Polarität, Strom und Widerstände für den vorhandenen Transistortyp auslegen; Grundschaltungen sind keine unveränderten Ersatztypenempfehlungen."
+    },
+    {
+      "type": "Transitor",
+      "part": "S8050",
+      "links": [
+        {
+          "source": "npn_switch",
+          "label": "NPN-Schalter (Grundschaltung)"
+        },
+        {
+          "source": "emitter",
+          "label": "Emitterschaltung (Grundschaltung)"
+        }
+      ],
+      "note": "Pinbelegung, Polarität, Strom und Widerstände für den vorhandenen Transistortyp auslegen; Grundschaltungen sind keine unveränderten Ersatztypenempfehlungen."
+    },
+    {
+      "type": "Transitor",
+      "part": "S8550",
+      "links": [
+        {
+          "source": "bjt_switch",
+          "label": "PNP-Schalter (Grundschaltung)"
+        }
+      ],
+      "note": "Pinbelegung, Polarität, Strom und Widerstände für den vorhandenen Transistortyp auslegen; Grundschaltungen sind keine unveränderten Ersatztypenempfehlungen."
+    },
+    {
+      "type": "Transitor",
+      "part": "S9012",
+      "links": [
+        {
+          "source": "bjt_switch",
+          "label": "PNP-Schalter (Grundschaltung)"
+        }
+      ],
+      "note": "Pinbelegung, Polarität, Strom und Widerstände für den vorhandenen Transistortyp auslegen; Grundschaltungen sind keine unveränderten Ersatztypenempfehlungen."
+    },
+    {
+      "type": "Transitor",
+      "part": "S9013",
+      "links": [
+        {
+          "source": "npn_switch",
+          "label": "NPN-Schalter (Grundschaltung)"
+        },
+        {
+          "source": "emitter",
+          "label": "Emitterschaltung (Grundschaltung)"
+        }
+      ],
+      "note": "Pinbelegung, Polarität, Strom und Widerstände für den vorhandenen Transistortyp auslegen; Grundschaltungen sind keine unveränderten Ersatztypenempfehlungen."
+    },
+    {
+      "type": "Transitor",
+      "part": "S9014",
+      "links": [
+        {
+          "source": "npn_switch",
+          "label": "NPN-Schalter (Grundschaltung)"
+        },
+        {
+          "source": "emitter",
+          "label": "Emitterschaltung (Grundschaltung)"
+        }
+      ],
+      "note": "Pinbelegung, Polarität, Strom und Widerstände für den vorhandenen Transistortyp auslegen; Grundschaltungen sind keine unveränderten Ersatztypenempfehlungen."
+    },
+    {
+      "type": "Transitor",
+      "part": "S9015",
+      "links": [
+        {
+          "source": "bjt_switch",
+          "label": "PNP-Schalter (Grundschaltung)"
+        }
+      ],
+      "note": "Pinbelegung, Polarität, Strom und Widerstände für den vorhandenen Transistortyp auslegen; Grundschaltungen sind keine unveränderten Ersatztypenempfehlungen."
+    },
+    {
+      "type": "Transitor",
+      "part": "S9018",
+      "links": [
+        {
+          "source": "npn_switch",
+          "label": "NPN-Schalter (Grundschaltung)"
+        },
+        {
+          "source": "emitter",
+          "label": "Emitterschaltung (Grundschaltung)"
+        }
+      ],
+      "note": "Pinbelegung, Polarität, Strom und Widerstände für den vorhandenen Transistortyp auslegen; Grundschaltungen sind keine unveränderten Ersatztypenempfehlungen."
+    },
+    {
+      "type": "Transitor",
+      "part": "TIP120",
+      "links": [
+        {
+          "source": "bjt_switch",
+          "label": "Darlington-Schalter (Grundschaltung)"
+        }
+      ],
+      "note": "Pinbelegung, Polarität, Strom und Widerstände für den vorhandenen Transistortyp auslegen; Grundschaltungen sind keine unveränderten Ersatztypenempfehlungen."
+    },
+    {
+      "type": "Transitor",
+      "part": "TIP121",
+      "links": [
+        {
+          "source": "bjt_switch",
+          "label": "Darlington-Schalter (Grundschaltung)"
+        }
+      ],
+      "note": "Pinbelegung, Polarität, Strom und Widerstände für den vorhandenen Transistortyp auslegen; Grundschaltungen sind keine unveränderten Ersatztypenempfehlungen."
+    },
+    {
+      "type": "Transitor",
+      "part": "TIP122",
+      "links": [
+        {
+          "source": "bjt_switch",
+          "label": "Darlington-Schalter (Grundschaltung)"
+        }
+      ],
+      "note": "Pinbelegung, Polarität, Strom und Widerstände für den vorhandenen Transistortyp auslegen; Grundschaltungen sind keine unveränderten Ersatztypenempfehlungen."
+    },
+    {
+      "type": "Transitor",
+      "part": "TIP125",
+      "links": [
+        {
+          "source": "bjt_switch",
+          "label": "PNP-Schalter (Grundschaltung)"
+        }
+      ],
+      "note": "Pinbelegung, Polarität, Strom und Widerstände für den vorhandenen Transistortyp auslegen; Grundschaltungen sind keine unveränderten Ersatztypenempfehlungen."
+    },
+    {
+      "type": "Transitor",
+      "part": "TIP126",
+      "links": [
+        {
+          "source": "bjt_switch",
+          "label": "PNP-Schalter (Grundschaltung)"
+        }
+      ],
+      "note": "Pinbelegung, Polarität, Strom und Widerstände für den vorhandenen Transistortyp auslegen; Grundschaltungen sind keine unveränderten Ersatztypenempfehlungen."
+    },
+    {
+      "type": "Transitor",
+      "part": "TIP127",
+      "links": [
+        {
+          "source": "bjt_switch",
+          "label": "PNP-Schalter (Grundschaltung)"
+        }
+      ],
+      "note": "Pinbelegung, Polarität, Strom und Widerstände für den vorhandenen Transistortyp auslegen; Grundschaltungen sind keine unveränderten Ersatztypenempfehlungen."
+    },
+    {
+      "type": "Transitor",
+      "part": "TIP31C",
+      "links": [
+        {
+          "source": "npn_switch",
+          "label": "NPN-Schalter (Grundschaltung)"
+        },
+        {
+          "source": "emitter",
+          "label": "Emitterschaltung (Grundschaltung)"
+        }
+      ],
+      "note": "Pinbelegung, Polarität, Strom und Widerstände für den vorhandenen Transistortyp auslegen; Grundschaltungen sind keine unveränderten Ersatztypenempfehlungen."
+    },
+    {
+      "type": "Transitor",
+      "part": "TIP32C",
+      "links": [
+        {
+          "source": "bjt_switch",
+          "label": "PNP-Schalter (Grundschaltung)"
+        }
+      ],
+      "note": "Pinbelegung, Polarität, Strom und Widerstände für den vorhandenen Transistortyp auslegen; Grundschaltungen sind keine unveränderten Ersatztypenempfehlungen."
+    },
+    {
+      "type": "Transitor",
+      "part": "TIP41C",
+      "links": [
+        {
+          "source": "npn_switch",
+          "label": "NPN-Schalter (Grundschaltung)"
+        },
+        {
+          "source": "emitter",
+          "label": "Emitterschaltung (Grundschaltung)"
+        }
+      ],
+      "note": "Pinbelegung, Polarität, Strom und Widerstände für den vorhandenen Transistortyp auslegen; Grundschaltungen sind keine unveränderten Ersatztypenempfehlungen."
+    },
+    {
+      "type": "Transitor",
+      "part": "TIP42C",
+      "links": [
+        {
+          "source": "bjt_switch",
+          "label": "PNP-Schalter (Grundschaltung)"
+        }
+      ],
+      "note": "Pinbelegung, Polarität, Strom und Widerstände für den vorhandenen Transistortyp auslegen; Grundschaltungen sind keine unveränderten Ersatztypenempfehlungen."
+    },
+    {
+      "type": "MOSFET",
+      "part": "IRF540",
+      "links": [
+        {
+          "source": "mos_switch",
+          "label": "N-Kanal-Lastschalter (Grundschaltung)"
+        }
+      ],
+      "note": "Erforderliche Gate-Spannung aus RDS(on)-Spezifikation bestimmen; IRF540/IRFZ44 nicht als Logic-Level-Typen behandeln. Polarität und Pinout des konkreten MOSFETs berücksichtigen."
+    },
+    {
+      "type": "MOSFET",
+      "part": "IRF9530",
+      "links": [
+        {
+          "source": "mos_switch",
+          "label": "P-Kanal-High-Side (Grundschaltung)"
+        }
+      ],
+      "note": "Erforderliche Gate-Spannung aus RDS(on)-Spezifikation bestimmen; IRF540/IRFZ44 nicht als Logic-Level-Typen behandeln. Polarität und Pinout des konkreten MOSFETs berücksichtigen."
+    },
+    {
+      "type": "MOSFET",
+      "part": "IRFZ44",
+      "links": [
+        {
+          "source": "mos_switch",
+          "label": "N-Kanal-Lastschalter (Grundschaltung)"
+        }
+      ],
+      "note": "Erforderliche Gate-Spannung aus RDS(on)-Spezifikation bestimmen; IRF540/IRFZ44 nicht als Logic-Level-Typen behandeln. Polarität und Pinout des konkreten MOSFETs berücksichtigen."
+    },
+    {
+      "type": "MOSFET",
+      "part": "IRLZ44N",
+      "links": [
+        {
+          "source": "mos_switch",
+          "label": "N-Kanal-Lastschalter (Grundschaltung)"
+        }
+      ],
+      "note": "Erforderliche Gate-Spannung aus RDS(on)-Spezifikation bestimmen; IRF540/IRFZ44 nicht als Logic-Level-Typen behandeln. Polarität und Pinout des konkreten MOSFETs berücksichtigen."
+    },
+    {
+      "type": "Triac_Thyristor",
+      "part": "BT134-600E",
+      "links": [
+        {
+          "source": "triac",
+          "label": "TRIAC-Phasensteuerung (Grundschaltung)"
+        }
+      ],
+      "note": "Schaltungsprinzip; Gate-Empfindlichkeit, Haltestrom und Spannungsfestigkeit des konkreten TRIACs abgleichen. Netzspannungsbeispiel."
+    },
+    {
+      "type": "Triac_Thyristor",
+      "part": "BTA06",
+      "links": [
+        {
+          "source": "triac",
+          "label": "TRIAC-Phasensteuerung (Grundschaltung)"
+        }
+      ],
+      "note": "Schaltungsprinzip; Gate-Empfindlichkeit, Haltestrom und Spannungsfestigkeit des konkreten TRIACs abgleichen. Netzspannungsbeispiel."
+    },
+    {
+      "type": "Triac_Thyristor",
+      "part": "MAC97A6",
+      "links": [
+        {
+          "source": "triac",
+          "label": "TRIAC-Phasensteuerung (Grundschaltung)"
+        }
+      ],
+      "note": "Schaltungsprinzip; Gate-Empfindlichkeit, Haltestrom und Spannungsfestigkeit des konkreten TRIACs abgleichen. Netzspannungsbeispiel."
+    },
+    {
+      "type": "Spannungsregler",
+      "part": "78L05",
+      "links": [
+        {
+          "source": "reg_78L05",
+          "label": "Regler-Grundbeschaltung (Hersteller)"
+        }
+      ],
+      "note": "Im Familien-Datenblatt die Werte, Pinfolge und Beschaltung der angegebenen Ausgangsspannung/Variante verwenden."
+    },
+    {
+      "type": "Spannungsregler",
+      "part": "78L12",
+      "links": [
+        {
+          "source": "reg_78L12",
+          "label": "Regler-Grundbeschaltung (Hersteller)"
+        }
+      ],
+      "note": "Im Familien-Datenblatt die Werte, Pinfolge und Beschaltung der angegebenen Ausgangsspannung/Variante verwenden."
+    },
+    {
+      "type": "Spannungsregler",
+      "part": "79L05",
+      "links": [
+        {
+          "source": "reg_79L05",
+          "label": "Regler-Grundbeschaltung (Hersteller)"
+        }
+      ],
+      "note": "Im Familien-Datenblatt die Werte, Pinfolge und Beschaltung der angegebenen Ausgangsspannung/Variante verwenden."
+    },
+    {
+      "type": "Spannungsregler",
+      "part": "KA7909",
+      "links": [
+        {
+          "source": "reg_KA7909",
+          "label": "Regler-Grundbeschaltung (Hersteller)"
+        }
+      ],
+      "note": "Im Familien-Datenblatt die Werte, Pinfolge und Beschaltung der angegebenen Ausgangsspannung/Variante verwenden."
+    },
+    {
+      "type": "Spannungsregler",
+      "part": "L7805CV",
+      "links": [
+        {
+          "source": "reg_L7805CV",
+          "label": "Regler-Grundbeschaltung (Hersteller)"
+        }
+      ],
+      "note": "Im Familien-Datenblatt die Werte, Pinfolge und Beschaltung der angegebenen Ausgangsspannung/Variante verwenden."
+    },
+    {
+      "type": "Spannungsregler",
+      "part": "L7809CV",
+      "links": [
+        {
+          "source": "reg_L7809CV",
+          "label": "Regler-Grundbeschaltung (Hersteller)"
+        }
+      ],
+      "note": "Im Familien-Datenblatt die Werte, Pinfolge und Beschaltung der angegebenen Ausgangsspannung/Variante verwenden."
+    },
+    {
+      "type": "Spannungsregler",
+      "part": "L7812CV",
+      "links": [
+        {
+          "source": "reg_L7812CV",
+          "label": "Regler-Grundbeschaltung (Hersteller)"
+        }
+      ],
+      "note": "Im Familien-Datenblatt die Werte, Pinfolge und Beschaltung der angegebenen Ausgangsspannung/Variante verwenden."
+    },
+    {
+      "type": "Spannungsregler",
+      "part": "L7815CV",
+      "links": [
+        {
+          "source": "reg_L7815CV",
+          "label": "Regler-Grundbeschaltung (Hersteller)"
+        }
+      ],
+      "note": "Im Familien-Datenblatt die Werte, Pinfolge und Beschaltung der angegebenen Ausgangsspannung/Variante verwenden."
+    },
+    {
+      "type": "Spannungsregler",
+      "part": "L7824CV",
+      "links": [
+        {
+          "source": "reg_L7824CV",
+          "label": "Regler-Grundbeschaltung (Hersteller)"
+        }
+      ],
+      "note": "Im Familien-Datenblatt die Werte, Pinfolge und Beschaltung der angegebenen Ausgangsspannung/Variante verwenden."
+    },
+    {
+      "type": "Spannungsregler",
+      "part": "L7905CV",
+      "links": [
+        {
+          "source": "reg_L7905CV",
+          "label": "Regler-Grundbeschaltung (Hersteller)"
+        }
+      ],
+      "note": "Im Familien-Datenblatt die Werte, Pinfolge und Beschaltung der angegebenen Ausgangsspannung/Variante verwenden."
+    },
+    {
+      "type": "Spannungsregler",
+      "part": "L7912CV",
+      "links": [
+        {
+          "source": "reg_L7912CV",
+          "label": "Regler-Grundbeschaltung (Hersteller)"
+        }
+      ],
+      "note": "Im Familien-Datenblatt die Werte, Pinfolge und Beschaltung der angegebenen Ausgangsspannung/Variante verwenden."
+    },
+    {
+      "type": "Spannungsregler",
+      "part": "LM317",
+      "links": [
+        {
+          "source": "reg_LM317",
+          "label": "Regler-Grundbeschaltung (Hersteller)"
+        },
+        {
+          "source": "lm317_0v",
+          "label": "0–30-V-Regler (TI)"
+        }
+      ],
+      "note": "Im Familien-Datenblatt die Werte, Pinfolge und Beschaltung der angegebenen Ausgangsspannung/Variante verwenden."
+    },
+    {
+      "type": "Spannungsregler",
+      "part": "TL431A",
+      "links": [
+        {
+          "source": "reg_TL431A",
+          "label": "Regler-Grundbeschaltung (Hersteller)"
+        },
+        {
+          "source": "tl431_cmp",
+          "label": "Komparator mit Referenz (TI)"
+        }
+      ],
+      "note": "Im Familien-Datenblatt die Werte, Pinfolge und Beschaltung der angegebenen Ausgangsspannung/Variante verwenden."
+    },
+    {
+      "type": "Diode",
+      "part": "1N4001",
+      "links": [
+        {
+          "source": "rectifier",
+          "label": "Brückengleichrichter (Grundschaltung)"
+        },
+        {
+          "source": "half_wave",
+          "label": "Einweggleichrichter (Grundschaltung)"
+        }
+      ],
+      "note": "Spannungs-, Strom- und Frequenzgrenzen des konkreten Diodentyps beachten."
+    },
+    {
+      "type": "Diode",
+      "part": "1N4002",
+      "links": [
+        {
+          "source": "rectifier",
+          "label": "Brückengleichrichter (Grundschaltung)"
+        },
+        {
+          "source": "half_wave",
+          "label": "Einweggleichrichter (Grundschaltung)"
+        }
+      ],
+      "note": "Spannungs-, Strom- und Frequenzgrenzen des konkreten Diodentyps beachten."
+    },
+    {
+      "type": "Diode",
+      "part": "1N4003",
+      "links": [
+        {
+          "source": "rectifier",
+          "label": "Brückengleichrichter (Grundschaltung)"
+        },
+        {
+          "source": "half_wave",
+          "label": "Einweggleichrichter (Grundschaltung)"
+        }
+      ],
+      "note": "Spannungs-, Strom- und Frequenzgrenzen des konkreten Diodentyps beachten."
+    },
+    {
+      "type": "Diode",
+      "part": "1N4004",
+      "links": [
+        {
+          "source": "rectifier",
+          "label": "Brückengleichrichter (Grundschaltung)"
+        },
+        {
+          "source": "half_wave",
+          "label": "Einweggleichrichter (Grundschaltung)"
+        }
+      ],
+      "note": "Spannungs-, Strom- und Frequenzgrenzen des konkreten Diodentyps beachten."
+    },
+    {
+      "type": "Diode",
+      "part": "SY356",
+      "links": [
+        {
+          "source": "rectifier",
+          "label": "Brückengleichrichter (Grundschaltung)"
+        },
+        {
+          "source": "half_wave",
+          "label": "Einweggleichrichter (Grundschaltung)"
+        }
+      ],
+      "note": "Spannungs-, Strom- und Frequenzgrenzen des konkreten Diodentyps beachten."
+    },
+    {
+      "type": "Diode",
+      "part": "1N4148",
+      "links": [
+        {
+          "source": "clipper",
+          "label": "Signalbegrenzer (Grundschaltung)"
+        },
+        {
+          "source": "flyback",
+          "label": "Freilaufdiode (Grundschaltung)"
+        }
+      ],
+      "note": "Spannungs-, Strom- und Frequenzgrenzen des konkreten Diodentyps beachten."
+    },
+    {
+      "type": "Quarz",
+      "part": "Quarz 32,768 kHz",
+      "links": [
+        {
+          "source": "crystal_st",
+          "label": "Pierce-Oszillator (ST)"
+        },
+        {
+          "source": "crystal",
+          "label": "Quarzoszillator (Grundschaltung)"
+        }
+      ],
+      "note": "Grundprinzip; Zielschaltung und Lastkapazitäten auf die angegebene Frequenz, Quarzart und den zulässigen Ansteuerpegel auslegen."
+    },
+    {
+      "type": "Quarz",
+      "part": "Quarz 4 MHz",
+      "links": [
+        {
+          "source": "crystal_st",
+          "label": "Pierce-Oszillator (ST)"
+        },
+        {
+          "source": "crystal",
+          "label": "Quarzoszillator (Grundschaltung)"
+        }
+      ],
+      "note": "Grundprinzip; Zielschaltung und Lastkapazitäten auf die angegebene Frequenz, Quarzart und den zulässigen Ansteuerpegel auslegen."
+    },
+    {
+      "type": "Quarz",
+      "part": "Quarz 6 MHz",
+      "links": [
+        {
+          "source": "crystal_st",
+          "label": "Pierce-Oszillator (ST)"
+        },
+        {
+          "source": "crystal",
+          "label": "Quarzoszillator (Grundschaltung)"
+        }
+      ],
+      "note": "Grundprinzip; Zielschaltung und Lastkapazitäten auf die angegebene Frequenz, Quarzart und den zulässigen Ansteuerpegel auslegen."
+    },
+    {
+      "type": "Quarz",
+      "part": "Quarz 8 MHz",
+      "links": [
+        {
+          "source": "crystal_st",
+          "label": "Pierce-Oszillator (ST)"
+        },
+        {
+          "source": "crystal",
+          "label": "Quarzoszillator (Grundschaltung)"
+        }
+      ],
+      "note": "Grundprinzip; Zielschaltung und Lastkapazitäten auf die angegebene Frequenz, Quarzart und den zulässigen Ansteuerpegel auslegen."
+    },
+    {
+      "type": "Quarz",
+      "part": "Quarz 11,0592 MHz",
+      "links": [
+        {
+          "source": "crystal_st",
+          "label": "Pierce-Oszillator (ST)"
+        },
+        {
+          "source": "crystal",
+          "label": "Quarzoszillator (Grundschaltung)"
+        }
+      ],
+      "note": "Grundprinzip; Zielschaltung und Lastkapazitäten auf die angegebene Frequenz, Quarzart und den zulässigen Ansteuerpegel auslegen."
+    },
+    {
+      "type": "Quarz",
+      "part": "Quarz 12 MHz",
+      "links": [
+        {
+          "source": "crystal_st",
+          "label": "Pierce-Oszillator (ST)"
+        },
+        {
+          "source": "crystal",
+          "label": "Quarzoszillator (Grundschaltung)"
+        }
+      ],
+      "note": "Grundprinzip; Zielschaltung und Lastkapazitäten auf die angegebene Frequenz, Quarzart und den zulässigen Ansteuerpegel auslegen."
+    },
+    {
+      "type": "Quarz",
+      "part": "Quarz 13,56 MHz",
+      "links": [
+        {
+          "source": "crystal_st",
+          "label": "Pierce-Oszillator (ST)"
+        },
+        {
+          "source": "crystal",
+          "label": "Quarzoszillator (Grundschaltung)"
+        }
+      ],
+      "note": "Grundprinzip; Zielschaltung und Lastkapazitäten auf die angegebene Frequenz, Quarzart und den zulässigen Ansteuerpegel auslegen."
+    },
+    {
+      "type": "Quarz",
+      "part": "Quarz 16 MHz",
+      "links": [
+        {
+          "source": "crystal_st",
+          "label": "Pierce-Oszillator (ST)"
+        },
+        {
+          "source": "crystal",
+          "label": "Quarzoszillator (Grundschaltung)"
+        }
+      ],
+      "note": "Grundprinzip; Zielschaltung und Lastkapazitäten auf die angegebene Frequenz, Quarzart und den zulässigen Ansteuerpegel auslegen."
+    },
+    {
+      "type": "Quarz",
+      "part": "Quarz 22,1184 MHz",
+      "links": [
+        {
+          "source": "crystal_st",
+          "label": "Pierce-Oszillator (ST)"
+        },
+        {
+          "source": "crystal",
+          "label": "Quarzoszillator (Grundschaltung)"
+        }
+      ],
+      "note": "Grundprinzip; Zielschaltung und Lastkapazitäten auf die angegebene Frequenz, Quarzart und den zulässigen Ansteuerpegel auslegen."
+    },
+    {
+      "type": "Quarz",
+      "part": "Quarz 27 MHz",
+      "links": [
+        {
+          "source": "crystal_st",
+          "label": "Pierce-Oszillator (ST)"
+        },
+        {
+          "source": "crystal",
+          "label": "Quarzoszillator (Grundschaltung)"
+        }
+      ],
+      "note": "Grundprinzip; Zielschaltung und Lastkapazitäten auf die angegebene Frequenz, Quarzart und den zulässigen Ansteuerpegel auslegen."
+    },
+    {
+      "type": "Spannungsregler",
+      "part": "L78S12CV",
+      "links": [
+        {
+          "source": "reg_L78S12CV",
+          "label": "Regler-Grundbeschaltung (Hersteller)"
+        }
+      ],
+      "note": "Im Familien-Datenblatt die Werte, Pinfolge und Beschaltung der angegebenen Ausgangsspannung/Variante verwenden."
+    },
+    {
+      "type": "IC diverse",
+      "part": "LM358P",
+      "links": [
+        {
+          "source": "lm358",
+          "label": "Anwendungsschaltung (TI)"
+        },
+        {
+          "source": "opamp",
+          "label": "Nichtinvertierender Verstärker (Grundschaltung)"
+        },
+        {
+          "source": "op_follower",
+          "label": "Spannungsfolger (Grundschaltung)"
+        }
+      ],
+      "note": "Grundschaltungen: Versorgung, Eingangsspannungsbereich, Ausgangshub und Verstärkerpins an den konkreten OPV anpassen; insbesondere UA741 nicht wie einen Rail-to-Rail-OPV behandeln."
+    },
+    {
+      "type": "Spannungsregler",
+      "part": "L78S05CV",
+      "links": [
+        {
+          "source": "reg_L78S05CV",
+          "label": "Regler-Grundbeschaltung (Hersteller)"
+        }
+      ],
+      "note": "Im Familien-Datenblatt die Werte, Pinfolge und Beschaltung der angegebenen Ausgangsspannung/Variante verwenden."
+    },
+    {
+      "type": "Spannungsregler",
+      "part": "TS7805",
+      "links": [
+        {
+          "source": "reg_TS7805",
+          "label": "Regler-Grundbeschaltung (Hersteller)"
+        }
+      ],
+      "note": "Im Familien-Datenblatt die Werte, Pinfolge und Beschaltung der angegebenen Ausgangsspannung/Variante verwenden."
+    },
+    {
+      "type": "IC diverse",
+      "part": "UA741CN",
+      "links": [
+        {
+          "source": "opamp",
+          "label": "Nichtinvertierender Verstärker (Grundschaltung)"
+        },
+        {
+          "source": "op_follower",
+          "label": "Spannungsfolger (Grundschaltung)"
+        }
+      ],
+      "note": "Grundschaltungen: Versorgung, Eingangsspannungsbereich, Ausgangshub und Verstärkerpins an den konkreten OPV anpassen; insbesondere UA741 nicht wie einen Rail-to-Rail-OPV behandeln."
+    },
+    {
+      "type": "Spannungsregler",
+      "part": "L78S09CV",
+      "links": [
+        {
+          "source": "reg_L78S09CV",
+          "label": "Regler-Grundbeschaltung (Hersteller)"
+        }
+      ],
+      "note": "Im Familien-Datenblatt die Werte, Pinfolge und Beschaltung der angegebenen Ausgangsspannung/Variante verwenden."
+    },
+    {
+      "type": "Spannungsregler",
+      "part": "KA7809",
+      "links": [
+        {
+          "source": "reg_KA7809",
+          "label": "Regler-Grundbeschaltung (Hersteller)"
+        }
+      ],
+      "note": "Im Familien-Datenblatt die Werte, Pinfolge und Beschaltung der angegebenen Ausgangsspannung/Variante verwenden."
+    },
+    {
+      "type": "IC diverse",
+      "part": "NE555 (E)",
+      "links": [
+        {
+          "source": "timer_astable",
+          "label": "Astabiler Oszillator (Grundschaltung)"
+        },
+        {
+          "source": "timer_mono",
+          "label": "Monoflop (Grundschaltung)"
+        },
+        {
+          "source": "timer_pwm",
+          "label": "PWM-Steuerung (Grundschaltung)"
+        }
+      ],
+      "note": "Bipolare 555-Timer-Grundschaltungen; Versorgung, Pinbelegung und Grenzwerte der vorhandenen Variante abgleichen."
+    },
+    {
+      "type": "IC diverse",
+      "part": "NE555 (TI)",
+      "links": [
+        {
+          "source": "timer_astable",
+          "label": "Astabiler Oszillator (Grundschaltung)"
+        },
+        {
+          "source": "timer_mono",
+          "label": "Monoflop (Grundschaltung)"
+        },
+        {
+          "source": "timer_pwm",
+          "label": "PWM-Steuerung (Grundschaltung)"
+        }
+      ],
+      "note": "Bipolare 555-Timer-Grundschaltungen; Versorgung, Pinbelegung und Grenzwerte der vorhandenen Variante abgleichen."
+    },
+    {
+      "type": "IC diverse",
+      "part": "MC1455",
+      "links": [
+        {
+          "source": "timer_astable",
+          "label": "Astabiler Oszillator (Grundschaltung)"
+        },
+        {
+          "source": "timer_mono",
+          "label": "Monoflop (Grundschaltung)"
+        },
+        {
+          "source": "timer_pwm",
+          "label": "PWM-Steuerung (Grundschaltung)"
+        }
+      ],
+      "note": "Bipolare 555-Timer-Grundschaltungen; Versorgung, Pinbelegung und Grenzwerte der vorhandenen Variante abgleichen."
+    },
+    {
+      "type": "IC diverse",
+      "part": "L298N",
+      "links": [
+        {
+          "source": "driver_l298",
+          "label": "Motor-/Schrittmotorschaltung (ST)"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "type": "IC SN7xxx",
+      "part": "CD74HCT85E",
+      "links": [
+        {
+          "source": "compare",
+          "label": "4-Bit-Vergleich/Kaskadierung (Grundschaltung)"
+        }
+      ],
+      "note": "Bei Grundschaltungen Eingangs-/Ausgangspolarität, Anzahl der Kanäle, Versorgung und Pinfolge für die dokumentierte Logikfamilie abgleichen."
+    },
+    {
+      "type": "IC diverse",
+      "part": "MAX7221CNG",
+      "links": [
+        {
+          "source": "max7219",
+          "label": "8-stellige LED-Anzeige (Maxim)"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "type": "IC diverse",
+      "part": "DS18B20",
+      "links": [
+        {
+          "source": "ds18b20",
+          "label": "1-Wire mit externer Versorgung (Maxim-Typreferenz)"
+        }
+      ],
+      "note": "Fremdherstellerreferenz; Zuordnung des Aufdrucks 7Q.TeK ungeklärt."
+    },
+    {
+      "type": "IC diverse",
+      "part": "36.11.9.005.0000",
+      "links": [
+        {
+          "source": "relay",
+          "label": "Relais mit Treiberarray (Grundschaltung)"
+        }
+      ],
+      "note": "Treiber und Freilaufdiode für die 5-V-DC-Spule dimensionieren; Treibereingangspegel beachten."
+    },
+    {
+      "type": "IC diverse",
+      "part": "MCP3008-I/P",
+      "links": [
+        {
+          "source": "mcp3008_filter",
+          "label": "Eingangsfilter (MCP3004-Familienreferenz)"
+        }
+      ],
+      "note": "Herstellerbeispiel am MCP3004; Eingangsfilter auf einen Kanal des MCP3008 übertragbar, Pinzahlen unterscheiden sich."
+    },
+    {
+      "type": "IC SN7xxx",
+      "part": "PC74HCT08P",
+      "links": [
+        {
+          "source": "gate",
+          "label": "Gatter mit Tastern/LED (Grundschaltung)"
+        }
+      ],
+      "note": "Bei Grundschaltungen Eingangs-/Ausgangspolarität, Anzahl der Kanäle, Versorgung und Pinfolge für die dokumentierte Logikfamilie abgleichen."
+    },
+    {
+      "type": "IC CD4xxx",
+      "part": "CD40194BE",
+      "links": [
+        {
+          "source": "register40194",
+          "label": "Universelles Schieberegister (Grundschaltung)"
+        }
+      ],
+      "note": "Grundschaltung, Pinbelegung und Logikpegel am vorhandenen Typ prüfen."
+    },
+    {
+      "type": "IC CD4xxx",
+      "part": "40098",
+      "links": [
+        {
+          "source": "buffer40098",
+          "label": "3-State-Enable: Funktionsreferenz HEF40098B"
+        }
+      ],
+      "note": "Typreferenz mit Funktions-/Logikdiagramm, keine vollständige Beispielschaltung. Genaue Herstellervariante ungeklärt."
+    },
+    {
+      "type": "IC CD4xxx",
+      "part": "MC14521BCP",
+      "links": [
+        {
+          "source": "mc14521",
+          "label": "Quarzoszillator (onsemi-Nachfolgerreferenz)"
+        }
+      ],
+      "note": "Aufdruck MC14521BCP, Hersteller Motorola vom Nutzer bestätigt. onsemi-Datenblatt als Nachfolger-/Typreferenz; vorhandene Motorola-CP-Ausführung ist DIP-16, keine Bestätigung der aktuellen Gehäusevarianten."
+    }
+  ]
+}

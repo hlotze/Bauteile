@@ -27,7 +27,7 @@ def power(name):return name.upper() in ['VCC','VDD','V+','V-','VEE','GND','OP-VC
 for r in rows:
  key=r['key'];r['reference']=r.get('symbol') or key;r['sources']=[];r['status']='Referenzkarte'
  if key in MANUAL:
-  names,src,page=MANUAL[key];r['pins']=[dict(number=i+1,name=n,role='passive',unit='manual') for i,n in enumerate(names.split())];r['sources']=[dict(file=src,page=page)];r['reference']={'UA741CN':'ST UA741CN (Ref.)','LM324N':'ST LM324N','LP324N':'TI/National LP324N (Ref.)','7487':'SN74H87','CD4513':'MC14513B','74576':'SN74ALS576B','CD4553':'MC14553B'}.get(key,key)
+  names,src,page=MANUAL[key];r['pins']=[dict(number=i+1,name=n,role='passive',unit='manual') for i,n in enumerate(names.split())];r['sources']=[dict(file=src,page=page)];r['reference']={'CD4528':'onsemi MC14528BCP','CD4538':'Motorola MC14538BCP (onsemi Ref.)','MC14521BCP':'Motorola MC14521BCP (onsemi Ref.)','MCP3008-I_P':'Microchip MCP3008-I/P','UA741CN':'ST UA741CN (Ref.)','LM324N':'ST LM324N','LP324N':'TI/National LP324N (Ref.)','7487':'SN74H87','CD4513':'MC14513B','74576':'SN74ALS576B','CD4553':'MC14553B'}.get(key,key)
  elif key in UNRESOLVED:r['pins']=[];r['status']='Identifikationskarte';r['unresolved']=UNRESOLVED[key]
  elif r['pins']:
   unique={}

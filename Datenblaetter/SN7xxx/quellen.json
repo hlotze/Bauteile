@@ -759,5 +759,19 @@
     "downloaded_on": "2026-10-21",
     "url": "https://www.ti.com/lit/ds/symlink/cd74hct85.pdf",
     "sha256": "1a8b9d560ba6e590b53911c1a73938a96250a576fa2aebdec971a3cfc7807e09"
+  },
+  {
+    "number": "08",
+    "part": "PC74HCT08P",
+    "pins": 14,
+    "function": "4 AND-Gatter mit je 2 Eingängen",
+    "pdf": "PC74HCT08P_TI_Referenz.pdf",
+    "url": "https://www.ti.com/lit/ds/symlink/sn74hct08.pdf",
+    "manufacturer": "Texas Instruments (Fremdherstellerreferenz SN74HCT08)",
+    "assignment": "Fremdherstellerreferenz",
+    "note": "Aufdruck PC74HCT08P; HCT-Ausführung mit TTL-kompatiblen Eingängen, Versorgung 4,5–5,5 V. TI SN74HCT08 als Fremdhersteller-/Pinreferenz; exakte historische PC-Ausführung dadurch nicht bestätigt.",
+    "downloaded_on": "2026-10-21",
+    "source_part": "SN74HCT08",
+    "sha256": "3adc75237d6fc34eb152334eb89ac18b329d102631912fe4d76b73a34ae6b772"
   }
 ]

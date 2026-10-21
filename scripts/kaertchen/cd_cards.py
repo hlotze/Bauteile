@@ -21,6 +21,8 @@ BASE = Path(__file__).parent / 'logikvorlagen'
 SOURCES = json.loads((BASE / 'quellen.json').read_text())
 
 TITLES = {
+ 'MC14521BCP':'24-stufiger Frequenzteiler',
+ 'CD40194BE':'4-Bit-Universal-Schieberegister',
  'CD4001':'4 NOR-Gatter, je 2 Eingänge', 'CD4002':'2 NOR-Gatter, je 4 Eingänge',
  'CD4009':'6 Inverter / Pegelwandler', 'CD4011':'4 NAND-Gatter, je 2 Eingänge',
  'CD4012':'2 NAND-Gatter, je 4 Eingänge', 'CD4013':'2 D-Flipflops',
@@ -115,8 +117,8 @@ class Card:
  def labels(self):
   for p in self.pins.values():
    num=p['number'];left=num<=self.n//2;y=self.pin_y(num)
-   name=self.display_name(p['name']);power=name.upper() in ('VDD','VCC','VEE','V+','V-')
-   ground=name=='GND'
+   name=self.display_name(p['name']);power=name.upper() in ('VDD',"VDD'",'VCC','VEE','V+','V-')
+   ground=name in ('GND',"GND'")
    output=p['role'] in ('output','tri_state','open_collector') or bool(re.match(r'^/?(?:\dY|Q|[a-g]$|CARRY|.*OUT)',name))
    color=BLUE if output else GREEN
    if power or ground:
@@ -335,6 +337,8 @@ class Card:
   # directly to every signal pin, using the existing validated inventory.
   self.rect(15,8.1,15,37.6)
   caption={
+   'MC14521BCP':['OSC / CLK','24 STUFEN','TEILER','Q18..Q24'],
+   'CD40194BE':['4 Bit','UNIVERSAL','SHIFT L / R','PARALLEL','REGISTER'],
    'CD4019':['AND-OR','Qn =','(An & SA) |','(Bn & SB)'],
    'CD4046':['PLL','VCO','Phasen-','komparator','I / II'],
    'CD4047':['Timer','ASTABIL /','MONOSTABIL'],

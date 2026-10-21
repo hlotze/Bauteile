@@ -346,5 +346,53 @@
     "manufacturer_url": "https://www.st.com/resource/en/datasheet/l298.pdf",
     "sha256": "f2c118d4d565df195beae453cef0dbbde740b435efbfd7fa6ba346f6ad9c8227",
     "pages": 23
+  },
+  {
+    "part": "MAX7221CNG",
+    "pdf": "MAX7219_Maxim.pdf",
+    "manufacturer": "Maxim Integrated",
+    "assignment": "Herstellerdatenblatt",
+    "note": "Hersteller Maxim (MAXIM), vom Nutzer bestätigt. Gemeinsames MAX7219/MAX7221-Datenblatt; MAX7221CNG im DIP-24, Pin 12: /CS.",
+    "downloaded_on": "2026-10-13",
+    "url": "https://datasheet4u.com/pdf/1474108/MAX7219.pdf",
+    "final_url": "https://datasheet4u.com/pdf/1474108/MAX7219.pdf",
+    "sha256": "7585bd4469c4355ea7e7d7193710605f2ab96afa14491c377420d057f9c8d5eb",
+    "pages": 15
+  },
+  {
+    "part": "DS18B20",
+    "pdf": "DS18B20_Maxim_Referenz.pdf",
+    "manufacturer": "Aufdruck 7Q.TeK; Maxim als Typreferenz",
+    "assignment": "Fremdherstellerreferenz",
+    "note": "Aufdruck laut Nutzer: 7Q.TeK, DS18B20, 1443C01. Herstellerzuordnung von 7Q.TeK und Gehäuse nicht bestätigt. Maxim-Datenblatt als Typreferenz; keine Bestätigung identischer Kennwerte oder Pinbelegung des vorhandenen Exemplars.",
+    "downloaded_on": "2026-10-21",
+    "url": "https://cdn-shop.adafruit.com/datasheets/DS18B20.pdf",
+    "final_url": "https://cdn-shop.adafruit.com/datasheets/DS18B20.pdf",
+    "sha256": "39d191cd1fb657e43eac061f605bbd375d3c42dc40e7839c17fa0675bb0404d8",
+    "pages": 22
+  },
+  {
+    "part": "36.11.9.005.0000",
+    "pdf": "Finder_36.pdf",
+    "manufacturer": "Finder",
+    "assignment": "Familienreferenz",
+    "note": "Finder laut Nutzer; als Schließer genutzt/bezeichnet. Serie 36.11 hat 1 Wechsler (COM/NO/NC), keinen reinen Schließer. Vorhandener Aufdruck 36.11.9.005.0000; aktuelles Herstellerdatenblatt beschreibt die Serie und die neuere Bestellvariante 4011, nicht ausdrücklich die ältere Endung 0000.",
+    "downloaded_on": "2026-10-21",
+    "url": "https://cdn.findernet.com/app/uploads/S36EN.pdf",
+    "final_url": "https://cdn.findernet.com/app/uploads/S36EN.pdf",
+    "sha256": "d8ad30bb0978bb0d33b11530e7e20e555b257eb18d97e3cda2131ea4d2002205",
+    "pages": 6
+  },
+  {
+    "part": "MCP3008-I/P",
+    "pdf": "MCP3008_Microchip.pdf",
+    "manufacturer": "Microchip Technology",
+    "assignment": "Herstellerdatenblatt",
+    "note": "Microchip MCP3008-I/P; 8 analoge Kanäle, 10 Bit, SPI; Versorgung 2,7–5,5 V; I/P: industrieller Temperaturbereich und 16-Pin-PDIP. Beide Masseanschlüsse AGND und DGND beachten.",
+    "downloaded_on": "2026-10-21",
+    "url": "https://ww1.microchip.com/downloads/aemDocuments/documents/MSLD/ProductDocuments/DataSheets/MCP3004-MCP3008-Data-Sheet-DS20001295.pdf",
+    "final_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/MSLD/ProductDocuments/DataSheets/MCP3004-MCP3008-Data-Sheet-DS20001295.pdf",
+    "sha256": "26a503d76279cc10e40cfc36e80bb87fd33d0de80093d1bdcc4dc29435b10f72",
+    "pages": 42
   }
 ]

@@ -605,5 +605,69 @@
     "manufacturer": "onsemi",
     "note": "Pinbelegungsreferenz; konkrete Variante abgleichen",
     "download_date": "2026-10-13"
+  },
+  {
+    "part": "CD40194BE",
+    "number": "CD40194BE",
+    "pdf": "CD40194BE_TI.pdf",
+    "url": "https://www.ti.com/lit/ds/symlink/cd40194b.pdf",
+    "manufacturer": "Texas Instruments (CD40194B-Referenz)",
+    "note": "Aufdruck CD40194BE vom Nutzer bestätigt. TI-CD40194B-Herstellerdatenblatt; E-Ausführung im 16-Pin-PDIP.",
+    "assignment": "Herstellerdatenblatt",
+    "sha256": "370852a62ea1edb7e8a872dea87d2cb57f0b70d3902a38c11ad1ec806bd1d8b7",
+    "downloaded_on": "2026-10-21"
+  },
+  {
+    "part": "40098",
+    "number": "40098",
+    "pdf": null,
+    "url": "https://assets.nexperia.com/documents/data-sheet/HEF40098B.pdf",
+    "manufacturer": "Nexperia HEF40098B (Typreferenz; tatsächlicher Hersteller offen)",
+    "note": "Aufdruck nur 40098 laut Nutzer. Hersteller, Präfix, Suffix und Gehäuse offen; HEF40098B nur als Typreferenz. Pinbelegung vor Verwendung am vorhandenen Typ prüfen. Herstellerdownload HTTP 403; deshalb externe Referenz verlinkt.",
+    "assignment": "Typreferenz, Download ausstehend"
+  },
+  {
+    "part": "CD4002 (Grundtyp; Aufdruck PC74HCT4002P)",
+    "pdf": null,
+    "url": "https://assets.nexperia.com/documents/data-sheet/74HC_HCT4002.pdf",
+    "manufacturer": "Nexperia (74HCT4002-Familienreferenz)",
+    "assignment": "Familienreferenz, Download ausstehend",
+    "note": "Aufdruck vom Nutzer auf PC74HCT4002P korrigiert; insgesamt 1 Stück. Download HTTP 403."
+  },
+  {
+    "part": "CD4528",
+    "source_part": "MC14528BCP",
+    "pdf": "MC14528B_onsemi.pdf",
+    "manufacturer": "onsemi",
+    "reference_manufacturer": "onsemi",
+    "assignment": "Hersteller-Familienreferenz",
+    "note": "Aufdruck MC14528BCP, Hersteller onsemi vom Nutzer bestätigt. onsemi-Herstellerdatenblatt zur MC14528B-Familie; aktuelle Ausgabe zeigt SOIC, vorhandene CP-Ausführung ist DIP-16. Pins 1, 8 und 15: VSS/GND; externe Zeitglieder laut Datenblatt anschließen.",
+    "url": "https://www.onsemi.com/download/data-sheet/pdf/mc14528b-d.pdf",
+    "downloaded_on": "2026-10-21",
+    "sha256": "1ef179a0400f0f90c367b2f113f82f813c9c7412adf228817f3cf03e0dca3352"
+  },
+  {
+    "part": "MC14521BCP",
+    "source_part": "MC14521BCP",
+    "pdf": "MC14521B_onsemi.pdf",
+    "manufacturer": "Motorola",
+    "reference_manufacturer": "onsemi",
+    "assignment": "Nachfolgerreferenz",
+    "note": "Aufdruck MC14521BCP, Hersteller Motorola vom Nutzer bestätigt. onsemi-Datenblatt als Nachfolger-/Typreferenz; vorhandene Motorola-CP-Ausführung ist DIP-16, keine Bestätigung der aktuellen Gehäusevarianten.",
+    "url": "https://www.onsemi.com/download/data-sheet/pdf/mc14521b-d.pdf",
+    "downloaded_on": "2026-10-21",
+    "sha256": "6ae0be82d5bc16b70277959e32c626dfa841e31e693d632901c12c14e8faa676"
+  },
+  {
+    "part": "CD4538",
+    "source_part": "MC14538BCP",
+    "pdf": "MC14538B_onsemi.pdf",
+    "manufacturer": "Motorola",
+    "reference_manufacturer": "onsemi",
+    "assignment": "Nachfolgerreferenz",
+    "note": "Aufdruck MC14538BCP, Hersteller Motorola vom Nutzer bestätigt. onsemi-Datenblatt als Nachfolger-/Typreferenz; vorhandene Motorola-CP-Ausführung ist DIP-16, keine Bestätigung der aktuellen Gehäusevarianten. Pins 1, 8 und 15: VSS/GND; externe Zeitglieder laut Datenblatt anschließen.",
+    "url": "https://www.onsemi.com/download/data-sheet/pdf/mc14538b-d.pdf",
+    "downloaded_on": "2026-10-21",
+    "sha256": "896fe2315f56e75788ae29550917b67cfc00301fee209d8b66714a9f9d00cfe3"
   }
 ]
