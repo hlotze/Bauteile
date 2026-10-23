@@ -1,18 +1,20 @@
 # Experimentierkarten 45 × 55 mm
 
+**Neu: [Anschlusskarten für Transistoren, MOSFETs, Triacs, Spannungsregler und Dioden](Anschlusskarten/README.md)** – Schaltplansymbol über Gehäusezeichnung, mit Anschlussnamen und Blickrichtung. [Vorschau](Anschlusskarten/Vorschau.png) · [separater A4-Druckbogen](Bauteil_Anschlusskarten_A4.pdf). Die folgenden Hinweise zu DIP-Pinreihen gelten für die bisherigen IC-Karten.
+
 [Alle Karten als A4-Druckbogen](IC_Karten_A4.pdf) – **100 % / tatsächliche Größe**, keine Seitenanpassung. Einzel-PDFs und SVGs haben exakt 45 × 55 mm; PNGs dienen der Vorschau (300 dpi).
 
 Pin 1 liegt oben links. Links steigen die Pinnummern nach unten, rechts nach oben, wie an den Anschlüssen deines Boards. Abstand: **5,08 mm**, beim **MAX7219/MAX7221 mit 24 Pins 2,54 mm**. Die erste Pinmitte liegt 6,4 mm unter der Kartenoberkante; das Kärtchen entsprechend zu den Anschlüssen ausrichten. Versorgung ist rot, Masse hellblau und Ausgänge blau markiert. `/` vor einem Signal bedeutet aktiv Low; bei CD4xxx, Diverse und SN7xxx wird dafür ein **Überstrich** verwendet. NC bleibt unbeschaltet.
 
-Alle **56 CD4xxx-Karten** folgen den alten Vorlagen aus „PNG Kopie“: Die Funktion steht direkt hinter der Typbezeichnung, Gatter sind mit ihren Anschlüssen verdrahtet, und vorhandene interne Logikskizzen sowie Zeitdiagramme sind übernommen. Für Typen ohne alte Vorlage gibt es eine Darstellung im gleichen Stil. Die Karten wiederholen Typ und Funktion unten. Die übernommenen Blockschaltbilder sind auch in den SVGs eingebettet.
+Alle **58 CD4xxx-Karten** folgen den alten Vorlagen aus „PNG Kopie“: Die Funktion steht direkt hinter der Typbezeichnung, Gatter sind mit ihren Anschlüssen verdrahtet, und vorhandene interne Logikskizzen sowie Zeitdiagramme sind übernommen. Für Typen ohne alte Vorlage gibt es eine Darstellung im gleichen Stil. Die Karten wiederholen Typ und Funktion unten. Die übernommenen Blockschaltbilder sind auch in den SVGs eingebettet.
 
 Die **24 Karten in Diverse** verwenden denselben Stil mit verdrahteten Verstärker-, Komparator-, Optokoppler- und Treibersymbolen. Komplexere Bausteine enthalten zugeschnittene Schaltbilder aus den lokalen Datenblättern, ergänzt um lesbare Funktionsblöcke und Pinzuordnungen. Die Bildausschnitte sind in SVG und PDF eingebettet. **LH6764-20** bleibt eine Identifikationskarte. Beim **LM311** zeigt `E-OUT` den separat herausgeführten Ausgangsemitter an Pin 1.
 
-Die **85 Karten in SN7xxx** verwenden ebenfalls diesen Stil: Typ und Funktion im Titel, verdrahtete Gatter und Treiber sowie Flipflops mit DIP-Pinzuordnung. Decoder, Zähler und Schieberegister enthalten passende Herstellerdiagramme oder Funktionsblöcke mit Signalanschlüssen. Die Diagramme sind in SVG und PDF eingebettet; bei 20 Pins bleibt der Fuß kompakt zwischen den Pinreihen.
+Die **87 Karten in SN7xxx** verwenden ebenfalls diesen Stil: Typ und Funktion im Titel, verdrahtete Gatter und Treiber sowie Flipflops mit DIP-Pinzuordnung. Decoder, Zähler und Schieberegister enthalten passende Herstellerdiagramme oder Funktionsblöcke mit Signalanschlüssen. Die Diagramme sind in SVG und PDF eingebettet; bei 20 Pins bleibt der Fuß kompakt zwischen den Pinreihen.
 
 Die Karten nennen die verwendete Pinreferenz. Bei Grundnummern und ungeklärten Familien ist diese eine dokumentierte Referenzvariante; die tatsächliche IC-Variante muss dazu passen. Vollständige Kennwerte stehen in den Datenblättern. **LH6764-20** erhält ausschließlich eine Identifikationskarte, weil eine belastbare Pinbelegung fehlt. **CD4513 / MC14513B hat 18 Pins**.
 
-169 Karten: 168 mit Pinbelegung und eine Identifikationskarte. Quellen und Pinfolgen: [karten.json](karten.json). Generator und KiCad-Lizenz: [Dokumentation](../scripts/kaertchen/README.md).
+170 Karten: 169 mit Pinbelegung und eine Identifikationskarte. Quellen und Pinfolgen: [karten.json](karten.json). Generator und KiCad-Lizenz: [Dokumentation](../scripts/kaertchen/README.md).
 
 | Typ | Funktion | Vorschau | Druck | Vektor | Referenz |
 | --- | --- | --- | --- | --- | --- |
@@ -49,7 +51,7 @@ Die Karten nennen die verwendete Pinreferenz. Bei Grundnummern und ungeklärten 
 | SN74LS76N | 2 JK-Flipflops mit Setzen/Löschen | [PNG](SN7xxx/SN74LS76N_karte_45x55mm.png) | [PDF](SN7xxx/SN74LS76N_karte_45x55mm.pdf) | [SVG](SN7xxx/SN74LS76N_karte_45x55mm.svg) | 74LS76 |
 | CD74HCT85E | 4-Bit-Größenkomparator mit Kaskadierung | [PNG](SN7xxx/CD74HCT85E_karte_45x55mm.png) | [PDF](SN7xxx/CD74HCT85E_karte_45x55mm.pdf) | [SVG](SN7xxx/CD74HCT85E_karte_45x55mm.svg) | TI CD74HCT85E |
 | SN74LS83N | 4-Bit-Binär-Volladdierer mit schnellem Übertrag | [PNG](SN7xxx/SN74LS83N_karte_45x55mm.png) | [PDF](SN7xxx/SN74LS83N_karte_45x55mm.pdf) | [SVG](SN7xxx/SN74LS83N_karte_45x55mm.svg) | 74LS83 |
-| SN74ACT86N | 4 XOR-Gatter mit je 2 Eingängen | [PNG](SN7xxx/SN74ACT86N_karte_45x55mm.png) | [PDF](SN7xxx/SN74ACT86N_karte_45x55mm.pdf) | [SVG](SN7xxx/SN74ACT86N_karte_45x55mm.svg) | 74LS86 |
+| SN74ACT86N | 4 XOR-Gatter mit je 2 Eingängen | [PNG](SN7xxx/SN74ACT86N_karte_45x55mm.png) | [PDF](SN7xxx/SN74ACT86N_karte_45x55mm.pdf) | [SVG](SN7xxx/SN74ACT86N_karte_45x55mm.svg) | TI SN74ACT86N |
 | SN74LS86N | 4 XOR-Gatter mit je 2 Eingängen | [PNG](SN7xxx/SN74LS86N_karte_45x55mm.png) | [PDF](SN7xxx/SN74LS86N_karte_45x55mm.pdf) | [SVG](SN7xxx/SN74LS86N_karte_45x55mm.svg) | 74LS86 |
 | 7487 | 4-Bit-Funktionselement: direkt, invertiert, Null oder Eins | [PNG](SN7xxx/7487_karte_45x55mm.png) | [PDF](SN7xxx/7487_karte_45x55mm.pdf) | [SVG](SN7xxx/7487_karte_45x55mm.svg) | SN74H87 |
 | SN74LS90N | Asynchroner Dekadenzähler (Teiler durch 2 und 5) | [PNG](SN7xxx/SN74LS90N_karte_45x55mm.png) | [PDF](SN7xxx/SN74LS90N_karte_45x55mm.pdf) | [SVG](SN7xxx/SN74LS90N_karte_45x55mm.svg) | 74LS90 |
@@ -102,6 +104,7 @@ Die Karten nennen die verwendete Pinreferenz. Bei Grundnummern und ungeklärten 
 | 74640 | 8-Bit-Bustransceiver, invertierend, 3-State-Ausgänge | [PNG](SN7xxx/74640_karte_45x55mm.png) | [PDF](SN7xxx/74640_karte_45x55mm.pdf) | [SVG](SN7xxx/74640_karte_45x55mm.svg) | 74LS640 |
 | 74641 | 8-Bit-Bustransceiver, nichtinvertierend, Open Collector | [PNG](SN7xxx/74641_karte_45x55mm.png) | [PDF](SN7xxx/74641_karte_45x55mm.pdf) | [SVG](SN7xxx/74641_karte_45x55mm.svg) | 74LS641 |
 | SN74HC595 | 8-Bit-Schieberegister mit Ausgangsregister und 3-State-Ausgängen | [PNG](SN7xxx/SN74HC595_karte_45x55mm.png) | [PDF](SN7xxx/SN74HC595_karte_45x55mm.pdf) | [SVG](SN7xxx/SN74HC595_karte_45x55mm.svg) | SN74HC595N (DIP-16) |
+| SN74LS688N | 8-Bit-Gleichheitskomparator mit aktiv-Low-Freigabe | [PNG](SN7xxx/SN74LS688N_karte_45x55mm.png) | [PDF](SN7xxx/SN74LS688N_karte_45x55mm.pdf) | [SVG](SN7xxx/SN74LS688N_karte_45x55mm.svg) | TI SN74LS688N |
 | CD4001 | 4 NOR-Gatter mit je 2 Eingängen | [PNG](CD4xxx/CD4001_karte_45x55mm.png) | [PDF](CD4xxx/CD4001_karte_45x55mm.pdf) | [SVG](CD4xxx/CD4001_karte_45x55mm.svg) | 4001 |
 | CD4002 | 2 NOR-Gatter mit je 4 Eingängen | [PNG](CD4xxx/CD4002_karte_45x55mm.png) | [PDF](CD4xxx/CD4002_karte_45x55mm.pdf) | [SVG](CD4xxx/CD4002_karte_45x55mm.svg) | 4002 |
 | CD4009 | 6 invertierende Puffer/Pegelwandler | [PNG](CD4xxx/CD4009_karte_45x55mm.png) | [PDF](CD4xxx/CD4009_karte_45x55mm.pdf) | [SVG](CD4xxx/CD4009_karte_45x55mm.svg) | 4009 |

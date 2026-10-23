@@ -1,0 +1,82 @@
+[
+  {
+    "type": "Diode",
+    "part": "ZD 10",
+    "reason": "Zenerdiode: genaue Typreihe, Gehäuse und belastbare Pinreferenz noch offen."
+  },
+  {
+    "type": "Diode",
+    "part": "ZD 12",
+    "reason": "Zenerdiode: genaue Typreihe, Gehäuse und belastbare Pinreferenz noch offen."
+  },
+  {
+    "type": "Diode",
+    "part": "ZD 18",
+    "reason": "Zenerdiode: genaue Typreihe, Gehäuse und belastbare Pinreferenz noch offen."
+  },
+  {
+    "type": "Diode",
+    "part": "ZD 2,7",
+    "reason": "Zenerdiode: genaue Typreihe, Gehäuse und belastbare Pinreferenz noch offen."
+  },
+  {
+    "type": "Diode",
+    "part": "ZD 22",
+    "reason": "Zenerdiode: genaue Typreihe, Gehäuse und belastbare Pinreferenz noch offen."
+  },
+  {
+    "type": "Diode",
+    "part": "ZD 27",
+    "reason": "Zenerdiode: genaue Typreihe, Gehäuse und belastbare Pinreferenz noch offen."
+  },
+  {
+    "type": "Diode",
+    "part": "ZD 3,3",
+    "reason": "Zenerdiode: genaue Typreihe, Gehäuse und belastbare Pinreferenz noch offen."
+  },
+  {
+    "type": "Diode",
+    "part": "ZD 3,9",
+    "reason": "Zenerdiode: genaue Typreihe, Gehäuse und belastbare Pinreferenz noch offen."
+  },
+  {
+    "type": "Diode",
+    "part": "ZD 33",
+    "reason": "Zenerdiode: genaue Typreihe, Gehäuse und belastbare Pinreferenz noch offen."
+  },
+  {
+    "type": "Diode",
+    "part": "ZD 39",
+    "reason": "Zenerdiode: genaue Typreihe, Gehäuse und belastbare Pinreferenz noch offen."
+  },
+  {
+    "type": "Diode",
+    "part": "ZD 47",
+    "reason": "Zenerdiode: genaue Typreihe, Gehäuse und belastbare Pinreferenz noch offen."
+  },
+  {
+    "type": "Diode",
+    "part": "ZD 5,6",
+    "reason": "Zenerdiode: genaue Typreihe, Gehäuse und belastbare Pinreferenz noch offen."
+  },
+  {
+    "type": "Diode",
+    "part": "ZD 51",
+    "reason": "Zenerdiode: genaue Typreihe, Gehäuse und belastbare Pinreferenz noch offen."
+  },
+  {
+    "type": "Diode",
+    "part": "ZD 56",
+    "reason": "Zenerdiode: genaue Typreihe, Gehäuse und belastbare Pinreferenz noch offen."
+  },
+  {
+    "type": "Diode",
+    "part": "ZD 75",
+    "reason": "Zenerdiode: genaue Typreihe, Gehäuse und belastbare Pinreferenz noch offen."
+  },
+  {
+    "type": "Diode",
+    "part": "ZD 8,2",
+    "reason": "Zenerdiode: genaue Typreihe, Gehäuse und belastbare Pinreferenz noch offen."
+  }
+]

@@ -256,7 +256,7 @@
     "manufacturer": "NXP",
     "assignment": "Typreferenz; Hersteller am Bauteil noch zu prüfen",
     "note": "",
-    "quantity": "offen",
+    "quantity": "50",
     "evidence": [
       {
         "pdf": "Transistoren_und_Aehnliche_4.pdf",
@@ -271,7 +271,8 @@
     "url": "https://datasheet4u.com/pdf/128205/BC327.pdf",
     "final_url": "https://datasheet4u.com/pdf/128205/BC327.pdf",
     "sha256": "d33fe4e500b4eb5fafbb92083606420ea1086bad5f07fd435e6ac7cfaf2fcdca",
-    "pages": 19
+    "pages": 19,
+    "inventory_evidence": "Nutzerangabe vom 23.10.2026: weitere 10 Stück, jetzt 50 Stück."
   },
   {
     "part": "BC337",
@@ -282,7 +283,7 @@
     "manufacturer": "onsemi",
     "assignment": "Typreferenz; Hersteller am Bauteil noch zu prüfen",
     "note": "",
-    "quantity": "offen",
+    "quantity": "50",
     "evidence": [
       {
         "pdf": "Transistoren_und_Aehnliche_4.pdf",
@@ -297,7 +298,8 @@
     "url": "https://datasheet4u.com/pdf/128245/BC337.pdf",
     "final_url": "https://datasheet4u.com/pdf/128245/BC337.pdf",
     "sha256": "0deb88fa896ffa69ac32adb1c41b6e435e87dceb347ebdf584635e9180e58a05",
-    "pages": 5
+    "pages": 5,
+    "inventory_evidence": "Nutzerangabe vom 23.10.2026: weitere 10 Stück, jetzt 50 Stück."
   },
   {
     "part": "BC517",
@@ -330,7 +332,7 @@
     "manufacturer": "onsemi",
     "assignment": "Typreferenz; Hersteller am Bauteil noch zu prüfen",
     "note": "Auch BC546B laut Beutelzettel (PDF 7).",
-    "quantity": "offen",
+    "quantity": "10",
     "evidence": [
       {
         "pdf": "Transistoren_und_Aehnliche_7.pdf",
@@ -341,7 +343,8 @@
     "url": "https://datasheet4u.com/pdf/1501989/BC549.pdf",
     "final_url": "https://datasheet4u.com/pdf/1501989/BC549.pdf",
     "sha256": "ef0878baccc13fbaaeb444aba7a3cf147ad242cd391a96492d78eb3c7ddf36e5",
-    "pages": 7
+    "pages": 7,
+    "inventory_evidence": "Nutzerangabe vom 23.10.2026: weitere 10 Stück, jetzt 10 Stück."
   },
   {
     "part": "BC547",
@@ -352,7 +355,7 @@
     "manufacturer": "onsemi",
     "assignment": "Typreferenz; Hersteller am Bauteil noch zu prüfen",
     "note": "Auch BC547C laut Beutelzettel (PDF 7).",
-    "quantity": "offen",
+    "quantity": "70",
     "evidence": [
       {
         "pdf": "Transistoren_und_Aehnliche_4.pdf",
@@ -367,7 +370,8 @@
     "url": "https://datasheet4u.com/pdf/1501989/BC549.pdf",
     "final_url": "https://datasheet4u.com/pdf/1501989/BC549.pdf",
     "sha256": "ef0878baccc13fbaaeb444aba7a3cf147ad242cd391a96492d78eb3c7ddf36e5",
-    "pages": 7
+    "pages": 7,
+    "inventory_evidence": "Nutzerangabe vom 23.10.2026: weitere 50 Stück, jetzt 70 Stück."
   },
   {
     "part": "BC548",
@@ -378,7 +382,7 @@
     "manufacturer": "onsemi",
     "assignment": "Typreferenz; Hersteller am Bauteil noch zu prüfen",
     "note": "Auch BC548B laut Beutelzettel (PDF 7).",
-    "quantity": "offen",
+    "quantity": "10",
     "evidence": [
       {
         "pdf": "Transistoren_und_Aehnliche_4.pdf",
@@ -393,7 +397,8 @@
     "url": "https://datasheet4u.com/pdf/1501989/BC549.pdf",
     "final_url": "https://datasheet4u.com/pdf/1501989/BC549.pdf",
     "sha256": "ef0878baccc13fbaaeb444aba7a3cf147ad242cd391a96492d78eb3c7ddf36e5",
-    "pages": 7
+    "pages": 7,
+    "inventory_evidence": "Nutzerangabe vom 23.10.2026: weitere 10 Stück, jetzt 10 Stück."
   },
   {
     "part": "BC549",
@@ -404,7 +409,7 @@
     "manufacturer": "onsemi",
     "assignment": "Typreferenz; Hersteller am Bauteil noch zu prüfen",
     "note": "",
-    "quantity": "offen",
+    "quantity": "30",
     "evidence": [
       {
         "pdf": "Transistoren_und_Aehnliche_4.pdf",
@@ -415,7 +420,8 @@
     "url": "https://datasheet4u.com/pdf/1501989/BC549.pdf",
     "final_url": "https://datasheet4u.com/pdf/1501989/BC549.pdf",
     "sha256": "ef0878baccc13fbaaeb444aba7a3cf147ad242cd391a96492d78eb3c7ddf36e5",
-    "pages": 7
+    "pages": 7,
+    "inventory_evidence": "Nutzerangabe vom 23.10.2026: weitere 10 Stück, jetzt 30 Stück."
   },
   {
     "part": "BC550",
@@ -426,7 +432,7 @@
     "manufacturer": "onsemi",
     "assignment": "Typreferenz; Hersteller am Bauteil noch zu prüfen",
     "note": "",
-    "quantity": "offen",
+    "quantity": "29",
     "evidence": [
       {
         "pdf": "Transistoren_und_Aehnliche_4.pdf",
@@ -437,7 +443,8 @@
     "url": "https://datasheet4u.com/pdf/1501989/BC549.pdf",
     "final_url": "https://datasheet4u.com/pdf/1501989/BC549.pdf",
     "sha256": "ef0878baccc13fbaaeb444aba7a3cf147ad242cd391a96492d78eb3c7ddf36e5",
-    "pages": 7
+    "pages": 7,
+    "inventory_evidence": "Nutzerangabe vom 23.10.2026: weitere 9 Stück, jetzt 29 Stück."
   },
   {
     "part": "BC556",
@@ -448,7 +455,7 @@
     "manufacturer": "onsemi",
     "assignment": "Typreferenz; Hersteller am Bauteil noch zu prüfen",
     "note": "Auch BC556B laut Beutelzettel (PDF 6); Verstärkungsgruppe am Bauteil prüfen.",
-    "quantity": "offen",
+    "quantity": "30",
     "evidence": [
       {
         "pdf": "Transistoren_und_Aehnliche_4.pdf",
@@ -463,7 +470,8 @@
     "url": "https://datasheet4u.com/pdf/1528121/BC556.pdf",
     "final_url": "https://datasheet4u.com/pdf/1528121/BC556.pdf",
     "sha256": "cac0cf6f1a5d34293e66cb8a7f714740d28add864c235382a1252ddb449e4dbd",
-    "pages": 7
+    "pages": 7,
+    "inventory_evidence": "Nutzerangabe vom 23.10.2026: weitere 10 Stück, jetzt 30 Stück."
   },
   {
     "part": "BC557",
@@ -474,7 +482,7 @@
     "manufacturer": "onsemi",
     "assignment": "Typreferenz; Hersteller am Bauteil noch zu prüfen",
     "note": "Auch BC557B laut Beutelzettel (PDF 6); Verstärkungsgruppe am Bauteil prüfen.",
-    "quantity": "offen",
+    "quantity": "30",
     "evidence": [
       {
         "pdf": "Transistoren_und_Aehnliche_4.pdf",
@@ -489,7 +497,8 @@
     "url": "https://datasheet4u.com/pdf/1528121/BC556.pdf",
     "final_url": "https://datasheet4u.com/pdf/1528121/BC556.pdf",
     "sha256": "cac0cf6f1a5d34293e66cb8a7f714740d28add864c235382a1252ddb449e4dbd",
-    "pages": 7
+    "pages": 7,
+    "inventory_evidence": "Nutzerangabe vom 23.10.2026: weitere 10 Stück, jetzt 30 Stück."
   },
   {
     "part": "BC558",
@@ -500,7 +509,7 @@
     "manufacturer": "onsemi",
     "assignment": "Typreferenz; Hersteller am Bauteil noch zu prüfen",
     "note": "Auch BC558B laut Beutelzettel (PDF 6); Verstärkungsgruppe am Bauteil prüfen.",
-    "quantity": "offen",
+    "quantity": "30",
     "evidence": [
       {
         "pdf": "Transistoren_und_Aehnliche_4.pdf",
@@ -515,7 +524,8 @@
     "url": "https://datasheet4u.com/pdf/1528121/BC556.pdf",
     "final_url": "https://datasheet4u.com/pdf/1528121/BC556.pdf",
     "sha256": "cac0cf6f1a5d34293e66cb8a7f714740d28add864c235382a1252ddb449e4dbd",
-    "pages": 7
+    "pages": 7,
+    "inventory_evidence": "Nutzerangabe vom 23.10.2026: weitere 10 Stück, jetzt 30 Stück."
   },
   {
     "part": "BD139",
@@ -1032,5 +1042,370 @@
     "final_url": "https://datasheet4u.com/pdf/1447774/TIP41C.pdf",
     "sha256": "aa85ae59926516e6c6a32831b248340077a4bfc23b96305f59a2c047278f632d",
     "pages": 13
+  },
+  {
+    "part": "BC556B",
+    "category": "Transistor",
+    "function": "PNP-Kleinsignaltransistor",
+    "package": "TO-92 (Typreferenz)",
+    "pdf": "BC556B_557B_558B_onsemi.pdf",
+    "manufacturer": "onsemi",
+    "assignment": "Typreferenz; Hersteller am Bauteil noch zu prüfen",
+    "note": "UCE max. 65 V; IC max. 100 mA; Ptot 625 mW (TA=25 °C)\nIB=5 mA bei IC=100 mA; UBE(sat) typ. 1 V; B-Verstärkungsgruppe, hFE=180–460 bei IC=2 mA / UCE=5 V (onsemi-Referenz)",
+    "quantity": "20",
+    "evidence": [],
+    "inventory_evidence": "Nutzerangabe vom 23.10.2026: zusätzlich 20 Stück; separat nach vollständiger Bezeichnung erfasst.",
+    "downloaded_on": "2026-10-23",
+    "url": "https://www.onsemi.com/download/data-sheet/pdf/bc556b-d.pdf",
+    "final_url": "https://www.onsemi.com/download/data-sheet/pdf/bc556b-d.pdf",
+    "sha256": "86a06972653fcfbac5d544497b9c1447a5c6e3a1a9bb763d42d49c8349bccdbe",
+    "pages": 9
+  },
+  {
+    "part": "BC557B",
+    "category": "Transistor",
+    "function": "PNP-Kleinsignaltransistor",
+    "package": "TO-92 (Typreferenz)",
+    "pdf": "BC556B_557B_558B_onsemi.pdf",
+    "manufacturer": "onsemi",
+    "assignment": "Typreferenz; Hersteller am Bauteil noch zu prüfen",
+    "note": "UCE max. 45 V; IC max. 100 mA; Ptot 625 mW (TA=25 °C)\nIB=5 mA bei IC=100 mA; UBE(sat) typ. 1 V; B-Verstärkungsgruppe, hFE=180–460 bei IC=2 mA / UCE=5 V (onsemi-Referenz)",
+    "quantity": "20",
+    "evidence": [],
+    "inventory_evidence": "Nutzerangabe vom 23.10.2026: zusätzlich 20 Stück; separat nach vollständiger Bezeichnung erfasst.",
+    "downloaded_on": "2026-10-23",
+    "url": "https://www.onsemi.com/download/data-sheet/pdf/bc556b-d.pdf",
+    "final_url": "https://www.onsemi.com/download/data-sheet/pdf/bc556b-d.pdf",
+    "sha256": "86a06972653fcfbac5d544497b9c1447a5c6e3a1a9bb763d42d49c8349bccdbe",
+    "pages": 9
+  },
+  {
+    "part": "BC558B",
+    "category": "Transistor",
+    "function": "PNP-Kleinsignaltransistor",
+    "package": "TO-92 (Typreferenz)",
+    "pdf": "BC556B_557B_558B_onsemi.pdf",
+    "manufacturer": "onsemi",
+    "assignment": "Typreferenz; Hersteller am Bauteil noch zu prüfen",
+    "note": "UCE max. 30 V; IC max. 100 mA; Ptot 625 mW (TA=25 °C)\nIB=5 mA bei IC=100 mA; UBE(sat) typ. 1 V; B-Verstärkungsgruppe, hFE=180–460 bei IC=2 mA / UCE=5 V (onsemi-Referenz)",
+    "quantity": "20",
+    "evidence": [],
+    "inventory_evidence": "Nutzerangabe vom 23.10.2026: zusätzlich 20 Stück; separat nach vollständiger Bezeichnung erfasst.",
+    "downloaded_on": "2026-10-23",
+    "url": "https://www.onsemi.com/download/data-sheet/pdf/bc556b-d.pdf",
+    "final_url": "https://www.onsemi.com/download/data-sheet/pdf/bc556b-d.pdf",
+    "sha256": "86a06972653fcfbac5d544497b9c1447a5c6e3a1a9bb763d42d49c8349bccdbe",
+    "pages": 9
+  },
+  {
+    "part": "MPS2907A",
+    "category": "Transistor",
+    "function": "PNP-Bipolartransistor",
+    "package": "TO-92 (Typreferenz)",
+    "pdf": "MPS2907A_onsemi.pdf",
+    "manufacturer": "onsemi",
+    "assignment": "Typreferenz; Hersteller am Bauteil noch zu prüfen",
+    "note": "UCE max. 60 V; IC max. 600 mA; Ptot 625 mW (TA=25 °C); 1,5 W (TC=25 °C)\nIB=15 mA bei IC=150 mA; UBE(sat) ≤1,3 V; PNP, Polarität negativ; Anschlussfolge gemäß Datenblatt prüfen",
+    "quantity": "20",
+    "evidence": [],
+    "inventory_evidence": "Nutzerangabe vom 23.10.2026: zusätzlich 20 Stück; separat nach vollständiger Bezeichnung erfasst.",
+    "downloaded_on": "2026-10-23",
+    "url": "https://www.onsemi.com/download/data-sheet/pdf/mps2907a-d.pdf",
+    "final_url": "https://cdn-shop.adafruit.com/product-files/2975/MPS2907A-D.PDF",
+    "sha256": "9574b04621cd33a16dc95640309e563ec74204575e96d6add6ea3079870402fb",
+    "pages": 7
+  },
+  {
+    "part": "BC547C",
+    "category": "Transistor",
+    "function": "NPN-Kleinsignaltransistor",
+    "package": "TO-92",
+    "pdf": "BC546_547_548_549_550_onsemi.pdf",
+    "manufacturer": "onsemi",
+    "assignment": "Typreferenz; Hersteller am Bauteil noch zu prüfen",
+    "note": "UCE max. 45 V; IC max. 100 mA; Ptot 500 mW (TA=25 °C)\nIB=5 mA bei IC=100 mA; UBE(sat) ≤0,9 V; Verstärkungsgruppe C, Familien-Datenblatt als Referenz",
+    "quantity": "20",
+    "evidence": [
+      {
+        "pdf": "Transistoren_und_Aehnliche_4.pdf",
+        "page": 1
+      },
+      {
+        "pdf": "Transistoren_und_Aehnliche_7.pdf",
+        "page": 1
+      }
+    ],
+    "downloaded_on": "2026-10-13",
+    "url": "https://datasheet4u.com/pdf/1501989/BC549.pdf",
+    "final_url": "https://datasheet4u.com/pdf/1501989/BC549.pdf",
+    "sha256": "ef0878baccc13fbaaeb444aba7a3cf147ad242cd391a96492d78eb3c7ddf36e5",
+    "pages": 7,
+    "inventory_evidence": "Nutzerangabe vom 23.10.2026: zusätzlich 20 Stück; getrennt nach vollständiger Bezeichnung erfasst."
+  },
+  {
+    "part": "BC546B",
+    "category": "Transistor",
+    "function": "NPN-Kleinsignaltransistor",
+    "package": "TO-92",
+    "pdf": "BC546_547_548_549_550_onsemi.pdf",
+    "manufacturer": "onsemi",
+    "assignment": "Typreferenz; Hersteller am Bauteil noch zu prüfen",
+    "note": "UCE max. 65 V; IC max. 100 mA; Ptot 500 mW (TA=25 °C)\nIB=5 mA bei IC=100 mA; UBE(sat) ≤0,9 V; Verstärkungsgruppe B, Familien-Datenblatt als Referenz",
+    "quantity": "20",
+    "evidence": [
+      {
+        "pdf": "Transistoren_und_Aehnliche_7.pdf",
+        "page": 1
+      }
+    ],
+    "downloaded_on": "2026-10-13",
+    "url": "https://datasheet4u.com/pdf/1501989/BC549.pdf",
+    "final_url": "https://datasheet4u.com/pdf/1501989/BC549.pdf",
+    "sha256": "ef0878baccc13fbaaeb444aba7a3cf147ad242cd391a96492d78eb3c7ddf36e5",
+    "pages": 7,
+    "inventory_evidence": "Nutzerangabe vom 23.10.2026: zusätzlich 20 Stück; getrennt nach vollständiger Bezeichnung erfasst."
+  },
+  {
+    "part": "BC548B",
+    "category": "Transistor",
+    "function": "NPN-Kleinsignaltransistor",
+    "package": "TO-92",
+    "pdf": "BC546_547_548_549_550_onsemi.pdf",
+    "manufacturer": "onsemi",
+    "assignment": "Typreferenz; Hersteller am Bauteil noch zu prüfen",
+    "note": "UCE max. 30 V; IC max. 100 mA; Ptot 500 mW (TA=25 °C)\nIB=5 mA bei IC=100 mA; UBE(sat) ≤0,9 V; Verstärkungsgruppe B, Familien-Datenblatt als Referenz",
+    "quantity": "20",
+    "evidence": [
+      {
+        "pdf": "Transistoren_und_Aehnliche_4.pdf",
+        "page": 1
+      },
+      {
+        "pdf": "Transistoren_und_Aehnliche_7.pdf",
+        "page": 1
+      }
+    ],
+    "downloaded_on": "2026-10-13",
+    "url": "https://datasheet4u.com/pdf/1501989/BC549.pdf",
+    "final_url": "https://datasheet4u.com/pdf/1501989/BC549.pdf",
+    "sha256": "ef0878baccc13fbaaeb444aba7a3cf147ad242cd391a96492d78eb3c7ddf36e5",
+    "pages": 7,
+    "inventory_evidence": "Nutzerangabe vom 23.10.2026: zusätzlich 20 Stück; getrennt nach vollständiger Bezeichnung erfasst."
+  },
+  {
+    "part": "BDX54C",
+    "category": "Transistor",
+    "function": "PNP-Leistungs-Darlingtontransistor",
+    "package": "TO-220 (Typreferenz)",
+    "pdf": "BDX54C_ST.pdf",
+    "manufacturer": "STMicroelectronics",
+    "assignment": "Typreferenz; Hersteller am Bauteil noch zu prüfen",
+    "note": "UCE max. 100 V; IC max. 8 A; Ptot 60 W (TC=25 °C)\nPNP-Darlington: IB=12 mA bei IC=3 A; UCE(sat) ≤2 V; UBE(sat) ≤2,5 V; integrierte antiparallele C-E-Diode; Pin 1 Basis, 2/Kühlfahne Kollektor, 3 Emitter (ST-Referenz)",
+    "quantity": "20",
+    "evidence": [],
+    "inventory_evidence": "Nutzerangabe vom 23.10.2026: 20 Stück.",
+    "downloaded_on": "2026-10-23",
+    "url": "https://www.st.com/resource/en/datasheet/bdx54c.pdf",
+    "final_url": "https://www.electrokit.com/upload/quick/ff/35/5558_40320053-tds.pdf",
+    "sha256": "d560383e1ef853329a794020faf448aee6dfce3964cf849ae2ada851ab0f80af",
+    "pages": 9
+  },
+  {
+    "part": "BC141",
+    "category": "Transistor",
+    "function": "NPN-Bipolartransistor",
+    "package": "TO-39 (ST-Referenz)",
+    "pdf": "BC141_16_ST_Referenz.pdf",
+    "manufacturer": "STMicroelectronics",
+    "assignment": "Typreferenz; Hersteller und Gehäuse am Bauteil prüfen",
+    "note": "UCE max. 60 V; IC max. 1 A; Ptot 0,65 W (TA=25 °C); 3,7 W (TC=25 °C)\nST-Referenz BC141-16: IB=100 mA bei IC=1 A; UBE(on) ≤1,8 V bei IC=1 A; Verstärkungsgruppe des Bestands offen",
+    "quantity": "9",
+    "evidence": [],
+    "inventory_evidence": "Nutzerangabe vom 23.10.2026: zusätzlich 9 Stück.",
+    "downloaded_on": "2026-10-23",
+    "url": "https://www.st.com/resource/en/datasheet/bc141-16.pdf",
+    "final_url": "https://media.digikey.com/pdf/Data%20Sheets/ST%20Microelectronics%20PDFS/BC141-16.pdf",
+    "sha256": "837eeb661ead6cde56a0942d95ffb1a99bb1b671961c2c6327f9bf994f622d32",
+    "pages": 5
+  },
+  {
+    "part": "BC161",
+    "category": "Transistor",
+    "function": "PNP-Bipolartransistor",
+    "package": "TO-39 (ST-Referenz)",
+    "pdf": "BC161_16_ST_Referenz.pdf",
+    "manufacturer": "STMicroelectronics",
+    "assignment": "Typreferenz; Hersteller und Gehäuse am Bauteil prüfen",
+    "note": "UCE max. 60 V; IC max. 1 A; Ptot 0,65 W (TA=25 °C); 3,7 W (TC=25 °C)\nST-Referenz BC161-16: IB=100 mA bei IC=1 A; UBE(on) ≤1,7 V bei IC=1 A; Verstärkungsgruppe des Bestands offen",
+    "quantity": "10",
+    "evidence": [],
+    "inventory_evidence": "Nutzerangabe vom 23.10.2026: zusätzlich 10 Stück.",
+    "downloaded_on": "2026-10-23",
+    "url": "https://www.st.com/resource/en/datasheet/bc161-16.pdf",
+    "final_url": "https://www.pilianidis.gr/images/sync_products/01-BC161-16/BC161-16.pdf",
+    "sha256": "5ef878213675b3b6c7b196bbced5c1eb564471d3a3444bc6f40deb9e6034feb6",
+    "pages": 5
+  },
+  {
+    "part": "BC559",
+    "category": "Transistor",
+    "function": "PNP-Kleinsignaltransistor, rauscharm",
+    "package": "TO-92 (Typreferenz)",
+    "pdf": "BC556_557_558_onsemi.pdf",
+    "manufacturer": "onsemi",
+    "assignment": "Typreferenz; Hersteller und Gehäuse am Bauteil prüfen",
+    "note": "UCE max. 30 V; IC max. 100 mA; Ptot 500 mW (TA=25 °C)\nIB=5 mA bei IC=100 mA; UBE(sat) ≤0,9 V; Verstärkungsgruppe offen",
+    "quantity": "10",
+    "evidence": [],
+    "inventory_evidence": "Nutzerangabe vom 23.10.2026: zusätzlich 10 Stück.",
+    "downloaded_on": "2026-10-13",
+    "url": "https://datasheet4u.com/pdf/1528121/BC556.pdf",
+    "final_url": "https://datasheet4u.com/pdf/1528121/BC556.pdf",
+    "sha256": "cac0cf6f1a5d34293e66cb8a7f714740d28add864c235382a1252ddb449e4dbd",
+    "pages": 7
+  },
+  {
+    "part": "BC560",
+    "category": "Transistor",
+    "function": "PNP-Kleinsignaltransistor, rauscharm",
+    "package": "TO-92 (Typreferenz)",
+    "pdf": "BC556_557_558_onsemi.pdf",
+    "manufacturer": "onsemi",
+    "assignment": "Typreferenz; Hersteller und Gehäuse am Bauteil prüfen",
+    "note": "UCE max. 45 V; IC max. 100 mA; Ptot 500 mW (TA=25 °C)\nIB=5 mA bei IC=100 mA; UBE(sat) ≤0,9 V; Verstärkungsgruppe offen",
+    "quantity": "10",
+    "evidence": [],
+    "inventory_evidence": "Nutzerangabe vom 23.10.2026: zusätzlich 10 Stück.",
+    "downloaded_on": "2026-10-13",
+    "url": "https://datasheet4u.com/pdf/1528121/BC556.pdf",
+    "final_url": "https://datasheet4u.com/pdf/1528121/BC556.pdf",
+    "sha256": "cac0cf6f1a5d34293e66cb8a7f714740d28add864c235382a1252ddb449e4dbd",
+    "pages": 7
+  },
+  {
+    "part": "BC639",
+    "category": "Transistor",
+    "function": "NPN-Bipolartransistor",
+    "package": "TO-92 (onsemi-Referenz)",
+    "pdf": "BC639_onsemi.pdf",
+    "manufacturer": "onsemi",
+    "assignment": "Typreferenz; Hersteller und Gehäuse am Bauteil prüfen",
+    "note": "UCE max. 80 V; IC max. 1 A; Ptot 625 mW (TA=25 °C)\nIB=50 mA bei IC=500 mA; UBE(on) ≤1 V bei IC=500 mA; onsemi-Referenz, Hersteller am Bauteil prüfen",
+    "quantity": "10",
+    "evidence": [],
+    "inventory_evidence": "Nutzerangabe vom 23.10.2026: zusätzlich 10 Stück.",
+    "downloaded_on": "2026-10-23",
+    "url": "https://www.onsemi.com/pdf/datasheet/bc637-d.pdf",
+    "final_url": "https://www.onsemi.com/pdf/datasheet/bc637-d.pdf",
+    "sha256": "a29225855b80879b92a34c66325397fc33f0b202481d4dcdc0fa3c762ab9903e",
+    "pages": 7
+  },
+  {
+    "part": "BC640",
+    "category": "Transistor",
+    "function": "PNP-Bipolartransistor",
+    "package": "TO-92 (onsemi-Referenz)",
+    "pdf": "BC640_onsemi.pdf",
+    "manufacturer": "onsemi",
+    "assignment": "Typreferenz; Hersteller und Gehäuse am Bauteil prüfen",
+    "note": "UCE max. 80 V; IC max. 1 A; Ptot 1 W (TA=25 °C, Leiterplatte gemäß Datenblatt)\nIB=50 mA bei IC=500 mA; UBE(on) ≤1 V bei IC=500 mA; onsemi/Fairchild-Referenz, andere Hersteller können abweichen",
+    "quantity": "10",
+    "evidence": [],
+    "inventory_evidence": "Nutzerangabe vom 23.10.2026: zusätzlich 10 Stück.",
+    "downloaded_on": "2026-10-23",
+    "url": "https://www.onsemi.com/pdf/datasheet/bc640_fcs-d.pdf",
+    "final_url": "https://www.onsemi.com/pdf/datasheet/bc640_fcs-d.pdf",
+    "sha256": "a975b4ad663d36e84b21f76b5a9f05c17918f4800d29a73b233f0af67900f3e3",
+    "pages": 5
+  },
+  {
+    "part": "BC879",
+    "category": "Transistor",
+    "function": "NPN-Darlington-Transistor",
+    "package": "TO-92 (Siemens-Referenz)",
+    "pdf": "BC879_Siemens.pdf",
+    "manufacturer": "Siemens Semiconductor Group",
+    "assignment": "Typreferenz; Hersteller und Gehäuse am Bauteil prüfen",
+    "note": "UCE max. 80 V; IC max. 1 A; Ptot 0,8 W (TC=90 °C laut Siemens-Referenz; Montagebedingungen beachten)\nDarlington: IB=1 mA bei IC=1 A; UCE(sat) ≤1,8 V; UBE(sat) ≤2,2 V",
+    "quantity": "10",
+    "evidence": [],
+    "inventory_evidence": "Nutzerangabe vom 23.10.2026: zusätzlich 10 Stück.",
+    "downloaded_on": "2026-10-23",
+    "url": "https://datasheet4u.com/pdf/129570/BC879.pdf",
+    "final_url": "https://datasheet4u.com/pdf/129570/BC879.pdf",
+    "sha256": "2fbf8db1c579d353430b2fa9fea35dfccea006d0f5bc755b8ec246586dac8173",
+    "pages": 8
+  },
+  {
+    "part": "BC238B",
+    "category": "Transistor",
+    "function": "NPN-Kleinsignaltransistor",
+    "package": "TO-92 (Motorola-Referenz)",
+    "pdf": "BC238B_Motorola.pdf",
+    "manufacturer": "Motorola",
+    "assignment": "Typreferenz; Hersteller und Gehäuse am Bauteil prüfen",
+    "note": "UCE max. 25 V; IC max. 100 mA; Ptot 350 mW (TA=25 °C); 1 W (TC=25 °C)\nIB=5 mA bei IC=100 mA; UBE(sat) ≤1,05 V; B-Verstärkungsgruppe; Motorola-Referenz",
+    "quantity": "1",
+    "evidence": [],
+    "inventory_evidence": "Nutzerangabe vom 23.10.2026: zusätzlich 1 Stück.",
+    "downloaded_on": "2026-10-23",
+    "url": "https://datasheet4u.com/pdf/493798/BC238B.pdf",
+    "final_url": "https://datasheet4u.com/pdf/493798/BC238B.pdf",
+    "sha256": "bca2213786149db44866f6da6dd086a7e0584af8b741b44318852f8e21095f87",
+    "pages": 4
+  },
+  {
+    "part": "KSP44",
+    "category": "Transistor",
+    "function": "NPN-Hochspannungstransistor",
+    "package": "TO-92 (onsemi-Referenz)",
+    "pdf": "KSP44_onsemi.pdf",
+    "manufacturer": "onsemi",
+    "assignment": "Typreferenz; Hersteller und Gehäuse am Bauteil prüfen",
+    "note": "UCE max. 400 V; IC max. 300 mA; Ptot 625 mW (TA=25 °C); 1,5 W (TC=25 °C)\nIB=1 mA bei IC=10 mA; UBE(sat) ≤0,75 V; onsemi-Referenz",
+    "quantity": "2",
+    "evidence": [],
+    "inventory_evidence": "Nutzerangabe vom 23.10.2026: zusätzlich 2 Stück.",
+    "downloaded_on": "2026-10-23",
+    "url": "https://www.onsemi.com/download/data-sheet/pdf/ksp45-d.pdf",
+    "final_url": "https://www.onsemi.com/download/data-sheet/pdf/ksp45-d.pdf",
+    "sha256": "086363991fbc0e87c36d610eff817298fc5df9510ed61b7a8a57c8cadb59fdea",
+    "pages": 7
+  },
+  {
+    "part": "BD135-10",
+    "category": "Transistor",
+    "function": "NPN-Bipolartransistor",
+    "package": "TO-126 (Typreferenz)",
+    "pdf": "BD139_140_Fairchild.pdf",
+    "manufacturer": "Fairchild Semiconductor",
+    "assignment": "Typreferenz; Hersteller und Gehäuse am Bauteil prüfen",
+    "note": "UCE max. 45 V; IC max. 1,5 A; Ptot 12,5 W (TC=25 °C); 1,25 W (TA=25 °C)\nIB=50 mA bei IC=500 mA; UCE(sat) ≤0,5 V; UBE(on) ≤1 V bei IC=500 mA; Verstärkungsgruppe -10",
+    "quantity": "1",
+    "evidence": [],
+    "inventory_evidence": "Nutzerangabe vom 23.10.2026: zusätzlich 1 Stück.",
+    "downloaded_on": "2026-10-13",
+    "url": "https://datasheet4u.com/pdf/127841/BD139.pdf",
+    "final_url": "https://datasheet4u.com/pdf/127841/BD139.pdf",
+    "sha256": "b80a5a4f8fd28defd50c36fd20dac1917de4d830b5a22ace0cf3863c0eb6a93e",
+    "pages": 5
+  },
+  {
+    "part": "2N2222A",
+    "category": "Transistor",
+    "function": "NPN-Bipolartransistor",
+    "package": "TO-18 (ST-Referenz); tatsächliche Bauform offen",
+    "pdf": "2N2222A_ST.pdf",
+    "manufacturer": "STMicroelectronics",
+    "assignment": "Typreferenz; Hersteller und Gehäuse am Bauteil prüfen",
+    "note": "UCE max. 40 V; IC max. 600 mA; Ptot 0,5 W (TA=25 °C); 1,8 W (TC=25 °C)\nIB=15 mA bei IC=150 mA; UBE(sat) ≤1,2 V; ST-Metallgehäuse-Referenz, nicht mit P2N2222A gleichsetzen",
+    "quantity": "30",
+    "evidence": [],
+    "inventory_evidence": "Nutzerangabe vom 23.10.2026: zusätzlich 30 Stück.",
+    "downloaded_on": "2026-10-23",
+    "url": "https://www.st.com/resource/en/datasheet/2n2222a.pdf",
+    "final_url": "https://ece-classes.usc.edu/ee459/library/datasheets/2N2222A.pdf",
+    "sha256": "187c061d94807f67cec86b6fd738832ddedfc0ae43764716e97e0cbe5ede9469",
+    "pages": 8
   }
 ]

@@ -1,6 +1,8 @@
 # Manuell aus den angegebenen Hersteller-PDFs abgelesene DIP-Pinfolgen.
 # Reihenfolge jeweils Pin 1 bis N, Draufsicht; / kennzeichnet aktiv Low.
 MANUAL={
+ 'SN74ACT86N':('1A 1B 1Y 2A 2B 2Y GND 3Y 3A 3B 4Y 4A 4B VCC','Datenblaetter/SN7xxx/SN74ACT86N_TI.pdf',3),
+ 'SN74LS688N':('/G P0 Q0 P1 Q1 P2 Q2 P3 Q3 GND P4 Q4 P5 Q5 P6 Q6 P7 Q7 /EQ VCC','Datenblaetter/SN7xxx/SN74LS688N_TI.pdf',1),
  'CD74HCT85E':('B3 LT-IN EQ-IN GT-IN GT-OUT EQ-OUT LT-OUT GND B0 A0 B1 A1 A2 B2 A3 VCC','Datenblaetter/SN7xxx/CD74HCT85E_TI.pdf',3),
  'MC1455':('GND TRIG OUT /RESET CTRL THR DISCH VCC','Datenblaetter/Diverse/MC1455_onsemi.pdf',1),
  'UA741CN':('NULL1 IN1- IN1+ V- NULL2 1Y V+ NC','Datenblaetter/Diverse/UA741CN_ST.pdf',1),

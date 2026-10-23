@@ -19834,5 +19834,18 @@
     "candidates": [
       "4521"
     ]
+  },
+  {
+    "part": "SN74LS688N",
+    "key": "SN74LS688N",
+    "function": "8-Bit-Gleichheitskomparator mit aktiv-Low-Freigabe",
+    "category": "SN7xxx",
+    "symbol": null,
+    "library": null,
+    "pins": [],
+    "package": "DIP-20",
+    "candidates": [
+      "74LS688"
+    ]
   }
 ]

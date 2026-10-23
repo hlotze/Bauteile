@@ -9,6 +9,7 @@ ROOT = Path(__file__).resolve().parents[1]
 CATEGORIES = {
     'Bestand: Quarze': ('Quarz', 'Quarze'),
     'Bestand: Dioden': ('Diode', 'Dioden'),
+    'Bestand: Zenerdioden': ('Diode', 'Dioden'),
     'IC-Bestand: SN74xx': ('IC SN7xxx', 'SN7xxx'),
     'IC-Bestand: CD4xxx': ('IC CD4xxx', 'CD4xxx'),
     'IC-Bestand: Diverse': ('IC diverse', 'Diverse'),

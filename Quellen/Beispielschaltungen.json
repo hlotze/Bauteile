@@ -581,6 +581,11 @@
       "url": "Datenblaetter/CD4xxx/MC14538B_onsemi.pdf#page=2",
       "kind": "Nachfolger-/Typreferenz",
       "checked_on": "2026-10-21"
+    },
+    "ls688_function_table": {
+      "url": "Datenblaetter/SN7xxx/SN74LS688N_TI.pdf#page=2",
+      "kind": "Funktionstabelle / Referenz",
+      "checked_on": "2026-10-23"
     }
   },
   "parts": [
@@ -3832,6 +3837,506 @@
         }
       ],
       "note": "Aufdruck MC14521BCP, Hersteller Motorola vom Nutzer bestätigt. onsemi-Datenblatt als Nachfolger-/Typreferenz; vorhandene Motorola-CP-Ausführung ist DIP-16, keine Bestätigung der aktuellen Gehäusevarianten."
+    },
+    {
+      "type": "Transitor",
+      "part": "BC556B",
+      "links": [
+        {
+          "source": "bjt_switch",
+          "label": "PNP-Schalter (Grundschaltung)"
+        }
+      ],
+      "note": "Pinbelegung, Polarität, Strom und Widerstände für den vorhandenen Transistortyp auslegen; Grundschaltungen sind keine unveränderten Ersatztypenempfehlungen."
+    },
+    {
+      "type": "Transitor",
+      "part": "BC557B",
+      "links": [
+        {
+          "source": "bjt_switch",
+          "label": "PNP-Schalter (Grundschaltung)"
+        }
+      ],
+      "note": "Pinbelegung, Polarität, Strom und Widerstände für den vorhandenen Transistortyp auslegen; Grundschaltungen sind keine unveränderten Ersatztypenempfehlungen."
+    },
+    {
+      "type": "Transitor",
+      "part": "BC558B",
+      "links": [
+        {
+          "source": "bjt_switch",
+          "label": "PNP-Schalter (Grundschaltung)"
+        }
+      ],
+      "note": "Pinbelegung, Polarität, Strom und Widerstände für den vorhandenen Transistortyp auslegen; Grundschaltungen sind keine unveränderten Ersatztypenempfehlungen."
+    },
+    {
+      "type": "Transitor",
+      "part": "MPS2907A",
+      "links": [
+        {
+          "source": "bjt_switch",
+          "label": "PNP-Schalter (Grundschaltung)"
+        }
+      ],
+      "note": "Pinbelegung, Polarität, Strom und Widerstände für den vorhandenen Transistortyp auslegen; Grundschaltungen sind keine unveränderten Ersatztypenempfehlungen."
+    },
+    {
+      "type": "Transitor",
+      "part": "BC547C",
+      "links": [
+        {
+          "source": "npn_switch",
+          "label": "NPN-Schalter (Grundschaltung)"
+        },
+        {
+          "source": "emitter",
+          "label": "Emitterschaltung (Grundschaltung)"
+        }
+      ],
+      "note": "Pinbelegung, Polarität, Strom und Widerstände für den vorhandenen Transistortyp auslegen; Grundschaltungen sind keine unveränderten Ersatztypenempfehlungen."
+    },
+    {
+      "type": "Transitor",
+      "part": "BC546B",
+      "links": [
+        {
+          "source": "npn_switch",
+          "label": "NPN-Schalter (Grundschaltung)"
+        },
+        {
+          "source": "emitter",
+          "label": "Emitterschaltung (Grundschaltung)"
+        }
+      ],
+      "note": "Pinbelegung, Polarität, Strom und Widerstände für den vorhandenen Transistortyp auslegen; Grundschaltungen sind keine unveränderten Ersatztypenempfehlungen."
+    },
+    {
+      "type": "Transitor",
+      "part": "BC548B",
+      "links": [
+        {
+          "source": "npn_switch",
+          "label": "NPN-Schalter (Grundschaltung)"
+        },
+        {
+          "source": "emitter",
+          "label": "Emitterschaltung (Grundschaltung)"
+        }
+      ],
+      "note": "Pinbelegung, Polarität, Strom und Widerstände für den vorhandenen Transistortyp auslegen; Grundschaltungen sind keine unveränderten Ersatztypenempfehlungen."
+    },
+    {
+      "type": "Transitor",
+      "part": "BDX54C",
+      "links": [
+        {
+          "source": "bjt_switch",
+          "label": "PNP-Schalter (Grundschaltung)"
+        }
+      ],
+      "note": "Pinbelegung, Polarität, Strom und Widerstände für den vorhandenen Transistortyp auslegen; Grundschaltungen sind keine unveränderten Ersatztypenempfehlungen."
+    },
+    {
+      "type": "MOSFET",
+      "part": "IRFZ44N",
+      "links": [
+        {
+          "source": "mos_switch",
+          "label": "N-Kanal-Lastschalter (Grundschaltung)"
+        }
+      ],
+      "note": "Erforderliche Gate-Spannung aus RDS(on)-Spezifikation bestimmen; IRF540/IRFZ44 nicht als Logic-Level-Typen behandeln. Polarität und Pinout des konkreten MOSFETs berücksichtigen."
+    },
+    {
+      "type": "MOSFET",
+      "part": "IRF510N",
+      "links": [
+        {
+          "source": "mos_switch",
+          "label": "N-Kanal-Lastschalter (Grundschaltung, nur IRF510-Referenz)"
+        }
+      ],
+      "note": "Erforderliche Gate-Spannung aus RDS(on)-Spezifikation bestimmen; IRF540/IRFZ44 nicht als Logic-Level-Typen behandeln. Polarität und Pinout des konkreten MOSFETs berücksichtigen."
+    },
+    {
+      "type": "MOSFET",
+      "part": "IRF520N",
+      "links": [
+        {
+          "source": "mos_switch",
+          "label": "N-Kanal-Lastschalter (Grundschaltung)"
+        }
+      ],
+      "note": "Erforderliche Gate-Spannung aus RDS(on)-Spezifikation bestimmen; IRF540/IRFZ44 nicht als Logic-Level-Typen behandeln. Polarität und Pinout des konkreten MOSFETs berücksichtigen."
+    },
+    {
+      "type": "MOSFET",
+      "part": "IRF530N",
+      "links": [
+        {
+          "source": "mos_switch",
+          "label": "N-Kanal-Lastschalter (Grundschaltung)"
+        }
+      ],
+      "note": "Erforderliche Gate-Spannung aus RDS(on)-Spezifikation bestimmen; IRF540/IRFZ44 nicht als Logic-Level-Typen behandeln. Polarität und Pinout des konkreten MOSFETs berücksichtigen."
+    },
+    {
+      "type": "MOSFET",
+      "part": "IRF540N",
+      "links": [
+        {
+          "source": "mos_switch",
+          "label": "N-Kanal-Lastschalter (Grundschaltung)"
+        }
+      ],
+      "note": "Erforderliche Gate-Spannung aus RDS(on)-Spezifikation bestimmen; IRF540/IRFZ44 nicht als Logic-Level-Typen behandeln. Polarität und Pinout des konkreten MOSFETs berücksichtigen."
+    },
+    {
+      "type": "MOSFET",
+      "part": "IRF640N",
+      "links": [
+        {
+          "source": "mos_switch",
+          "label": "N-Kanal-Lastschalter (Grundschaltung)"
+        }
+      ],
+      "note": "Erforderliche Gate-Spannung aus RDS(on)-Spezifikation bestimmen; IRF540/IRFZ44 nicht als Logic-Level-Typen behandeln. Polarität und Pinout des konkreten MOSFETs berücksichtigen."
+    },
+    {
+      "type": "MOSFET",
+      "part": "IRF740",
+      "links": [
+        {
+          "source": "mos_switch",
+          "label": "N-Kanal-Lastschalter (Grundschaltung)"
+        }
+      ],
+      "note": "Erforderliche Gate-Spannung aus RDS(on)-Spezifikation bestimmen; IRF540/IRFZ44 nicht als Logic-Level-Typen behandeln. Polarität und Pinout des konkreten MOSFETs berücksichtigen."
+    },
+    {
+      "type": "MOSFET",
+      "part": "IRF840",
+      "links": [
+        {
+          "source": "mos_switch",
+          "label": "N-Kanal-Lastschalter (Grundschaltung)"
+        }
+      ],
+      "note": "Erforderliche Gate-Spannung aus RDS(on)-Spezifikation bestimmen; IRF540/IRFZ44 nicht als Logic-Level-Typen behandeln. Polarität und Pinout des konkreten MOSFETs berücksichtigen."
+    },
+    {
+      "type": "MOSFET",
+      "part": "IRF3205",
+      "links": [
+        {
+          "source": "mos_switch",
+          "label": "N-Kanal-Lastschalter (Grundschaltung)"
+        }
+      ],
+      "note": "Erforderliche Gate-Spannung aus RDS(on)-Spezifikation bestimmen; IRF540/IRFZ44 nicht als Logic-Level-Typen behandeln. Polarität und Pinout des konkreten MOSFETs berücksichtigen."
+    },
+    {
+      "type": "MOSFET",
+      "part": "IRF9540N",
+      "links": [
+        {
+          "source": "mos_switch",
+          "label": "P-Kanal-High-Side (Grundschaltung)"
+        }
+      ],
+      "note": "Erforderliche Gate-Spannung aus RDS(on)-Spezifikation bestimmen; IRF540/IRFZ44 nicht als Logic-Level-Typen behandeln. Polarität und Pinout des konkreten MOSFETs berücksichtigen."
+    },
+    {
+      "type": "MOSFET",
+      "part": "IRF9530PBF",
+      "links": [
+        {
+          "source": "mos_switch",
+          "label": "P-Kanal-High-Side (Grundschaltung)"
+        }
+      ],
+      "note": "Erforderliche Gate-Spannung aus RDS(on)-Spezifikation bestimmen; IRF540/IRFZ44 nicht als Logic-Level-Typen behandeln. Polarität und Pinout des konkreten MOSFETs berücksichtigen."
+    },
+    {
+      "type": "MOSFET",
+      "part": "IRF520NPBF",
+      "links": [
+        {
+          "source": "mos_switch",
+          "label": "N-Kanal-Lastschalter (Grundschaltung)"
+        }
+      ],
+      "note": "Erforderliche Gate-Spannung aus RDS(on)-Spezifikation bestimmen; IRF540/IRFZ44 nicht als Logic-Level-Typen behandeln. Polarität und Pinout des konkreten MOSFETs berücksichtigen."
+    },
+    {
+      "type": "IC SN7xxx",
+      "part": "SN74LS688N",
+      "links": [
+        {
+          "source": "ls688_function_table",
+          "label": "Freigabe / Gleichheitsvergleich (Funktionstabelle, TI)"
+        }
+      ],
+      "note": "TI-Funktionstabelle als Referenz, keine Anwendungsschaltung. /G=0 aktiviert, /EQ=0 bedeutet P=Q; Push-Pull-Ausgang."
+    },
+    {
+      "type": "Diode",
+      "part": "ZD 2,7",
+      "links": [],
+      "empty_label": "Noch offen: genaue Typreihe und passende Referenzschaltung",
+      "note": "Zenerfunktion und Nennspannung laut Nutzerangabe bekannt; Typreihe, Hersteller, Gehäuse und passende Referenzschaltung noch nicht bestätigt."
+    },
+    {
+      "type": "Diode",
+      "part": "ZD 3,3",
+      "links": [],
+      "empty_label": "Noch offen: genaue Typreihe und passende Referenzschaltung",
+      "note": "Zenerfunktion und Nennspannung laut Nutzerangabe bekannt; Typreihe, Hersteller, Gehäuse und passende Referenzschaltung noch nicht bestätigt."
+    },
+    {
+      "type": "Diode",
+      "part": "ZD 3,9",
+      "links": [],
+      "empty_label": "Noch offen: genaue Typreihe und passende Referenzschaltung",
+      "note": "Zenerfunktion und Nennspannung laut Nutzerangabe bekannt; Typreihe, Hersteller, Gehäuse und passende Referenzschaltung noch nicht bestätigt."
+    },
+    {
+      "type": "Diode",
+      "part": "ZD 5,6",
+      "links": [],
+      "empty_label": "Noch offen: genaue Typreihe und passende Referenzschaltung",
+      "note": "Zenerfunktion und Nennspannung laut Nutzerangabe bekannt; Typreihe, Hersteller, Gehäuse und passende Referenzschaltung noch nicht bestätigt."
+    },
+    {
+      "type": "Diode",
+      "part": "ZD 8,2",
+      "links": [],
+      "empty_label": "Noch offen: genaue Typreihe und passende Referenzschaltung",
+      "note": "Zenerfunktion und Nennspannung laut Nutzerangabe bekannt; Typreihe, Hersteller, Gehäuse und passende Referenzschaltung noch nicht bestätigt."
+    },
+    {
+      "type": "Diode",
+      "part": "ZD 10",
+      "links": [],
+      "empty_label": "Noch offen: genaue Typreihe und passende Referenzschaltung",
+      "note": "Zenerfunktion und Nennspannung laut Nutzerangabe bekannt; Typreihe, Hersteller, Gehäuse und passende Referenzschaltung noch nicht bestätigt."
+    },
+    {
+      "type": "Diode",
+      "part": "ZD 12",
+      "links": [],
+      "empty_label": "Noch offen: genaue Typreihe und passende Referenzschaltung",
+      "note": "Zenerfunktion und Nennspannung laut Nutzerangabe bekannt; Typreihe, Hersteller, Gehäuse und passende Referenzschaltung noch nicht bestätigt."
+    },
+    {
+      "type": "Diode",
+      "part": "ZD 18",
+      "links": [],
+      "empty_label": "Noch offen: genaue Typreihe und passende Referenzschaltung",
+      "note": "Zenerfunktion und Nennspannung laut Nutzerangabe bekannt; Typreihe, Hersteller, Gehäuse und passende Referenzschaltung noch nicht bestätigt."
+    },
+    {
+      "type": "Diode",
+      "part": "ZD 22",
+      "links": [],
+      "empty_label": "Noch offen: genaue Typreihe und passende Referenzschaltung",
+      "note": "Zenerfunktion und Nennspannung laut Nutzerangabe bekannt; Typreihe, Hersteller, Gehäuse und passende Referenzschaltung noch nicht bestätigt."
+    },
+    {
+      "type": "Diode",
+      "part": "ZD 27",
+      "links": [],
+      "empty_label": "Noch offen: genaue Typreihe und passende Referenzschaltung",
+      "note": "Zenerfunktion und Nennspannung laut Nutzerangabe bekannt; Typreihe, Hersteller, Gehäuse und passende Referenzschaltung noch nicht bestätigt."
+    },
+    {
+      "type": "Diode",
+      "part": "ZD 33",
+      "links": [],
+      "empty_label": "Noch offen: genaue Typreihe und passende Referenzschaltung",
+      "note": "Zenerfunktion und Nennspannung laut Nutzerangabe bekannt; Typreihe, Hersteller, Gehäuse und passende Referenzschaltung noch nicht bestätigt."
+    },
+    {
+      "type": "Diode",
+      "part": "ZD 39",
+      "links": [],
+      "empty_label": "Noch offen: genaue Typreihe und passende Referenzschaltung",
+      "note": "Zenerfunktion und Nennspannung laut Nutzerangabe bekannt; Typreihe, Hersteller, Gehäuse und passende Referenzschaltung noch nicht bestätigt."
+    },
+    {
+      "type": "Diode",
+      "part": "ZD 47",
+      "links": [],
+      "empty_label": "Noch offen: genaue Typreihe und passende Referenzschaltung",
+      "note": "Zenerfunktion und Nennspannung laut Nutzerangabe bekannt; Typreihe, Hersteller, Gehäuse und passende Referenzschaltung noch nicht bestätigt."
+    },
+    {
+      "type": "Diode",
+      "part": "ZD 51",
+      "links": [],
+      "empty_label": "Noch offen: genaue Typreihe und passende Referenzschaltung",
+      "note": "Zenerfunktion und Nennspannung laut Nutzerangabe bekannt; Typreihe, Hersteller, Gehäuse und passende Referenzschaltung noch nicht bestätigt."
+    },
+    {
+      "type": "Diode",
+      "part": "ZD 56",
+      "links": [],
+      "empty_label": "Noch offen: genaue Typreihe und passende Referenzschaltung",
+      "note": "Zenerfunktion und Nennspannung laut Nutzerangabe bekannt; Typreihe, Hersteller, Gehäuse und passende Referenzschaltung noch nicht bestätigt."
+    },
+    {
+      "type": "Diode",
+      "part": "ZD 75",
+      "links": [],
+      "empty_label": "Noch offen: genaue Typreihe und passende Referenzschaltung",
+      "note": "Zenerfunktion und Nennspannung laut Nutzerangabe bekannt; Typreihe, Hersteller, Gehäuse und passende Referenzschaltung noch nicht bestätigt."
+    },
+    {
+      "type": "Transitor",
+      "part": "BC141",
+      "links": [
+        {
+          "source": "npn_switch",
+          "label": "NPN-Schalter (Grundschaltung)"
+        },
+        {
+          "source": "emitter",
+          "label": "Emitterschaltung (Grundschaltung)"
+        }
+      ],
+      "note": "Pinbelegung, Polarität, Strom und Widerstände für den vorhandenen Transistortyp auslegen; Grundschaltungen sind keine unveränderten Ersatztypenempfehlungen."
+    },
+    {
+      "type": "Transitor",
+      "part": "BC161",
+      "links": [
+        {
+          "source": "bjt_switch",
+          "label": "PNP-Schalter (Grundschaltung)"
+        }
+      ],
+      "note": "Pinbelegung, Polarität, Strom und Widerstände für den vorhandenen Transistortyp auslegen; Grundschaltungen sind keine unveränderten Ersatztypenempfehlungen."
+    },
+    {
+      "type": "Transitor",
+      "part": "BC559",
+      "links": [
+        {
+          "source": "bjt_switch",
+          "label": "PNP-Schalter (Grundschaltung)"
+        }
+      ],
+      "note": "Pinbelegung, Polarität, Strom und Widerstände für den vorhandenen Transistortyp auslegen; Grundschaltungen sind keine unveränderten Ersatztypenempfehlungen."
+    },
+    {
+      "type": "Transitor",
+      "part": "BC560",
+      "links": [
+        {
+          "source": "bjt_switch",
+          "label": "PNP-Schalter (Grundschaltung)"
+        }
+      ],
+      "note": "Pinbelegung, Polarität, Strom und Widerstände für den vorhandenen Transistortyp auslegen; Grundschaltungen sind keine unveränderten Ersatztypenempfehlungen."
+    },
+    {
+      "type": "Transitor",
+      "part": "BC639",
+      "links": [
+        {
+          "source": "npn_switch",
+          "label": "NPN-Schalter (Grundschaltung)"
+        },
+        {
+          "source": "emitter",
+          "label": "Emitterschaltung (Grundschaltung)"
+        }
+      ],
+      "note": "Pinbelegung, Polarität, Strom und Widerstände für den vorhandenen Transistortyp auslegen; Grundschaltungen sind keine unveränderten Ersatztypenempfehlungen."
+    },
+    {
+      "type": "Transitor",
+      "part": "BC640",
+      "links": [
+        {
+          "source": "bjt_switch",
+          "label": "PNP-Schalter (Grundschaltung)"
+        }
+      ],
+      "note": "Pinbelegung, Polarität, Strom und Widerstände für den vorhandenen Transistortyp auslegen; Grundschaltungen sind keine unveränderten Ersatztypenempfehlungen."
+    },
+    {
+      "type": "Transitor",
+      "part": "BC879",
+      "links": [
+        {
+          "source": "bjt_switch",
+          "label": "Darlington-Schalter (Grundschaltung)"
+        }
+      ],
+      "note": "Pinbelegung, Polarität, Strom und Widerstände für den vorhandenen Transistortyp auslegen; Grundschaltungen sind keine unveränderten Ersatztypenempfehlungen."
+    },
+    {
+      "type": "Transitor",
+      "part": "BC238B",
+      "links": [
+        {
+          "source": "npn_switch",
+          "label": "NPN-Schalter (Grundschaltung)"
+        },
+        {
+          "source": "emitter",
+          "label": "Emitterschaltung (Grundschaltung)"
+        }
+      ],
+      "note": "Pinbelegung, Polarität, Strom und Widerstände für den vorhandenen Transistortyp auslegen; Grundschaltungen sind keine unveränderten Ersatztypenempfehlungen."
+    },
+    {
+      "type": "Transitor",
+      "part": "KSP44",
+      "links": [
+        {
+          "source": "npn_switch",
+          "label": "NPN-Schalter (Grundschaltung)"
+        },
+        {
+          "source": "emitter",
+          "label": "Emitterschaltung (Grundschaltung)"
+        }
+      ],
+      "note": "Pinbelegung, Polarität, Strom und Widerstände für den vorhandenen Transistortyp auslegen; Grundschaltungen sind keine unveränderten Ersatztypenempfehlungen."
+    },
+    {
+      "type": "Transitor",
+      "part": "BD135-10",
+      "links": [
+        {
+          "source": "npn_switch",
+          "label": "NPN-Schalter (Grundschaltung)"
+        },
+        {
+          "source": "emitter",
+          "label": "Emitterschaltung (Grundschaltung)"
+        }
+      ],
+      "note": "Pinbelegung, Polarität, Strom und Widerstände für den vorhandenen Transistortyp auslegen; Grundschaltungen sind keine unveränderten Ersatztypenempfehlungen."
+    },
+    {
+      "type": "Transitor",
+      "part": "2N2222A",
+      "links": [
+        {
+          "source": "npn_switch",
+          "label": "NPN-Schalter (Grundschaltung)"
+        },
+        {
+          "source": "emitter",
+          "label": "Emitterschaltung (Grundschaltung)"
+        }
+      ],
+      "note": "Pinbelegung, Polarität, Strom und Widerstände für den vorhandenen Transistortyp auslegen; Grundschaltungen sind keine unveränderten Ersatztypenempfehlungen."
     }
   ]
 }

@@ -13,6 +13,7 @@ from cd_cards import GREEN, BLUE, BLACK, MM
 BASE=Path(__file__).parent/'sn_logikvorlagen'
 SOURCES=json.loads((BASE/'quellen.json').read_text())
 NAMES={
+ 688:'8-Bit-Gleichheitskomparator',
  85:'4-Bit-Größenkomparator',
  595:'8-Bit-Schieberegister / Speicher',
  0:'4 NAND, je 2 Eingänge',2:'4 NOR, je 2 Eingänge',4:'6 Inverter',5:'6 Inverter, OC',
@@ -54,6 +55,7 @@ class SNCard(DiverseCard):
   self.num=int(re.search(r'74(?:LS|ACT|HCT|HC)?(\d+)',r['key'])[1])
   self.pins={p['number']:dict(p) for p in r['pins']}
   for p in self.pins.values():
+   if self.num==688:p['role']='output' if p['number']==19 else 'power_in' if p['number'] in (10,20) else 'input'
    if self.num==85 and p['number'] in (5,6,7):p['role']='output'
    if self.num==595 and p['name'].startswith('Q'):p['role']='output' if p['number']==9 else 'tri_state'
    if p['role']=='passive' and (re.fullmatch(r'/?(?:Y\d*|Q\d+|\dX)',p['name'])):p['role']='output'
@@ -275,6 +277,17 @@ class SNCard(DiverseCard):
    }.get(num,[NAMES[num]])
    for i,line in enumerate(caption):self.text(22.5,18+i*4,line,6.6,BLACK,'middle',i==0,width=17)
 
+ def equality_comparator(self):
+  # TI SDLS008: /G is pin 1, the active-low equality output is pin 19.
+  # Unlike the LS682/684/685/686/687, the LS688 has no P>Q output.
+  self.functional_ports()
+  self.text(22.5,12,'8-BIT-VERGLEICH',5.8,BLACK,'middle',True,width=17)
+  self.text(22.5,18,'P[7:0] = Q[7:0]',5.6,BLACK,'middle',width=17)
+  self.text(22.5,24,'/G=0: freigegeben',5,BLACK,'middle',width=17)
+  self.text(22.5,30,'/EQ=0: gleich',5.5,BLUE,'middle',width=17)
+  self.text(22.5,36,'/G=1: /EQ=1',5.2,BLACK,'middle',width=17)
+  self.text(22.5,42,'Push-Pull-Ausgang',4.9,BLUE,'middle',width=17)
+
  def draw(self):
   self.rect(.25,.25,44.5,54.5,colors.white,GREEN,.3);self.heading(3.15,8.2)
   f=self.r['function'];num=self.num;gate=None
@@ -285,6 +298,7 @@ class SNCard(DiverseCard):
   elif num in (4,5,6,7,14,16):self.primitive_buffers();layout='verdrahtete Puffer/Inverter'
   elif num in (240,244,245,541,640,641):self.buses();layout='verdrahtete Bus-/Treiberkanäle'
   elif num in (73,74,76,107,109,112):self.flipflops();layout='Flipflops mit DIP-Pinzuordnung'
+  elif num==688:self.equality_comparator();layout='8-Bit-Gleichheitsvergleich mit aktiv-Low-Freigabe und Push-Pull-Ausgang'
   elif self.r['key'] in SOURCES:self.embedded();layout='eingebettetes Hersteller-Logikbild mit Signalanschlüssen'
   else:self.functional_block();layout='Funktionsblöcke mit Signalanschlüssen'
   self.labels()
@@ -292,7 +306,7 @@ class SNCard(DiverseCard):
   if self.n==20:
    self.text(22.5,47.4,'Ref: '+self.r['reference'],4,BLACK,'middle',width=14)
    self.text(22.5,50,self.r['key'],5.2,GREEN,'middle',True,width=14)
-   compact={240:'8 Inverter / 3-State',244:'8 Puffer / 3-State',245:'8-Bit-Bustransceiver',273:'8 D-FF / CLR',373:'8-Bit-Latch',374:'8 D-FF / 3-State',541:'8 Puffer / 3-State',576:'8 D-FF / Q inv.',640:'8-Bit-Bus / inv.',641:'8-Bit-Bus / OC'}[num]
+   compact={240:'8 Inverter / 3-State',244:'8 Puffer / 3-State',245:'8-Bit-Bustransceiver',273:'8 D-FF / CLR',373:'8-Bit-Latch',374:'8 D-FF / 3-State',541:'8 Puffer / 3-State',576:'8 D-FF / Q inv.',640:'8-Bit-Bus / inv.',641:'8-Bit-Bus / OC',688:'8-Bit-Gleichheitsvergleich'}[num]
    self.text(22.5,52,compact,4.6,BLACK,'middle',width=14)
    self.text(22.5,54.1,'20 Pins | Draufsicht',4,BLACK,'middle',width=14)
   else:

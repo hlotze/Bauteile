@@ -85,7 +85,11 @@ Die Dateinamen beziehen sich auf die Bezeichnungen der eingesandten Übersicht. 
 | Typ | Lokales PDF | Hersteller / Referenz | Originalquelle | Karte |
 | --- | --- | --- | --- | --- |
 | SN74HC595 | [PDF](SN74HC595_TI.pdf) | Texas Instruments; SCLS041J; DIP-16: SN74HC595N | [TI](https://www.ti.com/lit/ds/symlink/sn74hc595.pdf) | [Bild](../../images/SN7xxx/SN74HC595_karte_45x55mm.png) / [PDF](../../images/SN7xxx/SN74HC595_karte_45x55mm.pdf) / [SVG](../../images/SN7xxx/SN74HC595_karte_45x55mm.svg) |
+| SN74ACT86N | [PDF](SN74ACT86N_TI.pdf) | TI; SN74ACT86 | [Quelle](https://www.ti.com/lit/ds/symlink/sn74act86.pdf) | [Bild](../../images/SN7xxx/SN74ACT86N_karte_45x55mm.png) / [PDF](../../images/SN7xxx/SN74ACT86N_karte_45x55mm.pdf) / [SVG](../../images/SN7xxx/SN74ACT86N_karte_45x55mm.svg) |
+| SN74LS688N | [PDF](SN74LS688N_TI.pdf) | TI; SN74LS688 | [Quelle](https://www.ti.com/lit/ds/symlink/sn74ls688.pdf) | [Bild](../../images/SN7xxx/SN74LS688N_karte_45x55mm.png) / [PDF](../../images/SN7xxx/SN74LS688N_karte_45x55mm.pdf) / [SVG](../../images/SN7xxx/SN74LS688N_karte_45x55mm.svg) |
 
-**CD74HCT85E: 1 Stück, Texas Instruments.** Korrigierte Typnummer; 4-Bit-Größenkomparator, DIP-16. [TI-Datenblatt](CD74HCT85E_TI.pdf), [Originalquelle](https://www.ti.com/lit/ds/symlink/cd74hct85.pdf), [Karte](../../images/SN7xxx/CD74HCT85E_karte_45x55mm.pdf).
+**CD74HCT85E: 10 Stück, Texas Instruments.** Korrigierte Typnummer; 4-Bit-Größenkomparator, DIP-16. [TI-Datenblatt](CD74HCT85E_TI.pdf), [Originalquelle](https://www.ti.com/lit/ds/symlink/cd74hct85.pdf), [Karte](../../images/SN7xxx/CD74HCT85E_karte_45x55mm.pdf).
 
 - **PC74HCT08P:** Aufdruck PC74HCT08P; HCT-Ausführung mit TTL-kompatiblen Eingängen, Versorgung 4,5–5,5 V. TI SN74HCT08 als Fremdhersteller-/Pinreferenz; exakte historische PC-Ausführung dadurch nicht bestätigt.
+
+Ergänzung vom 23.10.2026: SN74ACT86N nun 8 Stück; CD74HCT85E durch 9 weitere Exemplare nun 10 Stück; SN74LS688N neu mit 5 Stück. Der LS688 vergleicht zwei 8-Bit-Wörter auf Gleichheit; /G (Pin 1) ist aktiv Low, /EQ (Pin 19) ist ein aktiv-Low-Push-Pull-Ausgang.

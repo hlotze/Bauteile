@@ -37,7 +37,7 @@ def main():
             if '|' in label or '\n' in label or ')' in url:
                 raise ValueError(f'Nicht unterstütztes Linkformat: {link}')
             links.append(f'[{label}]({url})')
-        examples[key] = '<br>'.join(links) or 'Noch offen: Funktion ungeklärt'
+        examples[key] = '<br>'.join(links) or part.get('empty_label', 'Noch offen: Funktion ungeklärt')
 
     path = ROOT / 'Bauteile.md'
     lines = path.read_text().splitlines()

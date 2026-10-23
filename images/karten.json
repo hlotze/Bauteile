@@ -5811,114 +5811,86 @@
       {
         "number": 1,
         "name": "1A",
-        "role": "input",
-        "shape": "line",
-        "unit": "74LS86_1_0",
-        "unnamed": true
+        "role": "passive",
+        "unit": "manual"
       },
       {
         "number": 2,
         "name": "1B",
-        "role": "input",
-        "shape": "line",
-        "unit": "74LS86_1_0",
-        "unnamed": true
+        "role": "passive",
+        "unit": "manual"
       },
       {
         "number": 3,
         "name": "1Y",
-        "role": "output",
-        "shape": "line",
-        "unit": "74LS86_1_0",
-        "unnamed": true
+        "role": "passive",
+        "unit": "manual"
       },
       {
         "number": 4,
         "name": "2A",
-        "role": "input",
-        "shape": "line",
-        "unit": "74LS86_2_0",
-        "unnamed": true
+        "role": "passive",
+        "unit": "manual"
       },
       {
         "number": 5,
         "name": "2B",
-        "role": "input",
-        "shape": "line",
-        "unit": "74LS86_2_0",
-        "unnamed": true
+        "role": "passive",
+        "unit": "manual"
       },
       {
         "number": 6,
         "name": "2Y",
-        "role": "output",
-        "shape": "line",
-        "unit": "74LS86_2_0",
-        "unnamed": true
+        "role": "passive",
+        "unit": "manual"
       },
       {
         "number": 7,
         "name": "GND",
-        "role": "power_in",
-        "shape": "line",
-        "unit": "74LS86_5_0",
-        "unnamed": false
+        "role": "passive",
+        "unit": "manual"
       },
       {
         "number": 8,
         "name": "3Y",
-        "role": "output",
-        "shape": "line",
-        "unit": "74LS86_3_0",
-        "unnamed": true
+        "role": "passive",
+        "unit": "manual"
       },
       {
         "number": 9,
         "name": "3A",
-        "role": "input",
-        "shape": "line",
-        "unit": "74LS86_3_0",
-        "unnamed": true
+        "role": "passive",
+        "unit": "manual"
       },
       {
         "number": 10,
         "name": "3B",
-        "role": "input",
-        "shape": "line",
-        "unit": "74LS86_3_0",
-        "unnamed": true
+        "role": "passive",
+        "unit": "manual"
       },
       {
         "number": 11,
         "name": "4Y",
-        "role": "output",
-        "shape": "line",
-        "unit": "74LS86_4_0",
-        "unnamed": true
+        "role": "passive",
+        "unit": "manual"
       },
       {
         "number": 12,
         "name": "4A",
-        "role": "input",
-        "shape": "line",
-        "unit": "74LS86_4_0",
-        "unnamed": true
+        "role": "passive",
+        "unit": "manual"
       },
       {
         "number": 13,
         "name": "4B",
-        "role": "input",
-        "shape": "line",
-        "unit": "74LS86_4_0",
-        "unnamed": true
+        "role": "passive",
+        "unit": "manual"
       },
       {
         "number": 14,
         "name": "VCC",
-        "role": "power_in",
-        "shape": "line",
-        "unit": "74LS86_5_0",
-        "unnamed": false
+        "role": "passive",
+        "unit": "manual"
       }
     ],
     "package": "DIP-14",
@@ -5928,11 +5900,11 @@
       "74ACT86B",
       "74LS86"
     ],
-    "reference": "74LS86",
+    "reference": "SN74ACT86N",
     "sources": [
       {
-        "file": "scripts/kaertchen/74xx.kicad_sym",
-        "symbol": "74LS86"
+        "file": "Datenblaetter/SN7xxx/SN74ACT86N_TI.pdf",
+        "page": 3
       }
     ],
     "status": "Referenzkarte",
@@ -5975,7 +5947,7 @@
       "13": "4B",
       "14": "VCC"
     },
-    "sha256_svg": "a972795ece7a604738d3db56911815b626236bcccdabcf6d4eace1cba0a12c64"
+    "sha256_svg": "042a8d342344b11ed3ceff0b033a50617aca84981daf9c7e87c43046ed8afa2d"
   },
   {
     "part": "SN74LS86N",
@@ -31774,5 +31746,199 @@
       "16": "VDD"
     },
     "sha256_svg": "6cc0cf8c56f090b0ccdff7e0e96d0d9dbee4dba6d1d01721a2631639bf32a08f"
+  },
+  {
+    "part": "SN74LS688N",
+    "key": "SN74LS688N",
+    "function": "8-Bit-Gleichheitskomparator mit aktiv-Low-Freigabe",
+    "category": "SN7xxx",
+    "symbol": null,
+    "library": null,
+    "pins": [
+      {
+        "number": 1,
+        "name": "/G",
+        "role": "passive",
+        "unit": "manual"
+      },
+      {
+        "number": 2,
+        "name": "P0",
+        "role": "passive",
+        "unit": "manual"
+      },
+      {
+        "number": 3,
+        "name": "Q0",
+        "role": "passive",
+        "unit": "manual"
+      },
+      {
+        "number": 4,
+        "name": "P1",
+        "role": "passive",
+        "unit": "manual"
+      },
+      {
+        "number": 5,
+        "name": "Q1",
+        "role": "passive",
+        "unit": "manual"
+      },
+      {
+        "number": 6,
+        "name": "P2",
+        "role": "passive",
+        "unit": "manual"
+      },
+      {
+        "number": 7,
+        "name": "Q2",
+        "role": "passive",
+        "unit": "manual"
+      },
+      {
+        "number": 8,
+        "name": "P3",
+        "role": "passive",
+        "unit": "manual"
+      },
+      {
+        "number": 9,
+        "name": "Q3",
+        "role": "passive",
+        "unit": "manual"
+      },
+      {
+        "number": 10,
+        "name": "GND",
+        "role": "passive",
+        "unit": "manual"
+      },
+      {
+        "number": 11,
+        "name": "P4",
+        "role": "passive",
+        "unit": "manual"
+      },
+      {
+        "number": 12,
+        "name": "Q4",
+        "role": "passive",
+        "unit": "manual"
+      },
+      {
+        "number": 13,
+        "name": "P5",
+        "role": "passive",
+        "unit": "manual"
+      },
+      {
+        "number": 14,
+        "name": "Q5",
+        "role": "passive",
+        "unit": "manual"
+      },
+      {
+        "number": 15,
+        "name": "P6",
+        "role": "passive",
+        "unit": "manual"
+      },
+      {
+        "number": 16,
+        "name": "Q6",
+        "role": "passive",
+        "unit": "manual"
+      },
+      {
+        "number": 17,
+        "name": "P7",
+        "role": "passive",
+        "unit": "manual"
+      },
+      {
+        "number": 18,
+        "name": "Q7",
+        "role": "passive",
+        "unit": "manual"
+      },
+      {
+        "number": 19,
+        "name": "/EQ",
+        "role": "passive",
+        "unit": "manual"
+      },
+      {
+        "number": 20,
+        "name": "VCC",
+        "role": "passive",
+        "unit": "manual"
+      }
+    ],
+    "package": "DIP-20",
+    "candidates": [
+      "74LS688"
+    ],
+    "reference": "SN74LS688N",
+    "sources": [
+      {
+        "file": "Datenblaetter/SN7xxx/SN74LS688N_TI.pdf",
+        "page": 1
+      }
+    ],
+    "status": "Referenzkarte",
+    "pin_count": 20,
+    "pitch_mm": 5.08,
+    "svg": "images/SN7xxx/SN74LS688N_karte_45x55mm.svg",
+    "pdf": "images/SN7xxx/SN74LS688N_karte_45x55mm.pdf",
+    "first_pin_y_mm": 6.4,
+    "png": "images/SN7xxx/SN74LS688N_karte_45x55mm.png",
+    "card_layout": "SN7xxx im gemeinsamen Kartenstil",
+    "diagram_layout": "8-Bit-Gleichheitsvergleich mit aktiv-Low-Freigabe und Push-Pull-Ausgang",
+    "card_function_title": "8-Bit-Gleichheitskomparator",
+    "wired_pin_numbers": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19
+    ],
+    "card_pin_labels": {
+      "1": "/G",
+      "2": "P0",
+      "3": "Q0",
+      "4": "P1",
+      "5": "Q1",
+      "6": "P2",
+      "7": "Q2",
+      "8": "P3",
+      "9": "Q3",
+      "10": "GND",
+      "11": "P4",
+      "12": "Q4",
+      "13": "P5",
+      "14": "Q5",
+      "15": "P6",
+      "16": "Q6",
+      "17": "P7",
+      "18": "Q7",
+      "19": "/EQ",
+      "20": "VCC"
+    },
+    "sha256_svg": "c7518127d5523c8b8434b94b562e361dc69c1337531d396fab298e11fc9f6a10"
   }
 ]

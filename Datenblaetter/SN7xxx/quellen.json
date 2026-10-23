@@ -751,14 +751,15 @@
     "pdf": "CD74HCT85E_TI.pdf",
     "manufacturer": "Texas Instruments",
     "assignment": "Herstellerdatenblatt",
-    "quantity": "1",
+    "quantity": "10",
     "note": "Texas Instruments; Typnummer vom Nutzer auf CD74HCT85E korrigiert; HCT-Logik; für Einzelbetrieb LT-IN=0, EQ-IN=1, GT-IN=0",
-    "checked_on": "2026-10-21",
+    "checked_on": "2026-10-23",
     "pins": 16,
     "function": "4-Bit-Größenkomparator mit Kaskadierung",
     "downloaded_on": "2026-10-21",
     "url": "https://www.ti.com/lit/ds/symlink/cd74hct85.pdf",
-    "sha256": "1a8b9d560ba6e590b53911c1a73938a96250a576fa2aebdec971a3cfc7807e09"
+    "sha256": "1a8b9d560ba6e590b53911c1a73938a96250a576fa2aebdec971a3cfc7807e09",
+    "inventory_evidence": "Nutzerangabe vom 23.10.2026: 9 zusätzlich gefunden; vorher 1 Stück, jetzt 10 Stück."
   },
   {
     "number": "08",
@@ -773,5 +774,41 @@
     "downloaded_on": "2026-10-21",
     "source_part": "SN74HCT08",
     "sha256": "3adc75237d6fc34eb152334eb89ac18b329d102631912fe4d76b73a34ae6b772"
+  },
+  {
+    "part": "SN74ACT86N",
+    "pins": 14,
+    "function": "4 XOR-Gatter mit je 2 Eingängen",
+    "pdf": "SN74ACT86N_TI.pdf",
+    "url": "https://www.ti.com/lit/ds/symlink/sn74act86.pdf",
+    "source_part": "SN74ACT86",
+    "manufacturer": "Texas Instruments",
+    "assignment": "Herstellerdatenblatt",
+    "quantity": "8",
+    "note": "+5 V; ACT-Logik, Versorgung 4,5–5,5 V; TTL-kompatible Eingänge",
+    "downloaded_on": "2026-10-23",
+    "checked_on": "2026-10-23",
+    "pin_reference_page": 3,
+    "inventory_evidence": "Nutzerangabe vom 23.10.2026: 8 Stück erfasst.",
+    "sha256": "42cb486b395b1007581e7ec1465d7a9c3f9f2fa841c86082c4194b9195d87610",
+    "pages": 38
+  },
+  {
+    "part": "SN74LS688N",
+    "pins": 20,
+    "function": "8-Bit-Gleichheitskomparator mit aktiv-Low-Freigabe",
+    "pdf": "SN74LS688N_TI.pdf",
+    "url": "https://www.ti.com/lit/ds/symlink/sn74ls688.pdf",
+    "source_part": "SN74LS688",
+    "manufacturer": "Texas Instruments",
+    "assignment": "Herstellerdatenblatt",
+    "quantity": "5",
+    "note": "+5 V (4,75–5,25 V); /G an Pin 1: Low aktiviert; /EQ an Pin 19 wird bei Gleichheit Low; /G=High erzwingt /EQ=High; Push-Pull-Ausgang, kein Open-Collector und kein Größenvergleichsausgang",
+    "downloaded_on": "2026-10-23",
+    "checked_on": "2026-10-23",
+    "pin_reference_page": 1,
+    "inventory_evidence": "Nutzerangabe vom 23.10.2026: 5 Stück erfasst.",
+    "sha256": "a0bd34df5b6e904f06292c5abb773daa3b531eb6095f5c0c44b94510d43f9b71",
+    "pages": 26
   }
 ]
