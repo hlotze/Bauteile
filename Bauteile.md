@@ -4,15 +4,13 @@ Lokale Dokumentation meiner ICs aus den Familien **SN74xx** und **CD4xxx** sowie
 
 Alle Datenblattkategorien: [Datenblattverzeichnis](Datenblaetter/README.md).
 
-Die Spalte **Beispielschaltungen** verlinkt Herstellerbeispiele und passende Grundschaltungen. Bei Grundschaltungen müssen Pinfolge, Versorgung, Polarität und Bauteilwerte an den vorhandenen Typ angepasst werden. PDF-Seiten stehen im Linktitel. [Quellen und Zuordnungshinweise](Quellen/Beispielschaltungen.md).
+Die Spalte **Beispielschaltungen** verlinkt Herstellerbeispiele und passende Grundschaltungen. Bei Grundschaltungen müssen Pinfolge, Versorgung, Polarität und Bauteilwerte an den vorhandenen Typ angepasst werden. 
 
 ## IC-Bestand: SN74xx
 
-**90 Einträge** einschließlich unterschiedlicher Logikfamilien aus der ursprünglichen Pinbelegungsübersicht und der ergänzenden [Foto-PDF](Quellen/weitere_SN7xxx_ICs.pdf). Die ursprünglichen 64 Bezeichnungen gehören zur **74LS-Familie**; `N` bezeichnet dort das Kunststoff-DIP-Gehäuse. Die Ergänzungen enthalten auch Standard-TTL, HC, HCT und ACT sowie Grundnummern ohne bestätigte Logikfamilie. Stückzahlen sind teilweise noch offen. Für 66 Typen wurden anhand der [Foto-PDF SN7xxx_1_und_2](Quellen/SN7xxx_1_und_2.pdf) je zwei zusätzlich gefundene ICs erfasst; [Abgleich und Mengenänderungen](Quellen/SN7xxx_1_und_2_Auswertung.md). Die Bezeichnungen werden wie im Bild übernommen; bei mehreren Typen führen die Herstellerdatenblätter zusätzlich eine A- oder B-Variante, die in der Tabelle vermerkt ist. Diese Zuordnung bestätigt noch nicht die genaue Variante eines tatsächlich vorhandenen Bausteins.
+**90 Einträge** einschließlich unterschiedlicher Logikfamilien aus der ursprünglichen Pinbelegungsübersicht.
 
 Die bisher mit Herstellerdatenblättern dokumentierten 74LS-Typen sind für **+5 V** vorgesehen (empfohlener VCC-Bereich der kommerziellen 74LS-Versionen: **4,75 bis 5,25 V**). Höhere zulässige Spannungen einzelner Treiberausgänge sind keine höheren Versorgungsspannungen des ICs. Quellen und Zuordnungen stehen im [Datenblattverzeichnis](Datenblaetter/SN7xxx/README.md).
-
-Die Ergänzungen und unsicheren Lesarten sind im [Erkennungsprotokoll](Quellen/weitere_SN7xxx_Auswertung.md) dokumentiert. Eine Grundnummer ohne Familienzusatz bestätigt keine LS-Ausführung. Weitere Quellen, darunter die Kartenreferenzen für 7460, 7487 und 74576, sind in den Tabellen verlinkt.
 
 Die [Experimentierkarten](images/README.md) enthalten Pinbelegung und Funktion im Format **45 × 55 mm**. [A4-Druckbogen](images/IC_Karten_A4.pdf), bei **100 % / tatsächlicher Größe** drucken.
 
@@ -111,11 +109,9 @@ Die [Experimentierkarten](images/README.md) enthalten Pinbelegung und Funktion i
 
 ## IC-Bestand: CD4xxx
 
-**56 IC-Typen** aus der ursprünglichen Pinbelegungsübersicht und der ergänzenden [Foto-PDF](Quellen/weitere_CD4xxx_ICs.pdf). Die Bezeichnungen im Bild enthalten keine vollständigen Hersteller-/Gehäusesuffixe. Die angegebenen DIP-Gehäuse entsprechen der Übersicht; Nicht erfasste Stückzahlen bleiben offen. Farbmarkierungen und handschriftliche Zeichen wurden nicht als Stückzahlen interpretiert.
+**56 IC-Typen** aus der ursprünglichen Pinbelegungsübersicht.
 
 Die Referenzdatenblätter beschreiben überwiegend **CD4xxxB**, beim **CD4049** und **CD4069** die ungepufferten **UB**-Varianten. Die tatsächlichen Aufdrucke sind vor Verwendung abzugleichen. Für **CD4553** liegt eine ausdrücklich gekennzeichnete **Motorola-MC14553B-Referenz** vor; ein exaktes CD4553-Herstellerdatenblatt ist noch nicht zugeordnet.
-
-Die zehn Ergänzungen aus der Foto-PDF sind im [Erkennungsprotokoll](Quellen/weitere_CD4xxx_Auswertung.md) mit Seitenangabe dokumentiert. Bei den Ergänzungen sind Herstellerdatenblätter und 5-V-Kennwerte teilweise noch offen; für CD4513 liegt die MC14513B-Referenz vor. CD4538 ist anhand von Beschriftung und Pinbelegung zugeordnet; der IC-Aufdruck bleibt zu prüfen.
 
 **+5 V ist für die bereits dokumentierten Referenztypen geeignet.** Kennwerte für Strom, Geschwindigkeit, Analogschalter und Oszillatoren sind aus den 5-V-Tabellen zu entnehmen. Quellen und Zuordnungen: [Datenblattverzeichnis CD4xxx](Datenblaetter/CD4xxx/README.md).
 
@@ -183,9 +179,9 @@ Die zehn Ergänzungen aus der Foto-PDF sind im [Erkennungsprotokoll](Quellen/wei
 
 ## IC-Bestand: Diverse
 
-**31 Einträge** aus der Diverse- und SN7xxx-Fotoauswertung. Die acht Spannungsregler und das MPQ2222A-Transistorarray stehen jetzt in den entsprechenden Kategorien. Relais und weitere ICs bleiben hier; Nicht erfasste Stückzahlen bleiben offen.
+**31 Einträge** aus der Diversen. Relais und weitere ICs bleiben hier.
 
-Die Versorgung ist bausteinspezifisch. Bei Spannungsreglern nennt die Funktion die **Ausgangsspannung**, nicht die Eingangsspannung. Für 30 Einträge liegen lokale Datenblätter bzw. gekennzeichnete Referenzen im [Datenblattverzeichnis Diverse](Datenblaetter/Diverse/README.md) vor. Für LH6764-20 ist noch keine belastbare Zuordnung gefunden. Unsichere Lesarten stehen im [Erkennungsprotokoll](Quellen/weitere_diverse_Auswertung.md).
+Die Versorgung ist bausteinspezifisch. Bei Spannungsreglern nennt die Funktion die **Ausgangsspannung**, nicht die Eingangsspannung. Für 30 Einträge liegen lokale Datenblätter bzw. gekennzeichnete Referenzen im [Datenblattverzeichnis Diverse](Datenblaetter/Diverse/README.md) vor.
 
 | Bezeichnung laut Aufdruck / Übersicht | Typ / Funktion | Gehäuse | Anzahl | Nachweis / Hinweise | Datenblatt | Karte | Beispielschaltungen |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -224,7 +220,7 @@ Die Versorgung ist bausteinspezifisch. Bei Spannungsreglern nennt die Funktion d
 
 ## Bestand: Transistoren
 
-**60 Typen.** Datenblätter und Variantenhinweise: [Transistoren](Datenblaetter/Transistor/README.md). Die Sortimentsangaben bestätigen noch nicht den Hersteller jedes vorhandenen Bauteils; Nicht erfasste Stückzahlen bleiben offen.
+**60 Typen.** Datenblätter und Variantenhinweise: [Transistoren](Datenblaetter/Transistor/README.md).
 
 Eckdaten aus den verlinkten Referenzdatenblättern; tatsächlichen Hersteller und Suffix prüfen. Maximalwerte sind Grenzwerte und nicht gleichzeitig nutzbar. TA = Umgebung, TC = Gehäuse; hohe Ströme/Leistungen erfordern entsprechende Kühlung und Einhaltung des sicheren Arbeitsbereichs (SOA). Spannungen/Ströme als Beträge; bei PNP umgekehrte Polarität. IB/IC-Paare sind Datenblatt-Prüfpunkte, keine konstante Stromverstärkung. Basis über Vorwiderstand ansteuern; UBE ist kein Logikpegel.
 
@@ -293,7 +289,7 @@ Eckdaten aus den verlinkten Referenzdatenblättern; tatsächlichen Hersteller un
 
 ## Bestand: MOSFETs
 
-**16 Typen.** Datenblätter und Variantenhinweise: [MOSFETs](Datenblaetter/MOSFET/README.md). Die Sortimentsangaben bestätigen noch nicht den Hersteller jedes vorhandenen Bauteils; Nicht erfasste Stückzahlen bleiben offen.
+**16 Typen.** Datenblätter und Variantenhinweise: [MOSFETs](Datenblaetter/MOSFET/README.md). Die Sortimentsangaben bestätigen noch nicht den Hersteller jedes vorhandenen Bauteils.
 
 Eckdaten aus den verlinkten Referenzdatenblättern; tatsächlichen Hersteller und Suffix prüfen. Maximalwerte sind Grenzwerte und nicht gleichzeitig nutzbar. TA = Umgebung, TC = Gehäuse; hohe Ströme/Leistungen erfordern entsprechende Kühlung und Einhaltung des sicheren Arbeitsbereichs (SOA). Gate stationär nahezu stromlos; beim Schalten muss der Treiber die Gateladung umladen. UGS stets gegen Source; Schwellspannung bedeutet noch kein vollständiges Einschalten.
 
@@ -319,7 +315,7 @@ Eckdaten aus den verlinkten Referenzdatenblättern; tatsächlichen Hersteller un
 
 ## Bestand: Triacs und Thyristoren
 
-**3 Typen.** Datenblätter und Variantenhinweise: [Triacs und Thyristoren](Datenblaetter/Triac_Thyristor/README.md). Die Sortimentsangaben bestätigen noch nicht den Hersteller jedes vorhandenen Bauteils; Nicht erfasste Stückzahlen bleiben offen.
+**3 Typen.** Datenblätter und Variantenhinweise: [Triacs und Thyristoren](Datenblaetter/Triac_Thyristor/README.md). Die Sortimentsangaben bestätigen noch nicht den Hersteller jedes vorhandenen Bauteils.
 
 Eckdaten aus den verlinkten Referenzdatenblättern; tatsächlichen Hersteller und Suffix prüfen. Maximalwerte sind Grenzwerte und nicht gleichzeitig nutzbar. TA = Umgebung, TC = Gehäuse; hohe Ströme/Leistungen erfordern entsprechende Kühlung und Einhaltung des sicheren Arbeitsbereichs (SOA). IGT/UGT sind Zünd-Prüfwerte bei 25 °C; Gate über Strombegrenzung gegen MT1 ansteuern. QI–IV bezeichnen die Polaritäten von MT2 und Gate gegen MT1. Erlischt erst unterhalb des Haltestroms; keine beliebige Abschaltung per Gate.
 
@@ -332,7 +328,7 @@ Eckdaten aus den verlinkten Referenzdatenblättern; tatsächlichen Hersteller un
 
 ## Bestand: Spannungsregler und Spannungsreferenzen
 
-**18 Typen.** Datenblätter und Variantenhinweise: [Spannungsregler und Spannungsreferenzen](Datenblaetter/Spannungsregler/README.md). Die Sortimentsangaben bestätigen noch nicht den Hersteller jedes vorhandenen Bauteils; Nicht erfasste Stückzahlen bleiben offen.
+**18 Typen.** Datenblätter und Variantenhinweise: [Spannungsregler und Spannungsreferenzen](Datenblaetter/Spannungsregler/README.md). Die Sortimentsangaben bestätigen noch nicht den Hersteller jedes vorhandenen Bauteils.
 
 Eckdaten aus den verlinkten Referenzdatenblättern; tatsächlichen Hersteller und Suffix prüfen. Maximalwerte sind Grenzwerte und nicht gleichzeitig nutzbar. TA = Umgebung, TC = Gehäuse; hohe Ströme/Leistungen erfordern entsprechende Kühlung und Einhaltung des sicheren Arbeitsbereichs (SOA). UE-Grenzwerte sind keine empfohlenen Betriebsspannungen. Dropout-Typwerte benötigen Reserve nach Datenblatt. Ausgangsstrom zusätzlich durch Spannungsdifferenz, Temperatur und Kühlung begrenzt; Kondensatoren nach Datenblatt.
 
@@ -357,10 +353,6 @@ Eckdaten aus den verlinkten Referenzdatenblättern; tatsächlichen Hersteller un
 | L7912CV | **Negativer** Festspannungsregler, Ausgangsspannung -12 V | TO-220 | 10 | UA=−12 V; IA bis **1,5 A**; UE-Grenzwert −35 V<br>Dropout 1,1 V typ. bei 1 A; kein Steuereingang; Verlustleistung ≈ (Betrag UE − Betrag UA) × IA, thermisch begrenzt | [PDF](Datenblaetter/Spannungsregler/L79_ST.pdf) | [Bild](images/Anschlusskarten/Spannungsregler/L7912CV_anschluss_45x55mm.png) / [PDF](images/Anschlusskarten/Spannungsregler/L7912CV_anschluss_45x55mm.pdf) / [SVG](images/Anschlusskarten/Spannungsregler/L7912CV_anschluss_45x55mm.svg) | [Regler-Grundbeschaltung (Hersteller) (PDF S. 11)](Datenblaetter/Spannungsregler/L79_ST.pdf#page=11) |
 | TL431A | Einstellbare Shunt-Spannungsreferenz | TO-92 | 20 | Shunt-Referenz: UKA=2,495–36 V; IK im Betrieb 1–100 mA<br>UREF≈2,495 V, A-Toleranz ±1 % (25 °C); Widerstandsteiler und Vorwiderstand nötig; P≈UKA × IK, thermisch begrenzt; kein Serienregler | [PDF](Datenblaetter/Spannungsregler/TL431_TI.pdf) | [Bild](images/Anschlusskarten/Spannungsregler/TL431A_anschluss_45x55mm.png) / [PDF](images/Anschlusskarten/Spannungsregler/TL431A_anschluss_45x55mm.pdf) / [SVG](images/Anschlusskarten/Spannungsregler/TL431A_anschluss_45x55mm.svg) | [Regler-Grundbeschaltung (Hersteller) (PDF S. 26)](Datenblaetter/Spannungsregler/TL431_TI.pdf#page=26)<br>[Komparator mit Referenz (TI) (PDF S. 23)](Datenblaetter/Spannungsregler/TL431_TI.pdf#page=23) |
 
-## Ungeklärte Bauteilbeschriftungen
-
-Die handschriftlichen Lesarten **MPS2507A** und **2N5501** sind nicht als gesicherte Typen eingeordnet. Details und mögliche Verwechslungen stehen in der [Fotoauswertung](Quellen/Transistoren_und_Aehnliche/Auswertung.md).
-
 ## Verwendung bei +5 V
 
 Meine Bastelprojekte laufen überwiegend mit **+5 V**. Höhere Versorgungsspannungen wie 10 V oder 15 V werden bei CD4xxx normalerweise nicht genutzt. Für CD4xxx sind die Kennwerte der dokumentierten Referenztypen bei 5 V maßgeblich.
@@ -371,32 +363,7 @@ Meine Bastelprojekte laufen überwiegend mit **+5 V**. Höhere Versorgungsspannu
 - Unbenutzte Eingänge auf definierte Pegel legen; bei 3-State-Bausteinen die Freigabeeingänge beachten.
 - Versorgung und Pinbelegung vor dem Aufbau prüfen: Nicht jeder DIP-14 hat GND an Pin 7 und VCC an Pin 14. Pro IC ist ein 100-nF-Abblockkondensator nahe den Versorgungspins sinnvoll.
 
-## Verzeichnisstruktur
-
-```text
-IC_Dokumentation/
-├── README.md
-├── Datenblaetter/
-│   ├── SN7xxx/       # Hersteller-PDFs, Quellen und Zuordnungen
-│   ├── CD4xxx/
-│   ├── Diverse/      # Weitere ICs und Bauteile, Datenblätter und Referenzen
-│   ├── Transistor/
-│   ├── MOSFET/
-│   ├── Triac_Thyristor/
-│   └── Spannungsregler/
-└── images/
-    ├── SN7xxx/       # Experimentierkarten als PNG, SVG und PDF
-    ├── CD4xxx/
-    ├── Diverse/
-    ├── Transistor/
-    └── IC_Karten_A4.pdf
-```
-
-Dateinamen beginnen mit der IC-Bezeichnung. Relative Links funktionieren auch nach der späteren Übernahme nach GitHub. Die bereitgestellte Übersicht wurde inhaltlich ausgewertet; die ursprüngliche Bilddatei ist noch nicht lokal abgelegt.
-
 ## Bestand: Dioden
-
-Vorhanden laut Nutzerangabe vom 18.10.2026; bei diesen ursprünglichen Dioden sind Stückzahlen und tatsächliche Hersteller noch offen. 1N5822 und 1N4007 sind laut derselben Angabe nicht vorhanden. Die Zenerdioden stehen in der folgenden eigenen Tabelle.
 
 | Bezeichnung | Typ / Funktion | Gehäuse | Anzahl | Nachweis / Hinweise | Datenblatt | Karte | Beispielschaltungen |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -407,7 +374,7 @@ Vorhanden laut Nutzerangabe vom 18.10.2026; bei diesen ursprünglichen Dioden si
 | SY356 | Schnelle Silizium-Gleichrichterdiode (Soft Recovery) | axial, Kunststoff (Referenz); tatsächliche Bauform offen | offen |  | [PDF / Referenz](Datenblaetter/Dioden/SY356_DDR_Referenz.pdf) | [Bild](images/Anschlusskarten/Dioden/SY356_anschluss_45x55mm.png) / [PDF](images/Anschlusskarten/Dioden/SY356_anschluss_45x55mm.pdf) / [SVG](images/Anschlusskarten/Dioden/SY356_anschluss_45x55mm.svg) | [Brückengleichrichter (Grundschaltung)](https://www.allaboutcircuits.com/textbook/experiments/chpt-5/full-wave-bridge-rectifier/)<br>[Einweggleichrichter (Grundschaltung)](https://www.allaboutcircuits.com/textbook/experiments/chpt-5/half-wave-rectifier/) |
 | 1N4148 | Silizium-Kleinsignal-Schaltdiode | offen | offen |  | [PDF / Referenz](Datenblaetter/Dioden/1N4148_Vishay.pdf) | [Bild](images/Anschlusskarten/Dioden/1N4148_anschluss_45x55mm.png) / [PDF](images/Anschlusskarten/Dioden/1N4148_anschluss_45x55mm.pdf) / [SVG](images/Anschlusskarten/Dioden/1N4148_anschluss_45x55mm.svg) | [Signalbegrenzer (Grundschaltung)](https://www.allaboutcircuits.com/textbook/semiconductors/chpt-3/clipper-circuits/)<br>[Freilaufdiode (Grundschaltung)](https://www.allaboutcircuits.com/textbook/experiments/chpt-5/commutating-diode/) |
 
-Herstellerreferenz für 1N4001–1N4004: [Vishay 1N4001–1N4007](https://www.vishay.com/docs/88503/1n4001.pdf). Kein Nachweis des Herstellers der vorhandenen Exemplare. Die zuvor als 1N4143 erfasste Diode ist laut Nutzerkorrektur eine 1N4148.
+Herstellerreferenz für 1N4001–1N4004: [Vishay 1N4001–1N4007](https://www.vishay.com/docs/88503/1n4001.pdf).
 
 ## Bestand: Zenerdioden
 
@@ -434,7 +401,7 @@ Herstellerreferenz für 1N4001–1N4004: [Vishay 1N4001–1N4007](https://www.vi
 
 ## Bestand: Quarze
 
-Erfasst am 19.10.2026 anhand des Sortimentsfotos `Quellen/Meine_Quarze.JPG`. Je Frequenz 10 Stück laut Nutzerangabe, insgesamt 100. Passive Zweipol-Quarze; die Verpackungsbezeichnung „Crystal Oscillator“ belegt kein aktives Oszillatormodul. Frequenzen vom Etikett übernommen, nicht einzeln gemessen. Hersteller, Lastkapazität, ESR, zulässige Antriebsleistung, Toleranz und genaue Gehäusevariante sind offen.
+Hersteller, Lastkapazität, ESR, zulässige Antriebsleistung, Toleranz und genaue Gehäusevariante sind offen.
 
 | Bezeichnung laut Bild | Typ / Funktion | Gehäuse | Anzahl | Nachweis / Hinweise | Datenblatt | Karte | Beispielschaltungen |
 | --- | --- | --- | --- | --- | --- | --- | --- |

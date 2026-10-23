@@ -12,4 +12,4 @@ Die Kategorien enthalten lokale PDF-Dateien, eine Typübersicht und eine Quellen
 | Triac / Thyristor | [Triac_Thyristor](Triac_Thyristor/README.md) | 3 erkannte Triacs; kein zusätzlicher einzelner Thyristor bestätigt |
 | Spannungsregler | [Spannungsregler](Spannungsregler/README.md) | 13 Festspannungs-, einstellbare und Shunt-Regler / Referenzen |
 
-Der vollständige Bestand steht in der [Hauptliste](../Bauteile.md). Die neuen Fotoquellen und offene Beschriftungen stehen in der [Transistor-Auswertung](../Quellen/Transistoren_und_Aehnliche/Auswertung.md).
+Der vollständige Bestand steht in der [Hauptliste](../Bauteile.md).

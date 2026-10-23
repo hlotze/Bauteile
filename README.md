@@ -17,6 +17,10 @@ Für die DIL-ICs gibt es **Experimentierkarten im Format 45 × 55 mm**. Sie zeig
 
 Die Originalübersichten, Foto-PDFs und Erkennungsprotokolle liegen unter `Quellen/`. Die verwendeten Pinbelegungsreferenzen sind in [images/karten.json](images/karten.json) erfasst; der [Kartengenerator](scripts/kaertchen/README.md) liegt unter `scripts/kaertchen/`.
 
-Die Datenbank enthält Funktionen, Gehäuse, erfasste und noch offene Stückzahlen, Variantenhinweise, relative Datenblatt- und Kartenpfade sowie Herstellerreferenzen und Quellen-URLs, soweit dokumentiert. Die ungeklärten Lesarten MPS2507A und 2N5501 bleiben in der Fotoauswertung dokumentiert. `Bauteile.db` ist die führende Quelle; bei Abweichungen wird `Bauteile.md` anhand der Datenbank aktualisiert. `python3 scripts/build_db.py` ersetzt die bestehende Datenbanktabelle aus Markdown und Datenblattquellen und darf deshalb nur auf ausdrückliche Anweisung ausgeführt werden.
+Die Datenbank enthält Funktionen, Gehäuse, erfasste und noch offene Stückzahlen, Variantenhinweise, relative Datenblatt- und Kartenpfade sowie Herstellerreferenzen und Quellen-URLs, soweit dokumentiert. Die ungeklärten Lesarten MPS2507A und 2N5501 bleiben in der Fotoauswertung dokumentiert. 
+
+`Bauteile.md` ist die führende Quelle; bei Abweichungen wird `Bauteile.db` anhand der Markdown Datei aktualisiert.
+
+!!! UNGÜLTIG:  `python3 scripts/build_db.py` ersetzt die bestehende Datenbanktabelle aus Markdown und Datenblattquellen und darf deshalb nur auf ausdrückliche Anweisung ausgeführt werden. UNGÜLTIG !!!
 
 Referenzdatenblätter und Karten nennen die zugrunde gelegte Variante. Bei unvollständigen Typangaben bleibt die genaue Zuordnung offen. Für LH6764-20 liegt bisher nur eine Identifikationskarte ohne Pinbelegung vor. Die Tabellen enthalten außerdem Hinweise zur Versorgung und zu Besonderheiten der einzelnen Bauteile.

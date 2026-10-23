@@ -45,7 +45,7 @@ Einzelne Karten und den vollständigen A4-Druckbogen aktualisieren:
 python scripts/kaertchen/build.py --part COM8126 --part LH6764-20
 ```
 
-Nach jeder Bestandsänderung `Bauteile.md` mit der führenden `Bauteile.db` abgleichen; abweichende Angaben aus der Datenbank übernehmen. `scripts/build_db.py` überschreibt die Datenbank und darf nur auf ausdrückliche Anweisung ausgeführt werden.
+Nach jeder Bestandsänderung `Bauteile.db` mit der führenden `Bauteile.md` abgleichen; abweichende Angaben aus der Markdown-Datei übernehmen. `scripts/build_db.py` ersetzt die Datenbank vollständig und darf nur auf ausdrückliche Anweisung ausgeführt werden.
 
 NE555-Herstellerbestände (E und TI) teilen die vorhandene NE555-Referenzkarte.
 
