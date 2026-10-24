@@ -7,6 +7,7 @@ import sqlite3
 
 ROOT = Path(__file__).resolve().parents[1]
 CATEGORIES = {
+    'Bestand: Optokoppler': ('Optokoppler', 'Optokoppler'),
     'Bestand: Quarze': ('Quarz', 'Quarze'),
     'Bestand: Dioden': ('Diode', 'Dioden'),
     'Bestand: Zenerdioden': ('Diode', 'Dioden'),

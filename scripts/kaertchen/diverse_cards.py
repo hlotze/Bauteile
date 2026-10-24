@@ -11,6 +11,7 @@ from cd_cards import Card, MM, GREEN, BLUE, BLACK
 BASE=Path(__file__).parent/'diverse_logikvorlagen'
 SOURCES=json.loads((BASE/'quellen.json').read_text())
 TITLES={
+ 'PC817':'Optokoppler / Fototransistor',
  'MC1455':'Timer / Multivibrator',
  'MCP3008-I_P':'8-Kanal-ADC, 10 Bit / SPI',
  'UA741CN':'Operationsverstärker / Offset',
@@ -153,8 +154,8 @@ class DiverseCard(Card):
   self.text(22.5,45,'Emitter separat (Pin 1)',5.2,BLACK,'middle')
 
  def optocouplers(self):
-  for i in range(4):
-   a=1+2*i;k=a+1;c=16-2*i;e=c-1;y=(self.pin_y(a)+self.pin_y(k))/2
+  for i in range(self.n//4):
+   a=1+2*i;k=a+1;c=self.n-2*i;e=c-1;y=(self.pin_y(a)+self.pin_y(k))/2
    self.rect(12.7,y-4.2,19.6,8.4)
    # LED and isolated phototransistor; no electrical connection across
    # the optical path in the middle.
@@ -353,7 +354,18 @@ class DiverseCard(Card):
   elif key=='MC1455':self.mc1455();layout='Timer-Funktionsblock mit DIP-Pinzuordnung'
   elif key=='UA741CN':self.ua741();layout='Operationsverstärker mit Offset-Abgleich und DIP-Pins'
   elif key=='LM311N':self.comparator();layout='Komparator mit Ausgangstransistor'
-  elif key=='PS2501-4':self.optocouplers();layout='verdrahtete Optokoppler'
+  elif key in ('PS2501-4','PC817'):
+   self.optocouplers();layout='verdrahtete Optokoppler'
+   if key=='PC817':
+    for y,t in ((22,'Sharp | DIP-4'),(28,'1 A: Anode | 2 K: Kathode'),(32,'3 E: Emitter | 4 C: Kollektor'),(38,'LED: Vorwiderstand vorsehen'),(42,'CTR min. 50 %')):
+     self.text(22.5,y,t,5.8,BLACK,'middle')
+    # Render indices as smaller glyphs below the baseline in SVG and PDF.
+    runs=[('I',False),('F',True),(' = 5 mA | V',False),('CE',True),(' = 5 V | T',False),('a',True),(' = 25 °C',False)]
+    widths=[stringWidth(t,'Helvetica',4.1 if sub else 5.8)/MM for t,sub in runs]
+    x=22.5-sum(widths)/2
+    for (t,sub),w in zip(runs,widths):
+     self.text(x,45.55 if sub else 45,t,4.1 if sub else 5.8,BLACK)
+     x+=w
   elif key.startswith('ULN'):self.darlingtons();layout='verdrahtete Darlington-Stufen mit Freilaufdioden'
   elif key in ('L293D','L293NE'):self.motor_drivers();layout='verdrahtete Halbbrücken mit Enable'
   elif key=='MC1489':self.line_receivers();layout='verdrahtete Leitungsempfänger'

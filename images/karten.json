@@ -31940,5 +31940,76 @@
       "20": "VCC"
     },
     "sha256_svg": "c7518127d5523c8b8434b94b562e361dc69c1337531d396fab298e11fc9f6a10"
+  },
+  {
+    "part": "PC817",
+    "key": "PC817",
+    "function": "1-Kanal-Optokoppler mit Fototransistor-Ausgang",
+    "category": "Optokoppler",
+    "symbol": "PC817",
+    "library": "Isolator.kicad_sym",
+    "pins": [
+      {
+        "number": 1,
+        "name": "A",
+        "role": "passive",
+        "unit": "manual"
+      },
+      {
+        "number": 2,
+        "name": "K",
+        "role": "passive",
+        "unit": "manual"
+      },
+      {
+        "number": 3,
+        "name": "E",
+        "role": "passive",
+        "unit": "manual"
+      },
+      {
+        "number": 4,
+        "name": "C",
+        "role": "passive",
+        "unit": "manual"
+      }
+    ],
+    "package": "DIP-4",
+    "candidates": [
+      "PC817",
+      "PC817",
+      "PC817",
+      "PC817"
+    ],
+    "reference": "Sharp PC817 (Familienref. S. 2)",
+    "sources": [
+      {
+        "file": "Datenblaetter/Optokoppler/PC817_Sharp_Referenz.pdf",
+        "page": 2
+      }
+    ],
+    "status": "Referenzkarte",
+    "pin_count": 4,
+    "pitch_mm": 5.08,
+    "svg": "images/Optokoppler/PC817_karte_45x55mm.svg",
+    "pdf": "images/Optokoppler/PC817_karte_45x55mm.pdf",
+    "first_pin_y_mm": 6.4,
+    "png": "images/Optokoppler/PC817_karte_45x55mm.png",
+    "card_layout": "Diverse im Stil der CD4xxx-Karten",
+    "diagram_layout": "verdrahtete Optokoppler",
+    "card_function_title": "Optokoppler / Fototransistor",
+    "wired_pin_numbers": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "card_pin_labels": {
+      "1": "A",
+      "2": "K",
+      "3": "E",
+      "4": "C"
+    },
+    "sha256_svg": "6254445bd61e5a06c6308ad1582d66a293ea2a430347f9028b8a9ebcb0c2c72d"
   }
 ]

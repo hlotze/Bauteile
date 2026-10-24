@@ -1,0 +1,16 @@
+[
+  {
+    "part": "PC817",
+    "category": "Optokoppler",
+    "function": "1-Kanal-Optokoppler mit Fototransistor-Ausgang",
+    "package": "DIP-4",
+    "quantity": "50",
+    "manufacturer": "Sharp",
+    "pdf": "PC817_Sharp_Referenz.pdf",
+    "assignment": "PC817XxNSZ1B als Familien-/Pinreferenz; Typbezeichnung PC817 ohne Suffix; CTR ≥ 50 % bei I<sub>F</sub> = 5 mA und V<sub>CE</sub> = 5 V (T<sub>a</sub> = 25 °C)",
+    "url": "https://global.sharp/products/device/lineup/data/pdf/datasheet/PC817XxNSZ1B_e.pdf",
+    "final_url": "https://global.sharp/products/device/lineup/data/pdf/datasheet/PC817XxNSZ1B_e.pdf",
+    "downloaded_on": "2026-10-24",
+    "sha256": "04c5dfe12e1140687ec47236af43378758d2b84e2195cdf498cba06646b672f2"
+  }
+]

@@ -19847,5 +19847,50 @@
     "candidates": [
       "74LS688"
     ]
+  },
+  {
+    "part": "PC817",
+    "key": "PC817",
+    "function": "1-Kanal-Optokoppler mit Fototransistor-Ausgang",
+    "category": "Optokoppler",
+    "symbol": "PC817",
+    "library": "Isolator.kicad_sym",
+    "pins": [
+      {
+        "number": 1,
+        "name": "~",
+        "role": "passive",
+        "shape": "line",
+        "unit": "PC817_1_1"
+      },
+      {
+        "number": 2,
+        "name": "~",
+        "role": "passive",
+        "shape": "line",
+        "unit": "PC817_1_1"
+      },
+      {
+        "number": 4,
+        "name": "~",
+        "role": "passive",
+        "shape": "line",
+        "unit": "PC817_1_1"
+      },
+      {
+        "number": 3,
+        "name": "~",
+        "role": "passive",
+        "shape": "line",
+        "unit": "PC817_1_1"
+      }
+    ],
+    "package": "DIP-4",
+    "candidates": [
+      "PC817",
+      "PC817",
+      "PC817",
+      "PC817"
+    ]
   }
 ]

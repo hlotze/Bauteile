@@ -4,7 +4,17 @@ Lokale Dokumentation meiner ICs aus den Familien **SN74xx** und **CD4xxx** sowie
 
 Alle Datenblattkategorien: [Datenblattverzeichnis](Datenblaetter/README.md).
 
-Die Spalte **Beispielschaltungen** verlinkt Herstellerbeispiele und passende Grundschaltungen. Bei Grundschaltungen müssen Pinfolge, Versorgung, Polarität und Bauteilwerte an den vorhandenen Typ angepasst werden. 
+Die Spalte **Beispielschaltungen** verlinkt Herstellerbeispiele und passende Grundschaltungen. Bei Grundschaltungen müssen Pinfolge, Versorgung, Polarität und Bauteilwerte an den vorhandenen Typ angepasst werden.
+
+## Verwendung bei +5 V
+
+Meine Bastelprojekte laufen überwiegend mit **+5 V**. Höhere Versorgungsspannungen wie 10 V oder 15 V werden bei CD4xxx normalerweise nicht genutzt. Für CD4xxx sind die Kennwerte der dokumentierten Referenztypen bei 5 V maßgeblich.
+
+- Bei 74LS sind HIGH-Eingangspegel typischerweise ab 2,0 V und LOW-Pegel bis 0,8 V definiert; Schmitt-Trigger haben eigene Schaltschwellen. Maßgeblich ist jeweils das Datenblatt.
+- Beim Verbinden mit CD4xxx oder 74HC müssen die garantierten Ausgangs- und Eingangspegel geprüft werden. Ein 74LS-HIGH erfüllt nicht automatisch den benötigten CMOS-HIGH-Pegel bei 5 V.
+- Open-Collector-Ausgänge benötigen einen Pull-up oder eine passende Last. Strom und Spannung müssen zum konkreten Treiber passen.
+- Unbenutzte Eingänge auf definierte Pegel legen; bei 3-State-Bausteinen die Freigabeeingänge beachten.
+- Versorgung und Pinbelegung vor dem Aufbau prüfen: Nicht jeder DIP-14 hat GND an Pin 7 und VCC an Pin 14. Pro IC ist ein 100-nF-Abblockkondensator nahe den Versorgungspins sinnvoll.
 
 ## IC-Bestand: SN74xx
 
@@ -354,16 +364,6 @@ Eckdaten aus den verlinkten Referenzdatenblättern; tatsächlichen Hersteller un
 | L7912CV | **Negativer** Festspannungsregler, Ausgangsspannung -12 V | TO-220 | 10 | UA=−12 V; IA bis **1,5 A**; UE-Grenzwert −35 V<br>Dropout 1,1 V typ. bei 1 A; kein Steuereingang; Verlustleistung ≈ (Betrag UE − Betrag UA) × IA, thermisch begrenzt | [PDF](Datenblaetter/Spannungsregler/L79_ST.pdf) | [Bild](images/Anschlusskarten/Spannungsregler/L7912CV_anschluss_45x55mm.png) / [PDF](images/Anschlusskarten/Spannungsregler/L7912CV_anschluss_45x55mm.pdf) / [SVG](images/Anschlusskarten/Spannungsregler/L7912CV_anschluss_45x55mm.svg) | [Regler-Grundbeschaltung (Hersteller) (PDF S. 11)](Datenblaetter/Spannungsregler/L79_ST.pdf#page=11) |
 | TL431A | Einstellbare Shunt-Spannungsreferenz | TO-92 | 20 | Shunt-Referenz: UKA=2,495–36 V; IK im Betrieb 1–100 mA<br>UREF≈2,495 V, A-Toleranz ±1 % (25 °C); Widerstandsteiler und Vorwiderstand nötig; P≈UKA × IK, thermisch begrenzt; kein Serienregler | [PDF](Datenblaetter/Spannungsregler/TL431_TI.pdf) | [Bild](images/Anschlusskarten/Spannungsregler/TL431A_anschluss_45x55mm.png) / [PDF](images/Anschlusskarten/Spannungsregler/TL431A_anschluss_45x55mm.pdf) / [SVG](images/Anschlusskarten/Spannungsregler/TL431A_anschluss_45x55mm.svg) | [Regler-Grundbeschaltung (Hersteller) (PDF S. 26)](Datenblaetter/Spannungsregler/TL431_TI.pdf#page=26)<br>[Komparator mit Referenz (TI) (PDF S. 23)](Datenblaetter/Spannungsregler/TL431_TI.pdf#page=23) |
 
-## Verwendung bei +5 V
-
-Meine Bastelprojekte laufen überwiegend mit **+5 V**. Höhere Versorgungsspannungen wie 10 V oder 15 V werden bei CD4xxx normalerweise nicht genutzt. Für CD4xxx sind die Kennwerte der dokumentierten Referenztypen bei 5 V maßgeblich.
-
-- Bei 74LS sind HIGH-Eingangspegel typischerweise ab 2,0 V und LOW-Pegel bis 0,8 V definiert; Schmitt-Trigger haben eigene Schaltschwellen. Maßgeblich ist jeweils das Datenblatt.
-- Beim Verbinden mit CD4xxx oder 74HC müssen die garantierten Ausgangs- und Eingangspegel geprüft werden. Ein 74LS-HIGH erfüllt nicht automatisch den benötigten CMOS-HIGH-Pegel bei 5 V.
-- Open-Collector-Ausgänge benötigen einen Pull-up oder eine passende Last. Strom und Spannung müssen zum konkreten Treiber passen.
-- Unbenutzte Eingänge auf definierte Pegel legen; bei 3-State-Bausteinen die Freigabeeingänge beachten.
-- Versorgung und Pinbelegung vor dem Aufbau prüfen: Nicht jeder DIP-14 hat GND an Pin 7 und VCC an Pin 14. Pro IC ist ein 100-nF-Abblockkondensator nahe den Versorgungspins sinnvoll.
-
 ## Bestand: Dioden
 
 | Bezeichnung | Typ / Funktion | Gehäuse | Anzahl | Nachweis / Hinweise | Datenblatt | Karte | Beispielschaltungen |
@@ -379,8 +379,9 @@ Herstellerreferenz für 1N4001–1N4004: [Vishay 1N4001–1N4007](https://www.vi
 
 ## Bestand: Zenerdioden
 
-**16 Spannungswerte, insgesamt 220 Stück.** Jeweils **1,3 W** laut Nutzerangabe vom 23.10.2026. Mengen pro Typ stehen in der Spalte **Anzahl**. Hersteller, genaue Typreihe, Toleranz und Gehäuse sind noch offen.
+**22 Bestandspositionen, insgesamt 280 Stück:** 220 Stück mit **1,3 W** laut Nutzerangabe vom 23.10.2026 sowie 60 Stück der unten aufgeführten 1N53xxB-Typen mit **5 W** laut Nutzerangabe vom 24.10.2026. Mengen pro Typ stehen in der Spalte **Anzahl**. Bei den ZD-Bezeichnungen sind Hersteller, genaue Typreihe, Toleranz und Gehäuse noch offen; bei den neuen 1N53xxB-Typen sind Hersteller und Gehäuse noch nicht bestätigt.
 
+### von Reichelt
 | Bezeichnung | Zenerspannung | Leistung | Anzahl | Typ / Funktion | Gehäuse | Nachweis / Hinweise | Datenblatt | Karte | Beispielschaltungen |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | ZD 2,7 | 2,7 V | 1,3 W | 15 | Zenerdiode, 2,7 V | offen | Nennspannung 2,7 V; Verlustleistung 1,3 W laut Nutzerangabe; Hersteller, Typreihe, Toleranz und Gehäuse offen | noch offen | – | Noch offen: genaue Typreihe und passende Referenzschaltung |
@@ -400,6 +401,17 @@ Herstellerreferenz für 1N4001–1N4004: [Vishay 1N4001–1N4007](https://www.vi
 | ZD 56 | 56 V | 1,3 W | 10 | Zenerdiode, 56 V | offen | Nennspannung 56 V; Verlustleistung 1,3 W laut Nutzerangabe; Hersteller, Typreihe, Toleranz und Gehäuse offen | noch offen | – | Noch offen: genaue Typreihe und passende Referenzschaltung |
 | ZD 75 | 75 V | 1,3 W | 10 | Zenerdiode, 75 V | offen | Nennspannung 75 V; Verlustleistung 1,3 W laut Nutzerangabe; Hersteller, Typreihe, Toleranz und Gehäuse offen | noch offen | – | Noch offen: genaue Typreihe und passende Referenzschaltung |
 
+### von Aukenien (via Amazon)
+
+| Bezeichnung | Zenerspannung | Leistung | Anzahl | Typ / Funktion | Gehäuse | Nachweis / Hinweise | Datenblatt | Karte | Beispielschaltungen |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1N5349B | 12 V | 5 W | 10 | Zenerdiode, 12 V | offen | Nennspannung 12 V; Verlustleistung 5 W; 10 Stück laut Nutzerangabe vom 24.10.2026; Hersteller und Gehäuse nicht bestätigt | noch offen | – | |
+| 1N5359B | 24 V | 5 W | 10 | Zenerdiode, 24 V | offen | Nennspannung 24 V; Verlustleistung 5 W; 10 Stück laut Nutzerangabe vom 24.10.2026; Hersteller und Gehäuse nicht bestätigt | noch offen | – | |
+| 1N5339B | 5,6 V | 5 W | 10 | Zenerdiode, 5,6 V | offen | Nennspannung 5,6 V; Verlustleistung 5 W; 10 Stück laut Nutzerangabe vom 24.10.2026; Hersteller und Gehäuse nicht bestätigt | noch offen | – | |
+| 1N5340B | 6 V | 5 W | 10 | Zenerdiode, 6 V | offen | Nennspannung 6 V; Verlustleistung 5 W; 10 Stück laut Nutzerangabe vom 24.10.2026; Hersteller und Gehäuse nicht bestätigt | noch offen | – | |
+| 1N5342B | 6,8 V | 5 W | 10 | Zenerdiode, 6,8 V | offen | Nennspannung 6,8 V; Verlustleistung 5 W; 10 Stück laut Nutzerangabe vom 24.10.2026; Hersteller und Gehäuse nicht bestätigt | noch offen | – | |
+| 1N5346B | 9,1 V | 5 W | 10 | Zenerdiode, 9,1 V | offen | Nennspannung 9,1 V; Verlustleistung 5 W; 10 Stück laut Nutzerangabe vom 24.10.2026; Hersteller und Gehäuse nicht bestätigt | noch offen | – | |
+
 ## Bestand: Quarze
 
 Hersteller, Lastkapazität, ESR, zulässige Antriebsleistung, Toleranz und genaue Gehäusevariante sind offen.
@@ -416,3 +428,11 @@ Hersteller, Lastkapazität, ESR, zulässige Antriebsleistung, Toleranz und genau
 | Quarz 16 MHz | Passiver Schwingquarz, 16 MHz | bedrahtet, 2-polig; genaue Bauform offen | 10 |  | noch offen | – | [Pierce-Oszillator (ST)](https://www.st.com/resource/en/application_note/an2867-guidelines-for-oscillator-design-on-stm8afals-and-stm32-mcusmpus-stmicroelectronics.pdf)<br>[Quarzoszillator (Grundschaltung)](https://www.allaboutcircuits.com/textbook/designing-analog-chips/timers-and-oscillators/crystal-oscillators/) |
 | Quarz 22,1184 MHz | Passiver Schwingquarz, 22,1184 MHz | bedrahtet, 2-polig; genaue Bauform offen | 10 |  | noch offen | – | [Pierce-Oszillator (ST)](https://www.st.com/resource/en/application_note/an2867-guidelines-for-oscillator-design-on-stm8afals-and-stm32-mcusmpus-stmicroelectronics.pdf)<br>[Quarzoszillator (Grundschaltung)](https://www.allaboutcircuits.com/textbook/designing-analog-chips/timers-and-oscillators/crystal-oscillators/) |
 | Quarz 27 MHz | Passiver Schwingquarz, 27 MHz | bedrahtet, 2-polig; genaue Bauform offen | 10 |  | noch offen | – | [Pierce-Oszillator (ST)](https://www.st.com/resource/en/application_note/an2867-guidelines-for-oscillator-design-on-stm8afals-and-stm32-mcusmpus-stmicroelectronics.pdf)<br>[Quarzoszillator (Grundschaltung)](https://www.allaboutcircuits.com/textbook/designing-analog-chips/timers-and-oscillators/crystal-oscillators/) |
+
+## Bestand: Optokoppler
+
+Neu erfasst: **50 Stück Sharp PC817**. Pinbelegung in Draufsicht: 1 Anode, 2 Kathode, 3 Emitter, 4 Kollektor (Sharp-Familienreferenz, PDF S. 2).
+
+| Bezeichnung | Typ / Funktion | Gehäuse | Anzahl | Nachweis / Hinweise | Datenblatt | Karte | Beispielschaltungen |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| PC817 | 1-Kanal-Optokoppler mit Fototransistor-Ausgang | DIP-4 | 50 | Sharp PC817; Typbezeichnung ohne Suffix; CTR ≥ 50 % bei I<sub>F</sub> = 5 mA und V<sub>CE</sub> = 5 V (T<sub>a</sub> = 25 °C). Datenblatt PC817XxNSZ1B als Familien-/Pinreferenz; Grenzwerte der vorhandenen Variante prüfen. LED mit Vorwiderstand; Ausgang benötigt geeignete Last bzw. Pull-up. | [PDF / Familienreferenz](Datenblaetter/Optokoppler/PC817_Sharp_Referenz.pdf) | [Bild](images/Optokoppler/PC817_karte_45x55mm.png) / [PDF](images/Optokoppler/PC817_karte_45x55mm.pdf) / [SVG](images/Optokoppler/PC817_karte_45x55mm.svg) | |

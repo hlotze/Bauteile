@@ -242,5 +242,77 @@
     "note": "Nennspannung 75 V; Verlustleistung 1,3 W laut Nutzerangabe; Hersteller, Typreihe, Toleranz und Gehäuse offen",
     "inventory_evidence": "Nutzerangabe vom 23.10.2026: 10 Stück; jeweils 1,3 W.",
     "checked_on": "2026-10-23"
+  },
+  {
+    "part": "1N5349B",
+    "category": "Diode",
+    "function": "Zenerdiode, 12 V",
+    "package": "offen",
+    "quantity": "10",
+    "nominal_zener_voltage_V": "12",
+    "power_W": "5",
+    "note": "Nennspannung 12 V; Verlustleistung 5 W; 10 Stück laut Nutzerangabe vom 24.10.2026; Hersteller und Gehäuse nicht bestätigt",
+    "inventory_evidence": "Nutzerangabe vom 24.10.2026: Typbezeichnung, Nennspannung, jeweils 10 Stück und 5 W.",
+    "checked_on": "2026-10-24"
+  },
+  {
+    "part": "1N5359B",
+    "category": "Diode",
+    "function": "Zenerdiode, 24 V",
+    "package": "offen",
+    "quantity": "10",
+    "nominal_zener_voltage_V": "24",
+    "power_W": "5",
+    "note": "Nennspannung 24 V; Verlustleistung 5 W; 10 Stück laut Nutzerangabe vom 24.10.2026; Hersteller und Gehäuse nicht bestätigt",
+    "inventory_evidence": "Nutzerangabe vom 24.10.2026: Typbezeichnung, Nennspannung, jeweils 10 Stück und 5 W.",
+    "checked_on": "2026-10-24"
+  },
+  {
+    "part": "1N5339B",
+    "category": "Diode",
+    "function": "Zenerdiode, 5,6 V",
+    "package": "offen",
+    "quantity": "10",
+    "nominal_zener_voltage_V": "5.6",
+    "power_W": "5",
+    "note": "Nennspannung 5,6 V; Verlustleistung 5 W; 10 Stück laut Nutzerangabe vom 24.10.2026; Hersteller und Gehäuse nicht bestätigt",
+    "inventory_evidence": "Nutzerangabe vom 24.10.2026: Typbezeichnung, Nennspannung, jeweils 10 Stück und 5 W.",
+    "checked_on": "2026-10-24"
+  },
+  {
+    "part": "1N5340B",
+    "category": "Diode",
+    "function": "Zenerdiode, 6 V",
+    "package": "offen",
+    "quantity": "10",
+    "nominal_zener_voltage_V": "6",
+    "power_W": "5",
+    "note": "Nennspannung 6 V; Verlustleistung 5 W; 10 Stück laut Nutzerangabe vom 24.10.2026; Hersteller und Gehäuse nicht bestätigt",
+    "inventory_evidence": "Nutzerangabe vom 24.10.2026: Typbezeichnung, Nennspannung, jeweils 10 Stück und 5 W.",
+    "checked_on": "2026-10-24"
+  },
+  {
+    "part": "1N5342B",
+    "category": "Diode",
+    "function": "Zenerdiode, 6,8 V",
+    "package": "offen",
+    "quantity": "10",
+    "nominal_zener_voltage_V": "6.8",
+    "power_W": "5",
+    "note": "Nennspannung 6,8 V; Verlustleistung 5 W; 10 Stück laut Nutzerangabe vom 24.10.2026; Hersteller und Gehäuse nicht bestätigt",
+    "inventory_evidence": "Nutzerangabe vom 24.10.2026: Typbezeichnung, Nennspannung, jeweils 10 Stück und 5 W.",
+    "checked_on": "2026-10-24"
+  },
+  {
+    "part": "1N5346B",
+    "category": "Diode",
+    "function": "Zenerdiode, 9,1 V",
+    "package": "offen",
+    "quantity": "10",
+    "nominal_zener_voltage_V": "9.1",
+    "power_W": "5",
+    "note": "Nennspannung 9,1 V; Verlustleistung 5 W; 10 Stück laut Nutzerangabe vom 24.10.2026; Hersteller und Gehäuse nicht bestätigt",
+    "inventory_evidence": "Nutzerangabe vom 24.10.2026: Typbezeichnung, Nennspannung, jeweils 10 Stück und 5 W.",
+    "checked_on": "2026-10-24"
   }
 ]

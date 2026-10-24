@@ -2988,6 +2988,36 @@
       "type": "Diode",
       "part": "ZD 8,2",
       "reason": "Zenerdiode: genaue Typreihe, Gehäuse und belastbare Pinreferenz noch offen."
+    },
+    {
+      "type": "Diode",
+      "part": "1N5349B",
+      "reason": "Zenerdiode: Hersteller, Gehäuse und passende Anschlussreferenz noch nicht bestätigt."
+    },
+    {
+      "type": "Diode",
+      "part": "1N5359B",
+      "reason": "Zenerdiode: Hersteller, Gehäuse und passende Anschlussreferenz noch nicht bestätigt."
+    },
+    {
+      "type": "Diode",
+      "part": "1N5339B",
+      "reason": "Zenerdiode: Hersteller, Gehäuse und passende Anschlussreferenz noch nicht bestätigt."
+    },
+    {
+      "type": "Diode",
+      "part": "1N5340B",
+      "reason": "Zenerdiode: Hersteller, Gehäuse und passende Anschlussreferenz noch nicht bestätigt."
+    },
+    {
+      "type": "Diode",
+      "part": "1N5342B",
+      "reason": "Zenerdiode: Hersteller, Gehäuse und passende Anschlussreferenz noch nicht bestätigt."
+    },
+    {
+      "type": "Diode",
+      "part": "1N5346B",
+      "reason": "Zenerdiode: Hersteller, Gehäuse und passende Anschlussreferenz noch nicht bestätigt."
     }
   ]
 }

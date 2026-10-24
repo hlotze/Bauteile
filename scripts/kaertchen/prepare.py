@@ -28,7 +28,7 @@ for line in (base.resolve().parents[1]/'Bauteile.md').read_text().splitlines():
  cells=[c.strip() for c in line.split('|')[1:-1]]
  if cells[0].startswith(('Bezeichnung','---')):continue
  part=cells[0]
- if part in ['LH6764-20','MC1488','MC1489'] or section.endswith('SN74xx') or section.endswith('CD4xxx') or (re.match(r'DIP-\d+',cells[2]) and section in ['IC-Bestand: Diverse','Bestand: Transistoren']):
+ if part in ['LH6764-20','MC1488','MC1489'] or section.endswith('SN74xx') or section.endswith('CD4xxx') or (re.match(r'DIP-\d+',cells[2]) and section in ['IC-Bestand: Diverse','Bestand: Transistoren','Bestand: Optokoppler']):
   if part.startswith('B3CA') or part=='DIP05-1A72-12L':continue
   clean=part.split(' (')[0];number=re.search(r'74(?:LS|ACT|HCT|HC)?(\d+)',clean)
   candidates=[]
@@ -45,7 +45,7 @@ for line in (base.resolve().parents[1]/'Bauteile.md').read_text().splitlines():
   if clean=='NE555' and any(r['key']==clean for r in rows):continue # Herstellerbestände teilen eine Referenzkarte
   sym=next((n for n in candidates if n in symbols),None)
   pinrows,lib=get(sym) if sym else ([],None)
-  r=dict(part=part,key=clean.replace('/','_'),function=cells[1],category='SN7xxx' if section.endswith('SN74xx') else 'CD4xxx' if section.endswith('CD4xxx') else 'Transistor' if section=='Bestand: Transistoren' else 'Diverse',symbol=sym,library=lib,pins=pinrows,package=cells[2],candidates=candidates)
+  r=dict(part=part,key=clean.replace('/','_'),function=cells[1],category='SN7xxx' if section.endswith('SN74xx') else 'CD4xxx' if section.endswith('CD4xxx') else 'Transistor' if section=='Bestand: Transistoren' else 'Optokoppler' if section=='Bestand: Optokoppler' else 'Diverse',symbol=sym,library=lib,pins=pinrows,package=cells[2],candidates=candidates)
   rows.append(r)
 (base/'inventar.json').write_text(json.dumps(rows,ensure_ascii=False,indent=2))
 (base/'symbolnamen.json').write_text(json.dumps(list(symbols)))

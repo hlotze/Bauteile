@@ -2,7 +2,7 @@
 
 Dieses Projekt dokumentiert meine elektronischen Bauteile zum Nachschlagen und Experimentieren. Gesammelt werden Typbezeichnungen, Funktionen, Gehäuseangaben, Herstellerdatenblätter und Pinbelegungen. Grundlage sind vorhandene Bauteilübersichten und Fotos; unsichere Beschriftungen und verwendete Referenzvarianten sind dokumentiert.
 
-Der vollständige Bestand steht in **[Bauteile.md](Bauteile.md)**. Die Tabellen sind nach SN74xx, CD4xxx, Diverse, Transistoren, MOSFETs, Triacs/Thyristoren Spannungsreglern und Dioden gegliedert. Sie enthalten Links zu den lokalen Datenblättern und den verfügbaren Experimentierkarten. Mit der Textsuche lassen sich beispielsweise BCD-Bausteine, Flipflops, Zähler oder Schieberegister finden. Bei den Quarzen sind jeweils 10 Stück erfasst; für einen Teil der ICs sind ebenfalls Stückzahlen eingetragen. Die übrigen Stückzahlen sind noch offen.
+Der vollständige Bestand steht in **[Bauteile.md](Bauteile.md)**. Die Tabellen sind nach SN74xx, CD4xxx, Diverse, Transistoren, MOSFETs, Triacs/Thyristoren, Spannungsreglern, Dioden und Optokopplern gegliedert. Sie enthalten Links zu den lokalen Datenblättern und den verfügbaren Experimentierkarten. Mit der Textsuche lassen sich beispielsweise BCD-Bausteine, Flipflops, Zähler oder Schieberegister finden. Bei den Quarzen sind jeweils 10 Stück erfasst; für einen Teil der ICs sind ebenfalls Stückzahlen eingetragen. Die übrigen Stückzahlen sind noch offen.
 
 ![Experimentierboard für DIL bis 20-pol.](images/Beispiel_Experimentierboard.png)
 
@@ -10,7 +10,7 @@ Für die DIL-ICs gibt es **Experimentierkarten im Format 45 × 55 mm**. Sie zeig
 
 - [Bauteilbestand und Funktionen](Bauteile.md)
 - [Beispielschaltungen und Quellen](Quellen/Beispielschaltungen.md) – 361 Links für 257 Bauteile; als letzte Spalte auch direkt in der Bestandsliste
-- [SQLite-Datenbank](Bauteile.db) – 258 Einträge in der Tabelle `Bauteile`; erste Spalte `Type` mit den Kategorien `IC SN7xxx`, `IC CD4xxx`, `IC diverse`, `Transitor`, `MOSFET`, `Spannungsregler` `Triac_Thyristor` `Diode` und `Quarz`.
+- [SQLite-Datenbank](Bauteile.db) – 317 Einträge in der Tabelle `Bauteile`; erste Spalte `Type` mit den Kategorien `IC SN7xxx`, `IC CD4xxx`, `IC diverse`, `Transitor`, `MOSFET`, `Spannungsregler` `Triac_Thyristor` `Diode`, `Quarz` und `Optokoppler`.
 - [Datenblätter nach Kategorien](Datenblaetter/README.md)
 - [Experimentierkarten und Druckhinweise](images/README.md)
 - [A4-Druckbogen](images/IC_Karten_A4.pdf) – mit **100 % / tatsächlicher Größe** drucken

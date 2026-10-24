@@ -6,6 +6,7 @@ Die Kategorien enthalten lokale PDF-Dateien, eine Typübersicht und eine Quellen
 | --- | --- | --- |
 | SN74xx | [SN7xxx](SN7xxx/README.md) | Logik-ICs der 74xx-Familien |
 | CD4xxx | [CD4xxx](CD4xxx/README.md) | CMOS-Logik-ICs |
+| Optokoppler | [Optokoppler](Optokoppler/README.md) | Sharp PC817, 50 Stück; Familien-/Pinreferenz |
 | Diverse | [Diverse](Diverse/README.md) | Weitere ICs, Relais und Optokoppler |
 | Transistor | [Transistor](Transistor/README.md) | 41 Typen: Bipolar-, Darlington- und Transistorarray-Bausteine |
 | MOSFET | [MOSFET](MOSFET/README.md) | 4 N-/P-Kanal-Typen |
