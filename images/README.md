@@ -192,3 +192,7 @@ Die Karten nennen die verwendete Pinreferenz. Bei Grundnummern und ungeklärten 
 ## Optokoppler
 
 [Sharp PC817: PNG](Optokoppler/PC817_karte_45x55mm.png), [PDF](Optokoppler/PC817_karte_45x55mm.pdf), [SVG](Optokoppler/PC817_karte_45x55mm.svg). Format 45 × 55 mm, Pinbelegung in Draufsicht; auch im [IC-A4-Druckbogen](IC_Karten_A4.pdf). Typbezeichnung PC817 ohne Suffix; CTR ≥ 50 % bei I<sub>F</sub> = 5 mA und V<sub>CE</sub> = 5 V (T<sub>a</sub> = 25 °C); das Sharp-Datenblatt dient als Familien-/Pinreferenz.
+
+## Mikroprozessorbasteleien
+
+Für MCP23S17-E/SP, ATMEGA328P-PU und die PCA9685-Baugruppen sind noch keine Anschlusskarten vorhanden. Bestand und Dokumente stehen in der [Hauptliste](../Bauteile.md#mikroprozessorbasteleien) und im [Datenblattverzeichnis](../Datenblaetter/Mikroprozessorbasteleien/README.md).

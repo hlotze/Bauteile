@@ -7,6 +7,7 @@ import sqlite3
 
 ROOT = Path(__file__).resolve().parents[1]
 CATEGORIES = {
+    'Mikroprozessorbasteleien': ('Mikroprozessorbasteleien', 'Mikroprozessorbasteleien'),
     'Bestand: Optokoppler': ('Optokoppler', 'Optokoppler'),
     'Bestand: Quarze': ('Quarz', 'Quarze'),
     'Bestand: Dioden': ('Diode', 'Dioden'),
@@ -46,7 +47,7 @@ def main():
         if headers is None:
             headers = cells
             continue
-        if all(re.fullmatch(r':?-+:?', cell) for cell in cells):
+        if cells == headers or all(re.fullmatch(r':?-+:?', cell) for cell in cells):
             continue
         if len(cells) != len(headers):
             raise ValueError(f'Ungültige Tabellenzeile: {line}')
@@ -65,8 +66,7 @@ def main():
                      plain(values['Gehäuse']), plain(values['Anzahl']),
                      '\n'.join(notes), '\n'.join(paths) or None,
                      cards.get('.png'), cards.get('.pdf'), cards.get('.svg'),
-                     source.get('manufacturer'), source.get('url'),
-                     values.get('Beispielschaltungen', '')))
+                     source.get('manufacturer'), source.get('url')))
     if {row[0] for row in rows} != {category[0] for category in CATEGORIES.values()}:
         raise ValueError('Nicht alle Kategorien wurden eingelesen')
     with sqlite3.connect(ROOT / 'Bauteile.db') as db:
@@ -84,10 +84,9 @@ def main():
             Karte_SVG TEXT,
             Hersteller_Referenz TEXT,
             Quelle_URL TEXT,
-            Beispielschaltungen TEXT NOT NULL DEFAULT '',
             PRIMARY KEY (Type, Bezeichnung)
         )''')
-        db.executemany('INSERT INTO Bauteile VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?)', rows)
+        db.executemany('INSERT INTO Bauteile VALUES (?,?,?,?,?,?,?,?,?,?,?,?)', rows)
         assert db.execute('PRAGMA integrity_check').fetchone() == ('ok',)
         assert db.execute('SELECT COUNT(*) FROM Bauteile').fetchone()[0] == len(rows)
         for category, count in db.execute('SELECT Type, COUNT(*) FROM Bauteile GROUP BY Type'):

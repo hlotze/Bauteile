@@ -314,5 +314,23 @@
     "note": "Nennspannung 9,1 V; Verlustleistung 5 W; 10 Stück laut Nutzerangabe vom 24.10.2026; Hersteller und Gehäuse nicht bestätigt",
     "inventory_evidence": "Nutzerangabe vom 24.10.2026: Typbezeichnung, Nennspannung, jeweils 10 Stück und 5 W.",
     "checked_on": "2026-10-24"
+  },
+  {
+    "part": "20Q045",
+    "manufacturer": "Diodes Incorporated",
+    "url": "https://www.diodes.com/datasheet/download/20SQ045.pdf",
+    "file": "20Q045_20SQ045_Diodes_Referenz.pdf",
+    "note": "Datenblatt zu 20SQ045 nur als vorläufige Referenz; Zuordnung zur angegebenen Bezeichnung 20Q045 und tatsächlicher Hersteller nicht bestätigt.",
+    "checked_on": "2026-11-08",
+    "sha256": "542876b32404f7ee5fd6293fc28c3d1b1a986e93127b234cdfed95d6155e756d"
+  },
+  {
+    "part": "1N5822",
+    "manufacturer": "Vishay",
+    "url": "https://www.vishay.com/docs/88526/1n5820.pdf",
+    "file": "1N5822_Vishay_Referenz.pdf",
+    "note": "Herstellerdatenblatt 1N5820–1N5822 als Referenz; tatsächlicher Hersteller der vorhandenen Exemplare nicht bestätigt.",
+    "checked_on": "2026-11-08",
+    "sha256": "3166f9b621655f24bd28f678b2b0c705da70c2d0e4f13372c1051fed814f15a2"
   }
 ]
