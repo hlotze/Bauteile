@@ -7,6 +7,7 @@ import sqlite3
 
 ROOT = Path(__file__).resolve().parents[1]
 CATEGORIES = {
+    'IC-Bestand: Atmel AVR': ('Atmel AVR', 'Atmel_AVR'),
     'Mikroprozessorbasteleien': ('Mikroprozessorbasteleien', 'Mikroprozessorbasteleien'),
     'Bestand: Optokoppler': ('Optokoppler', 'Optokoppler'),
     'Bestand: Quarze': ('Quarz', 'Quarze'),
@@ -27,7 +28,7 @@ def plain(value):
     return LINK.sub(r'\1', value).replace('`', '').strip()
 
 
-def main():
+def read_inventory():
     sources = {
         folder: {entry['part']: entry for entry in json.loads(
             (ROOT / 'Datenblaetter' / folder / 'quellen.json').read_text())}
@@ -44,7 +45,7 @@ def main():
         if not category or not line.startswith('|'):
             continue
         cells = [cell.strip() for cell in re.split(r'(?<!\\)\|', line)[1:-1]]
-        if headers is None:
+        if headers is None or (cells[0].startswith('Bezeichnung') and 'Typ / Funktion' in cells and 'Datenblatt' in cells):
             headers = cells
             continue
         if cells == headers or all(re.fullmatch(r':?-+:?', cell) for cell in cells):
@@ -60,7 +61,7 @@ def main():
         paths = [path for _, path in LINK.findall(values['Datenblatt'])]
         cards = {Path(path).suffix: path for _, path in LINK.findall(values.get('Karte', ''))}
         for path in paths + list(cards.values()):
-            if not (ROOT / path).is_file():
+            if not path.startswith(('https://', 'http://')) and not (ROOT / path).is_file():
                 raise ValueError(f'Datei fehlt: {path}')
         rows.append((category[0], name, plain(values['Typ / Funktion']),
                      plain(values['Gehäuse']), plain(values['Anzahl']),
@@ -69,6 +70,11 @@ def main():
                      source.get('manufacturer'), source.get('url')))
     if {row[0] for row in rows} != {category[0] for category in CATEGORIES.values()}:
         raise ValueError('Nicht alle Kategorien wurden eingelesen')
+    return rows
+
+
+def main():
+    rows = read_inventory()
     with sqlite3.connect(ROOT / 'Bauteile.db') as db:
         db.execute('DROP TABLE IF EXISTS Bauteile')
         db.execute('''CREATE TABLE Bauteile (

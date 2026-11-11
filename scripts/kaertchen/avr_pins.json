@@ -1,0 +1,1046 @@
+{
+  "view": "Draufsicht, Kerbe oben; Pin 1 oben links",
+  "note": "Alternative Funktionen hängen von Konfiguration/Fuses ab. / vor einem Signal bedeutet aktiv Low. ATtiny2313: USCK (USI-Takt), in Abbildung 1 als UCSK gedruckt. ATMEGA32L8PI: zugeordnet zu ATmega32L-8PI; Familien-PDIP-Belegung.",
+  "cards": [
+    {
+      "part": "ATTINY2313-20PU",
+      "package": "DIP-20",
+      "pins": [
+        {
+          "number": 1,
+          "name": "PA2",
+          "alternate": "/RESET/dW"
+        },
+        {
+          "number": 2,
+          "name": "PD0",
+          "alternate": "RXD"
+        },
+        {
+          "number": 3,
+          "name": "PD1",
+          "alternate": "TXD"
+        },
+        {
+          "number": 4,
+          "name": "PA1",
+          "alternate": "XTAL2"
+        },
+        {
+          "number": 5,
+          "name": "PA0",
+          "alternate": "XTAL1"
+        },
+        {
+          "number": 6,
+          "name": "PD2",
+          "alternate": "CKOUT/XCK/INT0"
+        },
+        {
+          "number": 7,
+          "name": "PD3",
+          "alternate": "INT1"
+        },
+        {
+          "number": 8,
+          "name": "PD4",
+          "alternate": "T0"
+        },
+        {
+          "number": 9,
+          "name": "PD5",
+          "alternate": "OC0B/T1"
+        },
+        {
+          "number": 10,
+          "name": "GND",
+          "alternate": ""
+        },
+        {
+          "number": 11,
+          "name": "PD6",
+          "alternate": "ICP"
+        },
+        {
+          "number": 12,
+          "name": "PB0",
+          "alternate": "AIN0/PCINT0"
+        },
+        {
+          "number": 13,
+          "name": "PB1",
+          "alternate": "AIN1/PCINT1"
+        },
+        {
+          "number": 14,
+          "name": "PB2",
+          "alternate": "OC0A/PCINT2"
+        },
+        {
+          "number": 15,
+          "name": "PB3",
+          "alternate": "OC1A/PCINT3"
+        },
+        {
+          "number": 16,
+          "name": "PB4",
+          "alternate": "OC1B/PCINT4"
+        },
+        {
+          "number": 17,
+          "name": "PB5",
+          "alternate": "MOSI/DI/SDA/PCINT5"
+        },
+        {
+          "number": 18,
+          "name": "PB6",
+          "alternate": "MISO/DO/PCINT6"
+        },
+        {
+          "number": 19,
+          "name": "PB7",
+          "alternate": "USCK/SCL/PCINT7"
+        },
+        {
+          "number": 20,
+          "name": "VCC",
+          "alternate": ""
+        }
+      ],
+      "source": "Datenblaetter/Atmel_AVR/ATtiny2313_Atmel.pdf",
+      "source_pdf_page": 2,
+      "source_document": "2543M",
+      "source_sha256": "1686b498a49b9ff09e09e055e8a70950dbaed075a3dd48d215fd26804ed29bc3"
+    },
+    {
+      "part": "ATMEGA8-16PU",
+      "package": "DIP-28",
+      "pins": [
+        {
+          "number": 1,
+          "name": "PC6",
+          "alternate": "/RESET"
+        },
+        {
+          "number": 2,
+          "name": "PD0",
+          "alternate": "RXD"
+        },
+        {
+          "number": 3,
+          "name": "PD1",
+          "alternate": "TXD"
+        },
+        {
+          "number": 4,
+          "name": "PD2",
+          "alternate": "INT0"
+        },
+        {
+          "number": 5,
+          "name": "PD3",
+          "alternate": "INT1"
+        },
+        {
+          "number": 6,
+          "name": "PD4",
+          "alternate": "XCK/T0"
+        },
+        {
+          "number": 7,
+          "name": "VCC",
+          "alternate": ""
+        },
+        {
+          "number": 8,
+          "name": "GND",
+          "alternate": ""
+        },
+        {
+          "number": 9,
+          "name": "PB6",
+          "alternate": "XTAL1/TOSC1"
+        },
+        {
+          "number": 10,
+          "name": "PB7",
+          "alternate": "XTAL2/TOSC2"
+        },
+        {
+          "number": 11,
+          "name": "PD5",
+          "alternate": "T1"
+        },
+        {
+          "number": 12,
+          "name": "PD6",
+          "alternate": "AIN0"
+        },
+        {
+          "number": 13,
+          "name": "PD7",
+          "alternate": "AIN1"
+        },
+        {
+          "number": 14,
+          "name": "PB0",
+          "alternate": "ICP1"
+        },
+        {
+          "number": 15,
+          "name": "PB1",
+          "alternate": "OC1A"
+        },
+        {
+          "number": 16,
+          "name": "PB2",
+          "alternate": "/SS/OC1B"
+        },
+        {
+          "number": 17,
+          "name": "PB3",
+          "alternate": "MOSI/OC2"
+        },
+        {
+          "number": 18,
+          "name": "PB4",
+          "alternate": "MISO"
+        },
+        {
+          "number": 19,
+          "name": "PB5",
+          "alternate": "SCK"
+        },
+        {
+          "number": 20,
+          "name": "AVCC",
+          "alternate": ""
+        },
+        {
+          "number": 21,
+          "name": "AREF",
+          "alternate": ""
+        },
+        {
+          "number": 22,
+          "name": "GND",
+          "alternate": ""
+        },
+        {
+          "number": 23,
+          "name": "PC0",
+          "alternate": "ADC0"
+        },
+        {
+          "number": 24,
+          "name": "PC1",
+          "alternate": "ADC1"
+        },
+        {
+          "number": 25,
+          "name": "PC2",
+          "alternate": "ADC2"
+        },
+        {
+          "number": 26,
+          "name": "PC3",
+          "alternate": "ADC3"
+        },
+        {
+          "number": 27,
+          "name": "PC4",
+          "alternate": "ADC4/SDA"
+        },
+        {
+          "number": 28,
+          "name": "PC5",
+          "alternate": "ADC5/SCL"
+        }
+      ],
+      "source": "Datenblaetter/Atmel_AVR/ATmega8_L_Atmel.pdf",
+      "source_pdf_page": 2,
+      "source_document": "2486AA",
+      "source_sha256": "279c22ef16189af1f95948f51f454bac2d7d7f53fcfddbb9859e8c24e6a00b3f"
+    },
+    {
+      "part": "ATMEGA16-16PU",
+      "package": "DIP-40",
+      "pins": [
+        {
+          "number": 1,
+          "name": "PB0",
+          "alternate": "XCK/T0"
+        },
+        {
+          "number": 2,
+          "name": "PB1",
+          "alternate": "T1"
+        },
+        {
+          "number": 3,
+          "name": "PB2",
+          "alternate": "INT2/AIN0"
+        },
+        {
+          "number": 4,
+          "name": "PB3",
+          "alternate": "OC0/AIN1"
+        },
+        {
+          "number": 5,
+          "name": "PB4",
+          "alternate": "/SS"
+        },
+        {
+          "number": 6,
+          "name": "PB5",
+          "alternate": "MOSI"
+        },
+        {
+          "number": 7,
+          "name": "PB6",
+          "alternate": "MISO"
+        },
+        {
+          "number": 8,
+          "name": "PB7",
+          "alternate": "SCK"
+        },
+        {
+          "number": 9,
+          "name": "/RESET",
+          "alternate": ""
+        },
+        {
+          "number": 10,
+          "name": "VCC",
+          "alternate": ""
+        },
+        {
+          "number": 11,
+          "name": "GND",
+          "alternate": ""
+        },
+        {
+          "number": 12,
+          "name": "XTAL2",
+          "alternate": ""
+        },
+        {
+          "number": 13,
+          "name": "XTAL1",
+          "alternate": ""
+        },
+        {
+          "number": 14,
+          "name": "PD0",
+          "alternate": "RXD"
+        },
+        {
+          "number": 15,
+          "name": "PD1",
+          "alternate": "TXD"
+        },
+        {
+          "number": 16,
+          "name": "PD2",
+          "alternate": "INT0"
+        },
+        {
+          "number": 17,
+          "name": "PD3",
+          "alternate": "INT1"
+        },
+        {
+          "number": 18,
+          "name": "PD4",
+          "alternate": "OC1B"
+        },
+        {
+          "number": 19,
+          "name": "PD5",
+          "alternate": "OC1A"
+        },
+        {
+          "number": 20,
+          "name": "PD6",
+          "alternate": "ICP1"
+        },
+        {
+          "number": 21,
+          "name": "PD7",
+          "alternate": "OC2"
+        },
+        {
+          "number": 22,
+          "name": "PC0",
+          "alternate": "SCL"
+        },
+        {
+          "number": 23,
+          "name": "PC1",
+          "alternate": "SDA"
+        },
+        {
+          "number": 24,
+          "name": "PC2",
+          "alternate": "TCK"
+        },
+        {
+          "number": 25,
+          "name": "PC3",
+          "alternate": "TMS"
+        },
+        {
+          "number": 26,
+          "name": "PC4",
+          "alternate": "TDO"
+        },
+        {
+          "number": 27,
+          "name": "PC5",
+          "alternate": "TDI"
+        },
+        {
+          "number": 28,
+          "name": "PC6",
+          "alternate": "TOSC1"
+        },
+        {
+          "number": 29,
+          "name": "PC7",
+          "alternate": "TOSC2"
+        },
+        {
+          "number": 30,
+          "name": "AVCC",
+          "alternate": ""
+        },
+        {
+          "number": 31,
+          "name": "GND",
+          "alternate": ""
+        },
+        {
+          "number": 32,
+          "name": "AREF",
+          "alternate": ""
+        },
+        {
+          "number": 33,
+          "name": "PA7",
+          "alternate": "ADC7"
+        },
+        {
+          "number": 34,
+          "name": "PA6",
+          "alternate": "ADC6"
+        },
+        {
+          "number": 35,
+          "name": "PA5",
+          "alternate": "ADC5"
+        },
+        {
+          "number": 36,
+          "name": "PA4",
+          "alternate": "ADC4"
+        },
+        {
+          "number": 37,
+          "name": "PA3",
+          "alternate": "ADC3"
+        },
+        {
+          "number": 38,
+          "name": "PA2",
+          "alternate": "ADC2"
+        },
+        {
+          "number": 39,
+          "name": "PA1",
+          "alternate": "ADC1"
+        },
+        {
+          "number": 40,
+          "name": "PA0",
+          "alternate": "ADC0"
+        }
+      ],
+      "source": "Datenblaetter/Atmel_AVR/ATmega16_L_Atmel.pdf",
+      "source_pdf_page": 2,
+      "source_document": "2466T",
+      "source_sha256": "72483bc1415b69ea500bcbefbf519729bc7e042cafd9c08621937edc8dac1afb"
+    },
+    {
+      "part": "ATMEGA32-16PU",
+      "package": "DIP-40",
+      "pins": [
+        {
+          "number": 1,
+          "name": "PB0",
+          "alternate": "XCK/T0"
+        },
+        {
+          "number": 2,
+          "name": "PB1",
+          "alternate": "T1"
+        },
+        {
+          "number": 3,
+          "name": "PB2",
+          "alternate": "INT2/AIN0"
+        },
+        {
+          "number": 4,
+          "name": "PB3",
+          "alternate": "OC0/AIN1"
+        },
+        {
+          "number": 5,
+          "name": "PB4",
+          "alternate": "/SS"
+        },
+        {
+          "number": 6,
+          "name": "PB5",
+          "alternate": "MOSI"
+        },
+        {
+          "number": 7,
+          "name": "PB6",
+          "alternate": "MISO"
+        },
+        {
+          "number": 8,
+          "name": "PB7",
+          "alternate": "SCK"
+        },
+        {
+          "number": 9,
+          "name": "/RESET",
+          "alternate": ""
+        },
+        {
+          "number": 10,
+          "name": "VCC",
+          "alternate": ""
+        },
+        {
+          "number": 11,
+          "name": "GND",
+          "alternate": ""
+        },
+        {
+          "number": 12,
+          "name": "XTAL2",
+          "alternate": ""
+        },
+        {
+          "number": 13,
+          "name": "XTAL1",
+          "alternate": ""
+        },
+        {
+          "number": 14,
+          "name": "PD0",
+          "alternate": "RXD"
+        },
+        {
+          "number": 15,
+          "name": "PD1",
+          "alternate": "TXD"
+        },
+        {
+          "number": 16,
+          "name": "PD2",
+          "alternate": "INT0"
+        },
+        {
+          "number": 17,
+          "name": "PD3",
+          "alternate": "INT1"
+        },
+        {
+          "number": 18,
+          "name": "PD4",
+          "alternate": "OC1B"
+        },
+        {
+          "number": 19,
+          "name": "PD5",
+          "alternate": "OC1A"
+        },
+        {
+          "number": 20,
+          "name": "PD6",
+          "alternate": "ICP1"
+        },
+        {
+          "number": 21,
+          "name": "PD7",
+          "alternate": "OC2"
+        },
+        {
+          "number": 22,
+          "name": "PC0",
+          "alternate": "SCL"
+        },
+        {
+          "number": 23,
+          "name": "PC1",
+          "alternate": "SDA"
+        },
+        {
+          "number": 24,
+          "name": "PC2",
+          "alternate": "TCK"
+        },
+        {
+          "number": 25,
+          "name": "PC3",
+          "alternate": "TMS"
+        },
+        {
+          "number": 26,
+          "name": "PC4",
+          "alternate": "TDO"
+        },
+        {
+          "number": 27,
+          "name": "PC5",
+          "alternate": "TDI"
+        },
+        {
+          "number": 28,
+          "name": "PC6",
+          "alternate": "TOSC1"
+        },
+        {
+          "number": 29,
+          "name": "PC7",
+          "alternate": "TOSC2"
+        },
+        {
+          "number": 30,
+          "name": "AVCC",
+          "alternate": ""
+        },
+        {
+          "number": 31,
+          "name": "GND",
+          "alternate": ""
+        },
+        {
+          "number": 32,
+          "name": "AREF",
+          "alternate": ""
+        },
+        {
+          "number": 33,
+          "name": "PA7",
+          "alternate": "ADC7"
+        },
+        {
+          "number": 34,
+          "name": "PA6",
+          "alternate": "ADC6"
+        },
+        {
+          "number": 35,
+          "name": "PA5",
+          "alternate": "ADC5"
+        },
+        {
+          "number": 36,
+          "name": "PA4",
+          "alternate": "ADC4"
+        },
+        {
+          "number": 37,
+          "name": "PA3",
+          "alternate": "ADC3"
+        },
+        {
+          "number": 38,
+          "name": "PA2",
+          "alternate": "ADC2"
+        },
+        {
+          "number": 39,
+          "name": "PA1",
+          "alternate": "ADC1"
+        },
+        {
+          "number": 40,
+          "name": "PA0",
+          "alternate": "ADC0"
+        }
+      ],
+      "source": "Datenblaetter/Atmel_AVR/ATmega32_L_Atmel.pdf",
+      "source_pdf_page": 2,
+      "source_document": "2503Q",
+      "source_sha256": "af4332f3fffde9d071aaddc100f3d23cc0107a4b86ced218c6f72694a2da8347"
+    },
+    {
+      "part": "ATMEGA32L8PI",
+      "package": "DIP-40",
+      "pins": [
+        {
+          "number": 1,
+          "name": "PB0",
+          "alternate": "XCK/T0"
+        },
+        {
+          "number": 2,
+          "name": "PB1",
+          "alternate": "T1"
+        },
+        {
+          "number": 3,
+          "name": "PB2",
+          "alternate": "INT2/AIN0"
+        },
+        {
+          "number": 4,
+          "name": "PB3",
+          "alternate": "OC0/AIN1"
+        },
+        {
+          "number": 5,
+          "name": "PB4",
+          "alternate": "/SS"
+        },
+        {
+          "number": 6,
+          "name": "PB5",
+          "alternate": "MOSI"
+        },
+        {
+          "number": 7,
+          "name": "PB6",
+          "alternate": "MISO"
+        },
+        {
+          "number": 8,
+          "name": "PB7",
+          "alternate": "SCK"
+        },
+        {
+          "number": 9,
+          "name": "/RESET",
+          "alternate": ""
+        },
+        {
+          "number": 10,
+          "name": "VCC",
+          "alternate": ""
+        },
+        {
+          "number": 11,
+          "name": "GND",
+          "alternate": ""
+        },
+        {
+          "number": 12,
+          "name": "XTAL2",
+          "alternate": ""
+        },
+        {
+          "number": 13,
+          "name": "XTAL1",
+          "alternate": ""
+        },
+        {
+          "number": 14,
+          "name": "PD0",
+          "alternate": "RXD"
+        },
+        {
+          "number": 15,
+          "name": "PD1",
+          "alternate": "TXD"
+        },
+        {
+          "number": 16,
+          "name": "PD2",
+          "alternate": "INT0"
+        },
+        {
+          "number": 17,
+          "name": "PD3",
+          "alternate": "INT1"
+        },
+        {
+          "number": 18,
+          "name": "PD4",
+          "alternate": "OC1B"
+        },
+        {
+          "number": 19,
+          "name": "PD5",
+          "alternate": "OC1A"
+        },
+        {
+          "number": 20,
+          "name": "PD6",
+          "alternate": "ICP1"
+        },
+        {
+          "number": 21,
+          "name": "PD7",
+          "alternate": "OC2"
+        },
+        {
+          "number": 22,
+          "name": "PC0",
+          "alternate": "SCL"
+        },
+        {
+          "number": 23,
+          "name": "PC1",
+          "alternate": "SDA"
+        },
+        {
+          "number": 24,
+          "name": "PC2",
+          "alternate": "TCK"
+        },
+        {
+          "number": 25,
+          "name": "PC3",
+          "alternate": "TMS"
+        },
+        {
+          "number": 26,
+          "name": "PC4",
+          "alternate": "TDO"
+        },
+        {
+          "number": 27,
+          "name": "PC5",
+          "alternate": "TDI"
+        },
+        {
+          "number": 28,
+          "name": "PC6",
+          "alternate": "TOSC1"
+        },
+        {
+          "number": 29,
+          "name": "PC7",
+          "alternate": "TOSC2"
+        },
+        {
+          "number": 30,
+          "name": "AVCC",
+          "alternate": ""
+        },
+        {
+          "number": 31,
+          "name": "GND",
+          "alternate": ""
+        },
+        {
+          "number": 32,
+          "name": "AREF",
+          "alternate": ""
+        },
+        {
+          "number": 33,
+          "name": "PA7",
+          "alternate": "ADC7"
+        },
+        {
+          "number": 34,
+          "name": "PA6",
+          "alternate": "ADC6"
+        },
+        {
+          "number": 35,
+          "name": "PA5",
+          "alternate": "ADC5"
+        },
+        {
+          "number": 36,
+          "name": "PA4",
+          "alternate": "ADC4"
+        },
+        {
+          "number": 37,
+          "name": "PA3",
+          "alternate": "ADC3"
+        },
+        {
+          "number": 38,
+          "name": "PA2",
+          "alternate": "ADC2"
+        },
+        {
+          "number": 39,
+          "name": "PA1",
+          "alternate": "ADC1"
+        },
+        {
+          "number": 40,
+          "name": "PA0",
+          "alternate": "ADC0"
+        }
+      ],
+      "source": "Datenblaetter/Atmel_AVR/ATmega32_L_Atmel.pdf",
+      "source_pdf_page": 2,
+      "source_document": "2503Q",
+      "source_sha256": "af4332f3fffde9d071aaddc100f3d23cc0107a4b86ced218c6f72694a2da8347"
+    },
+    {
+      "part": "ATMEGA328P-PU",
+      "package": "DIP-28",
+      "pins": [
+        {
+          "number": 1,
+          "name": "PC6",
+          "alternate": "/RESET/PCINT14"
+        },
+        {
+          "number": 2,
+          "name": "PD0",
+          "alternate": "RXD/PCINT16"
+        },
+        {
+          "number": 3,
+          "name": "PD1",
+          "alternate": "TXD/PCINT17"
+        },
+        {
+          "number": 4,
+          "name": "PD2",
+          "alternate": "INT0/PCINT18"
+        },
+        {
+          "number": 5,
+          "name": "PD3",
+          "alternate": "OC2B/INT1/PCINT19"
+        },
+        {
+          "number": 6,
+          "name": "PD4",
+          "alternate": "XCK/T0/PCINT20"
+        },
+        {
+          "number": 7,
+          "name": "VCC",
+          "alternate": ""
+        },
+        {
+          "number": 8,
+          "name": "GND",
+          "alternate": ""
+        },
+        {
+          "number": 9,
+          "name": "PB6",
+          "alternate": "XTAL1/TOSC1/PCINT6"
+        },
+        {
+          "number": 10,
+          "name": "PB7",
+          "alternate": "XTAL2/TOSC2/PCINT7"
+        },
+        {
+          "number": 11,
+          "name": "PD5",
+          "alternate": "OC0B/T1/PCINT21"
+        },
+        {
+          "number": 12,
+          "name": "PD6",
+          "alternate": "OC0A/AIN0/PCINT22"
+        },
+        {
+          "number": 13,
+          "name": "PD7",
+          "alternate": "AIN1/PCINT23"
+        },
+        {
+          "number": 14,
+          "name": "PB0",
+          "alternate": "CLKO/ICP1/PCINT0"
+        },
+        {
+          "number": 15,
+          "name": "PB1",
+          "alternate": "OC1A/PCINT1"
+        },
+        {
+          "number": 16,
+          "name": "PB2",
+          "alternate": "/SS/OC1B/PCINT2"
+        },
+        {
+          "number": 17,
+          "name": "PB3",
+          "alternate": "MOSI/OC2A/PCINT3"
+        },
+        {
+          "number": 18,
+          "name": "PB4",
+          "alternate": "MISO/PCINT4"
+        },
+        {
+          "number": 19,
+          "name": "PB5",
+          "alternate": "SCK/PCINT5"
+        },
+        {
+          "number": 20,
+          "name": "AVCC",
+          "alternate": ""
+        },
+        {
+          "number": 21,
+          "name": "AREF",
+          "alternate": ""
+        },
+        {
+          "number": 22,
+          "name": "GND",
+          "alternate": ""
+        },
+        {
+          "number": 23,
+          "name": "PC0",
+          "alternate": "ADC0/PCINT8"
+        },
+        {
+          "number": 24,
+          "name": "PC1",
+          "alternate": "ADC1/PCINT9"
+        },
+        {
+          "number": 25,
+          "name": "PC2",
+          "alternate": "ADC2/PCINT10"
+        },
+        {
+          "number": 26,
+          "name": "PC3",
+          "alternate": "ADC3/PCINT11"
+        },
+        {
+          "number": 27,
+          "name": "PC4",
+          "alternate": "ADC4/SDA/PCINT12"
+        },
+        {
+          "number": 28,
+          "name": "PC5",
+          "alternate": "ADC5/SCL/PCINT13"
+        }
+      ],
+      "source": "Datenblaetter/Atmel_AVR/ATmega328P_Atmel.pdf",
+      "source_pdf_page": 12,
+      "source_document": "DS40002061B",
+      "source_sha256": "b9b9d83cda56a95d999ea8d54fe5a540748ae9020e5e7ae19b913d384ba9320e"
+    }
+  ]
+}

@@ -4,6 +4,7 @@ Die Kategorien enthalten lokale PDF-Dateien, eine Typübersicht und eine Quellen
 
 | Kategorie | Verzeichnis | Inhalt |
 | --- | --- | --- |
+| Atmel AVR | [Atmel_AVR](Atmel_AVR/README.md) | 6 Positionen, 29 Stück: ATtiny2313, ATmega8, ATmega16, ATmega32/32L und ATmega328P |
 | SN74xx | [SN7xxx](SN7xxx/README.md) | Logik-ICs der 74xx-Familien |
 | CD4xxx | [CD4xxx](CD4xxx/README.md) | CMOS-Logik-ICs |
 | Optokoppler | [Optokoppler](Optokoppler/README.md) | Sharp PC817, 50 Stück; Familien-/Pinreferenz |
@@ -14,6 +15,6 @@ Die Kategorien enthalten lokale PDF-Dateien, eine Typübersicht und eine Quellen
 | Triac / Thyristor | [Triac_Thyristor](Triac_Thyristor/README.md) | 3 erkannte Triacs; kein zusätzlicher einzelner Thyristor bestätigt |
 | Spannungsregler | [Spannungsregler](Spannungsregler/README.md) | 13 Festspannungs-, einstellbare und Shunt-Regler / Referenzen |
 
-| Mikroprozessorbasteleien | [Mikroprozessorbasteleien](Mikroprozessorbasteleien/README.md) | MCP23S17, ATMEGA328P-PU und PCA9685-Baugruppen; Datenblattlücken gekennzeichnet |
+| Mikroprozessorbasteleien | [Mikroprozessorbasteleien](Mikroprozessorbasteleien/README.md) | MCP23S17 und PCA9685-Baugruppen |
 
 Der vollständige Bestand steht in der [Hauptliste](../Bauteile.md).

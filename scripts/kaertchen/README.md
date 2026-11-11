@@ -82,3 +82,9 @@ TO-18- und TO-39-Metallgehäuse werden als **Unteransicht mit Nase links oben** 
 ## Optokoppler
 
 PC817 (Sharp, DIP-4) wird in der eigenen Kategorie `Optokoppler` geführt. Die Karte zeigt LED und Fototransistor mit Pins 1 A, 2 K, 3 E, 4 C in Draufsicht. Referenz: Sharp OP18002EN, PDF-Seite 2; Typbezeichnung PC817 ohne Suffix; CTR ≥ 50 % bei I<sub>F</sub> = 5 mA und V<sub>CE</sub> = 5 V (T<sub>a</sub> = 25 °C). Neuerzeugung: `python scripts/kaertchen/build.py --part PC817`. Der IC-A4-Druckbogen enthält die Karte ebenfalls.
+
+## Atmel AVR
+
+`python3 scripts/kaertchen/avr_cards.py` erzeugt sechs eigenständige DIP-Anschlusskarten (45 × 55 mm, SVG/PDF/PNG) und einen separaten A4-Druckbogen unter [images/Atmel_AVR](../../images/Atmel_AVR/README.md). Die Darstellung ist eine schematische Draufsicht mit Kerbe oben und allen im Hersteller-Pinbild genannten Alternativfunktionen, kein 5,08-mm-Boardraster. `/` bedeutet aktiv Low. Die 40-poligen Typen tragen einzeilige Pinlabels; DIP-20/28 zweizeilige.
+
+[avr_pins.json](avr_pins.json) enthält die gegen die lokalen Datenblätter geprüften Pinfolgen, PDF-Seiten und SHA-256-Prüfsummen. Der Generator prüft Quellen, DIP-Pinanzahl und Bestand, aktualisiert nur die Kartenlinks in Markdown und SQLite und vergleicht alle übrigen Datenbankfelder mit dem Ausgangsstand. Die gesamte Datenbank wird anschließend mit der führenden Markdown-Liste abgeglichen. Die bisherigen IC-Karten und ihr Druckbogen bleiben erhalten.

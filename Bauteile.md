@@ -1,6 +1,6 @@
 # Bauteil-Sammlung
 
-Lokale Dokumentation meiner ICs aus den Familien **SN74xx** und **CD4xxx** sowie **Transistoren, MOSFETs, Triacs, Spannungsreglern** sowie **Mikroprozessorbasteleien** und weiterer Bauteile unter **Diverse**, vorbereitet für eine spätere Veröffentlichung auf GitHub.
+Lokale Dokumentation meiner ICs aus den Familien **Atmel AVR**, **SN74xx** und **CD4xxx** sowie **Transistoren, MOSFETs, Triacs, Spannungsreglern** sowie **Mikroprozessorbasteleien** und weiterer Bauteile unter **Diverse**, vorbereitet für eine spätere Veröffentlichung auf GitHub.
 
 Alle Datenblattkategorien: [Datenblattverzeichnis](Datenblaetter/README.md).
 
@@ -10,6 +10,8 @@ Schaltungsbeispiele stehen in der separaten [Linksammlung nach Bauteilgruppen](B
 
 - [Bauteil-Sammlung](#bauteil-sammlung)
   - [Verwendung bei +5 V](#verwendung-bei-5-v)
+  - [IC-Bestand: Atmel AVR](#ic-bestand-atmel-avr)
+  - [Mikroprozessorbasteleien](#mikroprozessorbasteleien)
   - [IC-Bestand: SN74xx](#ic-bestand-sn74xx)
   - [IC-Bestand: CD4xxx](#ic-bestand-cd4xxx)
   - [IC-Bestand: Diverse](#ic-bestand-diverse)
@@ -24,7 +26,6 @@ Schaltungsbeispiele stehen in der separaten [Linksammlung nach Bauteilgruppen](B
       - [von Aukenien (via Amazon)](#von-aukenien-via-amazon)
   - [Bestand: Quarze](#bestand-quarze)
   - [Bestand: Optokoppler](#bestand-optokoppler)
-  - [Mikroprozessorbasteleien](#mikroprozessorbasteleien)
 
 ## Verwendung bei +5 V
 
@@ -35,6 +36,28 @@ Meine Bastelprojekte laufen überwiegend mit **+5 V**. Höhere Versorgungsspannu
 - Open-Collector-Ausgänge benötigen einen Pull-up oder eine passende Last. Strom und Spannung müssen zum konkreten Treiber passen.
 - Unbenutzte Eingänge auf definierte Pegel legen; bei 3-State-Bausteinen die Freigabeeingänge beachten.
 - Versorgung und Pinbelegung vor dem Aufbau prüfen: Nicht jeder DIP-14 hat GND an Pin 7 und VCC an Pin 14. Pro IC ist ein 100-nF-Abblockkondensator nahe den Versorgungspins sinnvoll.
+
+## IC-Bestand: Atmel AVR
+
+**6 Bestandspositionen, insgesamt 29 Stück.** [DIP-Anschlusskarten und Druckhinweise](images/Atmel_AVR/README.md), [separater A4-Druckbogen](images/Atmel_AVR/AVR_Karten_A4.pdf). Quellen und Typzuordnungen stehen im [Datenblattverzeichnis](Datenblaetter/Atmel_AVR/README.md).
+
+| Bezeichnung | Typ / Funktion | Gehäuse | Anzahl | +5 V / Besonderheiten | Datenblatt | Karte |
+| --- | --- | --- | --- | --- | --- | --- |
+| ATTINY2313-20PU | AVR-Mikrocontroller, 2 KB Flash, 128 B SRAM, 128 B EEPROM | DIP-20 | 10 | 4,5–5,5 V; bis 20 MHz | [PDF](Datenblaetter/Atmel_AVR/ATtiny2313_Atmel.pdf) | [Bild](images/Atmel_AVR/ATTINY2313-20PU_karte_45x55mm.png) / [PDF](images/Atmel_AVR/ATTINY2313-20PU_karte_45x55mm.pdf) / [SVG](images/Atmel_AVR/ATTINY2313-20PU_karte_45x55mm.svg) |
+| ATMEGA8-16PU | AVR-Mikrocontroller, 8 KB Flash, 1 KB SRAM, 512 B EEPROM | DIP-28 | 8 | 4,5–5,5 V; bis 16 MHz | [PDF](Datenblaetter/Atmel_AVR/ATmega8_L_Atmel.pdf) | [Bild](images/Atmel_AVR/ATMEGA8-16PU_karte_45x55mm.png) / [PDF](images/Atmel_AVR/ATMEGA8-16PU_karte_45x55mm.pdf) / [SVG](images/Atmel_AVR/ATMEGA8-16PU_karte_45x55mm.svg) |
+| ATMEGA16-16PU | AVR-Mikrocontroller, 16 KB Flash, 1 KB SRAM, 512 B EEPROM | DIP-40 | 2 | 4,5–5,5 V; bis 16 MHz | [PDF](Datenblaetter/Atmel_AVR/ATmega16_L_Atmel.pdf) | [Bild](images/Atmel_AVR/ATMEGA16-16PU_karte_45x55mm.png) / [PDF](images/Atmel_AVR/ATMEGA16-16PU_karte_45x55mm.pdf) / [SVG](images/Atmel_AVR/ATMEGA16-16PU_karte_45x55mm.svg) |
+| ATMEGA32-16PU | AVR-Mikrocontroller, 32 KB Flash, 2 KB SRAM, 1 KB EEPROM | DIP-40 | 2 | 4,5–5,5 V; bis 16 MHz | [PDF](Datenblaetter/Atmel_AVR/ATmega32_L_Atmel.pdf) | [Bild](images/Atmel_AVR/ATMEGA32-16PU_karte_45x55mm.png) / [PDF](images/Atmel_AVR/ATMEGA32-16PU_karte_45x55mm.pdf) / [SVG](images/Atmel_AVR/ATMEGA32-16PU_karte_45x55mm.svg) |
+| ATMEGA32L8PI | AVR-Mikrocontroller, 32 KB Flash, 2 KB SRAM, 1 KB EEPROM | DIP-40 | 1 | 2,7–5,5 V; bis 8 MHz; Bestandsbezeichnung ATMEGA32L8PI, zugeordnet zu ATmega32L-8PI | [PDF](Datenblaetter/Atmel_AVR/ATmega32_L_Atmel.pdf) | [Bild](images/Atmel_AVR/ATMEGA32L8PI_karte_45x55mm.png) / [PDF](images/Atmel_AVR/ATMEGA32L8PI_karte_45x55mm.pdf) / [SVG](images/Atmel_AVR/ATMEGA32L8PI_karte_45x55mm.svg) |
+| ATMEGA328P-PU | AVR-Mikrocontroller | DIP-28 | 6 | Mikrocontroller für Uno-Eigennachbau | [PDF](Datenblaetter/Atmel_AVR/ATmega328P_Atmel.pdf) | [Bild](images/Atmel_AVR/ATMEGA328P-PU_karte_45x55mm.png) / [PDF](images/Atmel_AVR/ATMEGA328P-PU_karte_45x55mm.pdf) / [SVG](images/Atmel_AVR/ATMEGA328P-PU_karte_45x55mm.svg) |
+
+## Mikroprozessorbasteleien
+
+**2 Bestandspositionen, insgesamt 20 Stück.** Anschlusskarten fehlen noch; die Atmel-Mikrocontroller stehen unter [Atmel AVR](#ic-bestand-atmel-avr). Ergänzende Anwendungsdokumente sind im [Datenblattverzeichnis](Datenblaetter/Mikroprozessorbasteleien/README.md) aufgeführt.
+
+| Bezeichnung laut Bild | Typ / Funktion | Gehäuse | Anzahl | +5 V / Besonderheiten | Datenblatt | Karte |
+| --- | --- | --- | --- | --- | --- | --- |
+| MCP23S17-E/SP | 16-Bit-I/O-Expander mit SPI-Schnittstelle | DIP-28 | 10 | 16-Bit SPI I/O Expander with Serial Interface | [Datasheet](Datenblaetter/Mikroprozessorbasteleien/MCP23S17/MCP23017-MCP23S17-16-Bit-IO-Expander-with-Serial-Interface-DS20001952.pdf), [DesignNotes](Datenblaetter/Mikroprozessorbasteleien/MCP23S17/DesignNotes.pdf), [UniqueFeatures](Datenblaetter/Mikroprozessorbasteleien/MCP23S17/UniqueFeatures.pdf) | – |
+| PCA9685 | 16-Kanal-PWM-Treiber mit I²C-Schnittstelle, 12 Bit | Adafruit Nachbau der I2C Baugruppe | 10 | Servo- LED-Treiber, 16 Kanal, 12 Bit, 6-Adresswahl-Pins, einstellbare Frequenz-PWM bis zu ca. 1.6 kHz, 12 Bit Auflösung für jeden Ausgang (4096 steps), konfigurierbarer Push-Pull- oder Open-Drain-Ausgang | [NXP Datasheet](Datenblaetter/Mikroprozessorbasteleien/PCA9685/PCA9685.pdf), [Adafruit Docu](Datenblaetter/Mikroprozessorbasteleien/PCA9685/16-channel-pwm-servo-driver.pdf) | – |
 
 ## IC-Bestand: SN74xx
 
@@ -486,14 +509,3 @@ Neu erfasst: **50 Stück Sharp PC817**. Pinbelegung in Draufsicht: 1 Anode, 2 Ka
 | Bezeichnung | Typ / Funktion | Gehäuse | Anzahl | Nachweis / Hinweise | Datenblatt | Karte |
 | --- | --- | --- | --- | --- | --- | --- |
 | PC817 | 1-Kanal-Optokoppler mit Fototransistor-Ausgang | DIP-4 | 50 | Sharp PC817; Typbezeichnung ohne Suffix; CTR ≥ 50 % bei I<sub>F</sub> = 5 mA und V<sub>CE</sub> = 5 V (T<sub>a</sub> = 25 °C). Datenblatt PC817XxNSZ1B als Familien-/Pinreferenz; Grenzwerte der vorhandenen Variante prüfen. LED mit Vorwiderstand; Ausgang benötigt geeignete Last bzw. Pull-up. | [PDF / Familienreferenz](Datenblaetter/Optokoppler/PC817_Sharp_Referenz.pdf) | [Bild](images/Optokoppler/PC817_karte_45x55mm.png) / [PDF](images/Optokoppler/PC817_karte_45x55mm.pdf) / [SVG](images/Optokoppler/PC817_karte_45x55mm.svg) |
-
-## Mikroprozessorbasteleien
-
-**3 Bestandspositionen, insgesamt 26 Stück.** Anschlusskarten fehlen noch; beim ATMEGA328P-PU fehlt das lokale Datenblatt. Ergänzende Anwendungsdokumente sind im [Datenblattverzeichnis](Datenblaetter/Mikroprozessorbasteleien/README.md) aufgeführt.
-
-| Bezeichnung laut Bild | Typ / Funktion | Gehäuse | Anzahl | +5 V / Besonderheiten | Datenblatt | Karte |
-| --- | --- | --- | --- | --- | --- | --- |
-| MCP23S17-E/SP | 16-Bit-I/O-Expander mit SPI-Schnittstelle | DIP-28 | 10 | 16-Bit SPI I/O Expander with Serial Interface | [Datasheet](Datenblaetter/Mikroprozessorbasteleien/MCP23S17/MCP23017-MCP23S17-16-Bit-IO-Expander-with-Serial-Interface-DS20001952.pdf), [DesignNotes](Datenblaetter/Mikroprozessorbasteleien/MCP23S17/DesignNotes.pdf), [UniqueFeatures](Datenblaetter/Mikroprozessorbasteleien/MCP23S17/UniqueFeatures.pdf) | – |
-| ATMEGA328P-PU | AVR-Mikrocontroller | DIP-28 | 6 | Mikrocontroller für Uno-Eigennachbau | noch offen | – |
-| PCA9685 | 16-Kanal-PWM-Treiber mit I²C-Schnittstelle, 12 Bit | Adafruit Nachbau der I2C Baugruppe | 10 | Servo- LED-Treiber, 16 Kanal, 12 Bit, 6-Adresswahl-Pins, einstellbare Frequenz-PWM bis zu ca. 1.6 kHz, 12 Bit Auflösung für jeden Ausgang (4096 steps), konfigurierbarer Push-Pull- oder Open-Drain-Ausgang | [NXP Datasheet](Datenblaetter/Mikroprozessorbasteleien/PCA9685/PCA9685.pdf), [Adafruit Docu](Datenblaetter/Mikroprozessorbasteleien/PCA9685/16-channel-pwm-servo-driver.pdf) | – |
-

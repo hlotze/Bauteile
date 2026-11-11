@@ -1,5 +1,7 @@
 # Experimentierkarten 45 × 55 mm
 
+**[Atmel AVR: sechs DIP-Anschlusskarten](Atmel_AVR/README.md)** mit eigener [A4-Druckvorlage](Atmel_AVR/AVR_Karten_A4.pdf). Schematische Draufsicht für DIP-20/28/40, ohne 5,08-mm-Boardraster. Die AVR-Karten stehen im separaten Druckbogen.
+
 **Neu: [Anschlusskarten für Transistoren, MOSFETs, Triacs, Spannungsregler und Dioden](Anschlusskarten/README.md)** – Schaltplansymbol über Gehäusezeichnung, mit Anschlussnamen und Blickrichtung. [Vorschau](Anschlusskarten/Vorschau.png) · [separater A4-Druckbogen](Bauteil_Anschlusskarten_A4.pdf). Die folgenden Hinweise zu DIP-Pinreihen gelten für die bisherigen IC-Karten.
 
 [Alle Karten als A4-Druckbogen](IC_Karten_A4.pdf) – **100 % / tatsächliche Größe**, keine Seitenanpassung. Einzel-PDFs und SVGs haben exakt 45 × 55 mm; PNGs dienen der Vorschau (300 dpi).
